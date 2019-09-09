@@ -6,6 +6,8 @@ layout: components.template.njk
 title: Research
 ---
 
+# Test Publishing from an External Content Source
+
 # Research
 
 Research is essential to a project’s success. It reveals, clarifies and establishes the foundation on which the application resides. Overlooked needs and requirements in this critical phase greatly diminish the quality and overall usability of the design. Take time to thoroughly understand the app’s UX requirements by learning more about:
