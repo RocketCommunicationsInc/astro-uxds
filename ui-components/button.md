@@ -39,17 +39,16 @@ Outline Buttons are an alternative button style to be used in situations where a
 
 ## Examples
 
-::: dos-and-donts
 
-### Do {.dos}
+<section class="dos-and-donts">
+### Do
 
 - Do: Use buttons for actionable controls only
 - Do: Right justify buttons and give them adequate spacing from fields.
 - Do: Use standardized button colors only.
 
-### Don't {.donts}
+### Don't
 
 - Don’t: Use elements that look like buttons but are not.
 - Don’t: Mix button colors and sizes.
-
-:::
+</section>
