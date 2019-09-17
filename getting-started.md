@@ -1,5 +1,5 @@
 ---
-path: /
+path: /getting-started
 date: Last Modified
 layout: base.template.njk
 title: 'Getting Started'
