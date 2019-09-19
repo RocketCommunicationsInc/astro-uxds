@@ -8,6 +8,9 @@ title: Radio Button
 
 # Radio Button
 
+## Adding a Second header
+And some content
+
 Radio Buttons allow users to mutually select an option from a predefined set of options. When one selection is made, the previous selection becomes deselected. One option should always be selected.
 
 ## Rules of Thumb {.rules-of-thumb}
