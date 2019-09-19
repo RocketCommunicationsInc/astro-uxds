@@ -11,4 +11,4 @@ pipelines:
         caches:
           - node
         script: # Modify the commands below to build your repository.
-          - curl -X POST -d {} https://api.netlify.com/build_hooks/5d76c4dce410f58e48c5819d
+          - curl -X POST -d {} https://api.netlify.com/build_hooks/5d83f26c3f1b5ebaef23ecfc
