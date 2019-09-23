@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="325" height="150" viewBox="0 0 325 150">
+  <defs>
+    <rect id="button_do-1-b" width="120" height="35" x="0" y="0" rx="5"/>
+    <filter id="button_do-1-a" width="114.2%" height="151.4%" x="-7.1%" y="-21.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+      <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter3"/>
+      <feGaussianBlur in="shadowOffsetOuter3" result="shadowBlurOuter3" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter3" result="shadowMatrixOuter3" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+        <feMergeNode in="shadowMatrixOuter3"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="325" height="150" fill="#192B3C" rx="5"/>
+    <g transform="translate(38 58)">
+      <rect width="119" height="34" x=".5" y=".5" stroke="#005A8F" rx="5"/>
+      <text fill="#FFF" font-family="OpenSans-SemiBold, Open Sans SemiBold" font-size="16" font-weight="500">
+        <tspan x="35.41" y="23">Cancel</tspan>
+      </text>
+    </g>
+    <g transform="translate(168 58)">
+      <use fill="#000" filter="url(#button_do-1-a)" xlink:href="#button_do-1-b"/>
+      <use fill="#005A8F" xlink:href="#button_do-1-b"/>
+      <text fill="#FFF" font-family="OpenSans-Regular, Open Sans" font-size="16">
+        <tspan x="49.359" y="21">OK</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 ---
 tags: components
-path: /ui-components/readme
+path: /components/readme
 date: Last Modified
 layout: components.template.njk
 title: README

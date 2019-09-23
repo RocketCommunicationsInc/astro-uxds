@@ -1,6 +1,6 @@
 ---
 tags: components
-path: /ui-components/button
+path: /components/button
 date: Last Modified
 layout: components.template.njk
 title: Button
@@ -39,17 +39,21 @@ Outline Buttons are an alternative button style to be used in situations where a
 
 ## Examples
 
-
 <section class="dos-and-donts">
 
+<section class="dos-and-donts">
 <ul>
-<li>Do: Use buttons for actionable controls only</li>
-<li>Do: Right justify buttons and give them adequate spacing from fields.</li>
-<li>Do: Use standardized button colors only.</li>
-</ul>
+	<li>
+		<figure>
+			<img src="../img/components/button_do-1.svg">
+		</figure>
+		<figcaption>Do: Use buttons for actionable controls only</figcaption>
+	</li>
+	<li>
+		<figure>
+			<img src="../img/components/button_dont-1.svg">
+		</figure>
+		<figcaption>Don’t: Use elements that look like buttons but are not</figcaption>
+	</li>
 
-<ul>
-<li>Don’t: Use elements that look like buttons but are not.</li>
-<li>Don’t: Mix button colors and sizes.</li>
-</ul>
 </section>

@@ -7,7 +7,7 @@ title: 'Getting Started'
 
 # Getting Started
 
-Astro is a design system that brings together UX guidelines, an [HTML/CSS](https://astrouxds.com/ui-components/readme) framework, and web components. Astro is for both designers and developers.
+Astro is a design system that brings together UX guidelines, an [HTML/CSS](https://astrouxds.com/components/readme) framework, and web components. Astro is for both designers and developers.
 
 Astro is provided by the US Air Force Space and Missile System Center (SMC) and is currently sanctioned for designing Enterprise Ground Services (EGS) and SATOPS web apps.
 
@@ -29,7 +29,7 @@ Before reading any further, we recommend you take a look at a live [Astro sample
 
 ### Astro 4.1
 
-- Updated UI Components from EGS [Monitoring Icon](https://astrouxds.com/ui-components/icons-and-symbols), [Tree](https://astrouxds.com/ui-components/tree), [Pop Up Menu](https://astrouxds.com/ui-components/pop-up), and [Table](https://astrouxds.com/ui-components/table)
+- Updated UI Components from EGS [Monitoring Icon](https://astrouxds.com/components/icons-and-symbols), [Tree](https://astrouxds.com/components/tree), [Pop Up Menu](https://astrouxds.com/components/pop-up), and [Table](https://astrouxds.com/components/table)
 - New [Storybook Component Sandbox](https://astro-storybook.netlify.com/)
 
 ### Astro 4.0

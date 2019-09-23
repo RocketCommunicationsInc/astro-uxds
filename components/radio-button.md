@@ -1,6 +1,6 @@
 ---
 tags: components
-path: /ui-components/radio-button
+path: /components/radio-button
 date: Last Modified
 layout: components.template.njk
 title: Radio Button

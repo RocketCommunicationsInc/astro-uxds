@@ -17,15 +17,15 @@
 		"items": [
 			{
 				"label": "Button",
-				"url": "/ui-components/button"
+				"url": "/components/button"
 			},
 			{
 				"label": "Checkbox",
-				"url": "/ui-components/checkbox"
+				"url": "/components/checkbox"
 			},
 			{
 				"label": "Radio Button",
-				"url": "/ui-components/radio-button"
+				"url": "/components/radio-button"
 			}
 		]
 	}

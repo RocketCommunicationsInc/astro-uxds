@@ -1,6 +1,6 @@
 ---
 tags: guidelines
-path: /ui-components/checkbox
+path: /components/checkbox
 date: Last Modified
 layout: components.template.njk
 title: Research
