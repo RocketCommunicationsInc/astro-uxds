@@ -40,6 +40,7 @@ Outline Buttons are an alternative button style to be used in situations where a
 ## Examples
 
 ![Do: User buttons for actionable controls only](../img/components/button_do-1.svg)
+![Don't: User buttons for actionable controls only](/img/components/button_dont-1.svg "Other text goes here")
 
 
 
