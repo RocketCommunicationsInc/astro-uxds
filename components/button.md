@@ -51,7 +51,7 @@ Outline Buttons are an alternative button style to be used in situations where a
 	</li>
 	<li>
 		<figure>
-			<img src="../img/components/button_dont-1.svg">
+			<img src="/img/components/button_dont-1.svg">
 		</figure>
 		<figcaption>Don’t: Use elements that look like buttons but are not</figcaption>
 	</li>
