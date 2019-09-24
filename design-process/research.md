@@ -1,12 +1,10 @@
 ---
-tags: guidelines
-path: /components/checkbox
+tags: design-process
+path: /design-process/research
 date: Last Modified
-layout: components.template.njk
+layout: base.template.njk
 title: Research
 ---
-
-# Test Publishing from an External Content Source
 
 # Research
 
