@@ -1,5 +1,9 @@
 [
 	{
+		"label": "Home",
+		"url": "/"
+	},
+	{
 		"label": "Getting Started",
 		"url": "/design-process/research"
 	},
@@ -9,6 +13,67 @@
 			{
 				"label": "Research",
 				"url": "/design-process/research"
+			},
+			{
+				"label": "UI Design",
+				"url": "/design-process/ui-design"
+			},
+			{
+				"label": "Visual Design",
+				"url": "/design-process/visual-design"
+			},
+			{
+				"label": "Resources",
+				"url": "/design-process/resources"
+			}
+		]
+	},
+	{
+		"label": "Design Guidelines",
+		"items": [
+			{
+				"label": "Color",
+				"url": "/design-guidelines/color"
+			},
+			{
+				"label": "Typography",
+				"url": "/design-guidelines/typography"
+			},
+			{
+				"label": "Theme",
+				"url": "/design-guidelines/theme"
+			},
+			{
+				"label": "Grid",
+				"url": "/design-guidelines/grid"
+			},
+			{
+				"label": "Navigation",
+				"url": "/design-guidelines/navigation"
+			},
+			{
+				"label": "Status System",
+				"url": "/design-guidelines/status-system"
+			},
+			{
+				"label": "Notifications",
+				"url": "/design-guidelines/notifications"
+			},
+			{
+				"label": "Data Visualizations",
+				"url": "/design-guidelines/data-visualization"
+			},
+			{
+				"label": "Modeless Panes",
+				"url": "/design-guidelines/modeless-panes"
+			},
+			{
+				"label": "Glossary",
+				"url": "/design-guidelines/glossary"
+			},
+			{
+				"label": "Sample App",
+				"url": "/design-guidelines/sample-app"
 			}
 		]
 	},
