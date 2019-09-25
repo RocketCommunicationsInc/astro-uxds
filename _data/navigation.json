@@ -124,19 +124,19 @@
 		"items": [
 			{
 				"label": "About the TT&C Designs",
-				"url": "/tt-c-service-ux-design/about-the-tt-c-designs"
+				"url": "/ttc-service-ux-design/about-the-ttc-designs"
 			},
 			{
 				"label": "TT&C Monitor",
-				"url": "/tt-c-service-ux-design/tt-c-monitor"
+				"url": "/ttc-service-ux-design/ttc-monitor"
 			},
 			{
 				"label": "TT&C Command",
-				"url": "/tt-c-service-ux-design/tt-c-command"
+				"url": "/ttc-service-ux-design/ttc-command"
 			},
 			{
 				"label": "TT&C Investigate",
-				"url": "/tt-c-service-ux-design/tt-c-investigate"
+				"url": "/ttc-service-ux-design/ttc-investigate"
 			}
 		]
 	},
