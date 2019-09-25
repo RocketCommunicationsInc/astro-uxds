@@ -2,7 +2,7 @@
 tags: resources
 path: /design-guidelines/theme
 date: Last Modified
-layout: base.template.njk
+layout: interior.template.njk
 title: Theme
 ---
 
@@ -11,6 +11,7 @@ title: Theme
 Astro supports a brand new light theme along with the original and default dark theme.
 
 ![Example of a light theme Astro application.](../img/design-guidelines/theme-lightui.png 'Example of a light theme Astro application.')
+Example of a light theme Astro application.
 
 ::: note
 By convention, the Global Status Bar and its enclosed elements will always use the dark theme styling.
@@ -33,6 +34,7 @@ It is important to determine the users’ environment and select the appropriate
 - Applications where a primary media element demands attention
 
 ![The Global Status Bar is always rendered with the dark theme, as is any element contained within it.](../img/design-guidelines/theme-darkui.png 'The Global Status Bar is always rendered with the dark theme, as is any element contained within it.')
+The Global Status Bar is always rendered with the dark theme, as is any element contained within it.
 
 ## Mixed Use
 
@@ -41,7 +43,8 @@ Individual sections or components can override their inherited theme on a case-b
 - Dark-themed elements in the global status bar
 - Light-themed modal window in a dark themed app
 
-![Example of a predominantly dark theme interface with the modal window rendered using the light theme to place greater emphasis on an interaction demanding the user’s attention](../img/design-guidelines/theme-darkui-mixed.png 'Example of a predominantly dark theme interface with the modal window rendered using the light theme to place greater emphasis on an interaction demanding the user’s attention')
+![Example of a predominantly dark theme interface with the modal window rendered using the light theme to place greater emphasis on an interaction demanding the user’s attention.](../img/design-guidelines/theme-darkui-mixed.png 'Example of a predominantly dark theme interface with the modal window rendered using the light theme to place greater emphasis on an interaction demanding the user’s attention.')
+Example of a predominantly dark theme interface with the modal window rendered using the light theme to place greater emphasis on an interaction demanding the user’s attention
 
 ## Future Considerations
 

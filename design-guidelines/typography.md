@@ -2,7 +2,7 @@
 tags: resources
 path: /design-guidelines/typography
 date: Last Modified
-layout: base.template.njk
+layout: interior.template.njk
 title: Typography
 ---
 

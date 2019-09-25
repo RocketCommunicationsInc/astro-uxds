@@ -2,7 +2,7 @@
 tags: design-process
 path: /design-process/visual-design
 date: Last Modified
-layout: base.template.njk
+layout: interior.template.njk
 title: Visual Design
 ---
 

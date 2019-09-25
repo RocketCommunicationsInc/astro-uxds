@@ -2,7 +2,7 @@
 tags: design-process
 path: /design-process/ui-design
 date: Last Modified
-layout: base.template.njk
+layout: interior.template.njk
 title: UI Design
 ---
 

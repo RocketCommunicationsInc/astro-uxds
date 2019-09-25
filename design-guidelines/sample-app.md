@@ -2,7 +2,7 @@
 tags: resources
 path: /design-guidelines/sample-app
 date: Last Modified
-layout: base.template.njk
+layout: interior.template.njk
 title: Sample App
 ---
 

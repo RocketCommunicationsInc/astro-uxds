@@ -2,7 +2,7 @@
 tags: design-process
 path: /design-process/research
 date: Last Modified
-layout: base.template.njk
+layout: interior.template.njk
 title: Research
 ---
 

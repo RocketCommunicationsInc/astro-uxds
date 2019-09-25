@@ -1,7 +1,7 @@
 ---
 path: /getting-started
 date: Last Modified
-layout: base.template.njk
+layout: interior.template.njk
 title: 'Getting Started'
 ---
 

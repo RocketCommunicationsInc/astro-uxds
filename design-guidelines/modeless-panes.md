@@ -2,7 +2,7 @@
 tags: resources
 path: /design-guidelines/modeless-panes
 date: Last Modified
-layout: base.template.njk
+layout: interior.template.njk
 title: Modeless Panes
 ---
 

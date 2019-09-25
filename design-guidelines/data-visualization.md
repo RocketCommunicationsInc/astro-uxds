@@ -2,7 +2,7 @@
 tags: resources
 path: /design-guidelines/data-visualization
 date: Last Modified
-layout: base.template.njk
+layout: interior.template.njk
 title: Data Visualization
 ---
 
