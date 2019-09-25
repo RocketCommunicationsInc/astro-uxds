@@ -93,5 +93,9 @@
 				"url": "/components/radio-button"
 			}
 		]
-	}
+	},
+	{
+		"label": "Support",
+		"url": "/support"
+	},
 ]
