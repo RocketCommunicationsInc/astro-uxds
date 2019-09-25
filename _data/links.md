@@ -6,3 +6,5 @@
 [ttc-monitor]: /tt-c-service-ux-design/tt-c-monitor
 [ttc-command]: /tt-c-service-ux-design/tt-c-command
 [ttc-investigate]: /tt-c-service-ux-design/tt-c-investigate
+[button]: /components/button
+[global-status-bar]: /components/global-status-bar
