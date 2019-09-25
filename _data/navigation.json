@@ -95,6 +95,56 @@
 		]
 	},
 	{
+		"label": "Service Specific UX Design",
+		"url": "/service-specific-ux-design"
+	},
+	{
+		"label": "GRM Service UX Design",
+		"items": [
+			{
+				"label": "About the GRM Designs",
+				"url": "/grm-service-ux-design/about-the-grm-designs"
+			},
+			{
+				"label": "GRM Dashboard",
+				"url": "/grm-service-ux-design/grm-dashboard"
+			},
+			{
+				"label": "GRM Equipment Manager",
+				"url": "/grm-service-ux-design/grm-equipment-manager"
+			},
+			{
+				"label": "GRM Schedule",
+				"url": "/grm-service-ux-design/grm-schedule"
+			}
+		]
+	},
+	{
+		"label": "TT&C Service UX Design",
+		"items": [
+			{
+				"label": "About the TT&C Designs",
+				"url": "/tt-c-service-ux-design/about-the-tt-c-designs"
+			},
+			{
+				"label": "TT&C Monitor",
+				"url": "/tt-c-service-ux-design/tt-c-monitor"
+			},
+			{
+				"label": "TT&C Command",
+				"url": "/tt-c-service-ux-design/tt-c-command"
+			},
+			{
+				"label": "TT&C Investigate",
+				"url": "/tt-c-service-ux-design/tt-c-investigate"
+			}
+		]
+	},
+	{
+		"label": "Downloads",
+		"url": "/downloads"
+	},
+	{
 		"label": "Support",
 		"url": "/support"
 	},
