@@ -39,17 +39,14 @@ Outline Buttons are an alternative button style to be used in situations where a
 
 ## Examples
 
-![Do: User buttons for actionable controls only](../img/components/button_do-1.svg)
-![Don't: User buttons for actionable controls only](/img/components/button_dont-1.svg "Other text goes here")
-
-
-
+![Do: User buttons for actionable controls only](/img/components/button_do-1.svg)
+![Don't: User buttons for actionable controls only](/img/components/button_dont-1.svg 'Other text goes here')
 
 <section class="dos-and-donts">
 <ul>
 	<li>
 		<figure>
-			<img src="../img/components/button_do-1.svg">
+			<img src="/img/components/button_do-1.svg">
 		</figure>
 		<figcaption>Do: Use buttons for actionable controls only</figcaption>
 	</li>
