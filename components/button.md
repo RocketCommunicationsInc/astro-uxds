@@ -4,6 +4,7 @@ path: /components/button
 date: Last Modified
 layout: components.template.njk
 title: Button
+demo: https://rocketcom.bitbucket.io/html-demos/button.html
 ---
 
 # Button
