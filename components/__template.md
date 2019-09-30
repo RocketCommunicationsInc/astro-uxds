@@ -24,6 +24,7 @@ Content
 :::dos-donts
 ![Do: Something](/img/components/component-template-do-1.png 'Do: Something')
 Do: Something
+
 ![Don't: Something](/img/components/component-template-dont-1.png "Don't: Something")
 Don't: Something
 :::
