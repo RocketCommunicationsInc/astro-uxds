@@ -4,24 +4,16 @@ path: /components/button
 date: Last Modified
 layout: components.template.njk
 title: Button
-demo: https://rocketcom.bitbucket.io/html-demos/button.html
+demo: https://astro-components.netlify.com/?path=/story/components-buttons--standard-button
+storybook: https://astro-components.netlify.com
+git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-button/
 ---
 
 # Button
 
-### Demo Test
-
 Action Buttons allow users to trigger actions by clicking, tapping, or pressing a corresponding key on a keyboard, such as the “Enter” key.
 
-::: note
-This is a note
-:::
-
-::: note
-This is a warning
-:::
-
-## Rules of Thumb {.rules-of-thumb}
+## Rules of Thumb
 
 - Use only predefined button colors, sizes and fonts — don’t customize or alter them.
 - Don’t design elements which look similar to buttons but act differently. Buttons are actionable elements.
@@ -40,22 +32,17 @@ Outline Buttons are an alternative button style to be used in situations where a
 
 ## Examples
 
-![Do: User buttons for actionable controls only](/img/components/button_do-1.svg)
-![Don't: User buttons for actionable controls only](/img/components/button_dont-1.svg 'Other text goes here')
+:::dos-donts
+![Do: User buttons for actionable controls only](/img/components/button-do-1.png 'Do: User buttons for actionable controls only')
+Do: User buttons for actionable controls only
+![Don't: User buttons for actionable controls only](/img/components/button-dont-1.png "Don't: User buttons for actionable controls only")
+Don't: User buttons for actionable controls only
 
-<section class="dos-and-donts">
-<ul>
-	<li>
-		<figure>
-			<img src="/img/components/button_do-1.svg">
-		</figure>
-		<figcaption>Do: Use buttons for actionable controls only</figcaption>
-	</li>
-	<li>
-		<figure>
-			<img src="/img/components/button_dont-1.svg">
-		</figure>
-		<figcaption>Don’t: Use elements that look like buttons but are not</figcaption>
-	</li>
- </ul>
-</section>
+![Do: Right justify buttons and give them adequate spacing from fields.](/img/components/button-do-2.png 'Do: Right justify buttons and give them adequate spacing from fields.')
+Do: Right justify buttons and give them adequate spacing from fields.
+![Don’t: Mix button colors and sizes.](/img/components/button-dont-2.png 'Don’t: Mix button colors and sizes.')
+Don’t: Mix button colors and sizes.
+
+![Do: Use standardized button colors only.](/img/components/button-do-3.png 'Do: Use standardized button colors only.')
+Do: Use standardized button colors only.
+:::

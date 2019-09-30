@@ -4,13 +4,16 @@ path: /components/radio-button
 date: Last Modified
 layout: components.template.njk
 title: Radio Button
+demo: https://rocketcom.bitbucket.io/html-demos/radio-button.html
+storybook: https://astro-components.netlify.com/?path=/story/components-form-elements--radio-buttons
+git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-radio-button/
 ---
 
 # Radio Button
 
 Radio Buttons allow users to mutually select an option from a predefined set of options. When one selection is made, the previous selection becomes deselected. One option should always be selected.
 
-## Rules of Thumb {.rules-of-thumb}
+## Rules of Thumb
 
 - Use Radio Buttons for mutually exclusive choices. If user can make more than one choice use Checkboxes.
 - Radio Buttons appear in groups of two or more.
@@ -26,11 +29,11 @@ Radio Buttons allow users to mutually select an option from a predefined set of 
 If a user is required to make a choice between items without a default, consider a Drop Down Menu.
 :::
 
-### Do {.dos}
+### Do
 
 - Do: Use Radio Buttons when asking users to select a mutually exclusive option from a predefined set of options. When one selection is made, a previous selection becomes deselected.
 
-### Don't {.donts}
+### Don't
 
 - Don’t: Use Radio Buttons to display more than six items. Instead, use a Drop Down Menu.
 

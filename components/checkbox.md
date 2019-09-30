@@ -4,25 +4,16 @@ path: /components/checkbox
 date: Last Modified
 layout: components.template.njk
 title: Checkbox
+demo: https://rocketcom.bitbucket.io/html-demos/checkbox.html
+storybook: https://astro-components.netlify.com/?path=/story/components-form-elements--checkboxes
+git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-checkbox/
 ---
 
 # Checkbox
 
 A Checkbox describes a state or value that can be either “On or Off.” Checkboxes are not mutually exclusive. More than one Checkbox may be checked at the same time.
 
-::: note
-This is a note
-:::
-
-## Code Test
-
-Why isn't it showing up
-
-```
-for var
-```
-
-## Rules of Thumb {.rules-of-thumb}
+## Rules of Thumb
 
 - Use Checkboxes when there is a list of options from which the user may select any number of choices.
 - In a list, each Checkbox is independent of all other Checkboxes.
@@ -37,14 +28,13 @@ A checkbox can be configured for required input. [See Form and Input Validation]
 Don’t use a Checkbox to initiate an action. Instead, use an [Action Button](../button) or a [Toggle Button](./toggle)
 :::
 
+## Examples
+
 ::: dos-and-donts
+![Do: Neatly arrange and group multiple Checkboxes whenever possible.](/img/components/checkbox-do-2.png 'Do: Neatly arrange and group multiple Checkboxes whenever possible.')
+Do: Neatly arrange and group multiple Checkboxes whenever possible.
 
-### Do {.dos}
-
-- Do: Neatly arrange and group multiple Checkboxes whenever possible.
-
-### Don't {.donts}
-
-- Don’t: Poorly placed and misaligned Checkboxes make it difficult for users to differentiate one state from another.
+![Don’t: Poorly placed and misaligned Checkboxes make it difficult for users to differentiate one state from another.](/img/components/checkbox-do-2.png 'Don’t: Poorly placed and misaligned Checkboxes make it difficult for users to differentiate one state from another.')
+Don’t: Poorly placed and misaligned Checkboxes make it difficult for users to differentiate one state from another.
 
 :::
