@@ -3,8 +3,7 @@ tags: components
 path: /components/dialog-box
 date: Last Modified
 layout: components.template.njk
-title: Button
-title: Checkbox
+title: Dialog Box
 demo: https://rocketcom.bitbucket.io/html-demos/modal.html
 storybook: https://astro-components.netlify.com/?path=/story/components-story--dialog-box
 git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-modal/

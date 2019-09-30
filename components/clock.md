@@ -3,8 +3,7 @@ tags: components
 path: /components/clock
 date: Last Modified
 layout: components.template.njk
-title: Button
-title: Checkbox
+title: Clock
 demo: https://rocketcom.bitbucket.io/packages/rux-clock/demo/rux-clock.html
 storybook: https://astro-components.netlify.com/?path=/story/components-clock--clock
 git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-clock/

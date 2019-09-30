@@ -3,8 +3,7 @@ tags: components
 path: /components/component-template
 date: Last Modified
 layout: components.template.njk
-title: Button
-title: Checkbox
+title: Component Template
 demo: https://rocketcom.bitbucket.io/html-demos/component-template.html
 storybook: https://astro-components.netlify.com/?path=/story/components-story--component-template
 git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/component-template/
