@@ -81,6 +81,18 @@
 		"label": "Components",
 		"items": [
 			{
+				"label": "README",
+				"url": "/components/readme"
+			},
+			{
+				"label": "Component Sandobx",
+				"url": "/components/component-sandbox"
+			},
+			{
+				"label": "Accordion",
+				"url": "/components/accordion"
+			},
+			{
 				"label": "Button",
 				"url": "/components/button"
 			},
@@ -89,8 +101,100 @@
 				"url": "/components/checkbox"
 			},
 			{
+				"label": "Clock",
+				"url": "/components/clock"
+			},
+			{
+				"label": "Dialog Box",
+				"url": "/components/dialog-box"
+			},
+			{
+				"label": "Drop Down",
+				"url": "/components/drop-down"
+			},
+			{
+				"label": "Global Status Bar",
+				"url": "/components/global-status-bar"
+			},
+			{
+				"label": "Icons and Symbols",
+				"url": "/components/icons-and-symbols"
+			},
+			{
+				"label": "Input Field",
+				"url": "/components/input-field"
+			},
+			{
+				"label": "Link",
+				"url": "/components/link"
+			},
+			{
+				"label": "Log",
+				"url": "/components/log"
+			},
+			{
+				"label": "Notification Banner",
+				"url": "/components/notification-banner"
+			},
+			{
+				"label": "Pagination",
+				"url": "/components/pagination"
+			},
+			{
+				"label": "Pop Up",
+				"url": "/components/pop-up"
+			},
+			{
+				"label": "Progress",
+				"url": "/components/progress"
+			},
+			{
 				"label": "Radio Button",
 				"url": "/components/radio-button"
+			},
+			{
+				"label": "Search",
+				"url": "/components/search"
+			},
+			{
+				"label": "Segmented Button",
+				"url": "/components/segmented-button"
+			},
+			{
+				"label": "Slider",
+				"url": "/components/sldier"
+			},
+			{
+				"label": "Spectrum Analyzer",
+				"url": "/components/spectrum-analyzer"
+			},
+			{
+				"label": "Status Symbol",
+				"url": "/components/status-symbol"
+			},
+			{
+				"label": "Table",
+				"url": "/components/table"
+			},
+			{
+				"label": "Tabs",
+				"url": "/components/tabs"
+			},
+			{
+				"label": "Timeline",
+				"url": "/components/timeline"
+			},
+			{
+				"label": "Toggle",
+				"url": "/components/toggle"
+			},
+			{
+				"label": "Tree",
+				"url": "/components/tress"
+			},
+			{
+				"label": "Validation",
+				"url": "/components/validation"
 			}
 		]
 	},
