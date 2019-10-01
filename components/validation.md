@@ -21,7 +21,7 @@ Individual elements outside of a Dialog Box or Pane can also be configured for v
 - In the same voice, write short, simple and precise error messages that assist users in easily correcting input errors.
 - Clearly mark required fields with an asterisk.
 - Display examples of correctly formatted data.
-- Use appropriate input type on form fields for the expected data input (e.g., <input type="number"> when entering numeric data)
+- Use appropriate input type on form fields for the expected data input (e.g., `<input type="number">` when entering numeric data)
 
 ::: note Poorly written error messages confuse and frustrate the user and force them to fix the input problem through trial and error.
 
