@@ -5,10 +5,11 @@
 	},
 	{
 		"label": "Getting Started",
-		"url": "/design-process/research"
+		"url": "/getting-started"
 	},
 	{
 		"label": "Design Process",
+		"url": "/design-process",
 		"items": [
 			{
 				"label": "Research",
@@ -30,6 +31,7 @@
 	},
 	{
 		"label": "Design Guidelines",
+		"url": "/design-guidelines",
 		"items": [
 			{
 				"label": "Color",
@@ -79,6 +81,7 @@
 	},
 	{
 		"label": "Components",
+		"url": "/components",
 		"items": [
 			{
 				"label": "README",
@@ -107,6 +110,20 @@
 			{
 				"label": "Dialog Box",
 				"url": "/components/dialog-box"
+			},
+			{
+				"label": "Form Elements",
+				"url": "/components/form-elements",
+				"items": [
+					{
+						"label": "Checkbox",
+						"url": "/components/form-elements/checkbox"
+					},
+					{
+						"label": "Radio Button",
+						"url": "/components/form-elements/radio-button"
+					}
+				]
 			},
 			{
 				"label": "Drop Down",
@@ -204,6 +221,7 @@
 	},
 	{
 		"label": "GRM Service UX Design",
+		"url": "/grm-service-ux-design",
 		"items": [
 			{
 				"label": "About the GRM Designs",
@@ -225,6 +243,7 @@
 	},
 	{
 		"label": "TT&C Service UX Design",
+		"url": "/ttc-service-ux-design",
 		"items": [
 			{
 				"label": "About the TT&C Designs",
@@ -251,9 +270,5 @@
 	{
 		"label": "Support",
 		"url": "/support"
-	},
-	{
-		"label": "Downloads",
-		"url": "/downloads"
 	}
 ]
