@@ -217,7 +217,8 @@
 	},
 	{
 		"label": "Service Specific UX Design",
-		"url": "/service-specific-ux-design"
+		"url": "/service-specific-ux-design",
+		"class": "start-section"
 	},
 	{
 		"label": "GRM Service UX Design",
@@ -244,6 +245,7 @@
 	{
 		"label": "TT&C Service UX Design",
 		"url": "/ttc-service-ux-design",
+		"class": "end-section",
 		"items": [
 			{
 				"label": "About the TT&C Designs",
