@@ -34,35 +34,56 @@ Based on this initial research and follow-up design iterations with operators an
 
 ### GRM App Suite
 
-The GRM App Suite comprises three integrated sample apps: Dashboard, Equipment Manager and Schedule.
+:::two-col
 ![GRM Application Suite](/img/service-specific-ux-design/grm-suite-apps.png)
+
+<div>
+The GRM App Suite comprises three integrated sample apps: Dashboard, Equipment Manager and Schedule.
 
 - [GRM Design Specifications (pdf)](http://com.rocketcom.astrouxds.s3.amazonaws.com/attachments/cjx3r384i2gbihmqnxcwrq25d-grm-specifications.pdf)
 - [GRM Wireframes (pdf)](http://com.rocketcom.astrouxds.s3.amazonaws.com/attachments/cjtsx349t073s4iqnxbejjwg6-grm-wireframes.pdf)
 
+</div>
+:::
+
 ### GRM Dashboard
 
-The GRM Dashboard app rolls up all information necessary for providing the operator the highest level of situational awareness.
+:::two-col
 ![GRM Dashboard App](/img/service-specific-ux-design/grm-dashboard-app.png)
+
+<div>
+The GRM Dashboard app rolls up all information necessary for providing the operator the highest level of situational awareness.
 
 - [Overview of GRM Dashboard](/grm-service-ux-design/grm-dashboard)
 - [Launch GRM Dashboard Sample App](https://grm-dashboard.astrouxds.com/)
 - [App Source Code (Git repo)](https://bitbucket.org/rocketcom/grm-sample-apps-dashboard/src/master/)
+  </div>
+  :::
 
 ### GRM Equipment Manager
 
-The GRM Equipment Manager app consolidates all ground equipment in one place, allowing operators to view status and request maintenance.
+:::two-col
 ![GRM Equipment Manager App](/img/service-specific-ux-design/grm-equipment-manager-app.png)
+
+<div>
+The GRM Equipment Manager app consolidates all ground equipment in one place, allowing operators to view status and request maintenance.
 
 - [Overview of GRM Equipment Manager](/grm-service-ux-design/grm-equipment-manager)
 - [Launch GRM Equipment Manager Sample App](https://grm-equipment.astrouxds.com/)
 - [App Source Code (Git Repository)](https://bitbucket.org/rocketcom/grm-sample-apps-equipment/src/master/)
+  </div>
+  :::
 
 ### GRM Schedule
 
-The GRM Schedule app allows operators to view and manage the full schedule of contacts in their sphere of responsibility.
+:::two-col
 ![GRM Schedule App](/img/service-specific-ux-design/grm-schedule-app.png)
+
+<div>
+The GRM Schedule app allows operators to view and manage the full schedule of contacts in their sphere of responsibility.
 
 - [Overview of GRM Schedule](/grm-service-ux-design/grm-schedule)
 - [Launch GRM Schedule Sample App](https://grm-schedule.astrouxds.com/)
 - [App Source Code (Git Repository)](https://bitbucket.org/rocketcom/grm-sample-apps-schedule/src/master/)
+  </div>
+  :::
