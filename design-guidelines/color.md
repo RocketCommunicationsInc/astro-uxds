@@ -6,8 +6,6 @@ layout: interior.template.njk
 title: Color
 ---
 
-# Color
-
 Maintaining color consistency across applications is an essential part of what makes an application an Astro Application. In Astro four key colors (primary, secondary, tertiary and quaternary) along with their respective light and dark variants provide a formalized approach to color. Additional color palettes with light and dark variants are provided for status colors and non-status colors.
 
 Color palettes are provided here with their respective RGB and CSS values as well as their [CSS Custom Property](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables) names, which can be used in conjunction with the Astro CSS library. Example text overlays use the optimal colors for [WCAG contrast compliance](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html).
@@ -20,17 +18,17 @@ The Astro library makes use of CSS Custom Properties by offering semantic color 
 
 The primary color palette is typically, though not universally, used for interface elements in their default state. When creating an element or pattern not defined in the guidelines, start with the primary color palette.
 
-| Step | Hex     | RGB           | CSS                    |
-| ---- | ------- | ------------- | ---------------------- |
-| +4   | #cbdee9 | 203, 222, 233 | --colorPrimaryLighten4 |
-| +3   | #98bdd3 | 152, 189, 211 | --colorPrimaryLighten3 |
-| +2   | #649cbd | 100, 156, 189 | --colorPrimaryLighten2 |
-| +1   | #2f7aa7 | 47, 122, 167  | --colorPrimaryLighten1 |
-| Base | #005a8f | 0, 90, 143    | --colorPrimary         |
-| -1   | #004872 | 0, 72, 114    | --colorPrimaryDarken1  |
-| -2   | #003655 | 0, 54, 85     | --colorPrimaryDarken2  |
-| -3   | #002439 | 0, 36, 57     | --colorPrimaryDarken3  |
-| -4   | #00121c | 0, 18, 28     | --colorPrimaryDarken4  |
+| Step | Hex       | RGB             | CSS                      |
+| ---- | --------- | --------------- | ------------------------ |
+| +4   | `#cbdee9` | `203, 222, 233` | `--colorPrimaryLighten4` |
+| +3   | `#98bdd3` | `152, 189, 211` | `--colorPrimaryLighten3` |
+| +2   | `#649cbd` | `100, 156, 189` | `--colorPrimaryLighten2` |
+| +1   | `#2f7aa7` | `47, 122, 167`  | `--colorPrimaryLighten1` |
+| Base | `#005a8f` | `0, 90, 143`    | `--colorPrimary`         |
+| -1   | `#004872` | `0, 72, 114`    | `--colorPrimaryDarken1`  |
+| -2   | `#003655` | `0, 54, 85`     | `--colorPrimaryDarken2`  |
+| -3   | `#002439` | `0, 36, 57`     | `--colorPrimaryDarken3`  |
+| -4   | `#00121c` | `0, 18, 28`     | `--colorPrimaryDarken4`  |
 
 ## Secondary
 
