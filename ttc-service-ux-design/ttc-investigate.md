@@ -1,5 +1,5 @@
 ---
-tags: resources
+tags: ['ttc', 'egs']
 path: /ttc-service-ux-design/ttc-investigate
 date: Last Modified
 layout: interior.template.njk
@@ -34,10 +34,14 @@ As outlined on the [About TT&C Designs](/ttc-service-ux-design/about-the-ttc-des
 
 The Subsystem Tree Menu shows a hierarchical list of the satellite subsystems. Status of lower level elements is bubbled up to the subsystem level so that operators can quickly identify subsystems that have problems without having to expand nodes in the tree. When a subsystem is selected, the related subsystem assembly layout and mnemonic data table is shown in the content area to the right.
 
+:::two-col
+
 ![TT&C Subsytem Tree](/img/service-specific-ux-design/ttc-investigate-subsystem-tree-details.png)
 
 1. **Expandable List Items** - subsystem menu items expand to show any related sub-subsystems in the section to the right.
 2. **Status Symbols** - status symbols indicate current subsystem status and severity.
+
+:::
 
 ## Inoperable Equipment Page
 

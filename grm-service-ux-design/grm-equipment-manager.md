@@ -1,5 +1,5 @@
 ---
-tags: resources
+tags: ['grm', 'egs']
 path: /grm-service-ux-design/grm-equipment-manager
 date: Last Modified
 layout: interior.template.njk

@@ -1,5 +1,5 @@
 ---
-tags: resources
+tags: ['grm', 'egs']
 path: /grm-service-ux-design/grm-dashboard
 date: Last Modified
 layout: interior.template.njk
@@ -31,7 +31,7 @@ As outlined on the [About GRM Designs](/grm-service-ux-design/about-the-grm-desi
 ## Alerts
 
 The Alerts panel provides operators with a roll-up of issues across the ground system, satellite vehicles and satellite subsystems. Operators can filter the alerts by Severity and Category, allowing them to quickly identify the most critical issues or focus in on particular areas of the global system. This allows operators to efficiently track their workflow and keeps the Alerts panel more sparsely populated, so they’ll be more likely to notice when new alerts come in.
-
+:::two-col
 ![GRM Dashboard Alerts Details](/img/service-specific-ux-design/grm-dashboard-alert-details.png)
 
 1. **Active Alert Hero Number** - Shows number of active alerts at a glance.
@@ -39,6 +39,7 @@ The Alerts panel provides operators with a roll-up of issues across the ground s
 3. **Expandable List Items** - expands to show alert details and call-to-action (if applicable).
 4. **Investigate** - sends operators to a page with full alert details and actions for resolving the alert.
 5. **Acknowledge/Dismiss** - acknowledges or dismisses alerts.
+   :::
 
 ## Contacts
 

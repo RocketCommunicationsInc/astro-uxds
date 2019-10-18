@@ -1,5 +1,5 @@
 ---
-tags: resources
+tags: ['ttc', 'egs']
 path: /ttc-service-ux-design/ttc-monitor
 date: Last Modified
 layout: interior.template.njk
@@ -34,6 +34,7 @@ As outlined on the [About TT&C Designs](/ttc-service-ux-design/about-the-ttc-des
 
 The Alerts panel provides operators with a roll-up of alerts across the ground system, satellite vehicles, and satellite subsystems. Operators can filter the alerts by Severity and Category, allowing them to quickly identify the most severe issues or focus in on particular areas of the global system. This allows operators to efficiently track their workflow and keeps the Alerts pane more sparsely populated, so they’ll be more likely to notice when new alerts come in. Operators can also drill in to see additional information on any of the alerts and launch an instance of the TT&C Investigate App to explore the issue further.
 
+:::two-col
 ![TT&C Monitor Alerts Details](/img/service-specific-ux-design/ttc-monitor-alerts-details.png)
 
 1. **Active Alert Hero Number** - Shows number of active alerts at a glance.
@@ -41,6 +42,7 @@ The Alerts panel provides operators with a roll-up of alerts across the ground s
 3. **Expandable List Items** - expands to show alert details and call-to-action (if applicable).
 4. **Investigate** - launches an instance of the TT&C Investigate App.
 5. **Acknowledge/Dismiss** - acknowledges or dismisses alerts.
+   :::
 
 ## Constellation
 

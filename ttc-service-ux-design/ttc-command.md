@@ -1,5 +1,5 @@
 ---
-tags: resources
+tags: ['ttc', 'egs']
 path: /ttc-service-ux-design/ttc-command
 date: Last Modified
 layout: interior.template.njk
@@ -35,6 +35,7 @@ As outlined on the [About TT&C Designs](/ttc-service-ux-design/about-the-ttc-des
 
 The Alerts panel provides operators with a roll-up of spacecraft specific alerts, as well as communications, software, and its assigned ground station. Operators can filter the alerts by Severity and Category, allowing them to quickly identify the most severe issues or focus in on particular areas of the system. This allows operators to efficiently track their workflow and keeps the Alerts pane more sparsely populated, so they’ll be more likely to notice when new alerts come in. Operators can also drill in to see additional information on any of the alerts and launch an instance of the [TT&C Investigate App](/tt-c-service-ux-design/tt-c-investigate) to explore the issue further.
 
+:::two-col
 ![TT&C Comand Alerts Detail](/img/service-specific-ux-design/ttc-monitor-alerts-details.png)
 
 1. **Active Alert Hero Number** - Shows number of active alerts at a glance.
@@ -42,11 +43,13 @@ The Alerts panel provides operators with a roll-up of spacecraft specific alerts
 3. **Expandable List Items** - expands to show alert details and call-to-action (if applicable).
 4. **Investigate** - launches an instance of the TT&C Investigate App.
 5. **Acknowledge/Dismiss** - acknowledges or dismisses alerts.
+   :::
 
 ## Pass Plan
 
 The Pass Plan panel is where operators will track or initiate execution of the commands sent to the satellite. Depending on whether the current plan is running in Manual, Semi-Auto or Automated mode, operators will either explicitly initiate commands in this pane, simply monitor the progress as the system initiates the commands, or something in between. If it becomes necessary to insert a command in the plan, operators could use the Add to queue functionality at the bottom of the pane to search and specify the command to be inserted.
 
+:::two-col
 ![TT&C Comand Pass Plan Detail](/img/service-specific-ux-design/ttc-command-pass-plan-details.png)
 
 1. **Mode** - allows operators with the necessary permissions to set the plan to run in Manual, Semi-Auto, or Automated mode.
@@ -54,11 +57,12 @@ The Pass Plan panel is where operators will track or initiate execution of the c
 3. **Pass Plan** - an interactive checklist of instructions an operator is expected to complete during a pass. This includes, but is not limited to: Checkboxes, drop down selectors and play and pause controls.
 4. **Mnemonic Snapshot** - allows operators to inspect a mnemonic called out for verification in the pass plan.
 5. **Command Line** - allows operators to enter commands needed to maintain the overall health of the pass, for anomaly resolution and/or other operational needs.
+   :::
 
 ## System Health
 
 The System Health panel allows operators to track the strength of the communication signal with the satellite and monitor the overall health of the satellite subsystems. The health data here is determined from telemetry data coming in during the pass. If there is a problem with any of the subsystems, operators can navigate directly to a detailed view of it in the Investigate app to determine if action is required during the pass. This panel also includes Watcher functionality specific to the satellite.
-
+:::two-col
 ![TT&C Comand System Health Detail](/img/service-specific-ux-design/ttc-command-system-health-details.png)
 
 1. **Lock and Signal Strength** - displays the lock value and signal strength, as well as a status indicator of the quality of lock.
@@ -67,6 +71,7 @@ The System Health panel allows operators to track the strength of the communicat
 4. **Subsystem Status** - the subsystem’s health is identified by the accompanying status indicator.
 5. **Investigate** - opens a view of the subsystem in the TT&C Investigate App.
 6. **Contextual Watcher** - displays mnemonic information being watched for the satellite in the current pass.
+   :::
 
 ## Task Flow Example - Pass Flow
 

@@ -1,5 +1,5 @@
 ---
-tags: resources
+tags: ['grm', 'egs']
 path: /grm-service-ux-design/grm-schedule
 date: Last Modified
 layout: interior.template.njk
@@ -65,11 +65,13 @@ Operators can view additional detail on a contact by clicking on it in the timel
 
 The image below shows the Contact pane for this Add Contact task flow. To see the view contact and modify contact variants of the pane, and more design and task flow details, download the [GRM Design Specification or Wireframes](https://astrouxds.com/grm-service-ux-design/grm-schedule#contentBottom). You can also interact with these elements in the [GRM Schedule Sample App](https://grm-schedule.astrouxds.com/).
 
+:::two-col
 ![GRM Schedule Manage Contacts Pane](/img/service-specific-ux-design/grm-schedule-manage-contacts-details.png)
 
 1. **Modeless Pane** - the functionality to manage contact appears in a pane on the right side of the browser window that is collapsed when the task is complete.
 2. **Contact Settings** - the settings for the contact are specified using dynamic fields to guide the operator through the process.
 3. **Action Buttons** - once the required values have been specified and the contact is added, the pane closes and a confirmation message is displayed.
+   :::
 
 ## Task Flow Example - Modify Contact
 
