@@ -1,6 +1,7 @@
 ---
 tags: components
 path: /components/readme
+permalink: /components/readme/index.html
 date: Last Modified
 layout: components.template.njk
 title: README
