@@ -22,16 +22,12 @@ The Global Status Bar is a full width view across the top of an application — 
 ## Appearance and Behavior
 
 ![Simplest Global Status Bar - Only include the App Name.](/img/components/global-status-simple.png 'Simplest Global Status Bar - Only include the App Name.')
-Simplest Global Status Bar - Only include the App Name.
 
 ![Simple Global Status Bar - App Name and Emergency Off.](/img/components/global-status-more.png 'Simple Global Status Bar - App Name and Emergency Off.')
-Simple Global Status Bar - App Name and Emergency Off.
 
 ![More Complex Global Status Bar - App Name, Status Icons and Emergency Off.](/img/components/global-status-very.png 'More Complex Global Status Bar - App Name, Status Icons and Emergency Off.')
-More Complex Global Status Bar - App Name, Status Icons and Emergency Off.
 
 ![Most Complex Global Status Bar - App Name, Navigation, Monitoring Icons and Emergency Off.](/img/components/global-status-complex.png 'Most Complex Global Status Bar - App Name, Navigation, Monitoring Icons and Emergency Off.')
-Most Complex Global Status Bar - App Name, Navigation, Monitoring Icons and Emergency Off.
 
 ::: note
 When using the alternate light theme in Astro, the Global Status Bar and all of the elements it contains still use the default dark theme styling.
@@ -39,16 +35,14 @@ When using the alternate light theme in Astro, the Global Status Bar and all of 
 
 ## Examples
 
-:::dos-donts
+:::two-col
+
 ![Do: Correctly and consistently utilize the standard elements that comprise the Global Status Bar.](/img/components/global-status-do-1.png 'Do: Correctly and consistently utilize the standard elements that comprise the Global Status Bar.')
-Do: Correctly and consistently utilize the standard elements that comprise the Global Status Bar.
 
 ![Don’t: Use icons, labels and colors incorrectly.](/img/components/global-status-dont-1.png 'Don’t: Use icons, labels and colors incorrectly.')
-Don’t: Use icons, labels and colors incorrectly.
 
 ![Do: Left justify the application name and Top Level Nav (when utilized). Right justify Icons and Emergency Off (when utilized).](/img/components/global-status-do-2.png 'Do: Left justify the application name and Top Level Nav (when utilized). Right justify Icons and Emergency Off (when utilized).')
-Do: Left justify the application name and Top Level Nav (when utilized). Right justify Icons and Emergency Off (when utilized).
 
 ![Don’t: Use the Global Status Bar for controls or indications that come and go with different app modes. Reserve it for truly global elements.](/img/components/global-status-dont-2.png 'Don’t: Use the Global Status Bar for controls or indications that come and go with different app modes. Reserve it for truly global elements.')
-Don’t: Use the Global Status Bar for controls or indications that come and go with different app modes. Reserve it for truly global elements.
+
 :::

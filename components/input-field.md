@@ -28,10 +28,9 @@ Input Fields have a smaller variant which may be beneficial in layouts where spa
 
 ## Examples
 
-:::dos-donts
+:::two-col
 ![Do: Design a well organized form with logical, clearly labeled groupings.](/img/components/input-fields-do.png 'Do: Design a well organized form with logical, clearly labeled groupings.')
-Do: Design a well organized form with logical, clearly labeled groupings.
 
 ![Don’t: Design a long form without labels, splits or groupings.](/img/components/input-fields-dont.png 'Don’t: Design a long form without labels, splits or groupings.')
-Don’t: Design a long form without labels, splits or groupings.
+
 :::

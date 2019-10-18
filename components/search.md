@@ -27,8 +27,8 @@ Search is a specialized text field for entering Search terms.
 
 Search has two states:
 
+:::two-col
 ![The normal (enabled) state is less prominent than the focused state.](/img/components/search-enabled.png 'The normal (enabled) state is less prominent than the focused state.')
-The normal (enabled) state is less prominent than the focused state.
 
 ![Within the focused state, the magnifying glass symbol is more prominent. The “Clear” button becomes enabled.](/img/components/search-focus.png 'Within the focused state, the magnifying glass symbol is more prominent. The “Clear” button becomes enabled.')
-Within the focused state, the magnifying glass symbol is more prominent. The “Clear” button becomes enabled.
+:::

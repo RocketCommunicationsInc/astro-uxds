@@ -23,8 +23,8 @@ Content
 
 ## Examples
 
-:::dos-donts
+:::two-col
+
 ![Don’t: Create a Drop Down list with too many options. The user needs to be able to scan and navigate the list easily](/img/components/dropdown-dont-1.png 'Don’t: Create a Drop Down list with too many options. The user needs to be able to scan and navigate the list easily')
-Don’t: Create a Drop Down list with too many options. The user needs to be able to scan and navigate the list easily
 
 :::

@@ -46,21 +46,18 @@ Tips for writing validation error messages in the voice of Astro:
 ## Appearance and Behavior
 
 Configuration options for validation of Input Fields:
+:::two-col
 
 ![Required Input - user must enter some text. If no text is entered, a warning icon and optional instructional text is shown.](/img/components/val-required-input.png 'Required Input - user must enter some text. If no text is entered, a warning icon and optional instructional text is shown.')
-Required Input - user must enter some text. If no text is entered, a warning icon and optional instructional text is shown.
 
 ![Numeric Range - input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and optional instructional text.](/img/components/val-numeric-range.png 'Numeric Range - input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and optional instructional text.')
-Numeric Range - input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and optional instructional text.
 
 ![Time - input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and optional instructional text.](/img/components/val-time.png 'Time - input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and optional instructional text.')
-Time - input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and optional instructional text.
 
 ![Date - input must be a valid date. Text that cannot be recognized as a valid date is indicated with a warning icon and optional instructional text.](/img/components/val-date.png 'Date - input must be a valid date. Text that cannot be recognized as a valid date is indicated with a warning icon and optional instructional text.')
-Date - input must be a valid date. Text that cannot be recognized as a valid date is indicated with a warning icon and optional instructional text.
 
-![Checkboxes can be configured to require input, where at least one item in a group must be selected.](/img/components/val-checkbox.png 'Checkboxes can be configured to require input, where at least one item in a group must be selected.')
-Checkboxes can be configured to require input, where at least one item in a group must be selected.
+![Checkboxes can be configured to require input, where at least one item in a group must be selected.](/img/components/val-group-checkbox.png 'Checkboxes can be configured to require input, where at least one item in a group must be selected.')
 
 ![Drop Down Menus can be configured to require input, where at least one item in the menu must be selected.](/img/components/val-dropdown-input.png 'Drop Down Menus can be configured to require input, where at least one item in the menu must be selected.')
-Drop Down Menus can be configured to require input, where at least one item in the menu must be selected.
+
+:::

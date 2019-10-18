@@ -101,23 +101,18 @@ An Icon Sub-Label provides additional information to the user and may be dynamic
 
 ## Examples
 
-:::dos-donts
+:::two-col
+
 ![Do: When used in a group, keep Icons and Symbols equally sized.](/img/components/icons-do-1.png 'Do: When used in a group, keep Icons and Symbols equally sized.')
-Do: When used in a group, keep Icons and Symbols equally sized.
 
 ![Do: Allow ample space between Icons and Symbols.](/img/components/icons-do-2.png 'Do: Allow ample space between Icons and Symbols.')
-Do: Allow ample space between Icons and Symbols.
 
 ![Do:  In a horizontal layout, align horizontally based on the center of each Icon when height and width may vary.](/img/components/icons-do-3.png 'Do:  In a horizontal layout, align horizontally based on the center of each Icon when height and width may vary.')
-Do: In a horizontal layout, align horizontally based on the center of each Icon when height and width may vary.
 
 ![Do: Use Icons and Symbols consistently across applications.](/img/components/icons-do-4.png 'Do: Use Icons and Symbols consistently across applications.')
-Do: Use Icons and Symbols consistently across applications.
 
 ![Do:  Use standard Health and Status indication colors and Symbols.](/img/components/icons-do-5.png 'Do:  Use standard Health and Status indication colors and Symbols.')
-Do: Use standard Health and Status indication colors and Symbols.
 
 ![Do: In a vertical layout, align vertically based on the center of each Icon when height and width vary.](/img/components/icons-do-6.png 'Do: In a vertical layout, align vertically based on the center of each Icon when height and width vary.')
-Do: In a vertical layout, align vertically based on the center of each Icon when height and width vary.
 
 :::

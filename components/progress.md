@@ -25,10 +25,9 @@ When operations take five seconds or longer to complete, add a progress feedback
 
 ## Examples
 
-:::dos-donts
+:::two-col
 ![Do: Use a Determinate Progress Bar to indicate to users how much of an operation has been completed.](/img/components/determinate-progress-do.png 'Do: Use a Determinate Progress Bar to indicate to users how much of an operation has been completed.')
-Do: Use a Determinate Progress Bar to indicate to users how much of an operation has been completed.
 
 ![Do: Use an Indeterminate Progress control to indicate that an application is busy performing an operation but the progress is unknown.](/img/components/indeterminate-progress-do.png 'Do: Use an Indeterminate Progress control to indicate that an application is busy performing an operation but the progress is unknown.')
-Do: Use an Indeterminate Progress control to indicate that an application is busy performing an operation but the progress is unknown.
+
 :::

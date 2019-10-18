@@ -26,9 +26,10 @@ A Dialog Box interrupts app processing to prompt a user to confirm an action or 
 
 ## Examples
 
-:::dos-donts
+:::two-col
+
 ![Do: Use buttons within a Dialog Box to confirm or cancel actions.](/img/components/modal-do-1.png 'Do: Use buttons within a Dialog Box to confirm or cancel actions.')
-Do: Use buttons within a Dialog Box to confirm or cancel actions.
+
 ![Don’t: Use links or other components to confirm or cancel actions.](/img/components/modal-dont-1.png 'Don’t: Use links or other components to confirm or cancel actions.')
-Don’t: Use links or other components to confirm or cancel actions.
+
 :::

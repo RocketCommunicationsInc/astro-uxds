@@ -22,7 +22,6 @@ A Log is a tabular representation of application events and may include username
 ### Basic Log
 
 ![The log includes a Table of timestamped events and a Search field to narrow the displayed events](/img/components/log-basic.png 'The log includes a Table of timestamped events and a Search field to narrow the displayed events')
-The log includes a Table of timestamped events and a Search field to narrow the displayed events
 
 ### Scroll Interaction
 
@@ -37,4 +36,3 @@ New events are added to the top of the Table. The Log has two subtly different m
 - The defined scrolling rules apply when a Search term is entered. If the Table is scrolled to the top, it should remain locked to the top. New events that match the Search term are added to the top.
 
 ![View of Search Text Applied Within Field](/img/components/log-search.png 'View of Search Text Applied Within Field')
-View of Search Text Applied Within Field

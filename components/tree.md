@@ -29,13 +29,15 @@ Trees present a hierarchical set of related items, and allow users to explore an
 
 ### Appearance
 
+:::two-col
 Items in the Tree that have children display a turn-down arrow. Items without children, even if they represent empty containers, do not display a turn-down arrow. Items are indented according to their depth.
 
 ![Astro Tree Component with no status symbols.](/img/components/tree-no-status-cms.png 'Astro Tree Component with no status symbols.')
 
 The Tree may optionally show a [Status Symbol](/components/status-symbol) alongside each item.
 
-![Astro Tree Component with no status symbols.](/img/components/tree-with-status-cms.png 'Astro Tree Component with no status symbols.')
+![Astro Tree Component with no status symbols.](/img/components/tree-with-status-cms.png 'Astro Tree Component with status symbols.')
+:::
 
 ### Behavior
 

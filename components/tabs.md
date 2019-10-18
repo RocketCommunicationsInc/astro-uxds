@@ -31,7 +31,9 @@ Tabs in Astro Applications are used to divide major areas of content and to indi
 
 For use outside of main navigation, a more compact tab component can be used.
 
-!!! Caution Do Missing sample of interior tabs. New format only supports a single demo as of now
+:::caution
+Caution Do Missing sample of interior tabs. New format only supports a single demo as of now
+:::
 
 ## Rules of Thumb
 
@@ -41,10 +43,9 @@ For use outside of main navigation, a more compact tab component can be used.
 
 ## Examples
 
-:::dos-donts
+:::two-col
 ![Do: To guide users through a process, correctly place and label Tabs to reflect a step-by-step process.](/img/components/nav-tabs-do.png 'Do: To guide users through a process, correctly place and label Tabs to reflect a step-by-step process.')
-Do: To guide users through a process, correctly place and label Tabs to reflect a step-by-step process.
 
 ![Don’t: Stack or improperly nest Tabs.](/img/components/nav-tabs-dont.png 'Don’t: Stack or improperly nest Tabs.')
-Don’t: Stack or improperly nest Tabs.
+
 :::

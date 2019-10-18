@@ -21,9 +21,9 @@ Avoid using "Click Here," or "Link."
 
 ## Examples
 
-:::dos-donts
+:::two-col
 ![Do: Use Astro defined color for links ](/img/components/links-do.png 'Do: Use Astro defined color for links ')
-Do: Use Astro defined color for links
+
 ![Don’t: use underlines on links](/img/components/links-dont.png 'Don’t: use underlines on links')
-Don’t: use underlines on links
+
 :::

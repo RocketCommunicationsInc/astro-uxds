@@ -24,19 +24,20 @@ Be sure the current page is easily distinguishable from other pages referenced b
 
 ## Examples
 
-![Offer a “Prev” and “Next” link where useful.](/img/components/pagination-1.png 'Offer a “Prev” and “Next” link where useful.')
-Offer a “Prev” and “Next” link where useful.
+:::two-col
+![Offer a “Prev” and “Next” link where useful.](/img/components/pagination-1.png)
 
-![Disable the “Prev” link when there are no more pages before the first numeral displayed.](/img/components/pagination-2.png 'Disable the “Prev” link when there are no more pages before the first numeral displayed.')
-Disable the “Prev” link when there are no more pages before the first numeral displayed.
+![Disable the “Prev” link when there are no more pages before the first numeral displayed.](/img/components/pagination-2.png)
 
-![Disable the “Next” link when there are no more pages after the last numeral displayed.](/img/components/pagination-3.png 'Disable the “Next” link when there are no more pages after the last numeral displayed.')
-Disable the “Next” link when there are no more pages after the last numeral displayed.
+![Disable the “Next” link when there are no more pages after the last numeral displayed.](/img/components/pagination-3.png)
+
+:::
 
 ## Pagination of Search Results
 
+:::two-col
+
 ![Optionally, links for “Show All” and “Number of Results” may be displayed below page numbers. Links are centered below the Pagination on the same baseline.](/img/components/pagination-4.png)
-When user selects the “Show All” link, all Search results should display in a continuous list.
 
 ![When there are no Search results, suggest that the user amend the Search.](/img/components/pagination-5.png)
-The “Amend Search” link takes user back to the text entry field for Search.
+:::

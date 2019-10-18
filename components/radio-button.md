@@ -29,10 +29,9 @@ Radio Buttons allow users to mutually select an option from a predefined set of 
 If a user is required to make a choice between items without a default, consider a Drop Down Menu.
 :::
 
-:::dos-donts
+:::two-col
 ![Do: Use Radio Buttons when asking users to select a mutually exclusive option from a predefined set of options. When one selection is made, a previous selection becomes deselected.](/img/components/radio-buttons-do-1.png 'Do: Use Radio Buttons when asking users to select a mutually exclusive option from a predefined set of options. When one selection is made, a previous selection becomes deselected.')
-Do: Use Radio Buttons when asking users to select a mutually exclusive option from a predefined set of options. When one selection is made, a previous selection becomes deselected.
-:::
-![Don’t: Use Radio Buttons to display more than six items. Instead, use a Drop Down Menu.](/img/components/radio-button-do-1.png 'Don’t: Use Radio Buttons to display more than six items. Instead, use a Drop Down Menu.')
-Don’t: Use Radio Buttons to display more than six items. Instead, use a Drop Down Menu.
+
+![Don’t: Use Radio Buttons to display more than six items. Instead, use a Drop Down Menu.](/img/components/radio-buttons-dont-1.png 'Don’t: Use Radio Buttons to display more than six items. Instead, use a Drop Down Menu.')
+
 :::
