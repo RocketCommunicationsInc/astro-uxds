@@ -54,7 +54,7 @@
 		
 	12. Pop Up  http://www.astrouxds.com/ui-components/pop-up
 		1. Menu items shall use title-style capitalization.
-		2. Menu items shall use an ellipsis (…) to indicate to users that further action is required to complete the command.
+		2. Menu items shall use an ellipsis (ï¿½) to indicate to users that further action is required to complete the command.
 		
 	13. Progress  http://www.astrouxds.com/ui-components/progress
 		1. Progress indicator shall not provide inaccurate time or percentage estimates if the precise completion time for the operation is unknown.
@@ -68,3 +68,27 @@
 	16. Segmented Button  http://www.astrouxds.com/ui-components/segmented-button
 		1. Segmented Buttons shall be used only for mutually exclusive selections.
 		2. Segmented Buttons shall not be used to switch between views.
+		
+	17. Spectrum Analyzer  http://www.astrouxds.com/ui-components/spectrum-analyzer
+		
+	18. Status Symbol  http://www.astrouxds.com/ui-components/status-symbol
+		1. Status Symbols shall always be rendered with the specified shapes
+		2. Status Symbols shall always be rendered with the specified colors
+	
+	19. Table  http://www.astrouxds.com/ui-components/table
+		1. Table components shall be rendered rendered in the illustrated style
+		
+	20. Tabs  http://www.astrouxds.com/ui-components/tabs
+		1. Tabs shall be in a single row
+		2. Tabs shall use title-style capitalization
+	
+	21. Timeline  http://www.astrouxds.com/ui-components/timeline
+		1. Timeline components shall be rendered in the illustrated style
+	
+	22. Toggle  http://www.astrouxds.com/ui-components/toggle
+		1. Toggle shall be preferred over checkbox when the action takes immediate effect
+		
+	23. Tree  http://www.astrouxds.com/ui-components/tree
+		1. Trees should not contain unrelated data types
+
+
