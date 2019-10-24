@@ -54,7 +54,7 @@
 		
 	12. Pop Up  http://www.astrouxds.com/ui-components/pop-up
 		1. Menu items shall use title-style capitalization.
-		2. Menu items shall use an ellipsis (�) to indicate to users that further action is required to complete the command.
+		2. Menu items shall use an ellipsis (…) to indicate that further action is required to complete the command.
 		
 	13. Progress  http://www.astrouxds.com/ui-components/progress
 		1. Progress indicator shall not provide inaccurate time or percentage estimates if the precise completion time for the operation is unknown.
