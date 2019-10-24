@@ -1,3 +1,10 @@
+---
+tags: resources
+path: /design-guidelines/compliance
+date: Last Modified
+layout: 
+title: Compliance
+---
 1. General 
 	1. All designs should follow the guidance marked as "Rules of Thumb", "Do's" and "Don'ts".
 
