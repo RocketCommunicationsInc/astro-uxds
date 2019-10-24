@@ -16,7 +16,7 @@
 	
 5. Components
 	1. Button  http://www.astrouxds.com/ui-components/button
-		1. Cancel buttons shall be presented to the left of actions such as “Submit" or "OK."
+		1. Cancel buttons shall be presented to the left of actions such as "Submit" or "OK."
 		2. Buttons shall be used for actionable controls only, not as state indicators.
 		3. Buttons shall be designed with the designated colors.
 		
@@ -28,16 +28,43 @@
 		2. Dialog Boxes shall not contains a "close box".
 		
 	4. Drop Down  http://www.astrouxds.com/ui-components/drop-down
-		1. Menu items shall use title-style capitalization
+		1. Menu items shall use title-style capitalization.
 		
 	5. Global Status Bar  http://www.astrouxds.com/ui-components/global-status-bar
-		1. The Global Status Bar shall be reserved for global elements that are present on every screen
+		1. The Global Status Bar shall be reserved for global elements that are present on every screen.
 		
 	6. Icons and Symbols  http://www.astrouxds.com/ui-components/icons-and-symbols
-		1. Monitoring Icons shall include a label and a status symbol
+		1. Monitoring Icons shall include a label and a status symbol.
 		
 	7. Input Field  http://www.astrouxds.com/ui-components/input-field
-		1. Stacked Input Fields shall be left aligned
-		2. Input Fields shall use the text size defined in the component
+		1. Stacked Input Fields shall be left aligned.
+		2. Input Fields shall use the text size defined in the component .
 		
+	8. Link  http://www.astrouxds.com/ui-components/link
+		1. Links shall use the defined color.
+		2. Links shall not use underlined text.
 		
+	9. Log  http://www.astrouxds.com/ui-components/log
+	
+	10. Notification Banner  http://www.astrouxds.com/ui-components/notification-banner
+		1. Notification Banners shall be presented individually, not stacked or grouped.
+		
+	11. Pagination  http://www.astrouxds.com/ui-components/pagination
+		1. Pagination shall not use underlined links.
+		
+	12. Pop Up  http://www.astrouxds.com/ui-components/pop-up
+		1. Menu items shall use title-style capitalization.
+		2. Menu items shall use an ellipsis (…) to indicate to users that further action is required to complete the command.
+		
+	13. Progress  http://www.astrouxds.com/ui-components/progress
+		1. Progress indicator shall not provide inaccurate time or percentage estimates if the precise completion time for the operation is unknown.
+		
+	14. Radio Button  http://www.astrouxds.com/ui-components/radio-button
+		1. Radio Buttons shall be used only for mutually exclusive choices.
+		
+	15. Search  http://www.astrouxds.com/ui-components/search
+		1. Search Fields shall contain prompt text.
+		
+	16. Segmented Button  http://www.astrouxds.com/ui-components/segmented-button
+		1. Segmented Buttons shall be used only for mutually exclusive selections.
+		2. Segmented Buttons shall not be used to switch between views.
