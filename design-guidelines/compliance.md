@@ -2,7 +2,7 @@
 tags: resources
 path: /design-guidelines/compliance
 date: Last Modified
-layout: 
+layout: interior.template.njk
 title: Compliance
 ---
 1. General 
