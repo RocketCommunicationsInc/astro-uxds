@@ -30,65 +30,107 @@ The following categories are used within Astro:
 
 There are a large number of charting visualizations. The following subset is relevant to the Astro domain:
 
-#### Pie
+<div class="three-col">
 
-![Pie Chart icon](/img/design-guidelines/data-viz-pie.png)
+:::col
+
+#### Pie Chart
+
+![Pie Chart](/img/design-guidelines/data-viz-pie.png)
 Conveys part-to-whole data. Pie charts are very common, but research has shown that it may be difficult to accurately compare the size of the segments without supporting data points.
+:::
 
-#### Donut
+:::col
 
-![Donut Chart icon](/img/design-guidelines/data-viz-donut.png)
+#### Donut Chart
+
+![Donut Chart](/img/design-guidelines/data-viz-donut.png)
 Similar to a pie chart – but the center can be useful for additional information about the data (e.g. total). Example: [GRM Sample app](https://grm-dashboard.astrouxds.com/) - equipment tab
 
-#### Line
+:::
 
-![Line Chart icon](/img/design-guidelines/data-viz-line.png)
-Line charts should be used to compare values over time and are excellent for displaying both large and small changes. They can also be used to compare changes to more than one group of data. Example: [GRM Sample app](https://grm-dashboard.astrouxds.com/) - equipment tab
+:::col
 
-#### Bar/Column
+#### Bar Chart
 
-![Bar/Column Chart icon](/img/design-guidelines/data-viz-bar-column.png)
+![Bar/Column Chart](/img/design-guidelines/data-viz-bar-column.png)
 Standard bar charts display the ranks of values more easily when sorted in order.
 
-#### Stacked Bar
+:::
 
-![Stack Bar Chart icon](/img/design-guidelines/data-viz-stacked-bar.png)
+:::col
+
+#### Stack Bar Chart
+
+![Stack Bar Chart](/img/design-guidelines/data-viz-stacked-bar.png)
 The standard way to show a statistical distribution - keep the gaps between columns small to highlight the ‘shape’ of the data. Example: GRM Sample app - contacts tab
+
+:::
+
+:::col
 
 #### Heat Map
 
-![Heat Map icon](/img/design-guidelines/data-viz-heat-map.png)
+![Heat Map](/img/design-guidelines/data-viz-heat-map.png)
 Heat maps enable you to do exploratory data analysis with two dimensions on the axes and the third dimension shown by intensity of color.
 
-#### Area
+:::
 
-![Area Chart icon](/img/design-guidelines/data-viz-area.png)
+:::col
+
+#### Area Chart
+
+![Area Chart](/img/design-guidelines/data-viz-area.png)
 This chart type excels at showing changes to total, but seeing change in components can be difficult.
 
-#### Fill Gauge
+:::
 
-![Fill Guage icon](/img/design-guidelines/data-viz-fill-gauge.png)
+:::col
+
+#### Fill Guage
+
+![Fill Guage](/img/design-guidelines/data-viz-fill-gauge.png)
 A circular shape that represents a percentage value of a whole. May also be depicted as a dial.
 
-#### Bubble
+:::
 
-![Bubble Chart icon](/img/design-guidelines/data-viz-bubble.png)
+:::col
+
+#### Bubble Chart
+
+![Bubble Chart](/img/design-guidelines/data-viz-bubble.png)
 Bubble charts are used to visualize a data set with two to four dimensions. The first two dimensions are visualized as coordinates, the third as color and the fourth as size.
+
+:::
+
+:::col
 
 #### Histogram
 
-![Histogram icon](/img/design-guidelines/data-viz-histogram.png)
+![Histogram](/img/design-guidelines/data-viz-histogram.png)
 Conveys an accurate representation of the distribution of numerical data. It is an estimate of the probability distribution of a continuous variable (e.g. Spectrum analyzer).
 
-#### Gantt
+:::
 
-![Gantt Chart icon](/img/design-guidelines/data-viz-gantt.png)
+:::col
+
+#### Gantt Chart
+
+![Gantt Chart](/img/design-guidelines/data-viz-gantt.png)
 A chart that depicts how a set of resources are used over time. Gantt charts illustrate the start, end, and duration of tasks (e.g. timeline or schedule). Example: [TT&C Sample app](https://ttc-monitor.astrouxds.com/) - timeline view
 
-#### Scatter Plot
+:::
 
-![Scatter Chart icon](/img/design-guidelines/data-viz-scatter-plot.png)
+:::col
+
+#### Scatter Chart
+
+![Scatter Chart](/img/design-guidelines/data-viz-scatter-plot.png)
 Scatter charts plot points on a graph. When the user hovers over the points, tooltips are displayed with more information.
+
+:::
+
+</div>
 
 ## Visualization Anatomy
 
@@ -166,15 +208,14 @@ A data visualization is useless if not designed to communicate clearly with the 
 
 ## Examples
 
+:::two-col
 ![Do: Allow axes labels enough padding. It’s important that the axes be legible and have adequate space. This will reduce eye strain and errors.](/img/design-guidelines/data-viz-do-1.png 'Do: Allow axes labels enough padding. It’s important that the axes be legible and have adequate space. This will reduce eye strain and errors.')
-Do: Allow axes labels enough padding. It’s important that the axes be legible and have adequate space. This will reduce eye strain and errors.
 
-![Don't: Use visual representations that don’t accurately represent the data set, like pie charts in 3D.](/img/design-guidelines/data-viz-dont-1.png 'Don’t: Use visual representations that don’t accurately represent the data set, like pie charts in 3D.')Don't: Use visual representations that don’t accurately represent the data set, like pie charts in 3D.
+![Don't: Use visual representations that don’t accurately represent the data set, like pie charts in 3D.](/img/design-guidelines/data-viz-dont-1.png 'Don’t: Use visual representations that don’t accurately represent the data set, like pie charts in 3D.')
 
 ![Do: Use fill color and text that meets or exceeds WCAG 2.0 contrast requirements. Use a Contrast Checker to check contrast levels.](/img/design-guidelines/data-viz-do-2.png 'Do: Use fill color and text that meets or exceeds WCAG 2.0 contrast requirements. Use a Contrast Checker to check contrast levels.')
-Do: Use fill color and text that meets or exceeds WCAG 2.0 contrast requirements. Use a [Contrast Checker](https://webaim.org/resources/contrastchecker/) to check contrast levels.
 
 ![Don’t: Use more than 8 categories. Beyond that, mapping colors to categories will become burdensome and reduce their usefulness.](/img/design-guidelines/data-viz-dont-2.png 'Don’t: Use more than 8 categories. Beyond that, mapping colors to categories will become burdensome and reduce their usefulness.')
-Don’t: Use more than 8 categories. Beyond that, mapping colors to categories will become burdensome and reduce their usefulness.
+:::
 
 There are many dedicated visualization tools such as [Tableau](https://www.tableau.com/), [QlikView](https://www.qlik.com/us), [HighCharts](https://www.highcharts.com/) and [d3.js](https://d3js.org/). Nothing can replace a modeling and statistic tool with good visualization capability. It helps tremendously in doing any exploratory data analysis as well as feature engineering. Always review the product licensing options before use.
