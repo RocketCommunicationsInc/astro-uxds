@@ -29,14 +29,14 @@ Each Status Symbol is a combination of a Status Color and a shape. The shapes ar
 
 ## Status Colors
 
-|                                                            | Hex     | RGB         | CSS             | Synonyms                                 |
-| ---------------------------------------------------------- | ------- | ----------- | --------------- | ---------------------------------------- |
-| ![Status Color: Critical](/img/swatches/colorCritical.svg) | #ff3838 | 255,56,56   | --colorCritical | Critical, alert, emergency, urgent       |
-| ![Status Color: Serious](/img/swatches/colorSerious.svg)   | #ffb302 | 255,179,2   | --colorSerious  | Serious, error, warning, needs attention |
-| ![Status Color: Caution](/img/swatches/colorCaution.svg)   | #fce83a | 252,232,58  | --colorCaution  | Caution, unstable, unsatisfactory        |
-| ![Status Color: Normal](/img/swatches/colorNormal.svg)     | #56f000 | 86,240,0    | --colorNormal   | Normal, on, ok, fine, go, satisfactory   |
-| ![Status Color: Standby](/img/swatches/colorStandby.svg)   | #2dccff | 45,204,255  | --colorStandby  | Standby, available, enabled              |
-| ![Status Color: Off](/img/swatches/colorOff.svg)           | #9ea7ad | 158,167,173 | --colorOff      | Off, unavailable, disabled               |
+|                                                              | Hex     | RGB         | CSS             | Synonyms                                 |
+| ------------------------------------------------------------ | ------- | ----------- | --------------- | ---------------------------------------- |
+| ![Status Color: Critical ](/img/swatches/critical__dark.svg) | #ff3838 | 255,56,56   | --colorCritical | Critical, alert, emergency, urgent       |
+| ![Status Color: Serious ](/img/swatches/serious__dark.svg)   | #ffb302 | 255,179,2   | --colorSerious  | Serious, error, warning, needs attention |
+| ![Status Color: Caution ](/img/swatches/caution__dark.svg)   | #fce83a | 252,232,58  | --colorCaution  | Caution, unstable, unsatisfactory        |
+| ![Status Color: Normal ](/img/swatches/normal__dark.svg)     | #56f000 | 86,240,0    | --colorNormal   | Normal, on, ok, fine, go, satisfactory   |
+| ![Status Color: Standby ](/img/swatches/standby__dark.svg)   | #2dccff | 45,204,255  | --colorStandby  | Standby, available, enabled              |
+| ![Status Color: Off ](/img/swatches/off__dark.svg)           | #9ea7ad | 158,167,173 | --colorOff      | Off, unavailable, disabled               |
 
 ::: caution
 Avoid adding additional colors if possible. Creating additional colors greatly reduces the user’s ability to learn and properly use the application.

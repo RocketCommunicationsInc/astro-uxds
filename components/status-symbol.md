@@ -40,25 +40,25 @@ Status colors are provided for both light and dark theme versions of Astro in He
 
 ### Dark Theme Status Colors
 
-|     | Hex     | RGB         | CSS             | Synonyms                                 |
-| --- | ------- | ----------- | --------------- | ---------------------------------------- |
-|     | #ff3838 | 255,56,56   | --colorCritical | Critical, alert, emergency, urgent       |
-|     | #ffb302 | 255,179,2   | --colorSerious  | Serious, error, warning, needs attention |
-|     | #fce83a | 252,232,58  | --colorCaution  | Caution, unstable, unsatisfactory        |
-|     | #56f000 | 86,240,0    | --colorNormal   | Normal, on, ok, fine, go, satisfactory   |
-|     | #2dccff | 45,204,255  | --colorStandby  | Standby, available, enabled              |
-|     | #9ea7ad | 158,167,173 | --colorOff      | Off, unavailable, disabled               |
+|                                                              | Hex     | RGB         | CSS             | Synonyms                                 |
+| ------------------------------------------------------------ | ------- | ----------- | --------------- | ---------------------------------------- |
+| ![Status Color: Critical ](/img/swatches/critical__dark.svg) | #ff3838 | 255,56,56   | --colorCritical | Critical, alert, emergency, urgent       |
+| ![Status Color: Serious ](/img/swatches/serious__dark.svg)   | #ffb302 | 255,179,2   | --colorSerious  | Serious, error, warning, needs attention |
+| ![Status Color: Caution ](/img/swatches/caution__dark.svg)   | #fce83a | 252,232,58  | --colorCaution  | Caution, unstable, unsatisfactory        |
+| ![Status Color: Normal ](/img/swatches/normal__dark.svg)     | #56f000 | 86,240,0    | --colorNormal   | Normal, on, ok, fine, go, satisfactory   |
+| ![Status Color: Standby ](/img/swatches/standby__dark.svg)   | #2dccff | 45,204,255  | --colorStandby  | Standby, available, enabled              |
+| ![Status Color: Off ](/img/swatches/off__dark.svg)           | #9ea7ad | 158,167,173 | --colorOff      | Off, unavailable, disabled               |
 
 ### Light Theme Status Colors
 
-|     | Hex     | RGB         | CSS             | Synonyms                                 |
-| --- | ------- | ----------- | --------------- | ---------------------------------------- |
-|     | #ff2a04 | 255,42,4    | --colorCritical | Critical, alert, emergency, urgent       |
-|     | #ffaf3d | 255,175,61  | --colorSerious  | Serious, error, warning, needs attention |
-|     | #fad800 | 250,216,0   | --colorCaution  | Caution, unstable, unsatisfactory        |
-|     | #00e200 | 0,226,0     | --colorNormal   | Normal, on, ok, fine, go, satisfactory   |
-|     | #64d9ff | 100,217,255 | --colorStandby  | Standby, available, enabled              |
-|     | #8e9aa3 | 142,154,163 | --colorOff      | Off, unavailable, disabled               |
+|                                                               | Hex     | RGB         | CSS             | Synonyms                                 |
+| ------------------------------------------------------------- | ------- | ----------- | --------------- | ---------------------------------------- |
+| ![Status Color: Critical ](/img/swatches/critical__light.svg) | #ff3838 | 255,56,56   | --colorCritical | Critical, alert, emergency, urgent       |
+| ![Status Color: Serious ](/img/swatches/serious__light.svg)   | #ffb302 | 255,179,2   | --colorSerious  | Serious, error, warning, needs attention |
+| ![Status Color: Caution ](/img/swatches/caution__light.svg)   | #fce83a | 252,232,58  | --colorCaution  | Caution, unstable, unsatisfactory        |
+| ![Status Color: Normal ](/img/swatches/normal__light.svg)     | #56f000 | 86,240,0    | --colorNormal   | Normal, on, ok, fine, go, satisfactory   |
+| ![Status Color: Standby ](/img/swatches/standby__light.svg)   | #2dccff | 45,204,255  | --colorStandby  | Standby, available, enabled              |
+| ![Status Color: Off ](/img/swatches/off__light.svg)           | #9ea7ad | 158,167,173 | --colorOff      | Off, unavailable, disabled               |
 
 ::: note
 In light theme user interfaces all symbols indicating status must include a 1 pixel border set to black with an opacity of 50% to meet WCAG 2.0 Contrast Compliance.
