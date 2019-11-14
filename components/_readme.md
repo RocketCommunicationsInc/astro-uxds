@@ -29,6 +29,9 @@ Example:
 CAUTION!: astro.css is a simple CSS stylesheet, it can easily be broken or distorted if it is loaded out of order or if a reset stylesheet is used.
 :::
 
+## Web Components Preview Release
+[Additional Documentation/Git Repository](https://bitbucket.org/rocketcom/astro-components/src/master/)
+
 ### Why Web Components?
 
 When the Astro predecessor SATCOM components were initially created, they were specific to the SATCOM domain. The scope of use has since expanded to include other domains in space, allowing us to create a more agnostic set of components for use across a wider spectrum of space systems.
@@ -44,3 +47,35 @@ While the initial components were purposefully created to be framework-agnostic,
 - All the major JS frameworks were built to reflect the ideas of WebComponents and/or influenced the Web Component v1 specification; Web Components are an accepted and respected pattern in the JS community
 - Localized Web Component HTML and CSS minimizes or eliminates the need for complicated CSS naming structures e.g., .rux-button—small\_\_light
 - Web Components are a W3 standard, requiring no vendor lock-in or decisions about which frameworks to use. Chrome, Firefox, and Safari support Web Components v1 without the need for polyfills. Microsoft has committed to supporting the standard in a future version of Edge. Note: IE11+ supports Web Components via polyfills.
+
+## Download and Install for Development
+The directions below assume basic knowledge of NodeJS and Gulp. Make sure you have installed both globally before continuing.
+
+**Create a new directory and navigate to it**
+
+```bash
+mkdir astro
+cd astro
+```
+_Note: the directory name does not need to be astro_
+
+**Clone this repository**
+
+```bash
+git clone https://bitbucket.org/rocketcom/astro-components.git
+```
+
+**Install NPM modules for this project**
+
+```bash
+npm i 
+```
+
+**To run the storybook component viewer**
+
+```bash
+npm run storybook
+```
+
+**View the storybook at**
+[http://localhost:9001/](http://localhost:9001/)
