@@ -4,6 +4,7 @@ path: /design-guidelines/status-system
 date: Last Modified
 layout: interior.template.njk
 title: Status System
+class: color
 ---
 
 # Status System
