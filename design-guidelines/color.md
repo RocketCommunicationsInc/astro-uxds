@@ -95,7 +95,7 @@ A common use for non-status colors as in identifying civilian assets or tagging.
 
 |                                                          | Step | Hex       | RGB             | CSS                   |
 | -------------------------------------------------------- | ---- | --------- | --------------- | --------------------- |
-| ![Tag1 Lighten Step 4](/im/swatches/tag1-__tint-80.svg)  | +4   | `#f5f6f9` | `208, 244, 244` | `--colorTag1Lighten4` |
+| ![Tag1 Lighten Step 4](/img/swatches/tag-1__tint-80.svg) | +4   | `#f5f6f9` | `208, 244, 244` | `--colorTag1Lighten4` |
 | ![Tag1 Lighten Step 3](/img/swatches/tag-1__tint-60.svg) | +3   | `#eaeef4` | `161, 233, 235` | `--colorTag1tint-60`  |
 | ![Tag1 Lighten Step 2](/img/swatches/tag-1__tint-40.svg) | +2   | `#e1e6ef` | `112, 221, 224` | `--colorTag1tint-40`  |
 | ![Tag1 Lighten Step 1](/img/swatches/tag-1__tint-20.svg) | +1   | `#d7dee9` | `215, 222, 233` | `--colorTag1tint-20`  |
