@@ -44,4 +44,4 @@ The default font size in Astro is 1rem/16px. Astro supports four additional font
 | Low Contrast\*      | `.low-contrast`` |
 | Inverted Text Style | `.inverted`      |
 
-- The low contrast text option will fail WCAG readability compliance
+\* The low contrast text option will fail WCAG readability compliance
