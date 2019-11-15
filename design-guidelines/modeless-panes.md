@@ -34,8 +34,9 @@ After committable changes have been made, the button pair become Cancel (enabled
 
 Note that the design of this interaction, and the very nature of the web, means that the user can simply leave this pane by navigating elsewhere or closing the browser window. This design expects the users affirmative command to Apply before new values take effect.
 
-**Never place two “Close” buttons on the same Pane**. Users may think they have different purposes. Always follow the distinct button layout described above.
+**Never place two “Close” buttons on the same Pane.** Users may think they have different purposes. Always follow the distinct button layout described above.
 
+![Modeless Pane Don't Example.](/img/design-guidelines/modeless-panes-dont-2.png)
 ::: note
 Developer Note: Modeless Panes aren’t a specific programming construct. They may be implemented in a variety of ways. Astro doesn’t provide a standard implementation, so it’s important to follow the spirit and best practices of these guidelines as closely as possible.
 :::
