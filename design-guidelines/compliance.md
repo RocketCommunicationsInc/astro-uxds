@@ -56,7 +56,7 @@ class: compliance
 		2. Links shall not use underlined text.
 		
 	9. [Log](http://www.astrouxds.com/ui-components/log)
-		1. Custom Log implemenations shall perform all of the scrolling and filtering interactions defined in the component.
+		1. Custom Log implementations shall perform all of the scrolling and filtering interactions defined in the component.
 	
 	10. [Notification Banner](http://www.astrouxds.com/ui-components/notification-banner)
 		1. Notification Banners shall be presented individually, not stacked or grouped.
