@@ -24,8 +24,7 @@ class: compliance
 	
 5. Components
 	1. [Button](http://www.astrouxds.com/ui-components/button)
-		1. Cancel buttons shall be presented to the left of actions such as "Submit" or "OK."
-		2. Buttons shall be used for actionable controls only, not as state indicators.
+		1. Buttons shall be used for actionable controls only, not as state indicators.
 		
 	2. [Checkbox](http://www.astrouxds.com/ui-components/checkbox)
 		1. Checkboxes shall not be used to initiate an action.
@@ -86,7 +85,7 @@ class: compliance
 		2. Status Symbols shall always be rendered with the specified colors.
 	
 	19. [Table](http://www.astrouxds.com/ui-components/table)
-		1. Table components shall be rendered rendered in the illustrated style.
+		1. Table components shall be rendered in the illustrated style.
 		
 	20. [Tabs](http://www.astrouxds.com/ui-components/tabs)
 		1. Tabs shall be in a single row.
