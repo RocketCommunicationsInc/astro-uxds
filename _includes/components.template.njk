@@ -10,14 +10,16 @@
 	{% if demo %}
 
 		<div class="demo-container">
-			<iframe scrolling="no" src="https://astro-components.netlify.com/iframe.html?id={{ demo.url }}" style="width: 100%; height: {{demo.height}}; overflow: hidden;"></iframe>
+			<iframe scrolling="no" src="https://astro-components.netlify.com/iframe.html?id={{ demo }}" style="width: 100%; height: {{demo.height}}; overflow: hidden;"></iframe>
 
-			<div class="sample--instructions">
+			<div class="sample-links">
 				{% if storybook %}
-					<a href="https://astro-components.netlify.com/?path=/story/{{storybook}}">Storybook</a>
+					<a class="sample-links__storybook" href="https://astro-components.netlify.com/?path=/story/{{storybook}}">
+						Storybook
+					</a>
 				{% endif %}
 				{% if git %}
-					<a href="https://bitbucket.org/rocketcom/astro-components/src/master/src/components/{{git}}">Git</a>
+					<a class="sample-links__bitbucket" href="https://bitbucket.org/rocketcom/astro-components/src/master/src/components/{{git}}">Bitbucket</a>
 				{% endif %}
 			</div>
 		</div>
