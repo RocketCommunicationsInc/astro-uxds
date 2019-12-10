@@ -30,20 +30,19 @@
   --content-padding-horizontal: 1rem;
   --content-padding-vertical: 2rem;
 
-	--rule-color: #ddd;
-	
-	--demo-container-background-color: #1a2634;
-	--demo-container-link-color: #fff;
-	--demo-container-border-color: rgba(255, 255, 255, 0.25));
-	--demo-container-toggle-off-color: #1e2149;
-	--demo-container-toggle-on-color: #fff;
+  --rule-color: #ddd;
+
+  --demo-container-background-color: #1a2634;
+  --demo-container-link-color: #fff;
+  --demo-container-border-color: rgba(255, 255, 255, 0.25);
+  --demo-container-toggle-off-color: #1e2149;
+  --demo-container-toggle-on-color: #fff;
 }
 
-
 .light-theme {
-	--demo-container-background-color: rgb(236, 239, 244);
-	--demo-container-link-color: rgb(30,33,73);
-	--demo-container-border-color: rgba(0, 0, 0, 0.5));
-	--demo-container-toggle-off-color: #1e2149;
-	--demo-container-toggle-on-color: #1e2149;
+  --demo-container-background-color: rgb(236, 239, 244);
+  --demo-container-link-color: rgb(30, 33, 73);
+  --demo-container-border-color: rgba(0, 0, 0, 0.1);
+  --demo-container-toggle-off-color: #1e2149;
+  --demo-container-toggle-on-color: #1e2149;
 }
