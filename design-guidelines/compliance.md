@@ -20,7 +20,7 @@ class: compliance
 4. [Status System](http://www.astrouxds.com/design-guidelines/status-system)
 	1. User Interface elements indicating state or status shall be designed with the six shapes specified<link to status symbol illustration>.
 	2. User Interface elements indicating state or status shall be designed with the six colors specified<link to status color illustration>.
-	//3. Applications shall not change the meaning or order of the status colors or shapes.
+	3. REMOVE? Applications shall not change the meaning or order of the status colors or shapes.
 	
 5. Components
 	1. [Button](http://www.astrouxds.com/ui-components/button)
@@ -58,7 +58,7 @@ class: compliance
 		1. Custom Log implementations shall perform all of the scrolling<link to scrolling> and filtering interactions<link to filtering> described.
 	
 	10. [Notification Banner](http://www.astrouxds.com/ui-components/notification-banner)
-		//1.Notification Banners shall be presented individually, not stacked or grouped
+		1. REMOVE? Notification Banners shall be presented individually, not stacked or grouped
 		
 	11. [Pagination](http://www.astrouxds.com/ui-components/pagination)
 		1. Pagination shall use a text style that is without an underline.
@@ -84,19 +84,19 @@ class: compliance
 		2. Status Symbols shall always be rendered with the specified colors<link to shapes>.
 	
 	19. [Table](http://www.astrouxds.com/ui-components/table)
-		//1. Table components shall be rendered in the illustrated style.
+		1. REMOVE? Table components shall be rendered in the illustrated style.
 		
 	20. [Tabs](http://www.astrouxds.com/ui-components/tabs)
 		1. Tabs shall be arranged in a single row.
 		2. Tabs shall use title-style capitalization.
 	
 	21. [Timeline](http://www.astrouxds.com/ui-components/timeline)
-		//1. Timeline components shall be rendered in the illustrated style.
+		1. REMOVE? Timeline components shall be rendered in the illustrated style.
 	
 	22. [Toggle](http://www.astrouxds.com/ui-components/toggle)
 		1. Toggle shall be used when the action takes immediate effect.
 		
 	23. [Tree](http://www.astrouxds.com/ui-components/tree)
-		//1. Trees should not contain unrelated data types.
+		1. REMOVE? Trees should not contain unrelated data types.
 
 
