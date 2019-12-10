@@ -12,5 +12,22 @@ pipelines:
         deployment: production
         caches:
           - node
-        script: # Modify the commands below to build your repository.
+        script:
           - curl -X POST -d {} https://api.netlify.com/build_hooks/5d83f26c3f1b5ebaef23ecfc
+  branches:
+    errata:
+      - step:
+          name: Publish Errata Preview to Netlify
+          deployment: errata
+          caches:
+            - node
+          script:
+            - curl -X POST -d {} https://api.netlify.com/build_hooks/5de57d9d55de0ca881ab64da
+    draft:
+      - step:
+          name: Publish Draft Preview to Netlify
+          deployment: draft
+          caches:
+            - node
+          script:
+            - curl -X POST -d {} https://api.netlify.com/build_hooks/5de59371191417070b7bb458
