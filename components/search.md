@@ -7,7 +7,7 @@ title: Search
 demo: https://rocketcom.bitbucket.io/html-demos/search.html
 storybook: components-story--search
 git: search
-height: 210px
+height: 50px
 theme: true
 ---
 

@@ -7,7 +7,7 @@ title: Icons and Symbols
 demo: https://astro-components.netlify.com/iframe.html?id=components-icons-symbols--monitoring-icon-set
 storybook: components-icons-symbols--monitoring-icon-set
 git: rux-icon
-height: 210px
+height: 130
 theme: true
 ---
 

@@ -4,10 +4,10 @@ path: /components/status-symbol
 date: Last Modified
 layout: components.template.njk
 title: Status Symbol
-demo: https://rocketcom.bitbucket.io/html-demos/status-symbol.html
-storybook: components-story--status-symbol
+demo: https://astro-components.netlify.com/iframe.html?id=components-status--status
+storybook: components-status--status
 git: status-symbol
-height: 210px
+height: 80px
 theme: true
 ---
 

@@ -7,7 +7,7 @@ title: Timeline
 demo: https://rocketcom.bitbucket.io/packages/rux-timeline/demo/rux-timeline.html
 storybook: components-timeline--timeline
 git: rux-tineline
-height: 210px
+height: 160px
 theme: true
 ---
 

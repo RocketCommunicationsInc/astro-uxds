@@ -7,7 +7,7 @@ title: Log
 demo: https://astro-components.netlify.com/iframe.html?id=components-log--log
 storybook: components-log--log
 git: rux-log
-height: 210px
+height: 420px
 theme: true
 ---
 

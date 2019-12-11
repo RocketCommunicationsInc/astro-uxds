@@ -7,7 +7,7 @@ title: Pop Up
 demo: https://rocketcom.bitbucket.io/html-demos/pop-up.html
 storybook: components-pop-up-menu--pop-up-menu
 git: pop-up-menu
-height: 210px
+height: 450px
 theme: true
 ---
 

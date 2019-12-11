@@ -7,7 +7,7 @@ title: Toggle
 demo: https://rocketcom.bitbucket.io/html-demos/toggle.html
 storybook: components-toggle--toggle
 git: rux-toggle
-height: 210px
+height: 150px
 theme: true
 ---
 

@@ -7,7 +7,7 @@ title: Notification Banner
 demo: https://rocketcom.bitbucket.io/html-demos/notification.html
 storybook: components-notification--notification
 git: rux-banner
-height: 210px
+height: 440px
 theme: true
 ---
 

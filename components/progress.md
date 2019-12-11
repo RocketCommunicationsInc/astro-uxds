@@ -7,7 +7,7 @@ title: Component Template
 demo: https://rocketcom.bitbucket.io/html-demos/progress.html
 storybook: components-progress
 git: rux-progress
-height: 210px
+height: 160px
 theme: true
 ---
 

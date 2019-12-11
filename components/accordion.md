@@ -4,9 +4,11 @@ path: /components/accordion
 date: Last Modified
 layout: components.template.njk
 title: Accordion
-demo: https://astro-components.netlify.com/?path=/story/components-accordions--standard-accordion
+demo: https://astro-components.netlify.com/iframe.html?id=components-accordion--accordion
 storybook: components-accordions--standard-accordion
 git: rux-accordion
+height: 280px
+theme: false
 ---
 
 # Accordion

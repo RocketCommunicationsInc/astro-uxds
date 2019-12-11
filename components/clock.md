@@ -7,7 +7,7 @@ title: Clock
 demo: https://rocketcom.bitbucket.io/packages/rux-clock/demo/rux-clock.html
 storybook: components-clock--clock
 git: rux-clock
-height: 210px
+height: 190px
 theme: true
 ---
 

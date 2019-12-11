@@ -7,7 +7,7 @@ title: Dialog Box
 demo: https://rocketcom.bitbucket.io/html-demos/modal.html
 storybook: components-story--dialog-box
 git: rux-modal
-height: 210px
+height: 240px
 theme: true
 ---
 

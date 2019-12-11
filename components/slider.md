@@ -7,7 +7,7 @@ title: Slider
 demo: https://rocketcom.bitbucket.io/html-demos/slider.html
 storybook: components-slider--slider
 git: rux-slider
-height: 210px
+height: 170px
 theme: true
 ---
 

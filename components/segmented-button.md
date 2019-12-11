@@ -7,7 +7,7 @@ title: Segmented Button
 demo: https://rocketcom.bitbucket.io/html-demos/segmented-button.html
 storybook: components-segmented-button--segmented-button
 git: rux-segmented-button
-height: 210px
+height: 50px
 theme: true
 ---
 

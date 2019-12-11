@@ -7,7 +7,7 @@ title: Radio Button
 demo: https://rocketcom.bitbucket.io/html-demos/radio-button.html
 storybook: components-form-elements--radio-buttons
 git: rux-radio-button
-height: 210px
+height: 150px
 theme: true
 ---
 
