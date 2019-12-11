@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Pop Up
 demo: https://rocketcom.bitbucket.io/html-demos/pop-up.html
-storybook: https://astro-components.netlify.com/?path=/story/components-pop-up-menu--pop-up-menu
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/pop-up-menu/
+storybook: components-pop-up-menu--pop-up-menu
+git: pop-up-menu
+height: 210px
+theme: true
 ---
 
 # Pop Up

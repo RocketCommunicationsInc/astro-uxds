@@ -4,9 +4,11 @@ path: /components/button
 date: Last Modified
 layout: components.template.njk
 title: Button
-demo: https://astro-components.netlify.com/?path=/story/components-buttons--standard-button
-storybook: https://astro-components.netlify.com
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-button/
+demo: https://rocketcom.bitbucket.io/html-demos/button.html
+storybook: components-buttons--standard-button
+git: rux-button
+height: 210px
+theme: true
 ---
 
 # Button
@@ -34,14 +36,14 @@ Outline Buttons are an alternative button style to be used in situations where a
 
 :::two-col
 
-![Do: User buttons for actionable controls only](/img/components/button-do-1.png 'Do: User buttons for actionable controls only')
+![Do: User buttons for actionable controls only](/img/components/button-do-1.png "Do: User buttons for actionable controls only")
 
 ![Don't: User buttons for actionable controls only](/img/components/button-dont-1.png "Don't: User buttons for actionable controls only")
 
-![Do: Right justify buttons and give them adequate spacing from fields.](/img/components/button-do-2.png 'Do: Right justify buttons and give them adequate spacing from fields.')
+![Do: Right justify buttons and give them adequate spacing from fields.](/img/components/button-do-2.png "Do: Right justify buttons and give them adequate spacing from fields.")
 
-![Don’t: Mix button colors and sizes.](/img/components/button-dont-2.png 'Don’t: Mix button colors and sizes.')
+![Don’t: Mix button colors and sizes.](/img/components/button-dont-2.png "Don’t: Mix button colors and sizes.")
 
-![Do: Use standardized button colors only.](/img/components/button-do-3.png 'Do: Use standardized button colors only.')
+![Do: Use standardized button colors only.](/img/components/button-do-3.png "Do: Use standardized button colors only.")
 
 :::

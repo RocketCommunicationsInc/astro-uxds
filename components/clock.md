@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Clock
 demo: https://rocketcom.bitbucket.io/packages/rux-clock/demo/rux-clock.html
-storybook: https://astro-components.netlify.com/?path=/story/components-clock--clock
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-clock/
+storybook: components-clock--clock
+git: rux-clock
+height: 210px
+theme: true
 ---
 
 # Clock
@@ -21,4 +23,4 @@ All digits should be displayed in the Roboto Mono font. This font's monospace nu
 
 ## Examples
 
-![Example Clock](/img/components/clock-roboto-mono.png 'Do: Something')
+![Example Clock](/img/components/clock-roboto-mono.png "Do: Something")

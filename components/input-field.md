@@ -5,7 +5,7 @@ date: Last Modified
 layout: components.template.njk
 title: Input Field
 demo: https://rocketcom.bitbucket.io/html-demos/input.html
-storybook: https://astro-components.netlify.com/?path=/story/components-form-elements--input-fields
+storybook: components-form-elements--input-fields
 ---
 
 # Input Field
@@ -29,8 +29,8 @@ Input Fields have a smaller variant which may be beneficial in layouts where spa
 ## Examples
 
 :::two-col
-![Do: Design a well organized form with logical, clearly labeled groupings.](/img/components/input-fields-do.png 'Do: Design a well organized form with logical, clearly labeled groupings.')
+![Do: Design a well organized form with logical, clearly labeled groupings.](/img/components/input-fields-do.png "Do: Design a well organized form with logical, clearly labeled groupings.")
 
-![Don’t: Design a long form without labels, splits or groupings.](/img/components/input-fields-dont.png 'Don’t: Design a long form without labels, splits or groupings.')
+![Don’t: Design a long form without labels, splits or groupings.](/img/components/input-fields-dont.png "Don’t: Design a long form without labels, splits or groupings.")
 
 :::

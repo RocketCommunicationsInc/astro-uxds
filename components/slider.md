@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Slider
 demo: https://rocketcom.bitbucket.io/html-demos/slider.html
-storybook: https://astro-components.netlify.com/?path=/story/components-slider--slider
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-slider/
+storybook: components-slider--slider
+git: rux-slider
+height: 210px
+theme: true
 ---
 
 # Slider
@@ -33,8 +35,8 @@ Sliders may be used in conjunction with an input field allowing the user to set 
 ## Examples
 
 :::two-col
-![Do: If adding labels, only use the minimal amount necessary to indicate the values.](/img/components/slider-do.png 'Do: If adding labels, only use the minimal amount necessary to indicate the values.')
+![Do: If adding labels, only use the minimal amount necessary to indicate the values.](/img/components/slider-do.png "Do: If adding labels, only use the minimal amount necessary to indicate the values.")
 
-![Don’t: Excessive labels clutter the design.](/img/components/slider-dont.png 'Don’t: Excessive labels clutter the design.')
+![Don’t: Excessive labels clutter the design.](/img/components/slider-dont.png "Don’t: Excessive labels clutter the design.")
 
 :::

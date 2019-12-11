@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Tree
 demo: https://rocketcom.bitbucket.io/packages/rux-tree/demo/rux-tree.html
-storybook: https://astro-components.netlify.com/?path=/story/components-tree--tree
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-tree/
+storybook: components-tree--tree
+git: rux-tree
+height: 210px
+theme: true
 ---
 
 # Tree
@@ -17,7 +19,7 @@ Trees present a hierarchical set of related items, and allow users to explore an
 
 ## Anatomy
 
-![Anatomy of an Astro Tree Component.](/img/components/tree-anatomy-cms.png 'Anatomy of an Astro Tree Component.')
+![Anatomy of an Astro Tree Component.](/img/components/tree-anatomy-cms.png "Anatomy of an Astro Tree Component.")
 
 ## Rules of Thumb
 
@@ -32,11 +34,11 @@ Trees present a hierarchical set of related items, and allow users to explore an
 :::two-col
 Items in the Tree that have children display a turn-down arrow. Items without children, even if they represent empty containers, do not display a turn-down arrow. Items are indented according to their depth.
 
-![Astro Tree Component with no status symbols.](/img/components/tree-no-status-cms.png 'Astro Tree Component with no status symbols.')
+![Astro Tree Component with no status symbols.](/img/components/tree-no-status-cms.png "Astro Tree Component with no status symbols.")
 
 The Tree may optionally show a [Status Symbol](/components/status-symbol) alongside each item.
 
-![Astro Tree Component with no status symbols.](/img/components/tree-with-status-cms.png 'Astro Tree Component with status symbols.')
+![Astro Tree Component with no status symbols.](/img/components/tree-with-status-cms.png "Astro Tree Component with status symbols.")
 :::
 
 ### Behavior

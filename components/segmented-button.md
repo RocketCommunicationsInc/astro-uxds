@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Segmented Button
 demo: https://rocketcom.bitbucket.io/html-demos/segmented-button.html
-storybook: https://astro-components.netlify.com/?path=/story/components-segmented-button--segmented-button
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-segmented-button/
+storybook: components-segmented-button--segmented-button
+git: rux-segmented-button
+height: 210px
+theme: true
 ---
 
 # Segmented Button
@@ -23,12 +25,12 @@ Segmented Buttons allow users to select one item at a time from two to four opti
 ## Examples
 
 :::two-col
-![Do: Use Segmented Buttons to filter an associated table or grid.](/img/components/segmented-button-do-1.png 'Do: Use Segmented Buttons to filter an associated table or grid.')
+![Do: Use Segmented Buttons to filter an associated table or grid.](/img/components/segmented-button-do-1.png "Do: Use Segmented Buttons to filter an associated table or grid.")
 
-![Don’t: Use Segmented Buttons to switch between separate views, use Tabs instead.](/img/components/segmented-button-dont-1.png 'Don’t: Use Segmented Buttons to switch between separate views, use Tabs instead.')
+![Don’t: Use Segmented Buttons to switch between separate views, use Tabs instead.](/img/components/segmented-button-dont-1.png "Don’t: Use Segmented Buttons to switch between separate views, use Tabs instead.")
 
-![Do: Use Segmented Buttons to switch a view’s display mode.](/img/components/segmented-button-do-2.png 'Do: Use Segmented Buttons to switch a view’s display mode.')
+![Do: Use Segmented Buttons to switch a view’s display mode.](/img/components/segmented-button-do-2.png "Do: Use Segmented Buttons to switch a view’s display mode.")
 
-![Don’t: Use Segmented Buttons for user input in a form, use Radio Buttons or Drop Downs instead.](/img/components/segmented-button-dont-2.png 'Don’t: Use Segmented Buttons for user input in a form, use Radio Buttons or Drop Downs instead.')
+![Don’t: Use Segmented Buttons for user input in a form, use Radio Buttons or Drop Downs instead.](/img/components/segmented-button-dont-2.png "Don’t: Use Segmented Buttons for user input in a form, use Radio Buttons or Drop Downs instead.")
 
 :::

@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Notification Banner
 demo: https://rocketcom.bitbucket.io/html-demos/notification.html
-storybook: https://astro-components.netlify.com/?path=/story/components-notification--notification
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-banner/
+storybook: components-notification--notification
+git: rux-banner
+height: 210px
+theme: true
 ---
 
 # Notification Banner
