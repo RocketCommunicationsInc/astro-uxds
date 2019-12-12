@@ -5,6 +5,10 @@ module.exports = function(eleventyConfig) {
   const cleanCSS = require("clean-css");
   const fs = require("fs");
 
+  fs.copyFile("404.md", "_content/404.md", err => {
+    if (err) throw err;
+  });
+
   // markdown options
   const options = {
     html: true,
@@ -31,7 +35,7 @@ module.exports = function(eleventyConfig) {
 
   // Manually move static content
   eleventyConfig.addPassthroughCopy({ img: "img/_site" });
-  eleventyConfig.addPassthroughCopy("_includes/404.html");
+  eleventyConfig.addPassthroughCopy({ "_content/img": "img" });
   eleventyConfig.addPassthroughCopy({ "_content/img": "img" });
   eleventyConfig.addPassthroughCopy({ "_content/**/*/img/*": "components/img" });
   eleventyConfig.addPassthroughCopy("js");
