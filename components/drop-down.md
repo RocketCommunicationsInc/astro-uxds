@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Drop Down
 demo: https://astro-components.netlify.com/iframe.html?id=components-form-elements--select-menu
-storybook: https://astro-components.netlify.com/?path=/story/components-form-elements--select-menu
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-modal/
+storybook: components-form-elements--select-menu
+git: rux-modal
+height: 130px
+theme: true
 ---
 
 # Drop Down
@@ -25,6 +27,6 @@ Content
 
 :::two-col
 
-![Don’t: Create a Drop Down list with too many options. The user needs to be able to scan and navigate the list easily](/img/components/dropdown-dont-1.png 'Don’t: Create a Drop Down list with too many options. The user needs to be able to scan and navigate the list easily')
+![Don’t: Create a Drop Down list with too many options. The user needs to be able to scan and navigate the list easily](/img/components/dropdown-dont-1.png "Don’t: Create a Drop Down list with too many options. The user needs to be able to scan and navigate the list easily")
 
 :::

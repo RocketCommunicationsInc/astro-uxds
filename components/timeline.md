@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Timeline
 demo: https://rocketcom.bitbucket.io/packages/rux-timeline/demo/rux-timeline.html
-storybook: https://astro-components.netlify.com/?path=/story/components-timeline--timeline
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-tineline/
+storybook: components-timeline--timeline
+git: rux-tineline
+height: 160px
+theme: true
 ---
 
 # Timeline
@@ -15,7 +17,7 @@ Timeline displays a sequence of realtime events during a fixed time span. The Pl
 
 ## Anatomy
 
-![Anatomy of a simple timeline element](/img/components/timeline-anatomy.png 'Anatomy of a simple timeline element')
+![Anatomy of a simple timeline element](/img/components/timeline-anatomy.png "Anatomy of a simple timeline element")
 
 ## Appearance and Behavior
 

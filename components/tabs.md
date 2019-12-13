@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Tabs
 demo: https://astro-components.netlify.com/iframe.html?id=components-tabs--tabs
-storybook: https://astro-components.netlify.com/iframe.html?id=components-tabs--tabs
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-tabs/
+storybook: components-tabs--tabs
+git: rux-tabs
+height: 210px
+theme: true
 ---
 
 # Tabs
@@ -44,8 +46,8 @@ Caution Do Missing sample of interior tabs. New format only supports a single de
 ## Examples
 
 :::two-col
-![Do: To guide users through a process, correctly place and label Tabs to reflect a step-by-step process.](/img/components/nav-tabs-do.png 'Do: To guide users through a process, correctly place and label Tabs to reflect a step-by-step process.')
+![Do: To guide users through a process, correctly place and label Tabs to reflect a step-by-step process.](/img/components/nav-tabs-do.png "Do: To guide users through a process, correctly place and label Tabs to reflect a step-by-step process.")
 
-![Don’t: Stack or improperly nest Tabs.](/img/components/nav-tabs-dont.png 'Don’t: Stack or improperly nest Tabs.')
+![Don’t: Stack or improperly nest Tabs.](/img/components/nav-tabs-dont.png "Don’t: Stack or improperly nest Tabs.")
 
 :::

@@ -5,8 +5,8 @@ date: Last Modified
 layout: components.template.njk
 title: Component Template
 demo: https://rocketcom.bitbucket.io/html-demos/component-template.html
-storybook: https://astro-components.netlify.com/?path=/story/components-story--component-template
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/component-template/
+storybook: components-story--component-template
+git: component-template/
 ---
 
 # Component Template
@@ -22,7 +22,7 @@ Content
 ## Examples
 
 :::dos-donts
-![Do: Something](/img/components/component-template-do-1.png 'Do: Something')
+![Do: Something](/img/components/component-template-do-1.png "Do: Something")
 Do: Something
 
 ![Don't: Something](/img/components/component-template-dont-1.png "Don't: Something")

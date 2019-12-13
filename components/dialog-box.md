@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Dialog Box
 demo: https://rocketcom.bitbucket.io/html-demos/modal.html
-storybook: https://astro-components.netlify.com/?path=/story/components-story--dialog-box
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-modal/
+storybook: components-story--dialog-box
+git: rux-modal
+height: 240px
+theme: true
 ---
 
 # Dialog Box
@@ -28,8 +30,8 @@ A Dialog Box interrupts app processing to prompt a user to confirm an action or 
 
 :::two-col
 
-![Do: Use buttons within a Dialog Box to confirm or cancel actions.](/img/components/modal-do-1.png 'Do: Use buttons within a Dialog Box to confirm or cancel actions.')
+![Do: Use buttons within a Dialog Box to confirm or cancel actions.](/img/components/modal-do-1.png "Do: Use buttons within a Dialog Box to confirm or cancel actions.")
 
-![Don’t: Use links or other components to confirm or cancel actions.](/img/components/modal-dont-1.png 'Don’t: Use links or other components to confirm or cancel actions.')
+![Don’t: Use links or other components to confirm or cancel actions.](/img/components/modal-dont-1.png "Don’t: Use links or other components to confirm or cancel actions.")
 
 :::
