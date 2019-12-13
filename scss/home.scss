@@ -324,12 +324,16 @@
       color: #fff;
     }
   }
+
+  @media #{$tablet}{
+    .mc-field-layout{
+      flex-direction: column;
+    }
+    #mc-embedded-subscribe{
+      margin:0rem auto 1rem;
+    }
+  }
 }
-
-/* .home__email-signup #mc-embedded-subscribe.primary {
-	
-} */
-
 /* .home__email-signup #mc-embedded-subscribe.primary:hover {
 	color: #FFFFFF;
 	background-color: var(--secondary-color);

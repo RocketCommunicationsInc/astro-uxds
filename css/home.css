@@ -236,10 +236,12 @@
     font-size: 18px; }
   .home__email-signup #mc_embed_signup #mce-success-response, .home__email-signup #mc_embed_signup #mce-error-response {
     color: #fff; }
+  @media only screen and (max-width: 767px) {
+    .home__email-signup .mc-field-layout {
+      flex-direction: column; }
+    .home__email-signup #mc-embedded-subscribe {
+      margin: 0rem auto 1rem; } }
 
-/* .home__email-signup #mc-embedded-subscribe.primary {
-	
-} */
 /* .home__email-signup #mc-embedded-subscribe.primary:hover {
 	color: #FFFFFF;
 	background-color: var(--secondary-color);
