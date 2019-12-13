@@ -23,7 +23,7 @@ html, body {
 	flex-grow: 1;
 	max-width: var(--content-max-width, 1200px);
 	padding-right: var(--content-padding-vertical, 1rem);
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .content main {
@@ -56,4 +56,6 @@ tr:not(:last-of-type) {
 	table {
 		max-width: 120%;
 	}
+	
 }
+

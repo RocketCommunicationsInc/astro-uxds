@@ -1,9 +1,11 @@
+@import './00-presets/_index';
+
 .sidebar {
-  position: -webkit-sticky;
+	position: -webkit-sticky;
   position: sticky;
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
+  flex-shrink: 0;  
   top: 0;
   left: 0;
   height: 100vh;
@@ -13,36 +15,50 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none; }
-  @media screen and (max-width: 768px) {
-    .sidebar {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      margin: 0;
-      padding: 0;
-      width: 300px;
-      z-index: 100; } }
+	user-select: none;
+	
+	@media screen and (max-width: 768px) {  
+    // display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    z-index: 100;  
+	}
+}
 
 .masthead {
-  text-align: center; }
-  .masthead-logo {
-    width: 35%;
-    margin: 2.2rem auto 1.25rem auto; }
-  .masthead__toolbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 1.25rem 1rem 1.25rem;
-    color: red; }
+	text-align: center;
+	
+	//logo
+	&-logo{
+		width: 35%;
+		margin: 2.2rem auto 1.25rem auto;  	
+	}
+
+	//toolbar
+	&__toolbar{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 1.25rem 1rem 1.25rem;
+		color:red;
+	}
+}
 
 .search {
   display: block;
   width: 100%;
-  margin-right: 2.6rem; }
+  margin-right: 2.6rem;
+}
 
 .search__input {
+  &:focus {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
   -webkit-appearance: none;
   border: 0;
   outline: 0;
@@ -50,16 +66,17 @@
   padding: 0.8125rem 0.875rem;
   text-indent: 1.75em;
   line-height: 1;
-  background: rgba(255, 255, 255, 0.15) url(/img/_site/search.svg) left 1em center/1rem no-repeat;
+  background: rgba(255, 255, 255, 0.15) url(/img/_site/search.svg) left 1em (center / 1rem) no-repeat;
   width: 100%;
   font-size: 0.875rem;
   color: white;
-  -webkit-font-smoothing: antialiased; }
-  .search__input:focus {
-    background-color: rgba(0, 0, 0, 0.9); }
-  .search__input::-webkit-input-placeholder {
+  -webkit-font-smoothing: antialiased;
+
+  &::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.85);
-    -webkit-font-smoothing: antialiased; }
+    -webkit-font-smoothing: antialiased;
+  }
+}
 
 .print-button {
   -webkit-appearance: none;
@@ -73,6 +90,10 @@
   margin-top: -1px;
   margin-right: 0.35rem;
   text-indent: -1000rem;
-  opacity: 0.8; }
-  .print-button:hover {
-    opacity: 1; }
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
