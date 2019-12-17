@@ -46,6 +46,26 @@ module.exports = function(eleventyConfig) {
     return value;
   });
 
+  eleventyConfig.addNunjucksFilter("doDont", function(value) {
+    const dont = /(Don('|’)t)/gi;
+
+    const els = value.val.split("\n").map(el => {
+      if (el.includes("<figcaption>Do: ")) {
+        return el.replace("<figcaption>Do: ", "<figcaption class='do'><b>Do</b>: ");
+      } else if (el.includes("<figcaption>Don't: ")) {
+        return el.replace(`<figcaption>Don't: `, "<figcaption class='dont'><b>Don’t</b>: ");
+      } else if (el.includes("<figcaption>Don’t: ")) {
+        return el.replace(`<figcaption>Don’t: `, "<figcaption class='dont'><b>Don’t</b>: ");
+      } else {
+        return el;
+      }
+      // return el.includes("<figure>Do: ") ? "<figure class='do'><b>Do</b> " : el;
+    });
+
+    value.val = els.join("\n");
+    return value;
+  });
+
   // Manually move static content
   eleventyConfig.addPassthroughCopy({ img: "img/_site" });
   eleventyConfig.addPassthroughCopy({ "_content/img": "img" });
