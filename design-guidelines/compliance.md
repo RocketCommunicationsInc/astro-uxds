@@ -21,6 +21,9 @@ class: compliance
 	1. User Interface elements indicating state or status shall be designed with the six shapes specified<!--link to status symbol illustration-->.
 	2. User Interface elements indicating state or status shall be designed with the six colors specified<!--link to status color illustration-->.
 	
+5. [Data Visualization](/design-guidelines/data-visualization)
+	1. Data visualizations shall have no more than 8 colors per data set to manage cognitive load.
+	
 5. Components
 	1. [Button](/ui-components/button)
 		1. Buttons shall be used for actionable controls only, not as state indicators.
