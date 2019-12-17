@@ -116,20 +116,6 @@
 				"url": "/components/dialog-box"
 			},
 			{
-				"label": "Form Elements",
-				"url": "/components/form-elements",
-				"items": [
-					{
-						"label": "Checkbox",
-						"url": "/components/form-elements/checkbox"
-					},
-					{
-						"label": "Radio Button",
-						"url": "/components/form-elements/radio-button"
-					}
-				]
-			},
-			{
 				"label": "Drop Down",
 				"url": "/components/drop-down"
 			},
@@ -211,7 +197,7 @@
 			},
 			{
 				"label": "Tree",
-				"url": "/components/tress"
+				"url": "/components/tree"
 			},
 			{
 				"label": "Validation",
