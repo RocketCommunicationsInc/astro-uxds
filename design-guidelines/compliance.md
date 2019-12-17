@@ -6,6 +6,8 @@ layout: interior.template.njk
 title: Compliance
 class: compliance
 ---
+# EGS Compliance
+
 1. General 
 	1. All designs should follow the guidance marked as "Rules of Thumb", "Do's" and "Don'ts".
 
