@@ -35,6 +35,7 @@ module.exports = function(eleventyConfig) {
     return value;
   });
 
+  /* Adds an id to all figure elements */
   eleventyConfig.addNunjucksFilter("figureIt", function(value) {
     let figcount = 1;
 
@@ -46,21 +47,19 @@ module.exports = function(eleventyConfig) {
     return value;
   });
 
+  /* Adds an do/dont styling to all do/dont images */
   eleventyConfig.addNunjucksFilter("doDont", function(value) {
-    const dont = /(Don('|’)t)/gi;
+    const regex = /<figcaption>(Don['|’]t): /;
 
-    const els = value.val.split("\n").map(el => {
-      if (el.includes("<figcaption>Do: ")) {
-        return el.replace("<figcaption>Do: ", "<figcaption class='do'><b>Do</b>: ");
-      } else if (el.includes("<figcaption>Don't: ")) {
-        return el.replace(`<figcaption>Don't: `, "<figcaption class='dont'><b>Don’t</b>: ");
-      } else if (el.includes("<figcaption>Don’t: ")) {
-        return el.replace(`<figcaption>Don’t: `, "<figcaption class='dont'><b>Don’t</b>: ");
-      } else {
-        return el;
-      }
-      // return el.includes("<figure>Do: ") ? "<figure class='do'><b>Do</b> " : el;
-    });
+    const els = value.val
+      .split("\n")
+      .map(el =>
+        el.includes("<figcaption>Do: ")
+          ? el.replace("<figcaption>Do: ", "<figcaption class='do'><b>Do</b>: ")
+          : regex.test(el)
+          ? el.replace(regex, "<figcaption class='dont'><b>Don’t</b>: ")
+          : el
+      );
 
     value.val = els.join("\n");
     return value;
