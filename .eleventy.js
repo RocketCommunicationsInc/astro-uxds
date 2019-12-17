@@ -2,6 +2,7 @@ module.exports = function(eleventyConfig) {
   const markdownIt = require("markdown-it");
   const markdownItContainer = require("markdown-it-container");
   const implicitFigures = require("markdown-it-implicit-figures");
+  const markdownItAnchor = require("markdown-it-anchor");
   const cleanCSS = require("clean-css");
   const fs = require("fs");
 
@@ -17,6 +18,7 @@ module.exports = function(eleventyConfig) {
   };
 
   const markdownLib = markdownIt(options)
+    .use(markdownItAnchor, {})
     .use(implicitFigures, {
       figcaption: true
     })
@@ -30,6 +32,21 @@ module.exports = function(eleventyConfig) {
   /* Removes the h1 element from components to enabled inserting live sample */
   eleventyConfig.addNunjucksFilter("removeHeader", function(value) {
     value.val = value.val.replace(/<h1>(.*)<\/h1>/, "");
+    return value;
+  });
+
+  eleventyConfig.addNunjucksFilter("figureIt", function(value) {
+    let figcount = 1;
+
+    const els = value.val.split("\n").map(el => {
+      if (el.includes("figure")) {
+        return el.replace("figcaption", `figcaption id="figure-${(figcount += 1)}"`);
+      } else {
+        return el;
+      }
+    });
+
+    value.val = els.join("\n");
     return value;
   });
 
