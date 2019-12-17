@@ -38,13 +38,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addNunjucksFilter("figureIt", function(value) {
     let figcount = 1;
 
-    const els = value.val.split("\n").map(el => {
-      if (el.includes("figure")) {
-        return el.replace("figcaption", `figcaption id="figure-${(figcount += 1)}"`);
-      } else {
-        return el;
-      }
-    });
+    const els = value.val
+      .split("\n")
+      .map(el => (el.includes("figure") ? el.replace("figure", `figure id="figure-${(figcount += 1)}"`) : el));
 
     value.val = els.join("\n");
     return value;
