@@ -6,15 +6,15 @@
 image: node:10.15.3
 
 pipelines:
-  default:
-    - step:
-        name: Publish to Netlify
-        deployment: production
-        caches:
-          - node
-        script:
-          - curl -X POST -d {} https://api.netlify.com/build_hooks/5d83f26c3f1b5ebaef23ecfc
   branches:
+    master:
+      - step:
+          name: Publish to Netlify
+          deployment: production
+          caches:
+            - node
+          script:
+            - curl -X POST -d {} https://api.netlify.com/build_hooks/5d83f26c3f1b5ebaef23ecfc
     errata:
       - step:
           name: Publish Errata Preview to Netlify
