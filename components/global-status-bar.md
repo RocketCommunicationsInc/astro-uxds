@@ -4,10 +4,10 @@ path: /components/global-status-bar
 date: Last Modified
 layout: components.template.njk
 title: Global Status Bar
-demo: https://rocketcom.bitbucket.io/html-demos/global-status-bar.html
-storybook: components-story--global-status-bar
-git: global-status-bar
-height: 210px
+demo: https://astro-components.netlify.com/iframe.html?id=components-global-status-bar--global-status-bar
+storybook: components-global-status-bar--global-status-bar
+git: rux-global-status-bar
+height: 150px
 ---
 
 # Global Status Bar
