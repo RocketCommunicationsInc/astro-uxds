@@ -76,6 +76,10 @@
 			{
 				"label": "Sample App",
 				"url": "/design-guidelines/sample-app"
+			},
+			{
+				"label": "Compliance",
+				"url":"/design-guidelines/compliance"
 			}
 		]
 	},
