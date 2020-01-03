@@ -35,15 +35,15 @@
     padding-right: 1.5rem; }
 
 .tree__tree-item {
-  position: relative;
-  color: rgba(255, 255, 255, 0.75);
   display: block;
-  font-weight: 400;
-  padding: 0.85em 0;
+  position: relative;
   height: 100%;
+  padding: 0.85em 0;
+  font-weight: 400;
   -webkit-transition: background-color 0.5s, border 0.4s;
   transition: background-color 0.5s, border 0.4s;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  color: "rgba(255, 255, 255, 0.75)"; }
   .tree__tree-item[aria-selected="true"] a, .tree__tree-item[aria-expanded="true"][aria-level="1"] > a {
     font-weight: bold;
     opacity: 1; }
@@ -65,3 +65,43 @@
   margin-bottom: 0.5rem;
   padding-bottom: 1.25rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
+
+.mobile-nav {
+  z-index: 90;
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: #000 url(/img/_site/astro-mobile-bkgnd.jpg) center bottom no-repeat; }
+  .mobile-nav .menu-container {
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 5px; }
+    .mobile-nav .menu-container .mobile-menu {
+      width: 30px;
+      height: 30px;
+      background: url(/img/_site/mobile-menu.svg) center center no-repeat;
+      background-size: cover;
+      cursor: pointer;
+      opacity: .8;
+      transition: all .3s; }
+  .mobile-nav .mobile-logo {
+    max-width: 200px;
+    min-height: 40px;
+    max-height: 55px;
+    height: 80%;
+    margin: 5px auto 0;
+    padding-top: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/img/_site/astro-logo.svg);
+    background-position: center center; }
+  @media only screen and (max-width: 767px) {
+    .mobile-nav {
+      display: block; } }
