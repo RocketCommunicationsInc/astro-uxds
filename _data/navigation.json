@@ -83,6 +83,16 @@
 			}
 		]
 	},
+		{
+		"label": "Patterns",
+		"url": "/patterns",
+		"items": [
+			{
+				"label": "Table",
+				"url": "/patterns/table"
+			}
+		]
+	},
 	{
 		"label": "Components",
 		"url": "/components",
@@ -178,10 +188,6 @@
 			{
 				"label": "Status Symbol",
 				"url": "/components/status-symbol"
-			},
-			{
-				"label": "Table",
-				"url": "/components/table"
 			},
 			{
 				"label": "Tabs",
