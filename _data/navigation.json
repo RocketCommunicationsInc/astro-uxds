@@ -1,12 +1,18 @@
 [ 
 	{
-		"label": "Home",
-		"url": "/"
-	},
-	{
-		"label": "Getting Started",
-		"url": "/getting-started"
-	},
+		"label": "Welcome",
+		"url": "/welcome",
+		"items": [
+			{
+				"label": "Home",
+				"url": "/welcome/home"
+			},
+			{
+				"label": "Getting Started",
+				"url": "/welcome/getting-started"
+			}
+		]
+	},	
 	{
 		"label": "Design Process",
 		"url": "/design-process",
