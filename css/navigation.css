@@ -105,3 +105,34 @@
   @media only screen and (max-width: 767px) {
     .mobile-nav {
       display: block; } }
+
+.close-menu {
+  display: none;
+  padding: 0 1.25rem 1rem 1.25rem; }
+  .close-menu .close {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #000 url(/img/_site/close.svg) center bottom no-repeat;
+    background-size: contain;
+    opacity: .8;
+    transition: all .3s;
+    cursor: pointer; }
+    .close-menu .close:hover {
+      opacity: 1; }
+  @media only screen and (max-width: 767px) {
+    .close-menu {
+      display: block; } }
+
+.menu-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 90;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .3s; }

@@ -15,10 +15,10 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-	user-select: none;
+  user-select: none;
+  transition: all .3s;
 	
 	@media #{$tablet}{  
-    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -27,9 +27,14 @@
     width: 300px;
     z-index: 100;
     
+    &.is-hidden{
+      left:-300px;
+    }
     &.is-visible{
       display:block;
+      left:0;
     }
+    
 
 	}
 }
@@ -58,6 +63,11 @@
   
   &.is-visible{
     left:0;
+    transition: all .3s;
+  }
+
+  @media #{$tablet}{
+    padding-top:2em;
   }
 }
 

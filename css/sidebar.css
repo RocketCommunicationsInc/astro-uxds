@@ -13,10 +13,10 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none; }
+  user-select: none;
+  transition: all .3s; }
   @media only screen and (max-width: 767px) {
     .sidebar {
-      display: none;
       position: fixed;
       top: 0;
       left: 0;
@@ -24,8 +24,11 @@
       padding: 0;
       width: 300px;
       z-index: 100; }
+      .sidebar.is-hidden {
+        left: -300px; }
       .sidebar.is-visible {
-        display: block; } }
+        display: block;
+        left: 0; } }
 
 .masthead {
   text-align: center; }
@@ -42,7 +45,11 @@
     margin: 0 1.25rem 1rem 1.25rem;
     color: red; }
   .masthead.is-visible {
-    left: 0; }
+    left: 0;
+    transition: all .3s; }
+  @media only screen and (max-width: 767px) {
+    .masthead {
+      padding-top: 2em; } }
 
 .search {
   display: block;
