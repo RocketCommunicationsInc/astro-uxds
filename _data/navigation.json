@@ -90,7 +90,11 @@
 			{
 				"label": "Table",
 				"url": "/patterns/table"
-			}
+			},
+            {
+                "label": "Validation",
+                "url": "/patterns/validation"
+            }
 		]
 	},
 	{
@@ -204,10 +208,6 @@
 			{
 				"label": "Tree",
 				"url": "/components/tree"
-			},
-			{
-				"label": "Validation",
-				"url": "/components/validation"
 			}
 		]
 	},
