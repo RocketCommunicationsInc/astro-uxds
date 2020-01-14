@@ -49,6 +49,21 @@
 				"label": "Grid",
 				"url": "/design-guidelines/grid"
 			},
+			
+			{
+				"label": "Glossary",
+				"url": "/design-guidelines/glossary"
+			},
+			{
+				"label": "Compliance",
+				"url":"/design-guidelines/compliance"
+			}
+		]
+	},
+		{
+		"label": "Patterns",
+		"url": "/patterns",
+		"items": [
 			{
 				"label": "Navigation",
 				"url": "/design-guidelines/navigation"
@@ -70,23 +85,9 @@
 				"url": "/design-guidelines/modeless-panes"
 			},
 			{
-				"label": "Glossary",
-				"url": "/design-guidelines/glossary"
-			},
-			{
 				"label": "Sample App",
 				"url": "/design-guidelines/sample-app"
 			},
-			{
-				"label": "Compliance",
-				"url":"/design-guidelines/compliance"
-			}
-		]
-	},
-		{
-		"label": "Patterns",
-		"url": "/patterns",
-		"items": [
 			{
 				"label": "Table",
 				"url": "/patterns/table"

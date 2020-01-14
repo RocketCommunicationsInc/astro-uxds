@@ -1,6 +1,6 @@
 ---
 tags: resources
-path: /design-guidelines/sample-app
+path: /patterns/sample-app
 date: Last Modified
 layout: interior.template.njk
 title: Sample App
