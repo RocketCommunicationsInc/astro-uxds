@@ -111,6 +111,10 @@
   height:60px;
   background: #000 url(/img/_site/astro-mobile-bkgnd.jpg) center bottom no-repeat;
   
+  &.close{
+    display:block;
+    background: #000 url(/img/_site/astro-mobile-bkgnd.jpg) center bottom no-repeat;
+  }
   
   .menu-container{
     position: absolute;

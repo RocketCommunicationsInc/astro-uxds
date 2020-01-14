@@ -14,7 +14,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 767px) {
     .sidebar {
       display: none;
       position: fixed;
@@ -23,19 +23,26 @@
       margin: 0;
       padding: 0;
       width: 300px;
-      z-index: 100; } }
+      z-index: 100; }
+      .sidebar.is-visible {
+        display: block; } }
 
 .masthead {
   text-align: center; }
   .masthead-logo {
     width: 35%;
     margin: 2.2rem auto 1.25rem auto; }
+    @media only screen and (max-width: 767px) {
+      .masthead-logo {
+        display: none; } }
   .masthead__toolbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 1.25rem 1rem 1.25rem;
     color: red; }
+  .masthead.is-visible {
+    left: 0; }
 
 .search {
   display: block;

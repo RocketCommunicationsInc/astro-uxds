@@ -17,15 +17,20 @@
   -ms-user-select: none;
 	user-select: none;
 	
-	@media screen and (max-width: 768px) {  
-    // display: none;
+	@media #{$tablet}{  
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     margin: 0;
     padding: 0;
     width: 300px;
-    z-index: 100;  
+    z-index: 100;
+    
+    &.is-visible{
+      display:block;
+    }
+
 	}
 }
 
@@ -35,7 +40,11 @@
 	//logo
 	&-logo{
 		width: 35%;
-		margin: 2.2rem auto 1.25rem auto;  	
+    margin: 2.2rem auto 1.25rem auto;
+    
+    @media #{$tablet}{
+      display:none;
+    }
 	}
 
 	//toolbar
@@ -45,7 +54,11 @@
 		align-items: center;
 		margin: 0 1.25rem 1rem 1.25rem;
 		color:red;
-	}
+  }
+  
+  &.is-visible{
+    left:0;
+  }
 }
 
 .search {
