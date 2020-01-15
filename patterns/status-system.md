@@ -1,6 +1,6 @@
 ---
 tags: resources
-path: /design-guidelines/status-system
+path: /patterns/status-system
 date: Last Modified
 layout: interior.template.njk
 title: Status System

@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Log
 demo: https://astro-components.netlify.com/iframe.html?id=components-log--log
-storybook: https://astro-components.netlify.com/?path=/story/components-log--log
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-log/
+storybook: components-log--log
+git: rux-log
+height: 420px
+theme: true
 ---
 
 # Log
@@ -21,7 +23,7 @@ A Log is a tabular representation of application events and may include username
 
 ### Basic Log
 
-![The log includes a Table of timestamped events and a Search field to narrow the displayed events](/img/components/log-basic.png 'The log includes a Table of timestamped events and a Search field to narrow the displayed events')
+![The log includes a Table of timestamped events and a Search field to narrow the displayed events](/img/components/log-basic.png "The log includes a Table of timestamped events and a Search field to narrow the displayed events")
 
 ### Scroll Interaction
 
@@ -35,4 +37,4 @@ New events are added to the top of the Table. The Log has two subtly different m
 - The user may enter text into the Search field to narrow displayed events. As users enter text, all events that match the Search text remain, and events that do not are removed. Simple wildcard pattern matching should be used.
 - The defined scrolling rules apply when a Search term is entered. If the Table is scrolled to the top, it should remain locked to the top. New events that match the Search term are added to the top.
 
-![View of Search Text Applied Within Field](/img/components/log-search.png 'View of Search Text Applied Within Field')
+![View of Search Text Applied Within Field](/img/components/log-search.png "View of Search Text Applied Within Field")

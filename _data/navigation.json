@@ -1,12 +1,18 @@
-[
+[ 
 	{
-		"label": "Home",
-		"url": "/"
-	},
-	{
-		"label": "Getting Started",
-		"url": "/getting-started"
-	},
+		"label": "Welcome",
+		"url": "/welcome",
+		"items": [
+			{
+				"label": "Home",
+				"url": "/welcome/home"
+			},
+			{
+				"label": "Getting Started",
+				"url": "/welcome/getting-started"
+			}
+		]
+	},	
 	{
 		"label": "Design Process",
 		"url": "/design-process",
@@ -49,6 +55,21 @@
 				"label": "Grid",
 				"url": "/design-guidelines/grid"
 			},
+			
+			{
+				"label": "Glossary",
+				"url": "/design-guidelines/glossary"
+			},
+			{
+				"label": "Compliance",
+				"url":"/design-guidelines/compliance"
+			}
+		]
+	},
+		{
+		"label": "Patterns",
+		"url": "/patterns",
+		"items": [
 			{
 				"label": "Navigation",
 				"url": "/design-guidelines/navigation"
@@ -70,13 +91,17 @@
 				"url": "/design-guidelines/modeless-panes"
 			},
 			{
-				"label": "Glossary",
-				"url": "/design-guidelines/glossary"
-			},
-			{
 				"label": "Sample App",
 				"url": "/design-guidelines/sample-app"
-			}
+			},
+			{
+				"label": "Table",
+				"url": "/patterns/table"
+			},
+            {
+                "label": "Validation",
+                "url": "/patterns/validation"
+            }
 		]
 	},
 	{
@@ -110,20 +135,6 @@
 			{
 				"label": "Dialog Box",
 				"url": "/components/dialog-box"
-			},
-			{
-				"label": "Form Elements",
-				"url": "/components/form-elements",
-				"items": [
-					{
-						"label": "Checkbox",
-						"url": "/components/form-elements/checkbox"
-					},
-					{
-						"label": "Radio Button",
-						"url": "/components/form-elements/radio-button"
-					}
-				]
 			},
 			{
 				"label": "Drop Down",
@@ -190,10 +201,6 @@
 				"url": "/components/status-symbol"
 			},
 			{
-				"label": "Table",
-				"url": "/components/table"
-			},
-			{
 				"label": "Tabs",
 				"url": "/components/tabs"
 			},
@@ -207,11 +214,7 @@
 			},
 			{
 				"label": "Tree",
-				"url": "/components/tress"
-			},
-			{
-				"label": "Validation",
-				"url": "/components/validation"
+				"url": "/components/tree"
 			}
 		]
 	},

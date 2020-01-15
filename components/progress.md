@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Component Template
 demo: https://rocketcom.bitbucket.io/html-demos/progress.html
-storybook: https://astro-components.netlify.com/?path=/story/components-progress
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-progress/
+storybook: components-progress
+git: rux-progress
+height: 160px
+theme: true
 ---
 
 # Component Template
@@ -26,8 +28,8 @@ When operations take five seconds or longer to complete, add a progress feedback
 ## Examples
 
 :::two-col
-![Do: Use a Determinate Progress Bar to indicate to users how much of an operation has been completed.](/img/components/determinate-progress-do.png 'Do: Use a Determinate Progress Bar to indicate to users how much of an operation has been completed.')
+![Do: Use a Determinate Progress Bar to indicate to users how much of an operation has been completed.](/img/components/determinate-progress-do.png "Do: Use a Determinate Progress Bar to indicate to users how much of an operation has been completed.")
 
-![Do: Use an Indeterminate Progress control to indicate that an application is busy performing an operation but the progress is unknown.](/img/components/indeterminate-progress-do.png 'Do: Use an Indeterminate Progress control to indicate that an application is busy performing an operation but the progress is unknown.')
+![Do: Use an Indeterminate Progress control to indicate that an application is busy performing an operation but the progress is unknown.](/img/components/indeterminate-progress-do.png "Do: Use an Indeterminate Progress control to indicate that an application is busy performing an operation but the progress is unknown.")
 
 :::

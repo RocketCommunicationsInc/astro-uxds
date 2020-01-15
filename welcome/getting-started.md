@@ -1,8 +1,8 @@
 ---
-path: /getting-started
+path: /welcome/getting-started
 date: Last Modified
 layout: interior.template.njk
-title: 'Getting Started'
+title: "Getting Started"
 ---
 
 # Getting Started
@@ -20,6 +20,18 @@ Astro is a living design system, created and stewarded by [Rocket Communications
 Before reading any further, we recommend you take a look at a live [Astro sample application](https://sample-app.astrouxds.com/).
 
 ## What's New
+
+### Astro 4.3
+
+- [New EGS Compliance](/design-guidelines/compliance)
+- [New Astro Sketch Dark Library](https://bitbucket.org/rocketcom/astro-design-resources/src/Sketch)
+- [New Astro Sketch Dark Sticker Sheet](https://bitbucket.org/rocketcom/astro-design-resources/src/Sketch)
+- [New Astro XD Wireframe Library](https://bitbucket.org/rocketcom/astro-design-resources/src/Adobe%20XD)
+- [New Astro XD Dark Library](https://bitbucket.org/rocketcom/astro-design-resources/src/)
+- [New React Astro Boilerplate "starter app"](https://bitbucket.org/rocketcom/astro-boilerplate-react/src)
+- [New Vue Astro Boilerplate "starter app"](https://bitbucket.org/rocketcom/astro-boilerplate-vue/src/master/)
+- [Updated Astro Sketch Wireframe Library](https://bitbucket.org/rocketcom/astro-design-resources/src/Sketch)
+- [Updated Astro Sketch Wireframe Sticker Sheet](https://bitbucket.org/rocketcom/astro-design-resources/src/Sketch)
 
 ### Astro 4.2
 

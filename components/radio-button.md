@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Radio Button
 demo: https://rocketcom.bitbucket.io/html-demos/radio-button.html
-storybook: https://astro-components.netlify.com/?path=/story/components-form-elements--radio-buttons
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-radio-button/
+storybook: components-form-elements--radio-buttons
+git: rux-radio-button
+height: 150px
+theme: true
 ---
 
 # Radio Button
@@ -30,8 +32,8 @@ If a user is required to make a choice between items without a default, consider
 :::
 
 :::two-col
-![Do: Use Radio Buttons when asking users to select a mutually exclusive option from a predefined set of options. When one selection is made, a previous selection becomes deselected.](/img/components/radio-buttons-do-1.png 'Do: Use Radio Buttons when asking users to select a mutually exclusive option from a predefined set of options. When one selection is made, a previous selection becomes deselected.')
+![Do: Use Radio Buttons when asking users to select a mutually exclusive option from a predefined set of options. When one selection is made, a previous selection becomes deselected.](/img/components/radio-buttons-do-1.png "Do: Use Radio Buttons when asking users to select a mutually exclusive option from a predefined set of options. When one selection is made, a previous selection becomes deselected.")
 
-![Don’t: Use Radio Buttons to display more than six items. Instead, use a Drop Down Menu.](/img/components/radio-buttons-dont-1.png 'Don’t: Use Radio Buttons to display more than six items. Instead, use a Drop Down Menu.')
+![Don’t: Use Radio Buttons to display more than six items. Instead, use a Drop Down Menu.](/img/components/radio-buttons-dont-1.png "Don’t: Use Radio Buttons to display more than six items. Instead, use a Drop Down Menu.")
 
 :::

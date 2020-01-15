@@ -1,6 +1,6 @@
 ---
 tags: resources
-path: /design-guidelines/navigation
+path: /patterns/navigation
 date: Last Modified
 layout: interior.template.njk
 title: Navigation

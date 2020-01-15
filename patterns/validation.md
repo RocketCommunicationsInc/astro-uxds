@@ -1,6 +1,6 @@
 ---
 tags: components
-path: /components/validation
+path: /patterns/validation
 date: Last Modified
 layout: components.template.njk
 title: Validation

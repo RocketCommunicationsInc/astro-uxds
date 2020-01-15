@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Toggle
 demo: https://rocketcom.bitbucket.io/html-demos/toggle.html
-storybook: https://astro-components.netlify.com/?path=/story/components-toggle--toggle
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-toggle/
+storybook: components-toggle--toggle
+git: rux-toggle
+height: 150px
+theme: true
 ---
 
 # Toggle

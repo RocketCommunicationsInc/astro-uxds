@@ -1,6 +1,6 @@
 ---
 tags: resources
-path: /design-guidelines/notifications
+path: /patterns/notifications
 date: Last Modified
 layout: interior.template.njk
 title: Notifications

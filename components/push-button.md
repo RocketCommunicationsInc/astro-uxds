@@ -5,8 +5,10 @@ date: Last Modified
 layout: components.template.njk
 title: Push Button
 demo: https://rocketcom.bitbucket.io/html-demos/pushbutton.html
-storybook: https://astro-components.netlify.com/?path=/story/components-push-button--push-button
-git: https://bitbucket.org/rocketcom/astro-components/src/master/src/components/rux-push-button/
+storybook: components-push-button--push-button
+git: rux-push-button
+height: 210px
+theme: true
 ---
 
 # Push Button
