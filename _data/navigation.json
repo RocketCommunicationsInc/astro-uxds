@@ -72,27 +72,27 @@
 		"items": [
 			{
 				"label": "Navigation",
-				"url": "/design-guidelines/navigation"
+				"url": "/patterns/navigation"
 			},
 			{
 				"label": "Status System",
-				"url": "/design-guidelines/status-system"
+				"url": "/patterns/status-system"
 			},
 			{
 				"label": "Notifications",
-				"url": "/design-guidelines/notifications"
+				"url": "/patterns/notifications"
 			},
 			{
 				"label": "Data Visualizations",
-				"url": "/design-guidelines/data-visualization"
+				"url": "/patterns/data-visualization"
 			},
 			{
 				"label": "Modeless Panes",
-				"url": "/design-guidelines/modeless-panes"
+				"url": "/patterns/modeless-panes"
 			},
 			{
 				"label": "Sample App",
-				"url": "/design-guidelines/sample-app"
+				"url": "/patterns/sample-app"
 			},
 			{
 				"label": "Table",
