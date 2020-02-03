@@ -1,5 +1,5 @@
 ---
-path: /welcome/getting-started
+path: /getting-started
 date: Last Modified
 layout: interior.template.njk
 title: "Getting Started"
