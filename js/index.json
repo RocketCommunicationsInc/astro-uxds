@@ -1,0 +1,26 @@
+[  
+  {  
+     "title":"About me",
+     "path":"about/"
+  },
+  {  
+     "title":"Meet the team",
+     "path":"about/meet-the-team/"
+  },
+  {  
+     "title":"Alice",
+     "path":"about/meet-the-team/alice/"
+  },
+  {  
+     "title":"Bob",
+     "path":"about/meet-the-team/bob/"
+  },
+  {  
+     "title":"Chris",
+     "path":"about/meet-the-team/chris/"
+  },
+  {  
+     "title":"Home",
+     "path":"index/"
+  }
+]
