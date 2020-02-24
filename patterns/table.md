@@ -1,6 +1,6 @@
 ---
 tags: components
-path: /components/table
+path: /patterns/table
 date: Last Modified
 layout: components.template.njk
 title: Table

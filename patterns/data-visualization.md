@@ -1,6 +1,6 @@
 ---
 tags: resources
-path: /design-guidelines/data-visualization
+path: /patterns/data-visualization
 date: Last Modified
 layout: interior.template.njk
 title: Data Visualization
