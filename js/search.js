@@ -1,29 +1,33 @@
-import Fuse from 'fuse.js';
+document.addEventListener("DOMContentLoaded", () => {
 
+  const searchForm = document.getElementById('search-site');
+  const indexUrl = 'http://localhost:8080/js/searchindex.json';  
 
-$(document).ready(function() {
-  window.$.getJson('../js/index.json', function (response){
-    const fuse = new Fuse(response, {
-      key: ['title'],
-      shouldSort: true
-    });
+  
+  async function getItems(url){
+    const searchValue = ($('#search-site').val()).trim();
+    // console.log(searchValue);
+    
+    
+    if(searchValue != ''){
+      // alert('cortney');
+      // $.getJSON('./searchindex.json', function(result){
+      //   const list = result;
+      //   console.log(result);
+      // });
+    
+      try {
+        const results = await fetch(url);
+        console.log(results);
+        return await results.json();
 
-    $('#search').on('keyup', function(){
-      let result = fuse.search($this.val());
-
-      //OUTPUT
-      let resultdiv = $('ul.searchresults');
-      if(result.length === 0 ){
-        resultdiv.hide();
-      } else {
-        //Results
-        resultdiv.empty();
-        for (let item in result.slice(0,4)){
-          let searchitem = `<li>${result[item].title}</li>`;
-          resultdiv.append(searchitem);
-        }
-        resultdiv.show();
+      } catch(error) {
+        console.error(error);
       }
-    });
-  });
+    }
+
+  }
+
+  //events
+  searchForm.addEventListener('keyup', searchIndex);
 });
