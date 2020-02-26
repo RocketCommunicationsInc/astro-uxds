@@ -33,3 +33,7 @@ When operations take five seconds or longer to complete, add a progress feedback
 ![Do: Use an Indeterminate Progress control to indicate that an application is busy performing an operation but the progress is unknown.](/img/components/indeterminate-progress-do.png "Do: Use an Indeterminate Progress control to indicate that an application is busy performing an operation but the progress is unknown.")
 
 :::
+
+::: compliance
+		5.13.1. Progress indicator shall indicate the precise completion time for an operation.
+:::

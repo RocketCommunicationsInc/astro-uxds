@@ -47,3 +47,8 @@ When using the alternate light theme in Astro, the Global Status Bar and all of 
 ![Don’t: Use the Global Status Bar for controls or indications that come and go with different app modes. Reserve it for truly global elements.](/img/components/global-status-dont-2.png "Don’t: Use the Global Status Bar for controls or indications that come and go with different app modes. Reserve it for truly global elements.")
 
 :::
+
+::: compliance
+		5.5.1. The Global Status Bar shall be reserved for global elements that appear on every screen.
+		5.5.2. Global Status Bar elements shall be arranged left to right as shown in the "Most Complex Global Status Bar"<!--linked illustration--> illustration.
+:::

@@ -27,3 +27,8 @@ Avoid using "Click Here," or "Link."
 ![Don’t: use underlines on links](/img/components/links-dont.png 'Don’t: use underlines on links')
 
 :::
+
+::: compliance
+		5.8.1. Links shall use the color defined in the CSS<!--link to CSS-->.
+		5.8.2. Links shall use a text style that is without an underline.
+:::
