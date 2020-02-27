@@ -49,12 +49,12 @@ document.addEventListener("DOMContentLoaded", () => {
       for(i = 0; i < data.length; i++){
         $('#results').append(`
         <div class="result-item">  
-          <dt>
+          <dt class="item-name">
             <a href='${data[i].path}'>
               ${data[i].title}
             </a>
           </dt>
-          <dd>lorem ipsum</dd>
+          <dd class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium unde dolor cumque et sunt! Dolores molestias asperiores iste repudiandae harum aspernatur odit consectetur fugit</dd>
         </div>
         `);
       }

@@ -19,11 +19,18 @@
 #results {
   margin: 0;
   padding: 0; }
-  #results dt {
+  #results .item-name {
     margin-top: 1.5rem;
     list-style: none; }
-    #results dt sup {
+    #results .item-name sup {
       display: block;
       font-size: .7rem; }
-    #results dt a {
+    #results .item-name a {
       display: block; }
+  #results .desc {
+    display: block;
+    margin: .7em 0 1em 0;
+    line-height: 1.3;
+    font-size: .9em;
+    font-weight: 400;
+    color: #666; }
