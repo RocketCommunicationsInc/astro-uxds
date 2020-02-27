@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     generateSearch(queryString);
   }
 
-  //Input Value Search 
+  //Input field Search 
   searchInput.addEventListener('keyup', function(){
     const searchValue = document.getElementById("search-site").value.trim();
     if(searchValue != ''){   
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  //Query index w/fuse
+  //Query search index
   async function generateSearch(string){
     $.getJSON('../js/searchindex.json', function(data){
       const list = data.list;
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if(data.length === 0){
       $('#results').empty().append(`
         <div class="no-results">
-          <h2>Sorry matches</h2>
+          <h2>Sorry no matches</h2>
         </div>
       `);
     }else if(data.length > 0 || searchValue  == '' ){
