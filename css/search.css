@@ -1,0 +1,29 @@
+.new-search-form {
+  margin-top: .7em;
+  background-color: white; }
+  .new-search-form > #search-site {
+    border: solid 1px #ccc;
+    background-image: url("/img/_site/search_results.svg");
+    background-repeat: no-repeat;
+    color: #4a4a4a;
+    box-sizing: border-box; }
+    .new-search-form > #search-site:focus {
+      background-color: rgba(0, 0, 0, 0.9); }
+    .new-search-form > #search-site::placeholder {
+      color: #4a4a4a;
+      -webkit-font-smoothing: antialiased; }
+
+#results-container {
+  margin-top: .7rem; }
+
+#results {
+  margin: 0;
+  padding: 0; }
+  #results dt {
+    margin-top: 1.5rem;
+    list-style: none; }
+    #results dt sup {
+      display: block;
+      font-size: .7rem; }
+    #results dt a {
+      display: block; }

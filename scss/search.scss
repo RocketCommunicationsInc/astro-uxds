@@ -1,0 +1,41 @@
+@import './00-presets/_index';
+.new-search-form{
+  margin-top:.7em;
+  background-color:white;
+
+  > #search-site{
+    border:solid 1px #ccc;
+    background-image: url('/img/_site/search_results.svg');
+    background-repeat: no-repeat;
+    color:#4a4a4a;
+    box-sizing: border-box;
+
+    &:focus{
+      background-color: rgba(0,0,0,0.9);
+    }
+    &::placeholder {
+      color: #4a4a4a;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+}
+
+#results-container{
+  margin-top:.7rem;
+}
+
+#results{
+  margin:0;
+  padding:0;
+  dt {
+    margin-top:1.5rem;
+    list-style: none;
+    sup {
+      display:block;
+      font-size:.7rem;
+    }
+    a {
+      display: block;
+    }
+  }
+}

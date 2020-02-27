@@ -1,33 +1,63 @@
 document.addEventListener("DOMContentLoaded", () => {
-
-  const searchForm = document.getElementById('search-site');
-  const indexUrl = 'http://localhost:8080/js/searchindex.json';  
-
+  const searchOptions = {
+    shouldSort: true,
+    threshold: 0.6,
+    location: 0,
+    distance: 100,
+    maxPatternLength: 32,
+    minMatchCharLength: 1,
+    keys: [
+      "title"
+    ]
+  };
+  const searchInput = document.getElementById('search-site');
+  const queryString = location.search.replace('?q=','').trim();
   
-  async function getItems(url){
-    const searchValue = ($('#search-site').val()).trim();
-    // console.log(searchValue);
-    
-    
-    if(searchValue != ''){
-      // alert('cortney');
-      // $.getJSON('./searchindex.json', function(result){
-      //   const list = result;
-      //   console.log(result);
-      // });
-    
-      try {
-        const results = await fetch(url);
-        console.log(results);
-        return await results.json();
-
-      } catch(error) {
-        console.error(error);
-      }
-    }
-
+  // Search on Page Load
+  if(queryString != ''){
+    generateSearch(queryString);
   }
 
-  //events
-  searchForm.addEventListener('keyup', searchIndex);
+  //Input Value Search 
+  searchInput.addEventListener('keyup', function(){
+    const searchValue = document.getElementById("search-site").value.trim();
+    if(searchValue != ''){   
+      generateSearch(searchValue);
+    }
+  });
+
+  //Query index w/fuse
+  async function generateSearch(string){
+    $.getJSON('../js/searchindex.json', function(data){
+      const list = data.list;
+      const fuse = new Fuse(list, searchOptions);
+      const searchResult = fuse.search(string);
+      generateResults(searchResult);
+    });
+  }
+
+  //generate results list
+  function generateResults(data){
+    if(data.length === 0){
+      $('#results').empty().append(`
+        <div class="no-results">
+          <h2>Sorry matches</h2>
+        </div>
+      `);
+    }else if(data.length > 0 || searchValue  == '' ){
+      $('#results').empty();
+      for(i = 0; i < data.length; i++){
+        $('#results').append(`
+        <div class="result-item">  
+          <dt>
+            <a href='${data[i].path}'>
+              ${data[i].title}
+            </a>
+          </dt>
+          <dd>lorem ipsum</dd>
+        </div>
+        `);
+      }
+    }
+  }
 });

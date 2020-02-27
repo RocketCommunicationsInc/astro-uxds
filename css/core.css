@@ -1,12 +1,4 @@
 @import url(./variables.css);
-.search-page-form {
-  background-color: #a4abb6; }
-  .search-page-form > .search__input {
-    color: #ffffff; }
-    .search-page-form > .search__input::placeholder {
-      color: black;
-      -webkit-font-smoothing: antialiased; }
-
 *, :after, :before {
   box-sizing: inherit; }
 
