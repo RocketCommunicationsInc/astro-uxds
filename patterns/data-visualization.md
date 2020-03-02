@@ -219,3 +219,7 @@ A data visualization is useless if not designed to communicate clearly with the 
 :::
 
 There are many dedicated visualization tools such as [Tableau](https://www.tableau.com/), [QlikView](https://www.qlik.com/us), [HighCharts](https://www.highcharts.com/) and [d3.js](https://d3js.org/). Nothing can replace a modeling and statistic tool with good visualization capability. It helps tremendously in doing any exploratory data analysis as well as feature engineering. Always review the product licensing options before use.
+
+::: compliance
+	5.1 Data visualizations shall have no more than 8 colors per data set to manage cognitive load.
+:::

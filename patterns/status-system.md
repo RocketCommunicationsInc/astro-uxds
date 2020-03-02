@@ -42,3 +42,8 @@ Each Status Symbol is a combination of a Status Color and a shape. The shapes ar
 ::: caution
 Avoid adding additional colors if possible. Creating additional colors greatly reduces the user’s ability to learn and properly use the application.
 :::
+
+::: compliance
+	4.1 User Interface elements indicating state or status shall be designed with the six shapes specified<!--link to status symbol illustration-->.
+	4.2 User Interface elements indicating state or status shall be designed with the six colors specified<!--link to status color illustration-->.
+:::

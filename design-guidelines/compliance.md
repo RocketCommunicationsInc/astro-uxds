@@ -19,11 +19,11 @@ class: compliance
 	1. Applications shall be designed using the Open Sans and Roboto Mono fonts.
 	2. Applications should follow the typeface size guidelines for Heading<!--link to headings table--> and Body<!--link to body table--> elements.
 	
-4. [Status System](/design-guidelines/status-system)
+4. [Status System](/patterns/status-system)
 	1. User Interface elements indicating state or status shall be designed with the six shapes specified<!--link to status symbol illustration-->.
 	2. User Interface elements indicating state or status shall be designed with the six colors specified<!--link to status color illustration-->.
 	
-5. [Data Visualization](/design-guidelines/data-visualization)
+5. [Data Visualization](/patterns/data-visualization)
 	1. Data visualizations shall have no more than 8 colors per data set to manage cognitive load.
 	
 5. Components
