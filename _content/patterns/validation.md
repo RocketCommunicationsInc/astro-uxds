@@ -2,7 +2,7 @@
 tags: components
 path: /patterns/validation
 date: Last Modified
-layout: components.template.njk
+layout: interior.template.njk
 title: Validation
 ---
 
