@@ -2,7 +2,7 @@
 tags: components
 path: /patterns/table
 date: Last Modified
-layout: components.template.njk
+layout: interior.template.njk
 title: Table
 ---
 
