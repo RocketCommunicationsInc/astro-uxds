@@ -134,3 +134,15 @@ figcaption {
 
 .dont {
   border-top-color: #fe3701; }
+
+  #contribution-footer {
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+
+  #contribution-footer h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    border: none;
+  }
