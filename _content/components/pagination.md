@@ -42,3 +42,7 @@ Be sure the current page is easily distinguishable from other pages referenced b
 
 ![When there are no Search results, suggest that the user amend the Search.](/img/components/pagination-5.png)
 :::
+
+::: compliance
+		5.11.1. Pagination shall use a text style that is without an underline.
+:::

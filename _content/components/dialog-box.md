@@ -35,3 +35,9 @@ A Dialog Box interrupts app processing to prompt a user to confirm an action or 
 ![Don’t: Use links or other components to confirm or cancel actions.](/img/components/modal-dont-1.png "Don’t: Use links or other components to confirm or cancel actions.")
 
 :::
+
+::: compliance
+		5.3.1. Dialog Boxes shall use Buttons for for confirm or cancel actions.  
+		5.3.2. Dialog Boxes shall be closed only with confirm or cancel Buttons.
+		5.3.3. Dialog Box confirmation Button shall be to the right of the cancel Button.
+:::

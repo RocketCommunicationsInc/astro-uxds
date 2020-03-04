@@ -45,3 +45,8 @@ The default font size in Astro is 1rem/16px. Astro supports four additional font
 | Inverted Text Style | `.inverted`      |
 
 \* The low contrast text option will fail WCAG readability compliance
+
+::: compliance
+		3.1 Applications shall be designed using the Open Sans and Roboto Mono fonts.
+		3.2 Applications should follow the typeface size guidelines for Heading<!--link to headings table--> and Body<!--link to body table--> elements.
+:::

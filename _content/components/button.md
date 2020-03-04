@@ -47,3 +47,7 @@ Outline Buttons are an alternative button style to be used in situations where a
 ![Do: Use standardized button colors only.](/img/components/button-do-3.png "Do: Use standardized button colors only.")
 
 :::
+
+::: compliance
+		5.1.1. Buttons shall be used for actionable controls only, not as state indicators.
+:::

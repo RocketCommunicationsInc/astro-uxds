@@ -40,3 +40,7 @@ Do: Neatly arrange and group multiple Checkboxes whenever possible.
 Don’t: Poorly placed and misaligned Checkboxes make it difficult for users to differentiate one state from another.
 
 :::
+
+::: compliance
+		5.2.1. Checkboxes shall be used for setting values only, not to initiate actions.
+:::
