@@ -34,7 +34,7 @@ class: compliance
 		1. Checkboxes shall be used for setting values only, not to initiate actions.
 		
 	3. [Dialog Box](/ui-components/dialog-box)
-		1. Dialog Boxes shall use Buttons for for confirm or cancel actions.  
+		1. Dialog Boxes shall use Buttons for confirm or cancel actions.  
 		2. Dialog Boxes shall be closed only with confirm or cancel Buttons.
 		3. Dialog Box confirmation Button shall be to the right of the cancel Button.
 		
