@@ -67,6 +67,8 @@ In light theme user interfaces all symbols indicating status must include a 1 pi
 :::
 
 ::: compliance
-		5.18.1. Status Symbols shall always be rendered with the specified shapes<!--link to colors-->.
-		5.18.2. Status Symbols shall always be rendered with the specified colors<!--link to shapes-->.
+
+- 5.18.1. Status Symbols shall always be rendered with the specified shapes<!--link to colors-->.
+- 5.18.2. Status Symbols shall always be rendered with the specified colors<!--link to shapes-->.
+
 :::

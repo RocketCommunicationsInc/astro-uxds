@@ -1,3 +1,4 @@
+@charset "UTF-8";
 main {
   padding: var(--content-padding-horizontal, 1rem) var(--content-padding-vertical, 1rem);
   color: var(--font-color, #494949);
@@ -134,3 +135,16 @@ figcaption {
 
 .dont {
   border-top-color: #fe3701; }
+
+/* TODO: This qualification is bad, but it’s conflicting with the compliance body CSS temp solution for demo */
+div.compliance {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #c6eefc;
+  padding: 1rem 1rem 0.25rem 1rem;
+  border-radius: 5px; }
+
+div.compliance ul {
+  padding: 0;
+  margin-bottom: 0;
+  list-style: none; }

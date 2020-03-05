@@ -186,3 +186,18 @@ figcaption {
 .dont {
   border-top-color: #fe3701;
 }
+
+/* TODO: This qualification is bad, but it’s conflicting with the compliance body CSS temp solution for demo */
+div.compliance {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: rgb(198, 238, 252);
+  padding: 1rem 1rem 0.25rem 1rem;
+  border-radius: 5px;
+}
+
+div.compliance ul {
+  padding: 0;
+  margin-bottom: 0;
+  list-style: none;
+}

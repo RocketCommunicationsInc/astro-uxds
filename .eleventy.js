@@ -24,6 +24,7 @@ module.exports = function(eleventyConfig) {
     })
     .use(markdownItContainer, "note")
     .use(markdownItContainer, "caution")
+    .use(markdownItContainer, "compliance")
     .use(markdownItContainer, "col")
     .use(markdownItContainer, "two-col")
     .use(markdownItContainer, "three-col");

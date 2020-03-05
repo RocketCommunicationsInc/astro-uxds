@@ -40,5 +40,7 @@ New events are added to the top of the Table. The Log has two subtly different m
 ![View of Search Text Applied Within Field](/img/components/log-search.png "View of Search Text Applied Within Field")
 
 ::: compliance
-		5.9.1. Custom Log implementations shall perform all of the scrolling<!--link to scrolling--> and filtering interactions<!--link to filtering--> described.
+
+- 5.9.1. Custom Log implementations shall perform all of the scrolling<!--link to scrolling--> and filtering interactions<!--link to filtering--> described.
+
 :::

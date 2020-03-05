@@ -29,6 +29,8 @@ Avoid using "Click Here," or "Link."
 :::
 
 ::: compliance
-		5.8.1. Links shall use the color defined in the CSS<!--link to CSS-->.
-		5.8.2. Links shall use a text style that is without an underline.
+
+- 5.8.1. Links shall use the color defined in the CSS<!--link to CSS-->.
+- 5.8.2. Links shall use a text style that is without an underline.
+
 :::

@@ -36,5 +36,7 @@ Search has two states:
 :::
 
 ::: compliance
-		5.15.1. Search Fields shall contain prompt text.
+
+- 5.15.1. Search Fields shall contain prompt text.
+
 :::

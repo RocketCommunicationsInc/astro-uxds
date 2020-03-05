@@ -32,6 +32,8 @@ Content
 :::
 
 ::: compliance
-		5.4.1. Menu items shall use title-style capitalization.
-		5.4.2. Menu items shall use an ellipsis (…) to indicate that further action is required to complete the command.
+
+- 5.4.1. Menu items shall use title-style capitalization.
+- 5.4.2. Menu items shall use an ellipsis (…) to indicate that further action is required to complete the command.
+
 :::
