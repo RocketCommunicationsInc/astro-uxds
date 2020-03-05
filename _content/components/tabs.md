@@ -54,7 +54,7 @@ Caution Do Missing sample of interior tabs. New format only supports a single de
 
 ::: compliance
 
-- 5.20.1. Tabs shall be arranged in a single row.
-- 5.20.2. Tabs shall use title-style capitalization.
+- X.X.X Tabs shall be arranged in a single row.
+- X.X.X Tabs shall use title-style capitalization.
 
 :::

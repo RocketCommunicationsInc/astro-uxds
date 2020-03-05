@@ -26,7 +26,7 @@ A Pop-Up Menu provides users with a quick way to access common actions for a hig
 
 ::: compliance
 
-- 5.12.1. Menu items shall use title-style capitalization.
-- 5.12.2. Menu items shall use an ellipsis (…) to indicate that further action is required to complete the command.
+- X.X.X Menu items shall use title-style capitalization.
+- X.X.X Menu items shall use an ellipsis (…) to indicate that further action is required to complete the command.
 
 :::

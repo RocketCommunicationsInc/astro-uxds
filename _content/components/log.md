@@ -41,6 +41,6 @@ New events are added to the top of the Table. The Log has two subtly different m
 
 ::: compliance
 
-- 5.9.1. Custom Log implementations shall perform all of the scrolling<!--link to scrolling--> and filtering interactions<!--link to filtering--> described.
+- X.X.X Custom Log implementations shall perform all of the scrolling<!--link to scrolling--> and filtering interactions<!--link to filtering--> described.
 
 :::

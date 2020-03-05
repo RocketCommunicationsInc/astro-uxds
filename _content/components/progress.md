@@ -36,6 +36,6 @@ When operations take five seconds or longer to complete, add a progress feedback
 
 ::: compliance
 
-- 5.13.1. Progress indicator shall indicate the precise completion time for an operation.
+- X.X.X Progress indicator shall indicate the precise completion time for an operation.
 
 :::

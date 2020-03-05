@@ -17,6 +17,6 @@ A Toggle describes a state or value. Similar to a checkbox, toggles allow users 
 
 ::: compliance
 
-- 5.22.1. Toggle shall be used when the action takes immediate effect.
+- X.X.X Toggle shall be used when the action takes immediate effect.
 
 :::
