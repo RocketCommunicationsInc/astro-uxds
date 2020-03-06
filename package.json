@@ -5,8 +5,11 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "rm -rf _content && git clone https://bitbucket.org/rocketcom/astro-guidelines.git _content  && eleventy",
-		"serve": "rm -rf _content && git clone https://bitbucket.org/rocketcom/astro-guidelines.git _content  && eleventy --serve"
+		"build": "eleventy",
+		"serve": "eleventy --serve",
+		"build-scss": "node-sass --include-path scss ./**/*.scss ./css",
+		"watch-scss": "nodemon -e scss -x \"npm run scss\"",
+		"scss": "node-sass -rw scss -o css"
 	},
 	"keywords": [],
 	"author": "",
@@ -16,8 +19,13 @@
 		"clean-css": "^4.2.1",
 		"gulp": "^4.0.2",
 		"gulp-imagemin": "^6.1.0",
-		"markdown-it-attrs": "^3.0.1",
+		"markdown-it-anchor": "^5.2.5",
 		"markdown-it-container": "^2.0.0",
-		"markdown-it-div": "^1.1.0"
+		"markdown-it-div": "^1.1.0",
+		"markdown-it-implicit-figures": "^0.9.0"
+	},
+	"dependencies": {
+		"node-sass": "^4.13.0",
+		"nodemon": "^2.0.2"
 	}
 }
