@@ -148,3 +148,8 @@ div.compliance ul {
   padding: 0;
   margin-bottom: 0;
   list-style: none; }
+
+#contribution-footer {
+  background-color: ##f00;
+  padding: 1rem;
+}
