@@ -3,10 +3,39 @@ tags: components
 path: /patterns/validation
 date: Last Modified
 layout: components.template.njk
-title: Validation
+title: Forms and Validation
 ---
 
-# Validation
+## Forms
+
+Forms are used to collect, validate, and submit user input. They usually contains form elements including [Checkbox](/ui-components/checkbox), [Dialog Box](/ui-components/dialog-box), [Drop Down](/ui-components/drop-down), [Input Field](/ui-components/input-field), [Radio Button](/ui-components/radio-button) and [Toggle](/ui-components/toggle).
+
+## Form Layout
+Forms should be designed in columns as this improves scanability. When possible, a form should be one column. Information can be presented in multiple columns if they are grouped together.
+
+One one-column layout is preferred, but use two-column layouts when:
+  *•*	There are too many components to fit in an area of the page
+  *•*	Specific fields have strong associations. Examples in the following illustration: Observations from, Observations Start Time
+
+IMAGE GOES HERE
+
+## Form Spacing
+
+IMAGE GOES HERE
+
+## Labels
+
+Labels should use clear but concise language, and provide enough information for the user to accurately complete the required information.
+
+Labels should follow the vertical format of the form. Place labels above their respective fields, and align with [Input Field](/ui-components/input-field) text. Group a label with its field so that there is a clear distinction between fields. Labels have a bottom margin of 8px from the input field.
+
+## Rules of Thumb
+
+  *•*	Disabled elements don't get focus via click/tap/key, aren’t accessible via TABing and don't get submitted with form data.
+  *•*	Readonly gets focus via click/tap/key, are accessible when TABing and they are submitted with form data
+  *•*	The length of the input field should reflect the intended length of content.
+
+## Validation
 
 Validation ensures that data is properly entered into an Input Field or Form. It alerts users to data errors, required input and prompts them to make corrections.
 

@@ -93,8 +93,8 @@
 				"url": "/patterns/table"
 			},
             {
-                "label": "Validation",
-                "url": "/patterns/validation"
+                "label": "Forms and Validation",
+                "url": "/patterns/forms-and-validation"
             }
 		]
 	},
