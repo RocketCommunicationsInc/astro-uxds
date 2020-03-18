@@ -9,4 +9,10 @@
 	to = "/desigm-guidelines/:splat"
 	status = 300
 	force = true
+
+[[redirects]]
+	from = "/design-guidelines/status-system/"
+	to = "/patterns/status-system"
+	status = 300
+	force = true
 	
