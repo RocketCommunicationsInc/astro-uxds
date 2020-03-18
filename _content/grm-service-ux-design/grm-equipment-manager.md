@@ -6,7 +6,7 @@ layout: interior.template.njk
 title: GRM Equipment Manager
 ---
 
-## GRM Equipment Manager
+# GRM Equipment Manager
 
 [Launch GRM Equipment Manager Sample App](https://grm-equipment.astrouxds.com/) | [Design Materials and Source Code](#contentBottom)
 

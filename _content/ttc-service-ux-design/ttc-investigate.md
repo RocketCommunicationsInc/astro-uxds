@@ -6,7 +6,7 @@ layout: interior.template.njk
 title: TT&C Investigate
 ---
 
-## TT&C Investigate
+# TT&C Investigate
 
 [Launch TT&C Investigate Sample App](https://ttc-equipment.astrouxds.com/) | [Design Materials and Source Code](#contentBottom)
 

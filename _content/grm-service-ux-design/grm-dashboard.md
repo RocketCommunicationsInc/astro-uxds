@@ -6,7 +6,7 @@ layout: interior.template.njk
 title: GRM Dashboard
 ---
 
-## GRM Dashboard
+# GRM Dashboard
 
 [Launch GRM Dashboard Sample App](https://grm-dashboard.astrouxds.com/) | [Design Materials and Source Code](/grm-service-ux-design/grm-dashboard#contentBottom)
 

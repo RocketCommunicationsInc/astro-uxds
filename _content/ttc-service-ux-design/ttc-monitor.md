@@ -6,7 +6,7 @@ layout: interior.template.njk
 title: TT&C Monitor
 ---
 
-## TT&C Monitor
+# TT&C Monitor
 
 [Launch TT&C Monitor Sample App](https://ttc-monitor.astrouxds.com/) | [Design Materials and Source Code](/ttc-service-ux-design/ttc-monitor#contentBottom)
 
