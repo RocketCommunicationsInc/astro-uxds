@@ -7,46 +7,56 @@ document.addEventListener("DOMContentLoaded", () => {
     maxPatternLength: 32,
     minMatchCharLength: 1,
     keys: [
-      "title"
+      "title",
+      "excerpt"
     ]
   };
   const searchInput = document.getElementById('search-site');
-  const queryString = location.search.replace('?q=','').trim();
-  
+  const dataURI = '../js/search_config/search-index.json';
+  const queryString = location.search.replace('?q=', '').trim();
+
   // Search on Page Load
-  if(queryString != ''){
+  if (queryString != '') {
     generateSearch(queryString);
   }
 
   //Input field Search 
-  searchInput.addEventListener('keyup', function(){
-    const searchValue = document.getElementById("search-site").value.trim();
-    if(searchValue != ''){   
+  searchInput.addEventListener('keyup', function () {
+    const searchValue = searchInput.value.trim();
+    if (searchValue != '') {
       generateSearch(searchValue);
     }
   });
 
   //Query search index
-  async function generateSearch(string){
-    $.getJSON('../js/searchindex.json', function(data){
-      const list = data.list;
-      const fuse = new Fuse(list, searchOptions);
-      const searchResult = fuse.search(string);
-      generateResults(searchResult);
-    });
+  async function generateSearch(string) {
+    fetch(dataURI)
+      .then(res => res.json())
+      .then((result) => {
+        const { data } = result;
+        const fuse = new Fuse(data, searchOptions);
+        const searchResult = fuse.search(string);
+        generateResults(searchResult);
+        // console.log(result.data);
+      })
+      .catch(err => {
+        console.log(err);
+      });
   }
 
   //generate results list
-  function generateResults(data){
-    if(data.length === 0){
+  function generateResults(data) {
+    if (data.length === 0) {
       $('#results').empty().append(`
         <div class="no-results">
-          <h2>Sorry no matches</h2>
+          <h3>Sorry no matches</h3>
         </div>
       `);
-    }else if(data.length > 0 || searchValue  == '' ){
+    } else if (data.length > 0 || searchValue == '') {
       $('#results').empty();
-      for(i = 0; i < data.length; i++){
+      for (i = 0; i < data.length; i++) {
+        const excerpt = data[i].excerpt.replace("::: note", "").replace(":::", "").replace(":::", "");
+        const stripTag = excerpt.replace(/(<([^>]+)>)/ig, "");
         $('#results').append(`
         <div class="result-item">  
           <dt class="item-name">
@@ -54,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
               ${data[i].title}
             </a>
           </dt>
-          <dd class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium unde dolor cumque et sunt! Dolores molestias asperiores iste repudiandae harum aspernatur odit consectetur fugit</dd>
+          <dd class="desc">${stripTag}</dd>
         </div>
         `);
       }

@@ -8,7 +8,7 @@
     color: #4a4a4a;
     box-sizing: border-box; }
     .new-search-form > #search-site:focus {
-      background-color: rgba(0, 0, 0, 0.9); }
+      background-color: #eee; }
     .new-search-form > #search-site::placeholder {
       color: #4a4a4a;
       -webkit-font-smoothing: antialiased; }
@@ -29,8 +29,19 @@
       display: block; }
   #results .desc {
     display: block;
-    margin: .7em 0 1em 0;
+    margin: .3rem 0 1em 0;
     line-height: 1.3;
     font-size: .9em;
     font-weight: 400;
     color: #666; }
+    #results .desc p {
+      margin: 0 0 1em 0;
+      padding: 0;
+      font-size: 1em;
+      font-weight: 400;
+      line-height: 1.3;
+      color: #666; }
+  #results .no-results {
+    text-align: center; }
+    #results .no-results h3 {
+      padding: 2rem 0; }
