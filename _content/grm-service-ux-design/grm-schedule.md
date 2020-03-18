@@ -6,7 +6,7 @@ layout: interior.template.njk
 title: GRM Schedule
 ---
 
-## GRM Schedule
+# GRM Schedule
 
 [Launch GRM Schedule Sample App](https://grm-schedule.astrouxds.com/) | [Design Materials and Source Code](#contentBottom)
 

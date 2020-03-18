@@ -6,7 +6,7 @@ layout: interior.template.njk
 title: TT&C Comand
 ---
 
-## TT&C Comand
+# TT&C Comand
 
 [Launch TT&C Comand Sample App](https://ttc-command.astrouxds.com/) | [Design Materials and Source Code](#contentBottom)
 

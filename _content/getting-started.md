@@ -23,7 +23,7 @@ Before reading any further, we recommend you take a look at a live [Astro sample
 
 ### Astro 4.3
 
-- [New EGS Compliance](/design-guidelines/compliance)
+- ~~New EGS Compliance~~ (Under Review)
 - [New Astro Sketch Dark Library](https://bitbucket.org/rocketcom/astro-design-resources/src/Sketch)
 - [New Astro Sketch Dark Sticker Sheet](https://bitbucket.org/rocketcom/astro-design-resources/src/Sketch)
 - [New Astro XD Wireframe Library](https://bitbucket.org/rocketcom/astro-design-resources/src/Adobe%20XD)

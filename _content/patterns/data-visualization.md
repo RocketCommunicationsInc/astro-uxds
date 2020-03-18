@@ -2,7 +2,7 @@
 tags: resources
 path: /patterns/data-visualization
 date: Last Modified
-layout: interior.template.njk
+layout: components.template.njk
 title: Data Visualization
 ---
 
@@ -209,13 +209,15 @@ A data visualization is useless if not designed to communicate clearly with the 
 ## Examples
 
 :::two-col
-![Do: Allow axes labels enough padding. It’s important that the axes be legible and have adequate space. This will reduce eye strain and errors.](/img/design-guidelines/data-viz-do-1.png 'Do: Allow axes labels enough padding. It’s important that the axes be legible and have adequate space. This will reduce eye strain and errors.')
 
-![Don't: Use visual representations that don’t accurately represent the data set, like pie charts in 3D.](/img/design-guidelines/data-viz-dont-1.png 'Don’t: Use visual representations that don’t accurately represent the data set, like pie charts in 3D.')
+![Do: Allow axes labels enough padding. It’s important that the axes be legible and have adequate space. This will reduce eye strain and errors.](/img/design-guidelines/data-viz-do-1.png "Do: Allow axes labels enough padding. It’s important that the axes be legible and have adequate space. This will reduce eye strain and errors.")
 
-![Do: Use fill color and text that meets or exceeds WCAG 2.0 contrast requirements. Use a Contrast Checker to check contrast levels.](/img/design-guidelines/data-viz-do-2.png 'Do: Use fill color and text that meets or exceeds WCAG 2.0 contrast requirements. Use a Contrast Checker to check contrast levels.')
+![Don't: Use visual representations that don’t accurately represent the data set, like pie charts in 3D.](/img/design-guidelines/data-viz-dont-1.png "Don’t: Use visual representations that don’t accurately represent the data set, like pie charts in 3D.")
 
-![Don’t: Use more than 8 categories. Beyond that, mapping colors to categories will become burdensome and reduce their usefulness.](/img/design-guidelines/data-viz-dont-2.png 'Don’t: Use more than 8 categories. Beyond that, mapping colors to categories will become burdensome and reduce their usefulness.')
+![Do: Use fill color and text that meets or exceeds WCAG 2.0 contrast requirements. Use a Contrast Checker to check contrast levels.](/img/design-guidelines/data-viz-do-2.png "Do: Use fill color and text that meets or exceeds WCAG 2.0 contrast requirements. Use a Contrast Checker to check contrast levels.")
+
+![Don’t: Use more than 8 categories. Beyond that, mapping colors to categories will become burdensome and reduce their usefulness.](/img/design-guidelines/data-viz-dont-2.png "Don’t: Use more than 8 categories. Beyond that, mapping colors to categories will become burdensome and reduce their usefulness.")
+
 :::
 
 There are many dedicated visualization tools such as [Tableau](https://www.tableau.com/), [QlikView](https://www.qlik.com/us), [HighCharts](https://www.highcharts.com/) and [d3.js](https://d3js.org/). Nothing can replace a modeling and statistic tool with good visualization capability. It helps tremendously in doing any exploratory data analysis as well as feature engineering. Always review the product licensing options before use.

@@ -6,7 +6,7 @@ layout: interior.template.njk
 title: TT&C Investigate
 ---
 
-## TT&C Investigate
+# TT&C Investigate
 
 [Launch TT&C Investigate Sample App](https://ttc-equipment.astrouxds.com/) | [Design Materials and Source Code](#contentBottom)
 
@@ -42,12 +42,6 @@ The Subsystem Tree Menu shows a hierarchical list of the satellite subsystems. S
 2. **Status Symbols** - status symbols indicate current subsystem status and severity.
 
 :::
-
-## Inoperable Equipment Page
-
-The default view of the Investigate app is the Inoperable Equipment page, which contains a grid of equipment in a critical or serious alert state, organized by category and color coded by severity. This allows operators to quickly identify assets that need attention. From this view, operators can click on a piece of equipment to be taken to its details page for more information and to take action.
-
-![TT&C Investigate Inoperable Equipment Page](/img/service-specific-ux-design/ttc-investigate-inop-details.png)
 
 1. **Equipment Categories** - inoperable equipment is organized into categories along with a total for the category.
 2. **Equipment Status** - inoperable equipment is displayed with status coding indicating the severity of the problem.
