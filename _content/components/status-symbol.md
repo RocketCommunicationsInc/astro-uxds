@@ -9,6 +9,7 @@ storybook: components-status--status
 git: status-symbol
 height: 80px
 theme: true
+class: color
 ---
 
 # Component Template
