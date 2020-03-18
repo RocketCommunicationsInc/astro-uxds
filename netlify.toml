@@ -3,3 +3,10 @@
 	to = "/components/:splat"
 	status = 300
 	force = true
+
+[[redirects]]
+	from = "/style-guide/*"
+	to = "/desigm-guidelines/:splat"
+	status = 300
+	force = true
+	
