@@ -12,7 +12,7 @@ theme: true
 class: color
 ---
 
-# Component Template
+# Status Symbol
 
 The Status Symbol combines color and shape to create a standard and consistent way to indicate the status of a device or feature.
 
