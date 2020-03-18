@@ -49,4 +49,4 @@ While not enabled by default at this time, light and dark themes can be swapped 
 
 ## Implementation
 
-Astro applications using the Astro CSS Library will default to the dark theme with no additional involvement by the developer. To enable the light theme with the Astro CSS Library, the `<body>` element of the application should be given a light-theme class (e.g., `<body class=“light-theme”>`. For all other applications, refer to the [Color Palettes](./color) for specific hex/rgb values in light and dark UIs.
+Astro applications using the Astro CSS Library will default to the dark theme with no additional involvement by the developer. To enable the light theme with the Astro CSS Library, the `<body>` element of the application should be given a light-theme class (e.g., `<body class=“light-theme”>`. For all other applications, refer to the [Color Palettes](/design-guidelines/color) for specific hex/rgb values in light and dark UIs.
