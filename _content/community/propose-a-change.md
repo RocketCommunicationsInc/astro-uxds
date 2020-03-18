@@ -20,13 +20,13 @@ At the bottom of each page on [AstroUXDS.com](https://astrouxds.com) you will fi
 
 If you aren’t a member of the Astro team your proposed changes use Git’s fork process. This effectively creates an identical clone of Astro you can edit without affecting the published version.
 
-![GitHub’s integrated Markdown editor](../img/community/step-1.png)
+![GitHub’s integrated Markdown editor](/img/community/step-1.png)
 
 ## Step 3 - Edit the page
 
 Use Github’s integrated editor to make the changes you plan on submitting.
 
-![GitHub’s integrated Markdown editor](../img/community/step-2.png)
+![GitHub’s integrated Markdown editor](/img/community/step-2.png)
 
 ## Step 4 - Propose change
 
@@ -38,7 +38,7 @@ Click the **Propose file change** button
 
 This is a commit message and will be forever included in the Astro changelog.
 
-![GitHub’s integrated Markdown editor](../img/community/step-3.png)
+![GitHub’s integrated Markdown editor](/img/community/step-3.png)
 
 ## Step 4 - Confirm your changes and create a pull request
 
@@ -52,10 +52,14 @@ The pull request screen will auto-populate the text field with your previous com
 
 Once you are content with your changes click **Create pull request**
 
-![GitHub’s integrated Markdown editor](../img/community/step-4.png)
+![GitHub’s integrated Markdown editor](/img/community/step-4.png)
 
 ## Step 6 - Approval process
 
-The Astro team reviews page edits \[AT SOME STILL TO BE DETERMINED FREQUENCY\].
+The Astro team reviews pull requests weekly. Proposals may be
 
-\[NEEED TO DEFINE APPROVAL PROCESS\]
+- Implemented immediately in a "minor" release version
+- Scheduled for implementation in a future release if the scope of change requires sufficient effort
+- Returned with requests for further clarification or guidance on changes necessary for acceptance
+- Rejected if the proposal is not suitable for Astro at this time
+
