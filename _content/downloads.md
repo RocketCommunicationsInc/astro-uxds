@@ -20,7 +20,7 @@ title: Downloads
 - Astro Icons ([Sketch](https://bitbucket.org/rocketcom/astro-styles/raw/f4a08616984c85d833e3abdca450dc253398aa1c/icons/src/Astro%20Icons.sketch) | [Adobe XD](https://bitbucket.org/rocketcom/astro-styles/raw/f4a08616984c85d833e3abdca450dc253398aa1c/icons/src/Astro%20Icons.xd))
 - Astro Boilerplate ([Git Repository](https://bitbucket.org/rocketcom/astro-boilerplate/src/master/))
 - Astro Angular Boilerplate ([Git Repository](https://bitbucket.org/rocketcom/astro-boilerplate-angular/src/master/))
-- Static copy of this site for reference in offline working environments ([gzip archive](https://astrouxds.com/downloads/ads.tar.gz))
+- Static copy of this site for reference in offline working environments ([gzip archive](/downloads/ads.tar.gz))
 - \[DEPRECATED\] Astro Styles Source Code (Now included in the Component Repository)
 
 ## GRM Service UX Design

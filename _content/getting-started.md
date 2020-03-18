@@ -42,7 +42,7 @@ Before reading any further, we recommend you take a look at a live [Astro sample
 ### Astro 4.1
 
 - Updated UI Components from EGS [Monitoring Icon](/components/icons-and-symbols), [Tree](/components/tree), [Pop Up Menu](/components/pop-up), and [Table](/components/table)
-- New [Storybook Component Sandbox](https://astro-storybook.netlify.com/)
+- New [Storybook Component Sandbox](https://astro-components.netlify.com/)
 
 ### Astro 4.0
 
