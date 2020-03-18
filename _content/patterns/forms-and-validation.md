@@ -17,11 +17,11 @@ One-column layout is preferred, but use two-column layouts when:
 - There are too many components to fit in an area of the page
 - Specific fields have strong associations. 
 
-![Two Column Layout. The Observations From field is associated with the Observations Start Time field](/img/design-guidelines/notifications-symbol.png)
+![Two Column Layout. The Observations From field is associated with the Observations Start Time field](/img/patterns/forms-layout.png)
 
 ## Form Spacing
 
-![Form Spacing.](/img/design-guidelines/notifications-symbol.png)
+![Form Spacing.](/img/patterns/forms-spacing.png)
 
 ## Labels
 
