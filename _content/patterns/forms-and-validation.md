@@ -13,28 +13,26 @@ Forms are used to collect, validate, and submit user input. They usually contain
 ## Form Layout
 Forms should be designed in columns as this improves scanability. When possible, a form should be one column. Information can be presented in multiple columns if they are grouped together.
 
-One one-column layout is preferred, but use two-column layouts when:
+One-column layout is preferred, but use two-column layouts when:
 - There are too many components to fit in an area of the page
 - Specific fields have strong associations. 
-- Examples in the following illustration: 
-	- Observations from, Observations Start Time
 
-IMAGE GOES HERE
+![Two Column Layout. The Observations From field is associated with the Observations Start Time field](/img/design-guidelines/notifications-symbol.png)
 
 ## Form Spacing
 
-IMAGE GOES HERE
+![Form Spacing.](/img/design-guidelines/notifications-symbol.png)
 
 ## Labels
 
 Labels should use clear but concise language, and provide enough information for the user to accurately complete the required information.
 
-Labels should follow the vertical format of the form. Place labels above their respective fields, and align with [Input Field](/ui-components/input-field) text. Group a label with its field so that there is a clear distinction between fields. Labels have a bottom margin of 8px from the input field.
+Labels should follow the vertical format of the form. Place labels above their respective fields, and align with [Input Field](/ui-components/input-field) text. Group a label with its field so that there is a clear distinction between fields.
 
 ## Rules of Thumb
 
 - Disabled elements don't get focus via click, tap, or keyboard, aren’t accessible when tabbing, and are not submitted with form data.
-- Readonly elements should allow focus via click, tap, or keyboard, are accessible when tabbing, and are submitted with form data
+- Readonly elements should allow focus via click, tap, or keyboard, are accessible when tabbing, and are submitted with form data.
 - The length of the input field should reflect the intended length of content.
 
 ## Validation
