@@ -8,7 +8,7 @@ title: TT&C Investigate
 
 # TT&C Investigate
 
-[Launch TT&C Investigate Sample App](https://ttc-equipment.astrouxds.com/) | [Design Materials and Source Code](#contentBottom)
+[Launch TT&C Investigate Sample App](https://ttc-investigate.astrouxds.com) | [Design Materials and Source Code](#contentBottom)
 
 The Investigate app displays system schematics and status data for a selected satellite. This allows operators to gather additional detail on alerts, view the relationships of components in the equipment hierarchy and select particular values to add to the Watcher panel in the Monitor and Command apps.
 
@@ -77,6 +77,6 @@ Below are design and development resources to get you started on an app that sup
 
 | Resources                                                                                                                                        | Description                                                                                                                                                   |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [TT&C Design Specifications (pdf)](http://com.rocketcom.astrouxds.s3.amazonaws.com/attachments/cjx3r384i2gbihmqnxcwrq25d-ttc-specifications.pdf) | The TT&C Design Specification contains information on use cases, task flows, UX research and wireframes for key features of the TT&C App Suite.               |
-| [TT&C Design Wireframes (pdf)](http://com.rocketcom.astrouxds.s3.amazonaws.com/attachments/cjtsx349t073s4iqnxbejjwg6-ttc-wireframes.pdf)         | The TT&C Design Wireframes document contains the complete set of wireframes (mid-fidelity renderings) of the screens designed for the TT&C App Suite.         |
+| [TT&C Design Specifications (pdf)](/downloads/ttc-specifications.pdf) | The TT&C Design Specification contains information on use cases, task flows, UX research and wireframes for key features of the TT&C App Suite.               |
+| [TT&C Design Wireframes (pdf)](/downloads/ttc-wireframes.pdf)         | The TT&C Design Wireframes document contains the complete set of wireframes (mid-fidelity renderings) of the screens designed for the TT&C App Suite.         |
 | [App Source Code (Git Repository)](https://bitbucket.org/rocketcom/tt-c-investigate/src/master/)                                                 | The source code Git repository and other useful documentation for the TT&C Investigate App is hosted at bitbucket.org so that you can check it out in detail. |
