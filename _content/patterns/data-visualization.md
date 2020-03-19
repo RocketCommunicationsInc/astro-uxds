@@ -134,7 +134,7 @@ Scatter charts plot points on a graph. When the user hovers over the points, too
 
 ## Visualization Anatomy
 
-The following images reference the general components and features for designing a visualization. Astro provides a variety of front-end components to support your design in the [UI Components](https://astrouxds.com/ui-components/readme) section.
+The following images reference the general components and features for designing a visualization. Astro provides a variety of front-end components to support your design in the [UI Components](/components/readme) section.
 
 ### Filter Select
 
@@ -181,7 +181,7 @@ Status colors are reserved for their respected statuses. Do not apply them to Vi
 
 ## Themed Visualization References
 
-Astro provides guidance, components and code for creating a light and dark themed User Interface. Use cases and additional information on selecting the appropriate UI can be found in the [Theme guidelines](./theme). The following references demonstrate both.
+Astro provides guidance, components and code for creating a light and dark themed User Interface. Use cases and additional information on selecting the appropriate UI can be found in the [Theme guidelines](/design-guidelines/theme). The following references demonstrate both.
 
 ![Sample stacked bar chart](/img/design-guidelines/stacked-bar.png)
 ![Sample donut chart](/img/design-guidelines/donut.png)
