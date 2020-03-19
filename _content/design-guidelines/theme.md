@@ -11,7 +11,6 @@ title: Theme
 Astro supports a brand new light theme along with the original and default dark theme.
 
 ![Example of a light theme Astro application.](/img/design-guidelines/theme-lightui.png "Example of a light theme Astro application.")
-Example of a light theme Astro application.
 
 ::: note
 By convention, the Global Status Bar and its enclosed elements will always use the dark theme styling.
