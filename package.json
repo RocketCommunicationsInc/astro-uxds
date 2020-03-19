@@ -10,7 +10,8 @@
 		"preserve": "npm run searchIndex",
 		"serve": "eleventy --serve",
 		"postserve": "npm run sass",
-		"build": "eleventy && npm run searchIndex"
+		"prebuild": "npm run searchIndex",
+		"build": "eleventy"
 	},
 	"keywords": [],
 	"author": "",
