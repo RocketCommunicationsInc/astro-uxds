@@ -5,10 +5,13 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "eleventy",
-		"serve": "eleventy --serve",
 		"sass": "node-sass -rw scss -o css",
-		"searchIndex": "node ./js/search_config/search-generator.js"
+		"searchIndex": "node ./_includes/search_config/search-generator.js",
+		"preserve": "npm run searchIndex",
+		"serve": "eleventy --serve",
+		"postserve": "npm run sass",
+		"prebuild": "npm run searchIndex",
+		"build": "eleventy"
 	},
 	"keywords": [],
 	"author": "",
@@ -17,7 +20,7 @@
 		"@11ty/eleventy": "^0.9.0",
 		"clean-css": "^4.2.1",
 		"gulp": "^4.0.2",
-		"gulp-imagemin": "^6.1.0",
+		"gulp-imagemin": "^6.2.0",
 		"gulp-rename": "^2.0.0",
 		"list-stream": "^2.0.0",
 		"markdown-it-anchor": "^5.2.5",

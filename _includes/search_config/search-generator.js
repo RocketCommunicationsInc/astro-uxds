@@ -5,7 +5,7 @@ const settings = {
   "src": "../../_content/",
   "filePattern": "**/*.md",
   "ignore": "*(icon|input)*",
-  "dist": "./js/search_config/search-index.json",
+  "dist": "./_site/search-index.json",
   "server": false,
   "display": false,
   "port": "3001"

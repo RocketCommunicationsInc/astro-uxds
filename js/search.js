@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ]
   };
   const searchInput = document.getElementById('search-site');
-  const dataURI = '../js/search_config/search-index.json';
+  const dataURI = '/search-index.json';
   const queryString = location.search.replace('?q=', '').trim();
 
   // Search on Page Load
