@@ -41,7 +41,7 @@
     </g>
     <g transform="translate(16 90)">
       <text fill="#A9B2BC" font-family="OpenSans-Regular, Open Sans" font-size="14">
-        <tspan x="10" y="15">Observations Form</tspan>
+        <tspan x="10" y="15">Observations From</tspan>
       </text>
       <g transform="translate(0 21)">
         <mask id="@1xform-spacing-b" fill="#fff">
