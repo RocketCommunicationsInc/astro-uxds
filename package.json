@@ -7,7 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "eleventy",
 		"serve": "eleventy --serve",
-		"scss": "node-sass -rw scss -o css",
+		"sass": "node-sass -rw scss -o css",
 		"searchIndex": "node ./js/search_config/search-generator.js"
 	},
 	"keywords": [],

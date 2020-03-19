@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     generateSearch(queryString);
   }
 
-  //Input field Search 
+  //form Search 
   searchInput.addEventListener('keyup', function () {
     const searchValue = searchInput.value.trim();
     if (searchValue != '') {
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  //Query search index
+  //query search-index.json
   async function generateSearch(string) {
     fetch(dataURI)
       .then(res => res.json())
@@ -44,29 +44,34 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   }
 
-  //generate results list
+  //generate results
   function generateResults(data) {
     if (data.length === 0) {
-      $('#results').empty().append(`
+      $('#results').empty().append(
+        `
         <div class="no-results">
           <h3>Sorry no matches</h3>
         </div>
       `);
     } else if (data.length > 0 || searchValue == '') {
       $('#results').empty();
+
       for (i = 0; i < data.length; i++) {
         const excerpt = data[i].excerpt.replace("::: note", "").replace(":::", "").replace(":::", "");
         const stripTag = excerpt.replace(/(<([^>]+)>)/ig, "");
-        $('#results').append(`
-        <div class="result-item">  
-          <dt class="item-name">
-            <a href='${data[i].path}'>
-              ${data[i].title}
-            </a>
-          </dt>
-          <dd class="desc">${stripTag}</dd>
-        </div>
-        `);
+
+        if (stripTag.length > 50) {
+          $('#results').append(`
+            <div class="result-item">  
+              <dt class="item-name">
+                <a href='${data[i].path}'>
+                  ${data[i].title}
+                </a>
+              </dt>
+              <dd class="desc">${stripTag}</dd>
+            </div>
+          `);
+        }
       }
     }
   }
