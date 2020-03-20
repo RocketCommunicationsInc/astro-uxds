@@ -13,27 +13,28 @@ Forms are used to collect, validate, and submit user input. They usually contain
 ## Form Layout
 Forms should be designed in columns as this improves scanability. When possible, a form should be one column. Information can be presented in multiple columns if they are grouped together.
 
-One one-column layout is preferred, but use two-column layouts when:
-  *•*	There are too many components to fit in an area of the page
-  *•*	Specific fields have strong associations. Examples in the following illustration: Observations from, Observations Start Time
+One-column layout is preferred, but use two-column layouts when:
+- There are too many components to fit in an area of the page
+- Specific fields have strong associations. 
 
-IMAGE GOES HERE
+![Two Column Layout. The Observations From field is associated with the Observations Start Time field](/img/patterns/forms-layout.png)
 
 ## Form Spacing
 
-IMAGE GOES HERE
+![Form Spacing.](/img/patterns/forms-spacing.png)
 
 ## Labels
 
 Labels should use clear but concise language, and provide enough information for the user to accurately complete the required information.
 
-Labels should follow the vertical format of the form. Place labels above their respective fields, and align with [Input Field](/components/input-field) text. Group a label with its field so that there is a clear distinction between fields. Labels have a bottom margin of 8px from the input field.
+Labels should follow the vertical format of the form. Place labels above their respective fields, and align with [Input Field](/components/input-field) text. Group a label with its field so that there is a clear distinction between fields.
+
 
 ## Rules of Thumb
 
-  *•*	Disabled elements don't get focus via click/tap/key, aren’t accessible via TABing and don't get submitted with form data.
-  *•*	Readonly gets focus via click/tap/key, are accessible when TABing and they are submitted with form data
-  *•*	The length of the input field should reflect the intended length of content.
+- Disabled elements don't get focus via click, tap, or keyboard, aren’t accessible when tabbing, and are not submitted with form data.
+- Readonly elements should allow focus via click, tap, or keyboard, are accessible when tabbing, and are submitted with form data.
+- The length of the input field should reflect the intended length of content.
 
 ## Validation
 
@@ -77,16 +78,16 @@ Tips for writing validation error messages in the voice of Astro:
 Configuration options for validation of Input Fields:
 :::two-col
 
-![Required Input - user must enter some text. If no text is entered, a warning icon and optional instructional text is shown.](/img/components/val-required-input.png 'Required Input - user must enter some text. If no text is entered, a warning icon and optional instructional text is shown.')
+![Required Input - user must enter some text. If no text is entered, a warning icon and optional instructional text is shown.](/img/patterns/val-required-input.png 'Required Input - user must enter some text. If no text is entered, a warning icon and optional instructional text is shown.')
 
-![Numeric Range - input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and optional instructional text.](/img/components/val-numeric-range.png 'Numeric Range - input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and optional instructional text.')
+![Numeric Range - input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and optional instructional text.](/img/patterns/val-numeric-range.png 'Numeric Range - input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and optional instructional text.')
 
-![Time - input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and optional instructional text.](/img/components/val-time.png 'Time - input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and optional instructional text.')
+![Time - input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and optional instructional text.](/img/patterns/val-time.png 'Time - input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and optional instructional text.')
 
-![Date - input must be a valid date. Text that cannot be recognized as a valid date is indicated with a warning icon and optional instructional text.](/img/components/val-date.png 'Date - input must be a valid date. Text that cannot be recognized as a valid date is indicated with a warning icon and optional instructional text.')
+![Date - input must be a valid date. Text that cannot be recognized as a valid date is indicated with a warning icon and optional instructional text.](/img/patterns/val-date.png 'Date - input must be a valid date. Text that cannot be recognized as a valid date is indicated with a warning icon and optional instructional text.')
 
-![Checkboxes can be configured to require input, where at least one item in a group must be selected.](/img/components/val-group-checkbox.png 'Checkboxes can be configured to require input, where at least one item in a group must be selected.')
+![Checkboxes can be configured to require input, where at least one item in a group must be selected.](/img/patterns/val-group-checkbox.png 'Checkboxes can be configured to require input, where at least one item in a group must be selected.')
 
-![Drop Down Menus can be configured to require input, where at least one item in the menu must be selected.](/img/components/val-dropdown-input.png 'Drop Down Menus can be configured to require input, where at least one item in the menu must be selected.')
+![Drop Down Menus can be configured to require input, where at least one item in the menu must be selected.](/img/patterns/val-dropdown-input.png 'Drop Down Menus can be configured to require input, where at least one item in the menu must be selected.')
 
 :::
