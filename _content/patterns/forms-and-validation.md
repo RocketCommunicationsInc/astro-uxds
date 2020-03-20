@@ -27,7 +27,7 @@ One-column layout is preferred, but use two-column layouts when:
 
 Labels should use clear but concise language, and provide enough information for the user to accurately complete the required information.
 
-Labels should follow the vertical format of the form. Place labels above their respective fields, and align with [Input Field](/ui-components/input-field) text. Group a label with its field so that there is a clear distinction between fields.
+Labels should follow the vertical format of the form. Place labels above their respective fields, and align with [Input Field](/components/input-field) text. Group a label with its field so that there is a clear distinction between fields.
 
 
 ## Rules of Thumb
