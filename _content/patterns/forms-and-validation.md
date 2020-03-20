@@ -8,7 +8,7 @@ title: Forms and Validation
 
 ## Forms
 
-Forms are used to collect, validate, and submit user input. They usually contains form elements including [Checkbox](/ui-components/checkbox), [Dialog Box](/ui-components/dialog-box), [Drop Down](/ui-components/drop-down), [Input Field](/ui-components/input-field), [Radio Button](/ui-components/radio-button) and [Toggle](/ui-components/toggle).
+Forms are used to collect, validate, and submit user input. They usually contains form elements including [Checkbox](/components/checkbox), [Dialog Box](/components/dialog-box), [Drop Down](/components/drop-down), [Input Field](/components/input-field), [Radio Button](/components/radio-button) and [Toggle](/components/toggle).
 
 ## Form Layout
 Forms should be designed in columns as this improves scanability. When possible, a form should be one column. Information can be presented in multiple columns if they are grouped together.
@@ -28,6 +28,7 @@ One-column layout is preferred, but use two-column layouts when:
 Labels should use clear but concise language, and provide enough information for the user to accurately complete the required information.
 
 Labels should follow the vertical format of the form. Place labels above their respective fields, and align with [Input Field](/ui-components/input-field) text. Group a label with its field so that there is a clear distinction between fields.
+
 
 ## Rules of Thumb
 
