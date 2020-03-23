@@ -21,6 +21,13 @@ Before reading any further, we recommend you take a look at a live [Astro sample
 
 ## What's New
 
+### Astro 4.4
+
+- [Updated Forms and Validation](/patterns/forms-and-validation/)
+- [Open Source Publishing System](https://github.com/RocketCommunicationsInc/astro-uxds)
+- [Community Contribution Guidelines](/community/contribution-guidlines/)
+- New Patterns section
+
 ### Astro 4.3
 
 - ~~New EGS Compliance~~ (Under Review)
