@@ -25,7 +25,7 @@ Before reading any further, we recommend you take a look at a live [Astro sample
 
 - [Updated Forms and Validation](/patterns/forms-and-validation/)
 - [Open Source Publishing System](https://github.com/RocketCommunicationsInc/astro-uxds)
-- [Community Contribution Guidelines](/community/contribution-guidlines/)
+- [Community Contribution Guidelines](/community/propose-a-change/)
 - New Patterns section
 
 ### Astro 4.3
