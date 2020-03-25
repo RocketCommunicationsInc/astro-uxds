@@ -9,7 +9,7 @@ title: "Getting Started"
 
 Astro is a design system that brings together UX guidelines, an [HTML/CSS](/components/readme) framework, and web components. Astro is for both designers and developers.
 
-Astro is provided by the US Air Force Space and Missile System Center (SMC) and is currently sanctioned for designing Enterprise Ground Services (EGS) and SATOPS web apps.
+Astro is provided by the United States Space Force and Missile System Center (SMC) and is currently sanctioned for designing Enterprise Ground Services (EGS) and SATOPS web apps.
 
 Astro’s user-centered design approach includes interviews and design validation with many SMC and commercial space systems operators. By incorporating operators and subject matter experts in our research and gaining their feedback during the design process, Astro ensures future space apps meet the needs of their users. Refer to the information provided in the [Research](/design-process/research) page for more information on incorporating a user-centered approach in your designs.
 
@@ -25,7 +25,7 @@ Before reading any further, we recommend you take a look at a live [Astro sample
 
 - [Updated Forms and Validation](/patterns/forms-and-validation/)
 - [Open Source Publishing System](https://github.com/RocketCommunicationsInc/astro-uxds)
-- [Community Contribution Guidelines](/community/contribution-guidlines/)
+- [Community Contribution Guidelines](/community/propose-a-change/)
 - New Patterns section
 
 ### Astro 4.3
