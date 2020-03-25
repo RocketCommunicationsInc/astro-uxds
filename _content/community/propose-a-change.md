@@ -1,5 +1,5 @@
 ---
-path: /git refl
+path: /community/propose-a-change
 date: Last Modified
 layout: interior.template.njk
 title: "Propose a Change"
