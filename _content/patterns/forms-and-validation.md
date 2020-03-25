@@ -33,7 +33,7 @@ Labels should follow the vertical format of the form. Place labels above their r
 ## Rules of Thumb
 
 - Disabled elements don't get focus via click, tap, or keyboard, aren’t accessible when tabbing, and are not submitted with form data.
-- Readonly elements should allow focus via click, tap, or keyboard, are accessible when tabbing, and are submitted with form data.
+- Read-only elements (e.g., `<input type=“text” readonly />`) should allow focus via click, tap, or keyboard, are accessible when tabbing, and are submitted with form data.
 - The length of the input field should reflect the intended length of content.
 
 ## Validation
