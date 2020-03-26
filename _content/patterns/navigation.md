@@ -46,7 +46,7 @@ Avoid mixing unrelated object types in a single tree. Although this usage is com
 
 ## Table Navigation
 
-Applications with large uniform data sets can be structured with [Table Navigation](/components/table). Table Navigation begins with a full screen tabular view of the application data. The table’s searching, sorting, and filtering capabilities allow the user to find objects of interest before drilling down to additional detail pages.
+Applications with large uniform data sets can be structured with [Table Navigation](/patterns/table). Table Navigation begins with a full screen tabular view of the application data. The table’s searching, sorting, and filtering capabilities allow the user to find objects of interest before drilling down to additional detail pages.
 
 ![Table navigation sample app layout](/img/design-guidelines/table-nav.png)
 
