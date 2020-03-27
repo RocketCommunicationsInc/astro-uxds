@@ -30,7 +30,7 @@ Tab Navigation works best when the user can accomplish fundamental tasks within 
 
 The contents of each tab may be similar objects with a different view, or unique objects or presentations.
 
-![Master-detail sample app layout](/img/design-guidelines/tab-nav.png)
+![Tab Navigation sample app layout](/img/design-guidelines/tab-nav.png)
 
 ## Tree Navigation
 
