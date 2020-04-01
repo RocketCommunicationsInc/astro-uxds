@@ -233,6 +233,7 @@ To get a good idea of the full range of requirements for Classification Markings
 
 </details>
 
+
 <details>
   <summary>Derivative Classification</summary>
   
@@ -245,6 +246,7 @@ To get a good idea of the full range of requirements for Classification Markings
 - [CDSE Student Guide: Derivative Classification](https://www.cdse.edu/documents/student-guides/derivative-classification.pdf)
 
 </details>
+
 
 <details>
   <summary>Other Security Topics</summary>
