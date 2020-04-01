@@ -32,7 +32,8 @@ module.exports = function(eleventyConfig) {
 
   /* Removes the h1 element from components to enabled inserting live sample */
   eleventyConfig.addNunjucksFilter("removeHeader", function(value) {
-    value.val = value.val.replace(/<h1>(.*)<\/h1>/, "");
+    const regex = /<\s*h1[^>]*>(.*?)<\s*\/\s*h1>/g;
+    value.val = value.val.replace(regex, "");
     return value;
   });
 
@@ -71,6 +72,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "_content/img": "img" });
   eleventyConfig.addPassthroughCopy({ "_content/img": "img" });
   eleventyConfig.addPassthroughCopy({ "_content/**/*/img/*": "components/img" });
+  eleventyConfig.addPassthroughCopy({ "_content/_downloads/*": "downloads" });
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("fonts");
