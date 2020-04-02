@@ -8,7 +8,7 @@ title: Classification Markings
 
 # Classification Markings
 
-Classification markings are required for applications and other mediums created for government clients interacting with classified information. Although there are documents that list the officially required list of classification markings, the multiple, long documents can be difficult to navigate for information specific to digital applications. In these documents there is a catch-all rule that indicates that any electronic medium should require the same markings as a physical document as is reasonable. However, how one determines what is reasonable versus necessary is not well-defined and has been implemented in completely different ways across different applications in the experiences of our clients, their users, and Rocket employees. This report gathers the information from multiple sources to provide an overview of the classification marking information relevant to the UI design of classified government software.
+Classification markings are required for applications and other mediums created for government clients interacting with classified information. Although there are documents that list the officially required list of classification markings, the multiple, long documents can be difficult to navigate for information specific to digital applications. In these documents there is a catch-all rule that indicates that any electronic medium should require the same markings as a physical document as is reasonable. However, how one determines what is reasonable versus necessary is not well-defined and has been implemented in completely different ways across different applications. This page gathers the information from multiple sources to provide an overview of the classification marking information relevant to the UI design of classified government software.
 
 ::: note
 Note: These guidelines are focused on the use of and rules for classification markings in electronic application designs for government clients. Information about markings for emails, PowerPoints, or other mediums like printed documents can be found in the linked resources at the end of the page.
@@ -16,7 +16,7 @@ Note: These guidelines are focused on the use of and rules for classification ma
 
 ## Officially Required
 
-Information regarding what is officially required for classification markings of electronic applications can be found spread throughout the documents we gathered from clients and official online security resources. A list of the documents and materials we used to create this report can be found in the References section at the end of this report. As we mentioned above, the rules for classification markings are primarily focused on physical documents, but also apply to information in an electronic environment. To be more specific, electronic information should be marked with a banner line of overall classification, portion markings, and a classification authority block. When the information cannot be marked with all of these elements, a warning must be present to explain that the information cannot be used for derivative classification purposes and to provide a contact for any questions.
+As was mentioned above, the rules for classification markings are primarily focused on physical documents, but also apply to information in an electronic environment. To be more specific, electronic information should be marked with a banner line of overall classification, portion markings, and a classification authority block. When the information cannot be marked with all of these elements, a warning must be present to explain that the information cannot be used for derivative classification purposes and to provide a contact for any questions.
 
 ### Overall Classification - Banner Lines
 
@@ -24,7 +24,7 @@ The first element of required classification markings is the overall classificat
 
 ##### Example with Banner Lines from DoDDM 5200.01, Volume 2
 
-See the red text in all capital letters at the top and bottom of the document.
+*See the red text in all capital letters at the top and bottom of the document.*
 
 ![Example of Originally Classified Document](/img/patterns/classification-markings-originally-classified-doc.png)
 
@@ -36,7 +36,7 @@ CLASSIFICATION//SCI//SAP//AEA//FGI//DISSEM//OTHER DISSEM
 
 ### Portion Marking
 
-The second required marking for classified documents is portion marking. A portion is anything in a document that has a separate classification from other elements of the document. We have included a more technical definition from DoDM 5200.01, Volume 2 below since this concept is often misunderstood:
+The second required marking for classified documents is portion marking. A portion is anything in a document that has a separate classification from other elements of the document. Below is a more technical definition from DoDM 5200.01, Volume 2 since this concept is often misunderstood:
 
 > Every portion (e.g., subject, title, paragraphs, sections, tabs, attachments, classified signature blocks, bullets, tables and pictures) in every classified document shall be marked to show the highest level of classification that it contains. When deciding whether a subportion is to be treated as a portion and separately marked, the criterion shall be whether the marking is necessary to avoid over-classification of any of the information or to eliminate doubt about the information’s classification level. If there are different levels of classification among a portion and any of its subportions, then all subportions shall be treated as individual portions and marked separately.
 
@@ -74,7 +74,7 @@ For those developing applications/websites, there are also rules about portion m
 
 #### Exceptions
 
-There are few exceptions to the portion mark rules, but the Information Security Oversight Office (ISOO) does acknowledge that different types of documents such as “dynamic documents,” a category that many applications or databases fall under, may have difficulty with these requirements. In general, the ruling seems to be that if a document is not portion marked fully, the document needs to have a waiver from the ISOO and an indication on the document that it cannot be used as a derivative source document with contact information for any questions. We have included quotes below about the mentioned portion marking exception cases to avoid oversimplifying any technical aspects.
+There are few exceptions to the portion mark rules, but the Information Security Oversight Office (ISOO) does acknowledge that different types of documents such as “dynamic documents,” a category that many applications or databases fall under, may have difficulty with these requirements. In general, the ruling seems to be that if a document is not portion marked fully, the document needs to have a waiver from the ISOO and an indication on the document that it cannot be used as a derivative source document with contact information for any questions. Quotes are included below about the mentioned portion marking exception cases to avoid oversimplifying any technical aspects.
 
 ##### Use a Separate Statement Elsewhere on the Page for Impracticable Marking Locations
 
@@ -117,35 +117,35 @@ Whenever classified information is present, there needs to be a method to trace 
 If your application is able to move forward with the use of authority blocks, review the relevant sections in the references at the end of this report since there are many other rules for specific use cases. If it is not possible to show this information, as is true in many dynamic documents, a dynamic document warning (the same as mentioned in the Portion Marking section) should be present at the top of each page to warn the user not to use the content as a source for derivative classification and to give contact information.
 
 
-#### Structure for Original vs. Derivative Classification Blocks from the ISOO Marking Booklet
+##### Structure for Original vs. Derivative Classification Blocks from the ISOO Marking Booklet
 
 ![Summary of Classification Authority Block](/img/patterns/classification-markings-authority-block.png)
 
-#### Example of Original Classification in Context from DoDM 5200.01, Volume 2
+##### Example of Original Classification in Context from DoDM 5200.01, Volume 2
 
 ![Example of Originally Classified Document](/img/patterns/classification-markings-originally-classified-doc.png)
 
-#### Example of Derivative Classification in Context from DoDM 5200.01, Volume 2
+##### Example of Derivative Classification in Context from DoDM 5200.01, Volume 2
 
 *UNCLASSIFIED - CLASSIFICATION MARKINGS FOR ILLUSTRATION PURPOSES ONLY*
 
 ![Example of Derivatively Classified Document](/img/patterns/classification-markings-derivatively-classified.png)
 
-#### Repeat of the Dynamic Document Warning for Quick Reference
+##### Repeat of the Dynamic Document Warning for Quick Reference
 
 ![Warning Statement for Dynamic Documents](/img/patterns/classification-markings-warning-statement-for-dynamic-documents.png)
 
 ## Actual Implementation
 
-Actual implementations of the classification marking requirements, however, are increasingly varied. Some applications that our users use have top and bottom banners as well as some higher levels of portion marking, but other applications have no markings at all or only a top banner with the overall system classification level. Users report a common trend in applications is to just use a top and bottom banner with the overall classification in text and a background color for the banner matching the relevant physical classification label color.
+Actual implementations of the classification marking requirements, however, are increasingly varied. Some applications that our users have encountered have top and bottom banners as well as some higher levels of portion marking, but other applications have no markings at all or only a top banner with the overall system classification level. Government users report a common trend in applications is to just use a top and bottom banner with the overall classification in text and a background color for the banner matching the relevant physical classification label color.
 
 ### Workstations
 
-According to Rocket Communication’s cybersecurity contractor, applications that will be used on workstations with access to classified networks and information often do not have a full set of classification markings because the workstations themselves have the markings. On the physical workstation machines, physical classification labels will be present showing the highest level of classified information the machine has access to. When the workstation is on, the user interface of the workstation is themed to match the color of the physical classification label. The wallpaper of the virtual desktop of the workstation has an overall classification banner at the top of the screen that also marks the high-water mark of the classification access of the machine and any additional caveats. There is not a banner at the bottom of the desktop wallpaper since it would often be covered by the computer menus from the bottom of the screen. In general, because the workstation already has an overall classification banner and many virtual environments are dynamic in nature, applications on these workstations do not tend to have as many classification markings as more traditional document formats.
+Applications that will be used on government workstations with access to classified networks and information often do not have a full set of classification markings because the workstations themselves have the markings. On the physical workstation machines, physical classification labels will be present showing the highest level of classified information the machine has access to. When the workstation is on, the user interface of the workstation is themed to match the color of the physical classification label. The wallpaper of the virtual desktop of the workstation has an overall classification banner at the top of the screen that also marks the high-water mark of the classification access of the machine and any additional caveats. There is not a banner at the bottom of the desktop wallpaper since it would often be covered by the computer menus from the bottom of the screen. In general, because the workstation already has an overall classification banner and many virtual environments are dynamic in nature, applications on these workstations do not tend to have as many classification markings as more traditional document formats.
 
 ### Physical Classification Labels
 
-According to subject matter experts within our client companies, it is a common practice to use physical classification label colors as background colors for overall classification banners in applications. We were not able to find any documentation that lists this an a required aspect of overall classification, but we have included images of these labels for reference from Marking Classified National Security Information ISOO Booklet, Revision 4 (p. 44) and the At Ease Computing, Inc. Online Store - U.S. Government Security Labels (SF) as linked at the bottom of the page. Our cybersecurity contractor confirmed that there are no documented requirements that virtual environments use color as a signifier to the best of her knowledge. It is unclear if there are specific colors or hex codes required for each label or if it only requires a generic color category like “red.”
+According to subject matter experts within our client companies, it is a common practice to use physical classification label colors as background colors for overall classification banners in applications. We were not able to find any documentation that lists this an a required aspect of overall classification, but we have included images of these labels for reference from Marking Classified National Security Information ISOO Booklet, Revision 4 (p. 44) and the At Ease Computing, Inc. Online Store - U.S. Government Security Labels (SF) as linked at the bottom of the page. A cybersecurity expert confirmed that there are no documented requirements that virtual environments use color as a signifier to the best of her knowledge. It is unclear if there are specific colors or hex codes required for each label or if it only requires a generic color category like “red.”
 
 ##### ISOO Marking Booklet - SF Label Images
 
@@ -169,13 +169,13 @@ According to subject matter experts within our client companies, it is a common 
 
 ## Current Recommendations
 
-Many people assume that markings are a simple matter of putting a banner at the top of the application with the highest level of classification of the data present in a system. However, that level of detail is not enough according to government requirements (as found in the references at the end of this report) and the needs of our users. For example, operators may need to collaborate and communicate to complete their tasks, but different operators can have different clearance levels even if they are sitting next to each other. Although additional portion markings create visual clutter, in many cases a more in depth level of detail is needed by our users to succeed unless a coordinated government effort (such as the one currently in progress) makes a different ruling on the level of detail required for their jobs and the country’s security. It may seem simpler to wait for the verdict of the government effort, but there is not a known timeline for any new guidelines and the development and design for many relevant software projects is already underway. In order to save time and resources, ultimately, it will be much easier and more secure to figure in these marking elements earlier rather than later.
+Many people assume that markings are a simple matter of putting a banner at the top of the application with the highest level of classification of the data present in a system. However, that level of detail is not enough according to government requirements and the needs of our users. For example, operators may need to collaborate and communicate to complete their tasks, but different operators may have different clearance levels even if they are sitting next to each other. Although additional portion markings create visual clutter, in many cases a more in depth level of detail is needed by our users to succeed unless a coordinated government effort (such as the one currently in progress) makes a different ruling on the level of detail required for their jobs and the country’s security. It may seem simpler to wait for the verdict of the government effort, but there is not a known timeline for any new guidelines and the development and design for many relevant software projects is already underway. In order to save time and resources, ultimately, it will be much easier and more secure to figure in these marking elements earlier rather than later.
 
 Looking at the differences between the official requirements and the actual implementations that our users are more familiar with, we make the following suggestions. Please note that any exceptions from the documented rules require requesting an exception from the relevant governing body. 
 
 ### Overall Classification
 
-One thing that all of the documentation and most of the implementations can agree on is that an application should have a **top banner** with overall classification in it. Since the application will be on an already marked workstation, we suggest a top banner that says **“CLASSIFIED UP TO \[LEVEL\]”** where the level is the classification level without any of the additional caveat information. The banner should follow the standard format with **centered** text in **all capital** letters and should be in **fixed** positions in the application so they cannot scroll out of view. To match what users are familiar with, we recommend coloring the banners to match the **colors of physical classification labels**. However, there is a risk that these additional colors will take away from the meanings for colors used elsewhere in the application for status purposes, so we suggest reducing the visual footprint of the banner to the smallest height that can still be easily read and understood quickly.
+One thing that all of the documentation and most of the implementations can agree on is that an application should have a **top banner** with overall classification in it. If the application will be on an already marked workstation, we suggest a top banner that says **“CLASSIFIED UP TO \[LEVEL\]”** where the level is the classification level without any of the additional caveat information. The banner should follow the standard format with **centered** text in **all capital** letters and should be in **fixed** positions in the application so they cannot scroll out of view. To match what users are familiar with, we recommend coloring the banners to match the **colors of physical classification labels**. However, there is a risk that these additional colors will take away from the meanings for colors used elsewhere in the application for status purposes, so we suggest reducing the visual footprint of the banner to the smallest height that can still be easily read and understood quickly.
 
 ### Portion Marking
 
@@ -183,7 +183,7 @@ Current documentation requires portion marking throughout a document, but, in ac
 
 ### Classification Authority Block
 
-Since the information included on each page of an application can have classified items from many different sources and may dynamically change in many circumstances, we believe that a Classification Authority Block is **not relevant** to these UI designs. Therefore, according to regulations, a Dynamic Document Warning should be applied on every page, but we have not found that to be true in implementation. We suggest to either **ask for an exception to the warning rule** to remove this block and warning altogether from the application’s UI or ask to be able to place the warning on a single landing, home page, or general acknowledgement pop ups to avoid having to use a large chunk of space on every page for the same warning.
+Since the information included on each page of an application can have classified items from many different sources and may dynamically change in many circumstances, we believe that a Classification Authority Block is **not relevant** to these UI designs. Therefore, according to regulations, a Dynamic Document Warning should be applied on every page, but the research has not found that to be true in implementation. We suggest to either **ask for an exception to the warning rule** to remove this block and warning altogether from the application’s UI or ask to be able to place the warning on a single landing, home page, or general acknowledgement pop ups to avoid having to use a large chunk of space on every page for the same warning.
 
 ## Remaining Questions
 
