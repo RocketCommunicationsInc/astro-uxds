@@ -123,7 +123,7 @@ If your application is able to move forward with the use of authority blocks, re
 
 #### Example of Original Classification in Context from DoDM 5200.01, Volume 2
 
-![Example of Originally Classified Document](/img/patterns/classification-markings-originally=classified-doc.png)
+![Example of Originally Classified Document](/img/patterns/classification-markings-originally-classified-doc.png)
 
 #### Example of Derivative Classification in Context from DoDM 5200.01, Volume 2
 
