@@ -58,19 +58,19 @@ For those developing applications/websites, there are also rules about portion m
 
 ##### Example of Portion Marking from DoDM 5200.01, Volume 2
 
-![Example of FOUO Marking in a Classified Document](img/patterns/classification-markings-FOUO-marking-in-classified-doc.png)
+![Example of FOUO Marking in a Classified Document](/img/patterns/classification-markings-FOUO-marking-in-classified-doc.png)
 
 ##### Examples of Portion Marking from ISOO Marking Handbook
 
 *UNCLASSIFIED - CLASSIFICATION MARKINGS FOR ILLUSTRATION PURPOSES ONLY*
 
-![Example of Paragraph and Diagram Marking](img/patterns/classification-markings-diagram.png)
+![Example of Paragraph and Diagram Marking](/img/patterns/classification-markings-diagram.png)
 
-![Example of Bullet Point Markings](img/patterns/classification-markings-bullets.png)
+![Example of Bullet Point Markings](/img/patterns/classification-markings-bullets.png)
 
 ##### Examples of Portion Marking Text from DoDM 5200.01, Volume 2
 
-![Examples of Portion Markng Text](img/patterns/classification-markings-portion-marking-text.png)
+![Examples of Portion Markng Text](/img/patterns/classification-markings-portion-marking-text.png)
 
 #### Exceptions
 
@@ -100,7 +100,7 @@ There are few exceptions to the portion mark rules, but the Information Security
 >
 >If such a mechanism does not exist, the highest classification level of information within the data source (e.g., database) shall be used and a warning shall be applied at the top of each page of the document. Such content shall NOT be used as a basis for derivative classification. An example of such a warning is shown in Figure 19. 
 >
-> ![Warning Statement for Dynamic Documents](img/patterns/classification-markings-warning-statement-for-dynamic-documents.png)
+> ![Warning Statement for Dynamic Documents](/img/patterns/classification-markings-warning-statement-for-dynamic-documents.png)
 >
 > (a) The warning is to alert users that there may be elements of information that may be either unclassified or classified at a lower level than the highest possible classification of the information returned. 
 >
@@ -119,21 +119,21 @@ If your application is able to move forward with the use of authority blocks, re
 
 #### Structure for Original vs. Derivative Classification Blocks from the ISOO Marking Booklet
 
-![Summary of Classification Authority Block](img/patterns/classification-markings-authority-block.png)
+![Summary of Classification Authority Block](/img/patterns/classification-markings-authority-block.png)
 
 #### Example of Original Classification in Context from DoDM 5200.01, Volume 2
 
-![Example of Originally Classified Document](img/patterns/classification-markings-originally=classified-doc.png)
+![Example of Originally Classified Document](/img/patterns/classification-markings-originally=classified-doc.png)
 
 #### Example of Derivative Classification in Context from DoDM 5200.01, Volume 2
 
 *UNCLASSIFIED - CLASSIFICATION MARKINGS FOR ILLUSTRATION PURPOSES ONLY*
 
-![Example of Derivatively Classified Document](img/patterns/classification-markings-derivatively-classified.png)
+![Example of Derivatively Classified Document](/img/patterns/classification-markings-derivatively-classified.png)
 
 #### Repeat of the Dynamic Document Warning for Quick Reference
 
-![Warning Statement for Dynamic Documents](img/patterns/classification-markings-warning-statement-for-dynamic-documents.png)
+![Warning Statement for Dynamic Documents](/img/patterns/classification-markings-warning-statement-for-dynamic-documents.png)
 
 ## Actual Implementation
 
@@ -151,21 +151,21 @@ According to subject matter experts within our client companies, it is a common 
 
 *UNCLASSIFIED - CLASSIFICATION MARKINGS FOR ILLUSTRATION PURPOSES ONLY*
 
-![Examples of Physical Labels in the ISOO Marking Booklet](img/patterns/classification-markings-label-authorization.png)
+![Examples of Physical Labels in the ISOO Marking Booklet](/img/patterns/classification-markings-label-authorization.png)
 
 ##### At Ease Computing - SF Label Images
 
 *UNCLASSIFIED - CLASSIFICATION MARKINGS FOR ILLUSTRATION PURPOSES ONLY*
 
-|Classification Level - Part Number for Reference|SF Label|
-|---|---|
-|Unclassified - SF-710|![Green Unclassified Label](img/patterns/classification-markings-sf-710.png)|
-|Classified - SF-709|![Light Purple Classified Label](img/patterns/classification-markings-sf-709.png)|
-|Confidential - SF-708|![Dark Blue Confidential Label](img/patterns/classification-markings-sf-708.png)|
-|Secret - SF-707|![Red Secret Label](img/patterns/classification-markings-sf-707.png)|
-|Top Secret - SF-706|![Orange Top Secret Label](img/patterns/classification-markings-sf-706.png)|
-|Top Secret SCI - SF-712|![Yellow Top Secret SCI Label](img/patterns/classification-markings-sf-712.png)|
-|Top Secret Special Access Required - SF-SAR-P|![Dark Purple Top Secret SAR-P Label](img/patterns/classification-markings-sf-sar-p.png)|
+| Classification Level - Part Number for Reference | SF Label                                                                                  |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| Unclassified - SF-710                            | ![Green Unclassified Label](/img/patterns/classification-markings-sf-710.png)             |
+| Classified - SF-709                              | ![Light Purple Classified Label](/img/patterns/classification-markings-sf-709.png)        |
+| Confidential - SF-708                            | ![Dark Blue Confidential Label](/img/patterns/classification-markings-sf-708.png)         |
+| Secret - SF-707                                  | ![Red Secret Label](/img/patterns/classification-markings-sf-707.png)                     |
+| Top Secret - SF-706                              | ![Orange Top Secret Label](/img/patterns/classification-markings-sf-706.png)              |
+| Top Secret SCI - SF-712                          | ![Yellow Top Secret SCI Label](/img/patterns/classification-markings-sf-712.png)          |
+| Top Secret Special Access Required - SF-SAR-P    | ![Dark Purple Top Secret SAR-P Label](/img/patterns/classification-markings-sf-sar-p.png) |
 
 ## Current Recommendations
 
