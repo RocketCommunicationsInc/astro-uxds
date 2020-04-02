@@ -51,7 +51,7 @@ As you conduct your research, complete each of these tasks to develop a comprehe
 
 ### Key Research Deliverables
 
-- [User Interview Questions](/downloads/user-interview-questions.zip) \[ZIP\]
+- [User Interview Questions](/downloads/user-interview-questions-template.zip) \[ZIP\]
 - [Sample User Personas](/downloads/sample-user-personas.zip) \[ZIP\]
 - [Personas Worksheet](/downloads/personas-worksheet.zip) \[ZIP\]
 - [User Testing Questions Template](/downloads/user-testing-questions-template.zip) \[ZIP\]
