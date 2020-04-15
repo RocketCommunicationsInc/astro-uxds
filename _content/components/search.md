@@ -35,7 +35,7 @@ Search has two states:
 ![Within the focused state, the magnifying glass symbol is more prominent. The “Clear” button becomes enabled.](/img/components/search-focus.png "Within the focused state, the magnifying glass symbol is more prominent. The “Clear” button becomes enabled.")
 :::
 
-::: compliance
+::: egs-compliance
 
 - 5.14.1 Search Fields shall contain prompt text.
 

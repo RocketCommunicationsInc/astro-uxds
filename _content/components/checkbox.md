@@ -39,7 +39,7 @@ Don’t use a Checkbox to initiate an action. Instead, use an [Action Button](/c
 
 :::
 
-::: compliance
+::: egs-compliance
 
 - 5.2.1 Checkboxes shall be used for setting values only, not to initiate actions.
 

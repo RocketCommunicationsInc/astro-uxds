@@ -38,7 +38,7 @@ If a user is required to make a choice between items without a default, consider
 
 :::
 
-::: compliance
+::: egs-compliance
 
 - 5.13.1 Radio Buttons shall be used only for mutually exclusive choices.
 

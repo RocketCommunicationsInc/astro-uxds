@@ -24,7 +24,7 @@ A Pop-Up Menu provides users with a quick way to access common actions for a hig
 - Use an ellipsis (…) to indicate to users that further action is required to complete the command. The ellipsis character means that a Dialog Box or a separate window will open allowing users to make additional choices or supply additional information to complete the action.
 - Avoid combining actions and attributes in the same group. Users tend to view choosing an action differently from choosing an attribute.
 
-::: compliance
+::: egs-compliance
 
 - 5.11.1 Menu items shall use title-style capitalization.
 - 5.11.2 Menu items shall use an ellipsis (…) to indicate that further action is required to complete the command.
