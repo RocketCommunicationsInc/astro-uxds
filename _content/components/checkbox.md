@@ -41,6 +41,6 @@ Don’t use a Checkbox to initiate an action. Instead, use an [Action Button](/c
 
 ::: compliance
 
-- X.X.X Checkboxes shall be used for setting values only, not to initiate actions.
+- 5.2.1 Checkboxes shall be used for setting values only, not to initiate actions.
 
 :::
