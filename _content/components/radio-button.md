@@ -40,6 +40,6 @@ If a user is required to make a choice between items without a default, consider
 
 ::: compliance
 
-- X.X.X Radio Buttons shall be used only for mutually exclusive choices.
+- 5.13.1 Radio Buttons shall be used only for mutually exclusive choices.
 
 :::

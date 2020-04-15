@@ -45,6 +45,6 @@ Be sure the current page is easily distinguishable from other pages referenced b
 
 ::: compliance
 
-- X.X.X Pagination shall use a text style that is without an underline.
+- 5.10.1 Pagination shall use a text style that is without an underline.
 
 :::

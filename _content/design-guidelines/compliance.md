@@ -61,34 +61,34 @@ class: compliance
 	9. [Log](/components/log)
 		1. Custom Log implementations shall perform all of the scrolling<!--link to scrolling--> and filtering interactions<!--link to filtering--> described.
 			
-	11. [Pagination](/components/pagination)
+	10. [Pagination](/components/pagination)
 		1. Pagination shall use a text style that is without an underline.
 		
-	12. [Pop Up](/components/pop-up)
+	11. [Pop Up](/components/pop-up)
 		1. Menu items shall use title-style capitalization.
 		2. Menu items shall use an ellipsis (…) to indicate that further action is required to complete the command.
 		
-	13. [Progress](/components/progress)
+	12. [Progress](/components/progress)
 		1. Progress indicator shall indicate the precise completion time for an operation.
 		
-	14. [Radio Button](/components/radio-button)
+	13. [Radio Button](/components/radio-button)
 		1. Radio Buttons shall be used only for mutually exclusive choices.
 		
-	15. [Search](/components/search)
+	14. [Search](/components/search)
 		1. Search Fields shall contain prompt text.
 		
-	16. [Segmented Button](/components/segmented-button)
+	15. [Segmented Button](/components/segmented-button)
 		1. Segmented Buttons shall be used only for mutually exclusive selections.
 		
-	18. [Status Symbol](/components/status-symbol)
+	16. [Status Symbol](/components/status-symbol)
 		1. Status Symbols shall always be rendered with the specified shapes<!--link to colors-->.
 		2. Status Symbols shall always be rendered with the specified colors<!--link to shapes-->.
 			
-	20. [Tabs](/components/tabs)
+	17. [Tabs](/components/tabs)
 		1. Tabs shall be arranged in a single row.
 		2. Tabs shall use title-style capitalization.
 		
-	22. [Toggle](/components/toggle)
+	18. [Toggle](/components/toggle)
 		1. Toggle shall be used when the action takes immediate effect.
 		
 

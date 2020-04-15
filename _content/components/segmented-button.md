@@ -37,6 +37,6 @@ Segmented Buttons allow users to select one item at a time from two to four opti
 
 ::: compliance
 
-- X.X.X Segmented Buttons shall be used only for mutually exclusive selections
+- 5.15.1 Segmented Buttons shall be used only for mutually exclusive selections
 
 :::
