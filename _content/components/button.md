@@ -48,8 +48,8 @@ Outline Buttons are an alternative button style to be used in situations where a
 
 :::
 
-::: compliance
+::: egs-compliance
 
-5.1.1 Buttons shall be used for actionable controls only, not as state indicators.
+- 5.1.1 Buttons shall be used for actionable controls only, not as state indicators.
 
 :::

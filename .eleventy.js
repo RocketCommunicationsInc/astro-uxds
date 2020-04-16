@@ -6,6 +6,8 @@ module.exports = function(eleventyConfig) {
   const cleanCSS = require("clean-css");
   const fs = require("fs");
 
+  // console.log(markdownIt.escapeHtml);
+
   fs.copyFile("404.md", "_content/404.md", err => {
     if (err) throw err;
   });
@@ -24,10 +26,21 @@ module.exports = function(eleventyConfig) {
     })
     .use(markdownItContainer, "note")
     .use(markdownItContainer, "caution")
-    .use(markdownItContainer, "compliance")
     .use(markdownItContainer, "col")
     .use(markdownItContainer, "two-col")
-    .use(markdownItContainer, "three-col");
+    .use(markdownItContainer, "three-col")
+    .use(markdownItContainer, "egs-compliance", {
+      
+
+      render: function (tokens, idx) {
+        var m = tokens[idx].info.trim().match(/^egs-compliance\s+(.*)$/);
+        if (tokens[idx].nesting === 1) {
+          return `<aside class="compliance"><header>Compliance Requirements</header>\n`
+        } else {
+          return '<footer><a href="/design-guidelines/compliance/">See all EGS Compliance Requirements</a></footer></aside>\n';
+        }
+      }
+    });
   eleventyConfig.setLibrary("md", markdownLib);
 
   /* Removes the h1 element from components to enabled inserting live sample */
