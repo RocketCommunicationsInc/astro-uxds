@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Components",
+    "numeral": "5",
+    "rulesets": [
+      {
+        "name": "Button",
+        "numeral": "1",
+        "link": "/components/button",
+        "rules": [
+          {
+            "numeral": "1",
+            "rule": "Buttons shall be used for actionable controls only, not as state indicators.",
+            "figures": [],
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "name": "Dialog Box",
+        "numeral": "3",
+        "link": "/components/dialog-box",
+        "rules": [
+          {
+            "numeral": "1",
+            "rule": "Dialog Boxes shall use Buttons for confirm or cancel actions.",
+            "figures": [],
+            "status": "deprecated"
+          },
+          {
+            "numeral": "3",
+            "rule": "Dialog Box confirmation Button shall be to the right of the cancel Button.",
+            "figures": [],
+            "status": "current"
+          },
+          {
+            "numeral": "2",
+            "rule": "Dialog Boxes shall be closed only with confirm or cancel Buttons.",
+            "figures": [],
+            "status": "current"
+          },
+          {
+            "numeral": "5",
+            "rule": "Reserving 4 for future use",
+            "figures": [],
+            "status": "draft"
+          }
+        ]
+      },      {
+        "name": "Second Item",
+        "numeral": "2",
+        "link": "/components/button",
+        "rules": [
+          {
+            "numeral": "1",
+            "rule": "Lorem Ipsum",
+            "figures": [],
+            "status": "current"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Color",
+    "numeral": "2",
+    "link": "/design-guidelines/color",
+    "rules": [
+      {
+        "numeral": "1",
+        "rule": "Ordinary User Interface elements and backgrounds shall be designed with the colors identified in the Primary, Secondary, Tertiary, and Quaternary palettes.",
+        "figures": [],
+        "status": "current"
+      },
+      {
+        "numeral": "2",
+        "rule": "User Interface elements that require distinct colors shall be designed with the colors identified in the Tag 1, Tag 2, Tag 3, and Tag 4 palettes.",
+        "figures": [],
+        "status": "draft"
+      }
+    ]
+  }
+]

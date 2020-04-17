@@ -1,0 +1,71 @@
+{% extends "base.template.njk" %}
+{% block content %}
+	<link rel="stylesheet" href="/css/compliance.css">
+	{{ content | safe }}
+
+  <!-- Recursive rendering of child tree items //-->
+{% macro complianceMacro(data, prefix) %}
+
+  <!-- If this item has a rulesets array //-->
+	{% if data.rulesets.length %}
+
+		<li class="section" role="treeitem">
+			<span class="numeral">
+        {{ data.numeral }}.0
+      </span> 
+      <span class="ruleset-name">
+        {{ data.name }}
+      </span>
+		</li>
+
+    <ol class="rulesets">
+      {% for rulesets in data.rulesets|sort(false,false,'numeral') %}
+        {{ complianceMacro(rulesets, data.numeral) }}
+      {% endfor %}
+    </ol>
+
+	{% else %}
+    <!-- If this item doesn't have a rulesets array, it has rules //-->
+    <li class="ruleset">
+
+      <span class="numeral">
+        {% if prefix != null %}{{ prefix }}.{% endif %}{{ data.numeral }}.0
+      </span> 
+
+      <span class="rules-name">
+        <a href="{{ data.url }}">{{ data.name }}</a>
+      </span>
+    </li>
+
+    <ol class="rules">
+      {% for rule in data.rules|sort(false,false,'numeral') %}
+        <li class="rule rule-status--{{ rule.status }}">
+
+          <span class="numeral">
+            {% if prefix != null %}{{ prefix }}.{% endif %}{{ data.numeral }}.{{ rule.numeral }}
+          </span>
+
+          <span class="rule-text">{{ rule.rule }}</span>
+
+        </li>
+      {% endfor %}
+      </ol>
+
+  {% endif %}
+{% endmacro %}
+
+
+
+	<nav id="compliance">
+		<ol class="compliance-tree" role="tree">
+    {% set sortedRules = compliance|sort(false,false,'numeral') %}
+			{% for complianceRules in sortedRules %}
+				{{ complianceMacro(complianceRules, null) }}
+			{% endfor %}
+		</ol>
+	</nav>
+
+
+
+
+{% endblock %}
