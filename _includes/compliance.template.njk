@@ -3,13 +3,12 @@
 	<link rel="stylesheet" href="/css/compliance.css">
 	{{ content | safe }}
 
-  <!-- Recursive rendering of child tree items //-->
+  <!-- Recursive rendering of compliance rules //-->
 {% macro complianceMacro(data, prefix) %}
 
-  <!-- If this item has a rulesets array //-->
 	{% if data.rulesets.length %}
 
-		<li class="section" role="treeitem">
+		<li class="section">
 			<span class="numeral">
         {{ data.numeral }}.0
       </span> 
@@ -25,7 +24,6 @@
     </ol>
 
 	{% else %}
-    <!-- If this item doesn't have a rulesets array, it has rules //-->
     <li class="ruleset">
 
       <span class="numeral">
@@ -33,19 +31,23 @@
       </span> 
 
       <span class="rules-name">
-        <a href="{{ data.url }}">{{ data.name }}</a>
+        {% if data.link %}
+          <a href="{{ data.link }}">{{ data.name }}</a>
+        {% else %}
+          {{ data.name }}
+        {% endif %}
       </span>
     </li>
 
     <ol class="rules">
       {% for rule in data.rules|sort(false,false,'numeral') %}
-        <li class="rule rule-status--{{ rule.status }}">
+        <li class="rule">
 
           <span class="numeral">
             {% if prefix != null %}{{ prefix }}.{% endif %}{{ data.numeral }}.{{ rule.numeral }}
           </span>
 
-          <span class="rule-text">{{ rule.rule }}</span>
+          <span class="rule-text rule-text--status--{{ rule.status }}" data-status="{{ rule.status }}">{{ rule.rule  | markdownify | safe }}</span>
 
         </li>
       {% endfor %}
@@ -57,7 +59,7 @@
 
 
 	<nav id="compliance">
-		<ol class="compliance-tree" role="tree">
+		<ol class="compliance-tree">
     {% set sortedRules = compliance|sort(false,false,'numeral') %}
 			{% for complianceRules in sortedRules %}
 				{{ complianceMacro(complianceRules, null) }}

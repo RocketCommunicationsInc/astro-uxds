@@ -43,6 +43,9 @@ module.exports = function(eleventyConfig) {
     });
   eleventyConfig.setLibrary("md", markdownLib);
 
+  eleventyConfig.addNunjucksFilter("markdownify", markdownString => markdownLib.renderInline(markdownString));
+
+
   /* Removes the h1 element from components to enabled inserting live sample */
   eleventyConfig.addNunjucksFilter("removeHeader", function(value) {
     const regex = /<\s*h1[^>]*>(.*?)<\s*\/\s*h1>/g;

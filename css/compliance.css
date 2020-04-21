@@ -50,3 +50,54 @@ main {
   font-weight: bold;
   font-size: larger;
 }
+.compliance-tree .rule-text:after {
+  content: attr(data-status);
+  font-size: .65em;
+  line-height: .6em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin: 0 .75em;
+  font-weight: 600;
+  padding: .5em;
+  display: inline-block;
+  border: 1px solid #eceff4;
+  border-width:  0 1px 1px 0;
+  background: #eceff4;
+  color:  rgb(73, 73, 73);
+  vertical-align: text-bottom;
+}
+
+.compliance-tree .rule-text--status--draft {}
+.compliance-tree .rule-text--status--draft:after {
+  color: #da5309;
+  background: #f8ddd1;
+  border-color:  #f0baa3;
+  font-style: italic;
+}
+.compliance-tree .rule-text--status--new {}
+.compliance-tree .rule-text--status--new:after  {
+  color: #00767a;
+  background: #d0f4f4;
+  border-color: #a0e8eb;
+}
+.compliance-tree .rule-text--status--current {}
+.compliance-tree .rule-text--status--current:after  {
+  color: #3a87cf;
+  background: #daeefe;
+  border-color: #b7dcff;
+}
+.compliance-tree .rule-text--status--updated {}
+.compliance-tree .rule-text--status--updated:after  {
+  color: #a200c1;
+  background: #edcef3;
+  border-color: #da9be7;
+}
+.compliance-tree .rule-text--status--deprecated {
+  text-decoration: line-through;
+  font-style: italic;
+}
+.compliance-tree .rule-text--status--deprecated:after  {
+  color: #786dd3;
+  background: #e4e2f7;
+  border-color: #c9c5ed;
+}
