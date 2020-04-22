@@ -1,3 +1,19 @@
+[build]
+  publish = "_site"
+
+[context.production]
+  command = "npm run build"
+
+[context.deploy-preview]
+  command = "npm run build"
+
+[context.branch-deploy]
+  command = "npm run build"
+
+[context.compliance]
+  command = "npm run build && cp password_headers _site/_headers"
+​
+
 [[redirects]]
 	from = "/ui-components/*"
 	to = "/components/:splat"
