@@ -1,8 +1,9 @@
 module.exports = function(eleventyConfig) {
   const markdownIt = require("markdown-it");
   const markdownItContainer = require("markdown-it-container");
-  const implicitFigures = require("markdown-it-implicit-figures");
   const markdownItAnchor = require("markdown-it-anchor");
+  const implicitFigures = require("markdown-it-implicit-figures");
+  const markdownItFigure = require('./js/markdown-figure-it.js');
   const cleanCSS = require("clean-css");
   const fs = require("fs");
 
@@ -24,23 +25,13 @@ module.exports = function(eleventyConfig) {
     .use(implicitFigures, {
       figcaption: true
     })
+    .use(markdownItFigure, {})
     .use(markdownItContainer, "note")
     .use(markdownItContainer, "caution")
     .use(markdownItContainer, "col")
     .use(markdownItContainer, "two-col")
     .use(markdownItContainer, "three-col")
-    .use(markdownItContainer, "egs-compliance", {
-      
 
-      render: function (tokens, idx) {
-        var m = tokens[idx].info.trim().match(/^egs-compliance\s+(.*)$/);
-        if (tokens[idx].nesting === 1) {
-          return `<aside class="compliance"><header>Compliance Requirements</header>\n`
-        } else {
-          return '<footer><a href="/design-guidelines/compliance/">See all EGS Compliance Requirements</a></footer></aside>\n';
-        }
-      }
-    });
   eleventyConfig.setLibrary("md", markdownLib);
 
   eleventyConfig.addNunjucksFilter("markdownify", markdownString => markdownLib.renderInline(markdownString));
@@ -53,17 +44,7 @@ module.exports = function(eleventyConfig) {
     return value;
   });
 
-  /* Adds an id to all figure elements */
-  eleventyConfig.addNunjucksFilter("figureIt", function(value) {
-    let figcount = 1;
 
-    const els = value.val
-      .split("\n")
-      .map(el => (el.includes("<figure") ? el.replace("<figure", `<figure id="figure-${(figcount += 1)}"`) : el));
-
-    value.val = els.join("\n");
-    return value;
-  });
 
   /* Adds an do/dont styling to all do/dont images */
   eleventyConfig.addNunjucksFilter("doDont", function(value) {
