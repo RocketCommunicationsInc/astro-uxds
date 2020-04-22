@@ -38,9 +38,3 @@ Don’t use a Checkbox to initiate an action. Instead, use an [Action Button](/c
 ![Don’t: Poorly placed and misaligned Checkboxes make it difficult for users to differentiate one state from another.](/img/components/checkbox-do-1.png "Don’t: Poorly placed and misaligned Checkboxes make it difficult for users to differentiate one state from another.")
 
 :::
-
-::: egs-compliance
-
-- 5.2.1 Checkboxes shall be used for setting values only, not to initiate actions.
-
-:::

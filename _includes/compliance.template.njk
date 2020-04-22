@@ -47,8 +47,11 @@
             {% if prefix != null %}{{ prefix }}.{% endif %}{{ data.numeral }}.{{ rule.numeral }}
           </span>
 
-          <span class="rule-text rule-text--status--{{ rule.status }}" data-status="{{ rule.status }}">{{ rule.rule  | markdownify | safe }}</span>
-
+          <span 
+            class="rule-text" data-status="{{ rule.status }}">
+              {{ rule.rule  | markdownify | safe }}
+          </span>
+          
         </li>
       {% endfor %}
       </ol>
@@ -58,14 +61,12 @@
 
 
 
-	<nav id="compliance">
-		<ol class="compliance-tree">
-    {% set sortedRules = compliance|sort(false,false,'numeral') %}
-			{% for complianceRules in sortedRules %}
-				{{ complianceMacro(complianceRules, null) }}
-			{% endfor %}
-		</ol>
-	</nav>
+<ol class="compliance">
+{% set sortedRules = compliance|sort(false,false,'numeral') %}
+  {% for complianceRules in sortedRules %}
+    {{ complianceMacro(complianceRules, null) }}
+  {% endfor %}
+</ol>
 
 
 

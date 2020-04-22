@@ -17,7 +17,7 @@
       {
         "name": "Color",
         "numeral": 1,
-        "link": "/design-guidelines/color",
+        "link": "/design-guidelines/color/",
         "rules": [
           {
             "numeral": 1,
@@ -36,7 +36,7 @@
       {
         "name": "Typography",
         "numeral": 2,
-        "link": "/design-guidelines/typography",
+        "link": "/design-guidelines/typography/",
         "rules": [
           {
             "numeral": 1,
@@ -62,7 +62,7 @@
       {
         "name": "Status System",
         "numeral": 1,
-        "link": "/patterns/status-system",
+        "link": "/patterns/status-system/",
         "rules": [
           {
             "numeral": 1,
@@ -81,7 +81,7 @@
       {
         "name": "Data Visualization",
         "numeral": 2,
-        "link": "/patterns/data-visualization",
+        "link": "/patterns/data-visualization/",
         "rules": [
           {
             "numeral": 1,
@@ -100,7 +100,7 @@
       {
         "name": "Button",
         "numeral": 1,
-        "link": "/components/button",
+        "link": "/components/button/",
         "rules": [
           {
             "numeral": 1,
@@ -113,7 +113,7 @@
       {
         "name": "Dialog Box",
         "numeral": 3,
-        "link": "/components/dialog-box",
+        "link": "/components/dialog-box/",
         "rules": [
           {
             "numeral": 1,
@@ -138,7 +138,7 @@
       {
         "name": "Checkbox",
         "numeral": 2,
-        "link": "/components/checkbox",
+        "link": "/components/checkbox/",
         "rules": [
           {
             "numeral": 1,
@@ -151,7 +151,7 @@
       {
         "name": "Drop Down",
         "numeral": 4,
-        "link": "/components/drop-down",
+        "link": "/components/drop-down/",
         "rules": [
           {
             "numeral": 1,
@@ -170,7 +170,7 @@
       {
         "name": "Global Status Bar",
         "numeral": 5,
-        "link": "/components/global-status-bar",
+        "link": "/components/global-status-bar/",
         "rules": [
           {
             "numeral": 1,
@@ -189,7 +189,7 @@
       {
         "name": "Icons and Symbols",
         "numeral": 6,
-        "link": "/components/icons-and-symbols",
+        "link": "/components/icons-and-symbols/",
         "rules": [
           {
             "numeral": 1,
@@ -208,7 +208,7 @@
       {
         "name": "Input Field",
         "numeral": 7,
-        "link": "/components/input-field",
+        "link": "/components/input-field/",
         "rules": [
           {
             "numeral": 1,
@@ -227,7 +227,7 @@
       {
         "name": "Link",
         "numeral": 8,
-        "link": "/components/link",
+        "link": "/components/link/",
         "rules": [
           {
             "numeral": 1,
@@ -245,7 +245,7 @@
       },      {
         "name": "Log",
         "numeral": 9,
-        "link": "/components/log",
+        "link": "/components/log/",
         "rules": [
           {
             "numeral": 1,
@@ -257,7 +257,7 @@
       },      {
         "name": "Pagination",
         "numeral": 10,
-        "link": "/components/pagination",
+        "link": "/components/pagination/",
         "rules": [
           {
             "numeral": 1,
@@ -269,7 +269,7 @@
       },      {
         "name": "Pop Up",
         "numeral": 11,
-        "link": "/components/pop-up",
+        "link": "/components/pop-up/",
         "rules": [
           {
             "numeral": 1,
@@ -287,7 +287,7 @@
       },      {
         "name": "Progress",
         "numeral": 12,
-        "link": "/components/progress",
+        "link": "/components/progress/",
         "rules": [
           {
             "numeral": 1,
@@ -299,7 +299,7 @@
       },      {
         "name": "Radio Button",
         "numeral": 13,
-        "link": "/components/radio-button",
+        "link": "/components/radio-button/",
         "rules": [
           {
             "numeral": 1,
@@ -311,7 +311,7 @@
       },      {
         "name": "Search",
         "numeral": 14,
-        "link": "/components/search",
+        "link": "/components/search/",
         "rules": [
           {
             "numeral": 1,
@@ -323,7 +323,7 @@
       },      {
         "name": "Segmented Button",
         "numeral": 15,
-        "link": "/components/segmented-button",
+        "link": "/components/segmented-button/",
         "rules": [
           {
             "numeral": 1,
@@ -335,7 +335,7 @@
       },      {
         "name": "Status Symbol",
         "numeral": 16,
-        "link": "/components/status-symbol",
+        "link": "/components/status-symbol/",
         "rules": [
           {
             "numeral": 1,
@@ -353,7 +353,7 @@
       },      {
         "name": "Tabs",
         "numeral": 17,
-        "link": "/components/tabs",
+        "link": "/components/tabs/",
         "rules": [
           {
             "numeral": 1,
@@ -371,7 +371,7 @@
       },      {
         "name": "Toggle",
         "numeral": 18,
-        "link": "/components/toggle",
+        "link": "/components/toggle/",
         "rules": [
           {
             "numeral": 1,

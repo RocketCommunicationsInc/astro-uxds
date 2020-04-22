@@ -39,4 +39,5 @@
 	{% endif %}
 
 	{{ content | safe | removeHeader | figureIt | doDont }}
+	{% include "_compliance.njk" %}
 {% endblock %}

@@ -37,9 +37,3 @@ If a user is required to make a choice between items without a default, consider
 ![Don’t: Use Radio Buttons to display more than six items. Instead, use a Drop Down Menu.](/img/components/radio-buttons-dont-1.png "Don’t: Use Radio Buttons to display more than six items. Instead, use a Drop Down Menu.")
 
 :::
-
-::: egs-compliance
-
-- 5.13.1 Radio Buttons shall be used only for mutually exclusive choices.
-
-:::

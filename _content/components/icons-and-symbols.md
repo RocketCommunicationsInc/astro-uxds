@@ -119,9 +119,4 @@ An Icon Sub-Label provides additional information to the user and may be dynamic
 
 :::
 
-::: egs-compliance
 
-- 5.6.1 Monitoring Icons shall include a label and a status symbol as illustrated.<!--link to icon illustration-->
-- 5.6.2 Monitoring Icons shall be rendered with the standard status colors.<!--link to status colors-->
-
-:::

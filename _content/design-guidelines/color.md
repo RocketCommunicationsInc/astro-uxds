@@ -149,9 +149,3 @@ A common use for non-status colors as in identifying civilian assets or tagging.
 | ![Tag4 Darken Step 3](/img/swatches/tag-4__shade-60.svg) | -3   | `#572108` | `87, 33, 8`     | `--colorTag4shade-60` |
 | ![Tag4 Darken Step 4](/img/swatches/tag-4__shade-80.svg) | -4   | `#2b1105` | `43, 17, 5`     | `--colorTag4shade-80` |
 
-::: egs-compliance
-
-- 2.1 Ordinary User Interface elements and backgrounds shall be designed with the colors identified in the Primary, Secondary, Tertiary, and Quaternary palettes.
-- 2.2 User Interface elements that require distinct colors shall be designed with the colors identified in the Tag 1, Tag 2, Tag 3, and Tag 4 palettes.
-
-:::

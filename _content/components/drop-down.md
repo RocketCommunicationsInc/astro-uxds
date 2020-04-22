@@ -30,10 +30,3 @@ Content
 ![Don’t: Create a Drop Down list with too many options. The user needs to be able to scan and navigate the list easily](/img/components/dropdown-dont-1.png "Don’t: Create a Drop Down list with too many options. The user needs to be able to scan and navigate the list easily")
 
 :::
-
-::: egs-compliance
-
-- 5.4.1 Menu items shall use title-style capitalization.
-- 5.4.2 Menu items shall use an ellipsis (…) to indicate that further action is required to complete the command.
-
-:::

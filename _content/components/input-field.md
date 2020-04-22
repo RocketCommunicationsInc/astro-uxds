@@ -36,10 +36,3 @@ Input Fields have a smaller variant which may be beneficial in layouts where spa
 ![Don’t: Design a long form without labels, splits or groupings.](/img/components/input-fields-dont.png "Don’t: Design a long form without labels, splits or groupings.")
 
 :::
-
-::: egs-compliance
-
-- 5.7.1 Stacked Input Fields shall be left aligned.
-- 5.7.2 Input Fields shall use the text size defined in the CSS<!--link to CSS-->.
-
-:::
