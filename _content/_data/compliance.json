@@ -398,7 +398,7 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "GRM Dashboard applications shall be divided into two panes, Alerts and Contacts or Equipment"
+            "rule": "GRM Dashboard applications shall be divided into two panes, Alerts and Contacts or Equipment",
             "status": "draft"
           },
           {
