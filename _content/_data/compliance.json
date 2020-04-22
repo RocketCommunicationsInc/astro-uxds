@@ -374,29 +374,20 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Draft rule here",
+            "rule": "All EGS Applications shall have a Global Status bar on every window",
             "status": "draft"
           },
           {
             "numeral": 2,
-            "rule": "New rule here",
-            "status": "new"
+            "rule": "All EGS Application suites shall include an Application menu on the Global Status Bar",
+            "status": "draft"
           },
           {
             "numeral": 3,
-            "rule": "Current rule here",
-            "status": "current"
+            "rule": "Any EGS Application displaying Alerts shall use the standard Alerts panel",
+            "status": "draft"
           },
-          {
-            "numeral": 4,
-            "rule": "Updated rule here",
-            "status": "updated"
-          },
-          {
-            "numeral": 5,
-            "rule": "Deprecated rule here",
-            "status": "deprecated"
-          }
+
         ]
       },
       {
@@ -407,28 +398,18 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Draft rule here",
+            "rule": "GRM Dashboard applications shall be divided into two panes, Alerts and Contacts or Equipment"
             "status": "draft"
           },
           {
             "numeral": 2,
-            "rule": "New rule here",
-            "status": "new"
+            "rule": "GRM Contacts shall be displayed in both tabular and histogram form",
+            "status": "draft"
           },
           {
             "numeral": 3,
-            "rule": "Current rule here",
-            "status": "current"
-          },
-          {
-            "numeral": 4,
-            "rule": "Updated rule here",
-            "status": "updated"
-          },
-          {
-            "numeral": 5,
-            "rule": "Deprecated rule here",
-            "status": "deprecated"
+            "rule": "GRM Equipment shall be displayed in both circular and line charts",
+            "status": "draft"
           }
         ]
       },
@@ -440,28 +421,13 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Draft rule here",
+            "rule": "GRM Equipment Manager applications shall be divided into two panes, Navigation and Inoperable Equipment or Equipment Details",
             "status": "draft"
           },
           {
             "numeral": 2,
-            "rule": "New rule here",
+            "rule": "GRM Equipment Navigation Tree shall display item names and current status",
             "status": "new"
-          },
-          {
-            "numeral": 3,
-            "rule": "Current rule here",
-            "status": "current"
-          },
-          {
-            "numeral": 4,
-            "rule": "Updated rule here",
-            "status": "updated"
-          },
-          {
-            "numeral": 5,
-            "rule": "Deprecated rule here",
-            "status": "deprecated"
           }
         ]
       },
@@ -473,28 +439,8 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Draft rule here",
+            "rule": "GRM Equipment Manager applications shall be divided into two panes, Contacts and Manage Contacts",
             "status": "draft"
-          },
-          {
-            "numeral": 2,
-            "rule": "New rule here",
-            "status": "new"
-          },
-          {
-            "numeral": 3,
-            "rule": "Current rule here",
-            "status": "current"
-          },
-          {
-            "numeral": 4,
-            "rule": "Updated rule here",
-            "status": "updated"
-          },
-          {
-            "numeral": 5,
-            "rule": "Deprecated rule here",
-            "status": "deprecated"
           }
         ]
       }
