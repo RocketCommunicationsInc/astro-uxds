@@ -12,7 +12,6 @@
 
 [context.compliance]
   command = "make password_protect"
-​
 
 [[redirects]]
 	from = "/ui-components/*"
