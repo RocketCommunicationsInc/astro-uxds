@@ -47,12 +47,18 @@
             {% if prefix != null %}{{ prefix }}.{% endif %}{{ data.numeral }}.{{ rule.numeral }}
           </span>
 
-          <span 
-            class="rule-text" data-status="{{ rule.status }}">
-              {{ rule.rule  | markdownify | safe }}
-          </span>
-          
+          <span class="rule-text" data-status="{{ rule.status }}">
+              {{ rule.rule | markdownify | safe }}
+          </span>  
         </li>
+
+        {% if rule.figure %}
+          <li class="rule">
+          <span class="numeral"></span>
+            <img class="rule-figure" src="{{ rule.figure }}" alt="{{ rule.rule | markdownify | striptags }}"/>
+          </li>
+        {% endif %}
+
       {% endfor %}
       </ol>
 

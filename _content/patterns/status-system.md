@@ -17,7 +17,8 @@ The Astro Status System is a standard to consistently indicate the state of an o
 
 The Status Color palette for the Status System is based on a color temperature scale. The lowest level of severity, Off, is grey (neutral) and the highest level of severity, Alert, is red (hot).
 
-![Status system taxonmy](/img/design-guidelines/status-system-fundamentals.png)
+
+#3.1.1[Status system taxonomy](/img/design-guidelines/status-system-fundamentals.png)
 
 Each Status Symbol is a combination of a Status Color and a shape. The shapes are provided to ensure people with color blindness can also clearly identify the state of the object or concept
 
@@ -41,9 +42,4 @@ Each Status Symbol is a combination of a Status Color and a shape. The shapes ar
 
 ::: caution
 Avoid adding additional colors if possible. Creating additional colors greatly reduces the user’s ability to learn and properly use the application.
-:::
-
-::: compliance
-	4.1 User Interface elements indicating state or status shall be designed with the six shapes specified<!--link to status symbol illustration-->.
-	4.2 User Interface elements indicating state or status shall be designed with the six colors specified<!--link to status color illustration-->.
 :::

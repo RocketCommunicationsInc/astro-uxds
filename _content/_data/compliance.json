@@ -22,13 +22,11 @@
           {
             "numeral": 1,
             "rule": "Ordinary User Interface elements and backgrounds shall be designed with the colors identified in the Primary, Secondary, Tertiary, and Quaternary palettes.",
-            "figures": [],
             "status": "new"
           },
           {
             "numeral": 2,
             "rule": "User Interface elements that require distinct colors shall be designed with the colors identified in the [Tag 1](/design-guidelines/color/#tag-1), [Tag 2](/design-guidelines/color/#tag-2), [Tag 3](/design-guidelines/color/#tag-3), and [Tag 4](/design-guidelines/color/#tag-4) palettes.",
-            "figures": [],
             "status": "draft"
           }
         ]
@@ -41,13 +39,11 @@
           {
             "numeral": 1,
             "rule": "Applications shall be designed using the Open Sans and Roboto Mono fonts.",
-            "figures": [],
             "status": "new"
           },
           {
             "numeral": 2,
             "rule": "Applications should follow the typeface size guidelines for [Heading](/design-guidelines/typography/#headings) and [Body](/design-guidelines/typography/#body-text) elements.",
-            "figures": [],
             "status": "new"
           }
         ]
@@ -67,13 +63,12 @@
           {
             "numeral": 1,
             "rule": "User Interface elements indicating state or status shall be designed with the [six shapes](/patterns/status-system/) specified.",
-            "figures": [],
+            "figure": "/img/design-guidelines/status-system-fundamentals.png",
             "status": "new"
           },
           {
             "numeral": 2,
             "rule": "User Interface elements indicating state or status shall be designed with the [six colors](/patterns/status-system/#status-colors) specified.",
-            "figures": [],
             "status": "new"
           }
         ]
@@ -86,7 +81,6 @@
           {
             "numeral": 1,
             "rule": "Data visualizations shall have no more than 8 colors per data set to manage cognitive load.",
-            "figures": [],
             "status": "new"
           }
         ]
@@ -105,7 +99,18 @@
           {
             "numeral": 1,
             "rule": "Buttons shall be used for actionable controls only, not as state indicators.",
-            "figures": [],
+            "status": "current"
+          }
+        ]
+      },   
+      {
+        "name": "Checkbox",
+        "numeral": 2,
+        "link": "/components/checkbox/",
+        "rules": [
+          {
+            "numeral": 1,
+            "rule": "Checkboxes shall be used for setting values only, not to initiate actions.",
             "status": "current"
           }
         ]
@@ -118,36 +123,20 @@
           {
             "numeral": 1,
             "rule": "Dialog Boxes shall use Buttons for confirm or cancel actions.",
-            "figures": [],
             "status": "deprecated"
           },
           {
             "numeral": 3,
             "rule": "Dialog Box confirmation Button shall be to the right of the cancel Button.",
-            "figures": [],
             "status": "current"
           },
           {
             "numeral": 2,
             "rule": "Dialog Boxes shall be closed only with confirm or cancel Buttons.",
-            "figures": [],
             "status": "new"
           }
         ]
-      },      
-      {
-        "name": "Checkbox",
-        "numeral": 2,
-        "link": "/components/checkbox/",
-        "rules": [
-          {
-            "numeral": 1,
-            "rule": "Checkboxes shall be used for setting values only, not to initiate actions.",
-            "figures": [],
-            "status": "current"
-          }
-        ]
-      },
+      },   
       {
         "name": "Drop Down",
         "numeral": 4,
@@ -156,13 +145,11 @@
           {
             "numeral": 1,
             "rule": "Menu items shall use title-style capitalization.",
-            "figures": [],
             "status": "current"
           },
           {
             "numeral": 2,
             "rule": "Menu items shall use an ellipsis (…) to indicate that further action is required to complete the command.",
-            "figures": [],
             "status": "current"
           }
         ]
@@ -175,13 +162,12 @@
           {
             "numeral": 1,
             "rule": "The Global Status Bar shall be reserved for global elements that appear on every screen.",
-            "figures": [],
             "status": "current"
           },
           {
             "numeral": 2,
-            "rule": "Global Status Bar elements shall be arranged left to right as shown in the [Most Complex Global Status Bar](/components/global-status-bar#figure-5) illustration.",
-            "figures": [],
+            "rule": "Global Status Bar elements shall be arranged left to right as shown in the [Most Complex Global Status Bar](/components/global-status-bar#figure-5.1.1) illustration.",
+            "figure": "/img/components/global-status-complex.png",
             "status": "current"
           }
         ]
@@ -194,13 +180,12 @@
           {
             "numeral": 1,
             "rule": "Monitoring Icons shall include a label and a status symbol [as illustrated](/components/icons-and-symbols#monitoring-icons).",
-            "figures": [],
             "status": "current"
           },
           {
             "numeral": 2,
             "rule": "Monitoring Icons shall be rendered with the [standard status colors](/patterns/status-system/#status-colors).",
-            "figures": [],
+            "figure": "/img/components/icons-monitoring-1.png",
             "status": "current"
           }
         ]
@@ -213,13 +198,11 @@
           {
             "numeral": 1,
             "rule": "Stacked Input Fields shall be left aligned.",
-            "figures": [],
             "status": "current"
           },
           {
             "numeral": 2,
             "rule": "Input Fields shall use the [text size defined in the CSS](https://bitbucket.org/rocketcom/astro-components/src/master/src/css/core/input.css#lines-66).",
-            "figures": [],
             "status": "current"
           }
         ]
@@ -232,13 +215,11 @@
           {
             "numeral": 1,
             "rule": "Links shall use the [color defined in the CSS](https://bitbucket.org/rocketcom/astro-components/src/master/src/css/common/_typography.css#lines-31).",
-            "figures": [],
             "status": "current"
           },
           {
             "numeral": 2,
             "rule": "Links shall use a text style that is without an underline.",
-            "figures": [],
             "status": "current"
           }
         ]
@@ -250,7 +231,7 @@
           {
             "numeral": 1,
             "rule": "Custom Log implementations shall perform all of the [scrolling](/components/log/#scroll-interaction) and [filtering](/components/log/#searching-and-filtering) interactions described.",
-            "figures": [],
+            "figure": "/img/components/log-search.png",
             "status": "current"
           }
         ]
@@ -262,7 +243,6 @@
           {
             "numeral": 1,
             "rule": "Pagination shall use a text style that is without an underline.",
-            "figures": [],
             "status": "current"
           }
         ]
@@ -274,13 +254,11 @@
           {
             "numeral": 1,
             "rule": "Menu items shall use title-style capitalization.",
-            "figures": [],
             "status": "current"
           },
           {
             "numeral": 2,
             "rule": " Menu items shall use an ellipsis (…) to indicate that further action is required to complete the command.",
-            "figures": [],
             "status": "current"
           }
         ]
@@ -292,7 +270,6 @@
           {
             "numeral": 1,
             "rule": "Progress indicator shall indicate the precise completion time for an operation.",
-            "figures": [],
             "status": "current"
           }
         ]
@@ -304,7 +281,6 @@
           {
             "numeral": 1,
             "rule": "Radio Buttons shall be used only for mutually exclusive choices.",
-            "figures": [],
             "status": "current"
           }
         ]
@@ -316,7 +292,6 @@
           {
             "numeral": 1,
             "rule": "Search Fields shall contain prompt text.",
-            "figures": [],
             "status": "current"
           }
         ]
@@ -328,7 +303,6 @@
           {
             "numeral": 1,
             "rule": "Segmented Buttons shall be used only for mutually exclusive selections.",
-            "figures": [],
             "status": "current"
           }
         ]
@@ -340,13 +314,11 @@
           {
             "numeral": 1,
             "rule": "Status Symbols shall always be rendered with the [specified shapes](/patterns/status-system/).",
-            "figures": [],
             "status": "current"
           },
           {
             "numeral": 2,
             "rule": "Status Symbols shall always be rendered with the [specified colors](/patterns/status-system/#status-colors).",
-            "figures": [],
             "status": "current"
           }
         ]
@@ -358,13 +330,11 @@
           {
             "numeral": 1,
             "rule": "Tabs shall be arranged in a single row.",
-            "figures": [],
             "status": "current"
           },
           {
             "numeral": 2,
             "rule": "Tabs shall use title-style capitalization.",
-            "figures": [],
             "status": "current"
           }
         ]
@@ -376,7 +346,6 @@
           {
             "numeral": 1,
             "rule": "Toggle shall be used when the action takes immediate effect.",
-            "figures": [],
             "status": "current"
           }
         ]
