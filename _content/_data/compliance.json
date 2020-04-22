@@ -393,7 +393,45 @@
 				"status": "deprecated"
 			  }
 			]
-		}
+		},
+		
+			"name": "GRM Dashboard"
+			"numeral": 2,
+			"link": "/grm-service-ux-design/grm-dashboard/",
+
+			"rules": [
+			  {
+				"numeral": 1,
+				"rule": "Draft rule here",
+				"figures": [],
+				"status": "draft"
+			  },
+			  {
+				"numeral": 2,
+				"rule": "New rule here",
+				"figures": [],
+				"status": "new"
+			  },
+			  {
+				"numeral": 3,
+				"rule": "Current rule here",
+				"figures": [],
+				"status": "current"
+			  },
+			  {
+				"numeral": 4,
+				"rule": "Updated rule here",
+				"figures": [],
+				"status": "updated"
+			  },
+			  {
+				"numeral": 5,
+				"rule": "Deprecated rule here",
+				"figures": [],
+				"status": "deprecated"
+			  }
+			]
+		
     ]
   }
 ]
