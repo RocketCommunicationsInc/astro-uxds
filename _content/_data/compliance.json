@@ -386,7 +386,7 @@
             "numeral": 3,
             "rule": "Any EGS Application displaying Alerts shall use the standard Alerts panel",
             "status": "draft"
-          },
+          }
 
         ]
       },
