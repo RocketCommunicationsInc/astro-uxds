@@ -416,7 +416,7 @@
       {
         "name": "GRM Equipment Manager",
         "numeral": 2,
-        "link": "grm-service-ux-design/grm-equipment-manager/",
+        "link": "/grm-service-ux-design/grm-equipment-manager/",
 
         "rules": [
           {
@@ -434,7 +434,7 @@
       {
         "name": "GRM Schedule",
         "numeral": 2,
-        "link": "grm-service-ux-design/grm-schedule/",
+        "link": "/grm-service-ux-design/grm-schedule/",
 
         "rules": [
           {
