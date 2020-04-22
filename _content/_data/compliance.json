@@ -102,7 +102,7 @@
             "status": "current"
           }
         ]
-      },   
+      },
       {
         "name": "Checkbox",
         "numeral": 2,
@@ -136,7 +136,7 @@
             "status": "new"
           }
         ]
-      },   
+      },
       {
         "name": "Drop Down",
         "numeral": 4,
@@ -206,7 +206,7 @@
             "status": "current"
           }
         ]
-      },      
+      },
       {
         "name": "Link",
         "numeral": 8,
@@ -223,7 +223,8 @@
             "status": "current"
           }
         ]
-      },      {
+      },
+      {
         "name": "Log",
         "numeral": 9,
         "link": "/components/log/",
@@ -235,7 +236,8 @@
             "status": "current"
           }
         ]
-      },      {
+      },
+      {
         "name": "Pagination",
         "numeral": 10,
         "link": "/components/pagination/",
@@ -246,7 +248,8 @@
             "status": "current"
           }
         ]
-      },      {
+      },
+      {
         "name": "Pop Up",
         "numeral": 11,
         "link": "/components/pop-up/",
@@ -262,7 +265,8 @@
             "status": "current"
           }
         ]
-      },      {
+      },
+      {
         "name": "Progress",
         "numeral": 12,
         "link": "/components/progress/",
@@ -273,7 +277,8 @@
             "status": "current"
           }
         ]
-      },      {
+      },
+      {
         "name": "Radio Button",
         "numeral": 13,
         "link": "/components/radio-button/",
@@ -284,7 +289,8 @@
             "status": "current"
           }
         ]
-      },      {
+      },
+      {
         "name": "Search",
         "numeral": 14,
         "link": "/components/search/",
@@ -295,7 +301,8 @@
             "status": "current"
           }
         ]
-      },      {
+      },
+      {
         "name": "Segmented Button",
         "numeral": 15,
         "link": "/components/segmented-button/",
@@ -306,7 +313,8 @@
             "status": "current"
           }
         ]
-      },      {
+      },
+      {
         "name": "Status Symbol",
         "numeral": 16,
         "link": "/components/status-symbol/",
@@ -322,7 +330,8 @@
             "status": "current"
           }
         ]
-      },      {
+      },
+      {
         "name": "Tabs",
         "numeral": 17,
         "link": "/components/tabs/",
@@ -338,7 +347,8 @@
             "status": "current"
           }
         ]
-      },      {
+      },
+      {
         "name": "Toggle",
         "numeral": 18,
         "link": "/components/toggle/",
@@ -355,83 +365,73 @@
   {
     "name": "EGS Applications",
     "numeral": 5,
-        "rulesets": [
-		  {
-			"name": "General",
-			"numeral": 1,
-			"link": "/service-specific-ux-design/",
+    "rulesets": [
+      {
+        "name": "General",
+        "numeral": 1,
+        "link": "/service-specific-ux-design/",
 
-			"rules": [
-			  {
-				"numeral": 1,
-				"rule": "Draft rule here",
-				"figures": [],
-				"status": "draft"
-			  },
-			  {
-				"numeral": 2,
-				"rule": "New rule here",
-				"figures": [],
-				"status": "new"
-			  },
-			  {
-				"numeral": 3,
-				"rule": "Current rule here",
-				"figures": [],
-				"status": "current"
-			  },
-			  {
-				"numeral": 4,
-				"rule": "Updated rule here",
-				"figures": [],
-				"status": "updated"
-			  },
-			  {
-				"numeral": 5,
-				"rule": "Deprecated rule here",
-				"figures": [],
-				"status": "deprecated"
-			  }
-			]
-		},
-		
-			"name": "GRM Dashboard"
-			"numeral": 2,
-			"link": "/grm-service-ux-design/grm-dashboard/",
+        "rules": [
+          {
+            "numeral": 1,
+            "rule": "Draft rule here",
+            "status": "draft"
+          },
+          {
+            "numeral": 2,
+            "rule": "New rule here",
+            "status": "new"
+          },
+          {
+            "numeral": 3,
+            "rule": "Current rule here",
+            "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "Updated rule here",
+            "status": "updated"
+          },
+          {
+            "numeral": 5,
+            "rule": "Deprecated rule here",
+            "status": "deprecated"
+          }
+        ]
+      },
+      {
+        "name": "GRM Dashboard",
+        "numeral": 2,
+        "link": "/grm-service-ux-design/grm-dashboard/",
 
-			"rules": [
-			  {
-				"numeral": 1,
-				"rule": "Draft rule here",
-				"figures": [],
-				"status": "draft"
-			  },
-			  {
-				"numeral": 2,
-				"rule": "New rule here",
-				"figures": [],
-				"status": "new"
-			  },
-			  {
-				"numeral": 3,
-				"rule": "Current rule here",
-				"figures": [],
-				"status": "current"
-			  },
-			  {
-				"numeral": 4,
-				"rule": "Updated rule here",
-				"figures": [],
-				"status": "updated"
-			  },
-			  {
-				"numeral": 5,
-				"rule": "Deprecated rule here",
-				"figures": [],
-				"status": "deprecated"
-			  }
-			]
-		
+        "rules": [
+          {
+            "numeral": 1,
+            "rule": "Draft rule here",
+            "status": "draft"
+          },
+          {
+            "numeral": 2,
+            "rule": "New rule here",
+            "status": "new"
+          },
+          {
+            "numeral": 3,
+            "rule": "Current rule here",
+            "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "Updated rule here",
+            "status": "updated"
+          },
+          {
+            "numeral": 5,
+            "rule": "Deprecated rule here",
+            "status": "deprecated"
+          }
+        ]
+      }
     ]
   }
 ]
