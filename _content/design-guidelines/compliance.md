@@ -5,4 +5,4 @@ date: Last Modified
 layout: compliance.template.njk
 title: EGS Compliance
 ---
-# Compliance
+# EGS Compliance
