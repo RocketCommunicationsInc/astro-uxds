@@ -431,7 +431,73 @@
             "status": "deprecated"
           }
         ]
-      }
+      },
+      {
+        "name": "GRM Equipment Manager",
+        "numeral": 2,
+        "link": "grm-service-ux-design/grm-equipment-manager/",
+
+        "rules": [
+          {
+            "numeral": 1,
+            "rule": "Draft rule here",
+            "status": "draft"
+          },
+          {
+            "numeral": 2,
+            "rule": "New rule here",
+            "status": "new"
+          },
+          {
+            "numeral": 3,
+            "rule": "Current rule here",
+            "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "Updated rule here",
+            "status": "updated"
+          },
+          {
+            "numeral": 5,
+            "rule": "Deprecated rule here",
+            "status": "deprecated"
+          }
+        ]
+      },
+      {
+        "name": "GRM Schedule",
+        "numeral": 2,
+        "link": "grm-service-ux-design/grm-schedule/",
+
+        "rules": [
+          {
+            "numeral": 1,
+            "rule": "Draft rule here",
+            "status": "draft"
+          },
+          {
+            "numeral": 2,
+            "rule": "New rule here",
+            "status": "new"
+          },
+          {
+            "numeral": 3,
+            "rule": "Current rule here",
+            "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "Updated rule here",
+            "status": "updated"
+          },
+          {
+            "numeral": 5,
+            "rule": "Deprecated rule here",
+            "status": "deprecated"
+          }
+        ]
+      
     ]
   }
 ]
