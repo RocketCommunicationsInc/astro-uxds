@@ -93,7 +93,7 @@ module.exports = function(eleventyConfig) {
 /*
       Basic-Auth: ${process.env.COMPLIANCE_LOGIN}:${process.env.COMPLIANCE_PASSWORD}
 `;
-  var headersPath = "_headers";
+  var headersPath = "_site/_headers";
   fs.writeFile(headersPath, passwordHeaderFileContent, (err) => {
       if (err) throw err;
       console.log("Passwords set for this environment!");
