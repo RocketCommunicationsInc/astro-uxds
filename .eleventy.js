@@ -88,6 +88,23 @@ module.exports = function(eleventyConfig) {
     }
   });
 
+  function savePasswordHeaders() {
+    var passwordHeaderFileContent = `
+/*
+      Basic-Auth: ${process.env.COMPLIANCE_LOGIN}:${process.env.COMPLIANCE_PASSWORD}
+`;
+  var headersPath = "_headers";
+  fs.writeFile(headersPath, passwordHeaderFileContent, (err) => {
+      if (err) throw err;
+      console.log("Passwords set for this environment!");
+   });
+
+  }
+  // only make password headers on netlify's compliance context
+  if (process.env.NETLIFY && process.env.CONTEXT === "compliance-dev") {
+    savePasswordHeaders();
+  }
+
   // You can return your Config object (optional).
   return {
     dir: {
