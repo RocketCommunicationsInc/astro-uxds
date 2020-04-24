@@ -15,7 +15,8 @@ module.exports = function(eleventyConfig) {
   
 
   console.log('\n\nprocess.env.BRANCH', process.env.BRANCH);
-  console.log('gitBranch', process.env.BRANCH);
+  console.log('gitBranch', process.env);
+  console.log('gitBranch', process.env.COMPLIANCE_LOGIN);
   // markdown options
   const options = {
     html: true,
