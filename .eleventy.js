@@ -11,12 +11,10 @@ module.exports = function(eleventyConfig) {
   });
 
 
-  const gitBranch = process.env.BRANCH;
+  const gitBranch = process.env.COMPLIANCE_LOGIN;
   
 
-  console.log('\n\nprocess.env.BRANCH', process.env.BRANCH);
-  console.log('gitBranch', process.env);
-  console.log('gitBranch', process.env.COMPLIANCE_LOGIN);
+  
   // markdown options
   const options = {
     html: true,
