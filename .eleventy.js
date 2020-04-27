@@ -10,10 +10,6 @@ module.exports = function(eleventyConfig) {
     if (err) throw err;
   });
 
-
-  const gitBranch = process.env.COMPLIANCE_LOGIN;
-  
-
   
   // markdown options
   const options = {
