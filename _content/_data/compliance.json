@@ -26,7 +26,7 @@
           },
           {
             "numeral": 2,
-            "rule": "Elements shall conform to the colors specified in the [Tag 1](/design-guidelines/color/#tag-1), [Tag 2](/design-guidelines/color/#tag-2), [Tag 3](/design-guidelines/color/#tag-3), and [Tag 4](/design-guidelines/color/#tag-4) palettes where distinct colors are required.",
+            "rule": "Elements shall conform to the colors specified in the [Tag 1](/design-guidelines/color/#tag-1), [Tag 2](/design-guidelines/color/#tag-2), [Tag 3](/design-guidelines/color/#tag-3), and [Tag 4](/design-guidelines/color/#tag-4) palettes where distinct colors are needed to indicate data categories or groups.",
             "status": "draft"
           }
         ]
@@ -38,12 +38,17 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Text shall use the Open Sans and Roboto Mono fonts.",
+            "rule": "Text shall use the Open Sans font for all content and components.",
             "status": "new"
           },
           {
             "numeral": 2,
-            "rule": "Text should conform to the specified typography for [Heading](/design-guidelines/typography/#headings), [Body](/design-guidelines/typography/#body-text) [Inline Text](/design-guidelines/typography/#inline-text-styles).",
+            "rule": "Text shall use the Roboto Mono font when monospace digits are required.",
+            "status": "new"
+          },
+          {
+            "numeral": 3,
+            "rule": "Text shall conform to the specified typography for [Heading](/design-guidelines/typography/#headings), [Body](/design-guidelines/typography/#body-text), and [Inline Text](/design-guidelines/typography/#inline-text-styles).",
             "status": "new"
           }
         ]
