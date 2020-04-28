@@ -118,7 +118,7 @@
           },
           {
             "numeral": 5,
-            "rule": "Button titles shall fit within the button width, not be abbreviated or truncated.",
+            "rule": "Button titles shall fit within the Button width, not be abbreviated or truncated.",
             "status": "current"
           },
           {
@@ -128,12 +128,12 @@
           },
           {
             "numeral": 7,
-            "rule": "An elipsis (…) shall be appended to the button title to indicate that further action is required to complete the command.",
+            "rule": "An elipsis (…) shall follow the Button title when further action is required to complete the command.",
             "status": "current"
           },
           {
             "numeral": 8,
-            "rule": "Outline Buttons shall indicate the less preferred option in a button pair.",
+            "rule": "Outline Button style shall indicate the less preferred option in grouped Buttons.",
             "status": "current"
           }
         ]
@@ -145,7 +145,7 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Checkboxes shall be used for setting values only, not to initiate actions.",
+            "rule": "Checkboxes shall set values, not to initiate actions.",
             "status": "current"
           }
         ]
