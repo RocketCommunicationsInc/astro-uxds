@@ -98,7 +98,42 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Buttons shall be used for actionable controls only, not as state indicators.",
+            "rule": "Buttons shall act as actionable elements, not as state indicators.",
+            "status": "current"
+          },
+          {
+            "numeral": 2,
+            "rule": "Buttons shall not activate Pop Up Menus.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "Grouped buttons shall have the same width and even spacing.",
+            "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "Button titles shall be verbs that describe the action performed.",
+            "status": "current"
+          },
+          {
+            "numeral": 5,
+            "rule": "Button titles shall fit within the button width, not be abbreviated or truncated.",
+            "status": "current"
+          },
+          {
+            "numeral": 6,
+            "rule": "Buttons shall be clearly titled, with no outside label.",
+            "status": "current"
+          },
+          {
+            "numeral": 7,
+            "rule": "An elipsis (…) shall be appended to the button title to indicate that further action is required to complete the command.",
+            "status": "current"
+          },
+          {
+            "numeral": 8,
+            "rule": "Outline Buttons shall indicate the less preferred option in a button pair.",
             "status": "current"
           }
         ]
