@@ -38,12 +38,12 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Text shall use the Open Sans font for all content and components.",
+            "rule": "Applications shall use the Open Sans font for content and components.",
             "status": "new"
           },
           {
             "numeral": 2,
-            "rule": "Text shall use the Roboto Mono font when monospace digits are required.",
+            "rule": "Applications shall use the Roboto Mono font when monospace digits are required.",
             "status": "new"
           },
           {
@@ -85,7 +85,7 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Data visualizations shall have no more than 8 colors per data set to manage cognitive load.",
+            "rule": "Data visualizations shall have no more than 8 colors per data set.",
             "status": "new"
           }
         ]
@@ -150,7 +150,17 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Checkboxes shall set values, not to initiate actions.",
+            "rule": "Checkboxes shall set values, not initiate actions.",
+            "status": "current"
+          },
+          {
+            "numeral": 2,
+            "rule": "Checkboxes shall act independent of others in a group.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "Checkboxes shall align vertically when in a group.",
             "status": "current"
           }
         ]
@@ -162,17 +172,32 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Dialog Boxes shall use Buttons for confirm or cancel actions.",
-            "status": "deprecated"
-          },
-          {
-            "numeral": 3,
-            "rule": "Dialog Box confirmation Button shall be to the right of the cancel Button.",
+            "rule": "Dialog Boxes shall use text Buttons for confirm or cancel actions, not links or other components.",
             "status": "current"
           },
           {
             "numeral": 2,
+            "rule": "Dialog Box's confirmation Button shall be to the right of the cancel Button.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
             "rule": "Dialog Boxes shall be closed only with confirm or cancel Buttons.",
+            "status": "new"
+          },
+          {
+            "numeral": 4,
+            "rule": "Dialog Box's confirm and cancel Buttons shall be right aligned within the box.",
+            "status": "new"
+          },
+          {
+            "numeral": 5,
+            "rule": "Dialog Box's button titles shall be verbs that describe their actions, or the generic titles OK and Cancel.",
+            "status": "new"
+          },
+          {
+            "numeral": 6,
+            "rule": "Dialog Box text shall be clear, brief, and actionable.",
             "status": "new"
           }
         ]
