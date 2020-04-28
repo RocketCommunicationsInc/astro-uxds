@@ -23,7 +23,7 @@ Timeline displays a sequence of realtime events during a fixed time span. The Pl
 
 ### Header
 
-The header houses the Timeline Title and Status Symbol as well as Zoom control. The Status Symbol represents the overall status of the TTimeline.
+The header houses the Timeline Title and Status Symbol as well as Zoom control. The Status Symbol represents the overall status of the Timeline.
 
 ### Track
 
