@@ -21,12 +21,12 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Elements and backgrounds shall conform to the colors specified in the [Primary](/design-guidelines/color/#primary), [Secondary](/design-guidelines/color/#secondary), [Tertiary](/design-guidelines/color/#tertiary), and [Quaternary](/design-guidelines/color/#quaternary) palettes.",
+            "rule": "Components and backgrounds shall conform to the colors specified in the [Primary](/design-guidelines/color/#primary), [Secondary](/design-guidelines/color/#secondary), [Tertiary](/design-guidelines/color/#tertiary), and [Quaternary](/design-guidelines/color/#quaternary) palettes.",
             "status": "new"
           },
           {
             "numeral": 2,
-            "rule": "Elements shall conform to the colors specified in the [Tag 1](/design-guidelines/color/#tag-1), [Tag 2](/design-guidelines/color/#tag-2), [Tag 3](/design-guidelines/color/#tag-3), and [Tag 4](/design-guidelines/color/#tag-4) palettes where distinct colors are needed to indicate data categories or groups.",
+            "rule": "The colors specified in the [Tag 1](/design-guidelines/color/#tag-1), [Tag 2](/design-guidelines/color/#tag-2), [Tag 3](/design-guidelines/color/#tag-3), and [Tag 4](/design-guidelines/color/#tag-4) palettes shell be used when distinct colors are needed to indicate data categories or groups.",
             "status": "draft"
           }
         ]
@@ -38,12 +38,12 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Applications shall use the Open Sans font for content and components.",
+            "rule": "The Open Sans font shall be used for content and components.",
             "status": "new"
           },
           {
             "numeral": 2,
-            "rule": "Applications shall use the Roboto Mono font when monospace digits are required.",
+            "rule": "The Roboto Mono font shall be used when monospace digits are required.",
             "status": "new"
           },
           {
@@ -155,7 +155,7 @@
           },
           {
             "numeral": 2,
-            "rule": "Checkboxes shall act independent of others in a group.",
+            "rule": "Checkboxes shall act independently of others in a group.",
             "status": "current"
           },
           {
@@ -177,7 +177,7 @@
           },
           {
             "numeral": 2,
-            "rule": "Dialog Box's confirmation Button shall be to the right of the cancel Button.",
+            "rule": "The confirmation Button shall be to the right of the cancel Button, and right aligned within the Dialog Box.",
             "status": "current"
           },
           {
@@ -187,16 +187,11 @@
           },
           {
             "numeral": 4,
-            "rule": "Dialog Box's confirm and cancel Buttons shall be right aligned within the box.",
+            "rule": "Button titles shall be verbs that describe their actions, or the generic titles OK and Cancel.",
             "status": "new"
           },
           {
             "numeral": 5,
-            "rule": "Dialog Box's button titles shall be verbs that describe their actions, or the generic titles OK and Cancel.",
-            "status": "new"
-          },
-          {
-            "numeral": 6,
             "rule": "Dialog Box text shall be clear, brief, and actionable.",
             "status": "new"
           }
