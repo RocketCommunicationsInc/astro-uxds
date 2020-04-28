@@ -21,7 +21,7 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Ordinary User Interface elements and backgrounds shall be designed with the colors identified in the Primary, Secondary, Tertiary, and Quaternary palettes.",
+            "rule": "User Interface elements and backgrounds shall be designed with the colors identified in the [Primary](/design-guidelines/color/#primary), Secondary, Tertiary, and Quaternary palettes.",
             "status": "new"
           },
           {
