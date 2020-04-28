@@ -123,7 +123,7 @@
           },
           {
             "numeral": 5,
-            "rule": "Button titles shall fit within the Button width, not be abbreviated or truncated.",
+            "rule": "Titles shall fit within the Button width, not abbreviated or truncated.",
             "status": "current"
           },
           {
@@ -177,7 +177,7 @@
           },
           {
             "numeral": 2,
-            "rule": "The confirmation Button shall be to the right of the cancel Button, and right aligned within the Dialog Box.",
+            "rule": "The confirm Button shall be to the right of the cancel Button, and right aligned within the Dialog Box.",
             "status": "current"
           },
           {
