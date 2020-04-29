@@ -214,7 +214,7 @@
           },
           {
             "numeral": 3,
-            "rule": "Drop Downs shall not exceed 25 menu items. For longer lists use a table instead.",
+            "rule": "Drop Downs shall not exceed 25 menu items. For longer lists use a [Table](/patterns/table) instead.",
             "status": "current"
           }
         ]
@@ -236,7 +236,7 @@
           },
           {
             "numeral": 3,
-            "rule": "Optional Global Status Bar elements shall be arranged left to right in this order, navigation Tabs, Clock, Monitoring Icons, Action Icons, emergency off Button.",
+            "rule": "Optional Global Status Bar elements shall be arranged left to right in this order, navigation [Tabs](/components/tabs), [Clock](/components/clock), [Monitoring Icons](/components/icons-and-symbols/#monitoring-icons), [Action Icons](/components/icons-and-symbols/#action-icons), emergency off Button.",
             "figure": "/img/components/global-status-complex.png",
             "status": "current"
           },
