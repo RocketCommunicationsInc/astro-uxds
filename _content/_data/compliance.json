@@ -316,12 +316,17 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Links shall use the [color defined in the CSS](https://bitbucket.org/rocketcom/astro-components/src/master/src/css/common/_typography.css#lines-31).",
+            "rule": "Links shall use the color defined in the CSS.",
             "status": "current"
           },
           {
             "numeral": 2,
-            "rule": "Links shall use a text style that is without an underline.",
+            "rule": "Links shall not use underlined text.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "Link text shall indicated what will happen when the link is clicked, not \"Click Here\" or \"Link\"",
             "status": "current"
           }
         ]
