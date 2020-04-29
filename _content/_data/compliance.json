@@ -439,7 +439,27 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Radio Buttons shall be used only for mutually exclusive choices.",
+            "rule": "Radio Buttons shall be used for mutually exclusive choices.",
+            "status": "current"
+          },
+          {
+            "numeral": 2,
+            "rule": "A Radio Button group shall always have one option selected.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "A Radio Button group shall not exceed 6 items. For longer lists use a Drop Down Menu.",
+            "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "A Radio Button shall not initate an action.",
+            "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "A Radio Button labels shall use title case capitalization.",
             "status": "current"
           }
         ]
