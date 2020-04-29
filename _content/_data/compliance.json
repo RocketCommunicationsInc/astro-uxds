@@ -254,13 +254,34 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Monitoring Icons shall include a label and a status symbol [as illustrated](/components/icons-and-symbols#monitoring-icons).",
+            "rule": "Monitoring Icons shall include a label and a [status symbol](/components/icons-and-symbols#status-symbol).",
             "status": "current"
           },
           {
             "numeral": 2,
-            "rule": "Monitoring Icons shall be rendered with the [standard status colors](/patterns/status-system/#status-colors).",
-            "figure": "/img/components/icons-monitoring-1.png",
+            "rule": "Monitoring Icons shall be colored with one of the six [standard status colors](/patterns/status-system/#status-colors).",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "Percentage Monitoring Icons shall depict a value between 0 and 100 as both an arc and numeric display .",
+            "figure": "/img/components/percentage-monitoring-graphic-cms.png",
+            "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "[Status Symbols](/patterns/status-system/#status-colors) shall not be alterted as they are appended to icons for ADA 508 and WCAG 2.0 compliance.\n",
+            "status": "current"
+          },
+          {
+            "numeral": 5,
+            "rule": "[Icon labels](/patterns/status-system/#lableing) shall identify the item represented, and shall not change. A Sub-Label may provide dynamic information.\n",
+            "status": "current"
+          },
+          {
+            "numeral": 6,
+            "rule": "Grouped icons shall be equally sized.",
+            "figure": "/img/components/icons-do-1.png",
             "status": "current"
           }
         ]
