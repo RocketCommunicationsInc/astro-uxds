@@ -360,7 +360,22 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Pagination shall use a text style that is without an underline.",
+            "rule": "Pagination shall not use underlined text.",
+            "status": "current"
+          },
+          {
+            "numeral": 2,
+            "rule": "Pagination shall display Prev and Next links when the entire page range cannot be displayed.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "Pagination shall remove the Prev link when there are no more pages before the first numeral displayed.",
+            "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "Pagination shall remove the Next link when there are no more pages after the last numeral displayed.",
             "status": "current"
           }
         ]
