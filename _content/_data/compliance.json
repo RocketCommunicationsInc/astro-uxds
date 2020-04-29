@@ -204,12 +204,17 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Menu items shall use title-style capitalization.",
+            "rule": "Menu items shall use title case capitalization.",
             "status": "current"
           },
           {
             "numeral": 2,
-            "rule": "Menu items shall use an ellipsis (…) to indicate that further action is required to complete the command.",
+            "rule": "An ellipsis (…) shall follow a menu item when further action is required to complete the command.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "Drop Downs shall not exceed 25 menu items. For longer lists use a table instead.",
             "status": "current"
           }
         ]
@@ -226,8 +231,18 @@
           },
           {
             "numeral": 2,
-            "rule": "Global Status Bar elements shall be arranged left to right as shown in the [Most Complex Global Status Bar](/components/global-status-bar#figure-5.1.1) illustration.",
+            "rule": "The Global Status Bar shall include the application name. Other elements are optional.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "Optional Global Status Bar elements shall be arranged left to right in this order, navigation Tabs, Clock, Monitoring Icons, Action Icons, emergency off Button.",
             "figure": "/img/components/global-status-complex.png",
+            "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "Global Status Bar shall use dark theme styling even when the application is light themed.",
             "status": "current"
           }
         ]
