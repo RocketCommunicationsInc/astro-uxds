@@ -338,8 +338,17 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Custom Log implementations shall perform all of the [scrolling](/components/log/#scroll-interaction) and [filtering](/components/log/#searching-and-filtering) interactions described.",
-            "figure": "/img/components/log-search.png",
+            "rule": "Log entries shall include a timestamp.",
+            "status": "current"
+          },
+          {
+            "numeral": 2,
+            "rule": "When Log is scrolled to the top, incoming events shall be added to the top, older events shall move down to make room.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "Log shall not auto-scroll when viewing older events, allowing the user to read the Log without incoming events changing the view.",
             "status": "current"
           }
         ]
