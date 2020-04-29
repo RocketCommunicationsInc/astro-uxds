@@ -458,8 +458,8 @@
             "status": "current"
           },
           {
-            "numeral": 4,
-            "rule": "A Radio Button labels shall use title case capitalization.",
+            "numeral": 5,
+            "rule": "Radio Button labels shall use title case capitalization.",
             "status": "current"
           }
         ]
@@ -471,7 +471,13 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Search Fields shall contain prompt text.",
+            "rule": "Search Fields shall contain placeholder text, defaulting to \"Search...\"",
+            "status": "current"
+          },
+          {
+            "numeral": 2,
+            "rule": "When a Search Field has keyboard focus, the clear button shall be enabled.",
+            "figure": "/img/components/search-focus.png",
             "status": "current"
           }
         ]
@@ -483,7 +489,17 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Segmented Buttons shall be used only for mutually exclusive selections.",
+            "rule": "Segmented Buttons shall be used for mutually exclusive choices.",
+            "status": "current"
+          },
+          {
+            "numeral": 2,
+            "rule": "A Segmented Button shall always have one option selected.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "Segmented Buttons shall be limited to two to four choices.",
             "status": "current"
           }
         ]
