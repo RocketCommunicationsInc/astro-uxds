@@ -511,12 +511,12 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Status Symbols shall always be rendered with the [specified shapes](/patterns/status-system/).",
+            "rule": "Status Symbols shall be displayed with the [specified shapes](/patterns/status-system/).",
             "status": "current"
           },
           {
             "numeral": 2,
-            "rule": "Status Symbols shall always be rendered with the [specified colors](/patterns/status-system/#status-colors).",
+            "rule": "Status Symbols shall be displayed with the [specified colors](/components/status-symbol/#status-colors).",
             "status": "current"
           }
         ]
@@ -528,12 +528,22 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Tabs shall be arranged in a single row.",
+            "rule": "Tabs shall be arranged in a single row or column.",
             "status": "current"
           },
           {
             "numeral": 2,
-            "rule": "Tabs shall use title-style capitalization.",
+            "rule": "Tabs shall use title case capitalization.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "Large Tabs shall be used within the Global Status Bar, or top of the content area, for top level navigation.",
+            "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "Small Tabs shall be used within the content area, for sub level navigation or view switching.",
             "status": "current"
           }
         ]
@@ -545,7 +555,7 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Toggle shall be used when the action takes immediate effect.",
+            "rule": "Toggle shall be used when the action takes immediate effect, without further user confirmation.",
             "status": "current"
           }
         ]
