@@ -359,13 +359,14 @@
         "link": "/components/pagination/",
         "rules": [
           {
-            "numeral": 1,
             "rule": "Pagination shall not use underlined text.",
+            "numeral": 1,
             "status": "current"
           },
           {
             "numeral": 2,
             "rule": "Pagination shall display Prev and Next links when the entire page range cannot be displayed.",
+            "figure": "/img/components/pagination-1.png",
             "status": "current"
           },
           {
