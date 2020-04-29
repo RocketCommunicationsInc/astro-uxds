@@ -415,7 +415,19 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Progress indicator shall indicate the precise completion time for an operation.",
+            "rule": "A determinate Progress indicator shall indicate an operation that has a well-defined duration.",
+            "figure": "/img/components/determinate-progress-do.png",
+            "status": "current"
+          },
+          {
+            "numeral": 2,
+            "rule": "An indeterminate Progress indicator shall indicate an operation that has unknown duration.",
+            "figure": "/img/components/indeterminate-progress-do.png",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "A Progress indicator shall be displayed when a operation takes longer than five seconds to complete.",
             "status": "current"
           }
         ]
