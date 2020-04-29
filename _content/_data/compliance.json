@@ -388,12 +388,22 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Menu items shall use title-style capitalization.",
+            "rule": "Menu items shall use title case capitalization.",
             "status": "current"
           },
           {
             "numeral": 2,
-            "rule": " Menu items shall use an ellipsis (…) to indicate that further action is required to complete the command.",
+            "rule": "An ellipsis (…) shall follow a menu item when further action is required to complete the command.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "Related groups of menu items shall be indicated by seperator lines",
+            "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "Pop Ups shall not exceed 25 menu items.",
             "status": "current"
           }
         ]
