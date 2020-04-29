@@ -101,7 +101,7 @@ module.exports = function(eleventyConfig) {
 
   }
   // only make password headers on netlify's compliance context
-  if (process.env.NETLIFY && process.env.BRANCH === "compliance") {
+  if (process.env.NETLIFY && process.env.BRANCH === "compliance-dev") {
     savePasswordHeaders();
   }
   console.log(process.env.NETLIFY, process.env.BRANCH, process.env.CONTEXT);
