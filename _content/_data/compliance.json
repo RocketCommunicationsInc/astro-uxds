@@ -270,12 +270,12 @@
           },
           {
             "numeral": 4,
-            "rule": "[Status Symbols](/patterns/status-system/#status-colors) shall not be alterted as they are appended to icons for ADA 508 and WCAG 2.0 compliance.\n",
+            "rule": "[Status Symbols](/patterns/status-system/#status-colors) shall not be altered. They are required for ADA 508 and WCAG 2.0 compliance.",
             "status": "current"
           },
           {
             "numeral": 5,
-            "rule": "[Icon labels](/patterns/status-system/#lableing) shall identify the item represented, and shall not change. A Sub-Label may provide dynamic information.\n",
+            "rule": "[Icon labels](/patterns/status-system/#lableing) shall identify the item represented, and shall not change. A Sub-Label may provide dynamic information.",
             "status": "current"
           },
           {
@@ -298,7 +298,13 @@
           },
           {
             "numeral": 2,
-            "rule": "Input Fields shall use the [text size defined in the CSS](https://bitbucket.org/rocketcom/astro-components/src/master/src/css/core/input.css#lines-66).",
+            "rule": "Input Fields shall use the mimimum text size defined in the CSS.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "Input Field's labels shall be aligned to the top left of the field.",
+            "figure": "https://compliance--astrouxds.netlify.app/img/components/input-fields-do.png",
             "status": "current"
           }
         ]
