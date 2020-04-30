@@ -3,6 +3,6 @@ tags: resources
 path: /design-guidelines/compliance
 date: Last Modified
 layout: compliance.template.njk
-title: EGS Compliance
+title: EGS Design Compliance
 ---
-# EGS Compliance
+# EGS Design Compliance
