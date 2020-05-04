@@ -26,7 +26,7 @@
           },
           {
             "numeral": 2,
-            "rule": "The colors specified in the [Tag 1](/design-guidelines/color/#tag-1), [Tag 2](/design-guidelines/color/#tag-2), [Tag 3](/design-guidelines/color/#tag-3), and [Tag 4](/design-guidelines/color/#tag-4) palettes shell be used when distinct colors are needed to indicate data categories or groups.",
+            "rule": "The colors specified in the [Tag 1](/design-guidelines/color/#tag-1), [Tag 2](/design-guidelines/color/#tag-2), [Tag 3](/design-guidelines/color/#tag-3), and [Tag 4](/design-guidelines/color/#tag-4) palettes shall be used when distinct colors are needed to indicate data categories or groups.",
             "status": "draft"
           }
         ]
@@ -123,7 +123,7 @@
           },
           {
             "numeral": 5,
-            "rule": "Titles shall fit within the Button width, not abbreviated or truncated.",
+            "rule": "Button widths shall accommodate the full title without truncating or abbreviating.",
             "status": "current"
           },
           {
@@ -133,7 +133,7 @@
           },
           {
             "numeral": 7,
-            "rule": "An elipsis (…) shall follow the Button title when further action is required to complete the command.",
+            "rule": "An ellipsis (…) shall follow the Button title when further action is required to complete the command.",
             "status": "current"
           },
           {
@@ -187,7 +187,7 @@
           },
           {
             "numeral": 4,
-            "rule": "Button titles shall be verbs that describe their actions, or the generic titles OK and Cancel.",
+            "rule": "Button titles shall be verbs that describe their actions, or the generic titles “OK” and “Cancel”.",
             "status": "new"
           },
           {
@@ -214,7 +214,7 @@
           },
           {
             "numeral": 3,
-            "rule": "Drop Downs shall not exceed 25 menu items. For longer lists use a [Table](/patterns/table) instead.",
+            "rule": "Drop Downs shall not exceed 25 menu items. For longer lists, use a [Table](/patterns/table) instead.",
             "status": "current"
           }
         ]
@@ -236,7 +236,7 @@
           },
           {
             "numeral": 3,
-            "rule": "Optional Global Status Bar elements shall be arranged left to right in this order, navigation [Tabs](/components/tabs), [Clock](/components/clock), [Monitoring Icons](/components/icons-and-symbols/#monitoring-icons), [Action Icons](/components/icons-and-symbols/#action-icons), off Button.",
+            "rule": "Optional Global Status Bar elements shall be arranged left to right in this order: navigation [Tabs](/components/tabs), [Clock](/components/clock), [Monitoring Icons](/components/icons-and-symbols/#monitoring-icons), [Action Icons](/components/icons-and-symbols/#action-icons), off Button.",
             "figure": "/img/components/global-status-complex.png",
             "status": "current"
           },
@@ -303,7 +303,7 @@
           },
           {
             "numeral": 3,
-            "rule": "Input Field's labels shall be aligned to the top left of the field.",
+            "rule": "Input Field labels shall be aligned to the top left of the field.",
             "figure": "https://compliance--astrouxds.netlify.app/img/components/input-fields-do.png",
             "status": "current"
           }
@@ -326,7 +326,7 @@
           },
           {
             "numeral": 3,
-            "rule": "Link text shall indicated what will happen when the link is clicked, not \"Click Here\" or \"Link\"",
+            "rule": "Linked text shall indicated what will happen when the link is clicked, not \"Click Here\" or \"Link\".",
             "status": "current"
           }
         ]
@@ -343,12 +343,12 @@
           },
           {
             "numeral": 2,
-            "rule": "When Log is scrolled to the top, incoming events shall be added to the top, older events shall move down to make room.",
+            "rule": "When Log is scrolled to the top, it shall remain locked to the top, allowing users to always see the latest event.",
             "status": "current"
           },
           {
             "numeral": 3,
-            "rule": "Log shall not auto-scroll when viewing older events, allowing the user to read the Log without incoming events changing the view.",
+            "rule": "When Log is scrolled to view older events, incoming events shall not change the scrolling position.",
             "status": "current"
           }
         ]
@@ -398,7 +398,7 @@
           },
           {
             "numeral": 3,
-            "rule": "Related groups of menu items shall be indicated by seperator lines",
+            "rule": "Related groups of menu items shall be indicated by separator lines.",
             "status": "current"
           },
           {
@@ -454,7 +454,7 @@
           },
           {
             "numeral": 4,
-            "rule": "A Radio Button shall not initate an action.",
+            "rule": "A Radio Button shall not initiate an action.",
             "status": "current"
           },
           {
