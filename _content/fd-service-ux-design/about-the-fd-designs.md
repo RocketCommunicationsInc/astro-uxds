@@ -4,14 +4,16 @@ path: /fd-service-ux-design/about-the-fd-designs
 date: Last Modified
 layout: interior.template.njk
 title: Flight Dynamics Service
+class: fds
 ---
 
 # Flight Dynamics Service (FDS)
 
 The FDS system supports missions that require communication between satellites and ground systems in order to estimate the position of a satellite, as well as perform any maneuvers to keep the satellite in a nominal position. Some key features of FDS include Orbit Determinations (OD), generating products (Ephemerides, TLE’s, reports, etc.), and Maneuvering, such as station keeping, conjunction assessment, and COLA’s (burns).
+ (pdf)
 
-- [FDS_Specifications.PDF](Download)
-- [FDS_Wireframes.PDF](Download)
+- [FD Design Specifications (pdf)](Download)
+- [FD Wireframes (pdf)](Download)
 
 <video controls width="100%">
 		<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/fds-video.mp4" type="video/mp4">

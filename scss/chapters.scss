@@ -197,3 +197,11 @@ figcaption {
   margin-bottom: 0;
   border: none;
 }
+
+.fds .two-col {
+  grid-template-columns: 33% 66%;
+}
+
+.fds .two-col figure img {
+  max-width: 100%;
+}
