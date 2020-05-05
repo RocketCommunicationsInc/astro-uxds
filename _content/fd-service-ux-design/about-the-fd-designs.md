@@ -1,6 +1,6 @@
 ---
 tags: ['flight dynamics', 'egs']
-path: /flight-dynamics-service-ux-design/flight-dynamics-designs
+path: /fd-service-ux-design/about-the-fd-designs
 date: Last Modified
 layout: interior.template.njk
 title: Flight Dynamics Service
@@ -12,6 +12,11 @@ The FDS system supports missions that require communication between satellites a
 
 - [FDS_Specifications.PDF](Download)
 - [FDS_Wireframes.PDF](Download)
+
+<video controls width="100%">
+		<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/fds-video.mp4" type="video/mp4">
+		<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/fds-video.webm" type="video/webm">
+</video>
 
 **Orbit Determination**:
 
@@ -137,7 +142,7 @@ The properties pane displays various attributes an operator may expect to see wh
 #### Inputs
 
 :::two-col
-![Inputs wireframe](/img/service-specific-ux-design/fds-inputs-pane.png)
+![Inputs wireframe](/img/service-specific-ux-design/fds-inputs.png)
 :::col
 
 The inputs pane houses the initial input files required in order to run an orbit determination.
@@ -154,7 +159,7 @@ The inputs pane houses the initial input files required in order to run an orbit
 
 :::two-col
 
-![Outputs wireframe](/img/service-specific-ux-design/fds-outputs-pane.png)
+![Outputs wireframe](/img/service-specific-ux-design/fds-outputs.png)
 :::col
 
 The outputs pane houses the required output files and products for a scenario.
@@ -167,7 +172,7 @@ The outputs pane houses the required output files and products for a scenario.
 
 The data display is a multi-functional output view of an orbit determination.
 
-![Data Display wireframe](/img/service-specific-ux-design/fds-data-display.png)
+![Data Display wireframe](/img/service-specific-ux-design/fds-log-utility.png)
 
 1. **Notification Banner** - the notification banner shows the status for the latest/last orbit determination that was initiated.
 2. **Deviation Count** - the deviation count shows the total number of deviations (violations of the standard deviation  found in the OD Results.
@@ -195,7 +200,7 @@ The Utility Tool Kit is a collection of contextual utilities for accessing secon
 
 The Log Utility shows a log of application and system messages. Usage and functionality of this utility is mission-agnostic based on what is most valuable to the operator/mission.
 
-![Log Utility wireframe](/img/service-specific-ux-design/fds-log-utility.png)
+![Log Utility wireframe](/img/service-specific-ux-design/fds-utility-tool-kit.png)
 
 1. **Tabs** - allows for more than view or category of log messages.
 2. **Control Buttons** - Triggers a slide in pane that allows the operator control over the event log display.
@@ -208,7 +213,7 @@ The Track Data Utility is an identified secondary task flow an operator would ex
 
 #### Track Data Utility: Select Raw Tracking Files
 
-![Track Data Utility wireframe](/img/service-specific-ux-design/fds-raw-tracking-files.png)
+![Track Data Utility wireframe](/img/service-specific-ux-design/fds-track-data-utility-raw-track.png)
 
 1. **File List** - displays a table list of raw tracking data.
 2. **Edit Track File Button** - allows operator to edit/remove data from a track file.
@@ -218,7 +223,7 @@ The Track Data Utility is an identified secondary task flow an operator would ex
 
 #### Track Data Utility: Filter Data
 
-![Fitler Data Utility wireframe](/img/service-specific-ux-design/fds-filter-data.png)
+![Fitler Data Utility wireframe](/img/service-specific-ux-design/fds-track-data-utility-filter.png)
 
 1. **Data Display Segmented Button** - allows operator to change views from tabular data to a visual data display to view individual track data points.
 2. **Track Data Contextual Information** - clicking on an individual plot data instance will show additional information or actions associated with the track data. An example would be what ground station the track data point is from as well as the date/time of the impression and it’s elevation numerical data.
@@ -234,7 +239,7 @@ The Propagator Utility is an identified secondary task flow an operator would ex
 
 #### Input Source
 
-![Input Source wireframe](/img/service-specific-ux-design/fds-input-source.png)
+![Input Source wireframe](/img/service-specific-ux-design/fds-prpagator-utility-input.png)
 
 1. **Source Settings**- allows an operator to select an orbit source and an input file for generating the ephemeris or TLE file.
 2. **Epoch Settings** - allows operator to set an epoch in the orbit source.
@@ -244,7 +249,7 @@ The Propagator Utility is an identified secondary task flow an operator would ex
 
 #### View Orbit
 
-![View Orbit wireframe](/img/service-specific-ux-design/fds-view-orbit.png)
+![View Orbit wireframe](/img/service-specific-ux-design/fds-propagator-utility-orbit.png)
 
 1. **Orbit Visualization Segmented Button** - allows an operator to switch between a tabular data view and a orbit visualization with the applied orbit source and settings.
 2. **Orbit Data Display** - displays in 2D/3D the orbit track with the applied orbit source and settings as well as a play button to run the simulation.
