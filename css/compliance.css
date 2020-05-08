@@ -23,7 +23,7 @@ aside.compliance {
   z-index: 0; }
 
 aside.compliance::before {
-  content: 'a';
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
