@@ -4,7 +4,7 @@ main {
   color: var(--font-color, #494949);
   max-width: var(--content-max-text-width, 40em); }
   main img {
-    /* max-width: 100%; */ }
+    max-width: 100%; }
   main ul {
     list-style: disc;
     margin: 0 0 0 1.5em;
