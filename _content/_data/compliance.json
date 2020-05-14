@@ -5,7 +5,7 @@
     "rules": [
       {
         "numeral": 1,
-        "rule": "All designs should follow the guidance marked as “Rules of Thumb”, “Do's” and “Don'ts”.",
+        "rule": "All designs should follow the guidance marked as “Rules of Thumb”, “Do's” and “Don'ts” as described on individual component pages.",
         "status": "new"
       }
     ]
