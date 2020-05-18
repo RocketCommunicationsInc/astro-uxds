@@ -162,6 +162,16 @@
             "numeral": 3,
             "rule": "Checkboxes shall align vertically when in a group.",
             "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "Checkboxes shall have a corresponding label.",
+            "status": "current"
+          },
+          {
+            "numeral": 5,
+            "rule": "Checkbox labels shall use title case capitalization.",
+            "status": "current"
           }
         ]
       },
@@ -305,6 +315,21 @@
             "numeral": 3,
             "rule": "Input Field labels shall be aligned to the top left of the field.",
             "figure": "https://compliance--astrouxds.netlify.app/img/components/input-fields-do.png",
+            "status": "current"
+          },
+          {
+            "numeral": 4,
+            "rule": "Input Field shall have a corresponding label.",
+            "status": "current"
+          },
+          {
+            "numeral": 5,
+            "rule": "Input Field labels shall use title case capitalization.",
+            "status": "current"
+          },
+          {
+            "numeral": 6,
+            "rule": "Input Field labels shall not use placeholder text in place of labels.",
             "status": "current"
           }
         ]
@@ -461,6 +486,12 @@
             "numeral": 5,
             "rule": "Radio Button labels shall use title case capitalization.",
             "status": "current"
+          },
+          {
+            "numeral": 6,
+            "rule": "Radio Buttons shall have a coresponding label.",
+            "figure": "https://compliance--astrouxds.netlify.app/img/components/input-fields-do.png",
+            "status": "current"
           }
         ]
       },
@@ -471,7 +502,7 @@
         "rules": [
           {
             "numeral": 1,
-            "rule": "Search Fields shall contain placeholder text, defaulting to \"Search...\"",
+            "rule": "Search Fields shall contain placeholder text, defaulting to \"Search ... \"",
             "status": "current"
           },
           {
@@ -556,6 +587,16 @@
           {
             "numeral": 1,
             "rule": "Toggle shall be used when the action takes immediate effect, without further user confirmation.",
+            "status": "current"
+          },
+          {
+            "numeral": 2,
+            "rule": "Toggles shall have a corresponding label.",
+            "status": "current"
+          },
+          {
+            "numeral": 3,
+            "rule": "Toggles labels shall use title case capitalization.",
             "status": "current"
           }
         ]
