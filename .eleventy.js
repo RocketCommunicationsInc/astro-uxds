@@ -74,7 +74,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("fonts");
-  eleventyConfig.addPassthroughCopy("favicon");
+  eleventyConfig.addPassthroughCopy("_content/favicon.ico");
 
   //
   eleventyConfig.setBrowserSyncConfig({
