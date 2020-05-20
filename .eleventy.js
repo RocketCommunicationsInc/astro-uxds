@@ -70,8 +70,6 @@ module.exports = function(eleventyConfig) {
   // Manually move static content
   eleventyConfig.addPassthroughCopy({ img: "img/_site" });
   eleventyConfig.addPassthroughCopy({ "_content/img": "img" });
-  eleventyConfig.addPassthroughCopy({ "_content/img": "img" });
-  eleventyConfig.addPassthroughCopy({ "_content/**/*/img/*": "components/img" });
   eleventyConfig.addPassthroughCopy({ "_content/_downloads/*": "downloads" });
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("css");
