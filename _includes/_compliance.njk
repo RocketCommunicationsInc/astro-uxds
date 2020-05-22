@@ -4,7 +4,7 @@
 
   <link rel="stylesheet" href="/css/compliance.css">
   <aside class="compliance">
-    <header>Compliance Requirements</header>
+    <header>Compliance Requirements <span class="compliance-version">(v{{ compliance.version }})</span></header>
     <ol class="compliance-list">
 
     {% for rule in data.rules|sort(false,false,'numeral') %}
@@ -37,7 +37,7 @@
 {% endmacro %}
 
 
-{% set sortedRules = compliance|sort(false,false,'numeral') %}
+{% set sortedRules = compliance.contents|sort(false,false,'numeral') %}
 {% for complianceRules in sortedRules %}
   {{ getComplianceRulesByURL(complianceRules) }}
 {% endfor %}

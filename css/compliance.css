@@ -42,6 +42,13 @@ aside header {
   font-weight: bold; 
   margin: 0 0 1rem; }
 
+aside header .compliance-version {
+   font-weight: normal;
+   font-size: 16px;
+   display: inline;
+   padding: 0;
+  }
+
 aside footer {
   margin: 1rem 0 1rem; }
 
