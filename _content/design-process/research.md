@@ -90,8 +90,4 @@ Whenever possible, observe users in the process of doing their job on site. Take
 
 - User Personas capture the user’s goals, motivations and limitations.
 - Using the information gathered from user interviews and observation, create a profile that conveys a common understanding of the users for each role, including their primary motivations.
-<<<<<<< HEAD
 - [Review examples of User Personas]( https://s3-us-west-2.amazonaws.com/com.rocketcom.astrouxds/downloads/personas.zip) \[ZIP\].
-=======
-- [Review examples of User Personas]( https://s3-us-west-2.amazonaws.com/com.rocketcom.astrouxds/downloads/personas.zip) \[ZIP\].
->>>>>>> master
