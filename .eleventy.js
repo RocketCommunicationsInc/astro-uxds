@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
     if (err) throw err;
   });
 
+  
   // markdown options
   const options = {
     html: true,
