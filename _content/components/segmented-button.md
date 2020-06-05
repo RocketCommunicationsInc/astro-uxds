@@ -34,3 +34,5 @@ Segmented Buttons allow users to select one item at a time from two to four opti
 ![Don’t: Use Segmented Buttons for user input in a form, use Radio Buttons or Select Menus instead.](/img/components/segmented-button-dont-2.png "Don’t: Use Segmented Buttons for user input in a form, use Radio Buttons or Select Menus instead.")
 
 :::
+
+
