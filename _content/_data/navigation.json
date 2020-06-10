@@ -76,6 +76,10 @@
 				"url": "/patterns/notifications"
 			},
 			{
+				"label": "Classification Markings",
+				"url": "/patterns/classification-markings"
+			},
+			{
 				"label": "Data Visualizations",
 				"url": "/patterns/data-visualization"
 			},
@@ -130,10 +134,6 @@
 				"url": "/components/dialog-box"
 			},
 			{
-				"label": "Drop Down",
-				"url": "/components/drop-down"
-			},
-			{
 				"label": "Global Status Bar",
 				"url": "/components/global-status-bar"
 			},
@@ -180,6 +180,10 @@
 			{
 				"label": "Segmented Button",
 				"url": "/components/segmented-button"
+			},
+			{
+				"label": "Select Menu",
+				"url": "/components/select"
 			},
 			{
 				"label": "Slider",

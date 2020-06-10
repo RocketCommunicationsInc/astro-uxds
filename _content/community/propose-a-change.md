@@ -5,7 +5,7 @@ layout: interior.template.njk
 title: "Propose a Change"
 ---
 
-# Propose a Change
+# How to Propose a Change
 
 The Astro User Experience Design System is hosted on [GitHub](https://github.com) as an open source project and uses [Markdown](https://guides.github.com/features/mastering-markdown/) for content. This enables any user of Astro to proposes changes in a safe, trackable and relatively easy manner.
 
@@ -54,7 +54,13 @@ Once you are content with your changes click **Create pull request**
 
 ![GitHub’s integrated Markdown editor](/img/community/step-4.png)
 
-## Step 6 - Approval process
+## Step 6 - Preview your change
+
+Every pull request on AstroUXDS gets published to its own ephemeral URL for testing. You can view your changes live by clicking the *Details* link associated with the final check, deploy/netlify - Deploy preview ready! This URL is valid for as long as the pull request is open and will automatically delete itself after the pull request is closed or merged in to Astro.
+
+![Don’t worry about the two red error messages, these are simply safeguards preventing changes being made public prior to necessary approval](/img/community/step-6.png)
+
+## Step 7 - Approval process
 
 The Astro team reviews pull requests weekly. Proposals may be
 
