@@ -38,3 +38,8 @@ title: Downloads
 - TT&C Monitor App Source Code ([Git Repository](https://bitbucket.org/rocketcom/tt-c-monitor/src/master/))
 - TT&C Command App Source Code ([Git Repository](https://bitbucket.org/rocketcom/tt-c-command/src/master/))
 - TT&C Investigate App Source Code ([Git Repository](https://bitbucket.org/rocketcom/tt-c-investigate/src/master/))
+
+## FDS Service UX Design
+
+- [FD Design Specifications (pdf)](https://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/downloads/fds-specifications.pdf)
+- [FD Wireframes (pdf)](https://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/downloads/fds-wireframes.pdf)
