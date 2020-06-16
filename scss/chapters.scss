@@ -232,10 +232,16 @@ div.compliance ul {
 #contribution-footer {
   border-top: 1px solid #ddd;
   margin-top: 2.75rem;
+  h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0;
+    border: none;
+  }
 }
 
-#contribution-footer h1 {
-  font-size: 1.75rem;
-  margin-bottom: 0;
-  border: none;
+.fds .two-col {
+  grid-template-columns: 33% 66%;
+  figure img {
+    max-width: 100%;
+  }
 }

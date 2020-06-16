@@ -245,7 +245,6 @@
 	{
 		"label": "TT&C Service UX Design",
 		"url": "/ttc-service-ux-design",
-		"class": "section-end",
 		"items": [
 			{
 				"label": "About the TT&C Designs",
@@ -264,6 +263,11 @@
 				"url": "/ttc-service-ux-design/ttc-investigate"
 			}
 		]
+	},
+	{
+		"label": "FD Service UX Design",
+		"url": "/fd-service-ux-design/about-the-fd-designs",
+		"class": "section-end"
 	},
 	{
 		"label": "Downloads",
