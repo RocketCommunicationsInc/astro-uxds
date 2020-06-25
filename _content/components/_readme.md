@@ -9,7 +9,7 @@ title: Read Me
 
 # README
 
-ASTRO UX Guidelines include a CSS library of standard HTML elements for building Astro Applications. No specific JavaScript library is recommended for adding functionality to these components.
+ASTRO UXDS Guidelines include a CSS library of standard HTML elements for building Astro Applications. No specific JavaScript library is recommended for adding functionality to these components.
 
 There are two ways to use the Astro elements in your applications. You may simply download and refer to the compiled CSS and images in your app using the HTML and classes provided, or you may clone and serve the Astro Web Components library for development within a NodeJS project.
 
