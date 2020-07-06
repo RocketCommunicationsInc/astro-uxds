@@ -27,17 +27,15 @@ Ultimately, all Astro UXDS documentation content exists in one of 4 states:
 3.  **Deprecated** (archived, renamed, obsolete, no longer recommended or supported ) e.g., Spectrum Analyzer
 4.  **Deleted** (hidden, moved, no longer available, published in error, redacted)
 
-Further distinctions are unhelpful noise to the customer seeking to build Astro UXDS-based applications. Additional commentary regarding the program's state and pipeline is far more effectively communicated through official channels to the directly responsible points of contact at EGS and not to be published on [astrouxds.com](http://astrouxds.com). However, there is an opportunity in future program increments to explore opportunities to publicize what's coming in future Astro UXDS releases given additional development resources.
+Further distinctions are unhelpful noise to the customer seeking to build Astro UXDS-based applications. Additional commentary regarding the program's state and pipeline is far more effectively communicated through official channels to the directly responsible points of contact at EGS and not to be published on [AstroUXDS.com](http://astrouxds.com). However, there is an opportunity in future program increments to explore opportunities to publicize what's coming in future Astro UXDS releases given additional development resources.
 
 ### 1\. Current Content
 
-By default, all content available on AstroUXDS.com will reflect what is on the master branch of the Astro Components repo. This content is considered current, canonical, supported, and effective. Published content should not be used to warn readers of possible future changes (as is currently available on the accordion page <https://www.astrouxds.com/components/accordion/>) as this may share an incomplete and often inaccurate picture of our pipeline and priorities. Instead, deprecate out-of-date content and replace it with content of current value to the user.
+By default, all content available on AstroUXDS.com will reflect what is on the master branch of the Astro Components repo. This content is considered current, canonical, supported, and effective. Published content should not be used to warn readers of possible future changes, as this may share an incomplete and often inaccurate picture of our pipeline and priorities. Instead, deprecate out-of-date content and replace it with content of current value to the user.
 
 ### 2\. Draft Content
 
 Occasionally, AstroUXDS contributors will draft content and/or components and make those changes available for review or comment. If the content is of a sensitive nature or could create confusion by being made public before official adoption, it can be published to a unique, unlisted subdomain rather than the public site for the benefit of program management and EGS review. On a separate branch, Astro UXDS contributors may display and revise draft content freely until it has been made canonical by merging into master and publishing to AstroUXDS.com. Take care to remember that all branches of the Astro website and components are publicly accessible, as the repo is a public open source project. 
-
-<i>Further refinements to the "draft" section of this policy can be expected in the coming program increment.</i>
 
 ### 3\. Modified or Deprecated Content
 
@@ -59,19 +57,19 @@ For grammar or typographic changes or **clarifications that do not change the in
 
 In rare situations, it is necessary to completely delete content from AstroUXDS. Such situations include **content published due to human or technical error** (such as publishing prior to receiving approval), **content that includes private, confidential, or secure information**, or information became redundant over time. Where the original content is superseded by content existing elsewhere on the site, AstroUXDS should refer users to the more useful content, consolidating information in one place. 
 
-As a record of all content ever published continues to exist indefinitely in git repo histories, if truly sensitive data such as application keys were accidentally published, it is not enough to just remove the content in a new commit. See <https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository> in such a situation.
+As a record of all content ever published continues to exist indefinitely in git repo histories, if truly sensitive data such as application keys were accidentally published, it is not enough to just remove the content in a new commit. See [recommendations for removing sensitive data from a repository](https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository) in such a situation.
 
 #### 4.1. Deleting entire pages
 
 If a page was published in error or contained information that should not have been made public, the AstroUXDS contributors should remove the markdown file and any links to the file (including listing the page in the nav file). This is essentially an "undo" publish action, and removes the page from nav and sitemap. Double-check all links across the site to make sure no page on AstroUXDS.com links to the now removed content, which will result in a 404 error if visited.
 
-If the entirety of the page content is superseded by another AstroUXDS page (such as the renaming or merging of components), the URL for the page to be removed should redirect to the superseding page. All revision history from the removed page should be moved to the superseding page, with an explanation to the user of the change in the revision list, and remove the old page's markdown file. Finally, the content manager should list the old path, followed by the superseding page path, in the [AstroUXDS.com](http://AstroUXDS.com) repo's _redirects file (<https://docs.netlify.com/routing/redirects/>).This will create an automatic 301 (permanent) redirect to the new page, and remove the page from navigation and sitemap as well as search engine and site-wide search results.
+If the entirety of the page content is superseded by another AstroUXDS page (such as the renaming or merging of components), the URL for the page to be removed should redirect to the superseding page. All revision history from the removed page should be moved to the superseding page, with an explanation to the user of the change in the revision list, and remove the old page's markdown file. Finally, the content manager should list the old path, followed by the superseding page path, in the [AstroUXDS.com](http://AstroUXDS.com) repo's _redirects file [as per Netlify's instructions](https://docs.netlify.com/routing/redirects/)). This will create an automatic 301 (permanent) redirect to the new page, and remove the page from navigation and sitemap as well as search engine and site-wide search results.
 
 #### 4.2. Removing content from a page
 
 If content was published in error or contained information that should not have been public, it can be safely removed with no annotation or comment in a revision table.
 
-Content which has been removed from one page in favor of superseding content on another page should be noted in the page's revision table (see section for "significantly modified content on an existing page" above.)
+Content which has been removed from one page in favor of superseding content on another page should be noted in the page's revision table (see section for [Significantly modified content on an existing page](#3.2.-significantly-modified-content-on-an-existing-page) above.)
 
 <br>
 
