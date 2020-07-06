@@ -3,6 +3,8 @@ path: /community/content-policy
 date: Last Modified
 layout: interior.template.njk
 title: "Content Policy"
+# remove next line when policy is approved
+eleventyExcludeFromCollections: true
 ---
 
 # AstroUXDS<nolink>.com Content Policy v0.1
