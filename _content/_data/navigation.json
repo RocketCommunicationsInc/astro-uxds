@@ -270,6 +270,20 @@
 		"class": "section-end"
 	},
 	{
+		"label": "Community",
+		"url": "/community",
+		"items": [
+			{
+				"label": "Propose a Change",
+				"url": "/community/propose-a-change"
+			},
+			{
+				"label": "Content Policy",
+				"url": "/community/content-policy"
+			}
+		]
+	},
+	{
 		"label": "Downloads",
 		"url": "/downloads"
 	},
