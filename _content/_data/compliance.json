@@ -491,7 +491,7 @@
             },
             {
               "numeral": 6,
-              "rule": "Radio Buttons shall have a coresponding label.",
+              "rule": "Radio Buttons shall have a corresponding label.",
               "figure": "/img/components/radio-buttons-do-1.png",
               "status": "current"
             }
