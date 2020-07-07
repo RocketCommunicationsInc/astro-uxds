@@ -492,7 +492,7 @@
             {
               "numeral": 6,
               "rule": "Radio Buttons shall have a coresponding label.",
-              "figure": "https://compliance--astrouxds.netlify.app/img/components/input-fields-do.png",
+              "figure": "/img/components/radio-buttons-do-1.png",
               "status": "current"
             }
           ]
