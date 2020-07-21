@@ -77,7 +77,14 @@ The image below shows the Contact pane for this Add Contact task flow. To see th
 
 Below is an animated walkthrough of a representative task flow using the GRM Schedule app. In this scenario, an operator uses the GRM Schedule app to change the priority of an upcoming contact.
 
-![Task Flow Example](/img/service-specific-ux-design/gif-placeholder.png)
+<div markdown="1">
+	<a href="/img/service-specific-ux-design/grm-schedule-modify-contact.gif" data-lightbox="grm-schedule">
+    <video width="99%" autoplay loop muted markdown="1"
+	poster="/img/service-specific-ux-design/grm-schedule-modify-contact.gif">
+        <source src="/video/grm-schedule-modify-contact.mp4" type="video/mp4" markdown="1">        
+    </video>
+	</a>
+</div>
 
 ## Design Materials and Source Code
 

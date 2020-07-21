@@ -89,7 +89,15 @@ Note that maintenance-related task flows are covered in much more detail in the 
 
 Below is an animated walkthrough of a representative task flow using the GRM Equipment Manager app. In this flow, an operator notices a piece of equipment in a critical state and uses the app to request maintenance for it.
 
-![Task Flow Example](/img/service-specific-ux-design/gif-placeholder.png)
+<div markdown="1">
+	<a href="/img/service-specific-ux-design/grm-equipment-manager-sched-job.gif" data-lightbox="grm-equipment">
+    <video width="99%" autoplay loop muted markdown="1"
+	poster="/img/service-specific-ux-design/grm-equipment-manager-sched-job.gif">
+        <source src="/video/grm-equipment-manager-sched-job.mp4" type="video/mp4" markdown="1">        
+    </video>
+	</a>
+</div>
+
 
 ## Design Materials and Source Code
 
