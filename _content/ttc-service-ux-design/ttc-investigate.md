@@ -73,8 +73,8 @@ Below is an animated walkthrough of a representative task flow using the TT&C In
 	<a href="/img/service-specific-ux-design/ttc-investigate-add-watcher.gif" data-lightbox="ttc-watcher">
     <video width="99%" autoplay loop muted markdown="1"
 	poster="/img/service-specific-ux-design/ttc-investigate-add-watcher.gif">
-        <source src="/video/ttc-investigate-add-watcher.mp4" type="video/mp4" markdown="1">        
         <source src="/video/ttc-investigate-add-watcher.webm" type="video/webm" markdown="1">        
+        <source src="/video/ttc-investigate-add-watcher.mp4" type="video/mp4" markdown="1">        
     </video>
 	</a>
 </div>
