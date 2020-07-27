@@ -88,6 +88,7 @@ Below is an animated walkthrough of a representative task flow using the GRM Das
 		<video width="99%" autoplay loop muted markdown="1"
 		poster="/img/service-specific-ux-design/grm-dashboard-modify-string.gif">
 			<source src="/video/grm-dashboard-modify-string.mp4" type="video/mp4" markdown="1">        
+			<source src="/video/grm-dashboard-modify-string.webm" type="video/webm" markdown="1">        
 		</video>
 	</a>
 </div>

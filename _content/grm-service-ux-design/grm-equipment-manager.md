@@ -94,6 +94,7 @@ Below is an animated walkthrough of a representative task flow using the GRM Equ
     <video width="99%" autoplay loop muted markdown="1"
 	poster="/img/service-specific-ux-design/grm-equipment-manager-sched-job.gif">
         <source src="/video/grm-equipment-manager-sched-job.mp4" type="video/mp4" markdown="1">        
+        <source src="/video/grm-equipment-manager-sched-job.webm" type="video/webm" markdown="1">        
     </video>
 	</a>
 </div>
