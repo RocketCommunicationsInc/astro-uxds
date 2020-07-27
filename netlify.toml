@@ -69,9 +69,3 @@
 	to = "/ttc-service-ux-design/ttc-investigate"
 	status = 300
 	force = true
-
-	[[redirects]]
-	from = "/components/drop-down"
-	to = "/components/select"
-	status = 300
-	force = true

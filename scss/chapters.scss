@@ -1,4 +1,5 @@
-@import './abstracts/vars';
+@import './00-presets/__index';
+
 main {
   padding: var(--content-padding-horizontal, 1rem) var(--content-padding-vertical, 1rem);
   color: var(--font-color, rgb(73, 73, 73));
@@ -232,16 +233,10 @@ div.compliance ul {
 #contribution-footer {
   border-top: 1px solid #ddd;
   margin-top: 2.75rem;
-  h1 {
-    font-size: 1.75rem;
-    margin-bottom: 0;
-    border: none;
-  }
 }
 
-.fds .two-col {
-  grid-template-columns: 33% 66%;
-  figure img {
-    max-width: 100%;
-  }
+#contribution-footer h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0;
+  border: none;
 }
