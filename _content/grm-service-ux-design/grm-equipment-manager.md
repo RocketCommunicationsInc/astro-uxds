@@ -91,11 +91,12 @@ Below is an animated walkthrough of a representative task flow using the GRM Equ
 
 <div markdown="1">
 	<figure>
-		<a href="#video">
-			<img src="/img/service-specific-ux-design/grm-equipment-manager-sched-job-placeholder.gif">
+		<a href="#demo">
+			<img src="/img/service-specific-ux-design/grm-equipment-manager-sched-job-placeholder.gif"
+			alt="GRM Equipment Manager demo" />
 		</a>
 	</figure>
-	<a href="#" class="lightbox" id="video">
+	<a href="#" class="lightbox" id="demo" markdown="1">
 		<video width="99%" autoplay loop muted markdown="1" controls
 		poster="/img/service-specific-ux-design/grm-equipment-manager-sched-job.gif">
 			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/grm-equipment-manager-sched-job.webm" type="video/webm" markdown="1">        

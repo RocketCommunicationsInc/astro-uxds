@@ -79,11 +79,12 @@ Below is an animated walkthrough of a representative task flow using the TT&C Mo
 
 <div markdown="1">
 	<figure markdown="1" >
-		<a href="#video">
-			<img src="/img/service-specific-ux-design/ttc-command-execute-pass-plan-placeholder.gif">
+		<a href="#demo">
+			<img src="/img/service-specific-ux-design/ttc-command-execute-pass-plan-placeholder.gif"
+			alt="TTC Command Execute Pass Plan demo" />
 		</a>
 	</figure>
-	<a href="#" class="lightbox" id="video">
+	<a href="#" class="lightbox" id="demo">
 		<video width="99%" autoplay loop muted markdown="1" controls
 		poster="/img/service-specific-ux-design/ttc-command-execute-pass-plan.gif">
 			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/ttc-command-execute-pass-plan.mp4" type="video/mp4" markdown="1" >

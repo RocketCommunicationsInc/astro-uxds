@@ -79,11 +79,12 @@ Below is an animated walkthrough of a representative task flow using the GRM Sch
 
 <div markdown="1">
 	<figure>
-		<a href="#video">
-			<img src="/img/service-specific-ux-design/grm-schedule-modify-contact-placeholder.gif" alt="Grm Schedule Modify Contact Demo" />
+		<a href="#demo">
+			<img src="/img/service-specific-ux-design/grm-schedule-modify-contact-placeholder.gif"
+			alt="Grm Schedule Modify Contact Demo" />
 		</a>
 	</figure>
-	<a href="#" class="lightbox" id="video" markdown="1">
+	<a href="#" class="lightbox" id="demo" markdown="1">
 		<video width="99%" autoplay loop muted markdown="1" controls
 		poster="/img/service-specific-ux-design/grm-schedule-modify-contact.gif">
 			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/grm-schedule-modify-contact.mp4" type="video/mp4" markdown="1">        

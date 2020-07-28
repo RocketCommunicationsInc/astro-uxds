@@ -93,12 +93,18 @@ The Watcher functionality allows the operator to flag and watch specific telemet
 Below is an animated walkthrough of a representative task flow using the TT&C Monitor app. In this flow, an operator reviews the details and Pass Plan for an upcoming contact and then navigates to the Command app to conduct Pass operations.
 
 <div markdown="1">
-	<a href="/img/service-specific-ux-design/ttc-monitor-prep-for-pass.gif" data-lightbox="ttc-monitor">
-    <video width="99%" autoplay loop muted markdown="1"
-	poster="/img/service-specific-ux-design/ttc-monitor-prep-for-pass.gif">
-        <source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/ttc-monitor-prep-for-pass.mp4" type="video/mp4" markdown="1">        
-        <source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/ttc-monitor-prep-for-pass.webm" type="video/webm" markdown="1">        
-    </video>
+	<figure markdown="1">
+		<a href="#demo">
+			<img src="/img/service-specific-ux-design/ttc-monitor-prep-for-pass-placeholder.gif" 
+			alt="TTC Monitor Prep for Pass demo" />
+		</a>
+	</figure>
+	<a href="#" class="lightbox" id="demo">
+		<video width="99%" autoplay loop muted markdown="1" controls
+		poster="/img/service-specific-ux-design/ttc-monitor-prep-for-pass.gif">
+			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/ttc-monitor-prep-for-pass.mp4" type="video/mp4" markdown="1">        
+			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/ttc-monitor-prep-for-pass.webm" type="video/webm" markdown="1">        
+		</video>
 	</a>
 </div>
 
