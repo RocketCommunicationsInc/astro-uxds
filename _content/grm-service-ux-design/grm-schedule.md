@@ -78,13 +78,17 @@ The image below shows the Contact pane for this Add Contact task flow. To see th
 Below is an animated walkthrough of a representative task flow using the GRM Schedule app. In this scenario, an operator uses the GRM Schedule app to change the priority of an upcoming contact.
 
 <div markdown="1">
-	<a href="/img/service-specific-ux-design/grm-schedule-modify-contact.gif" data-lightbox="grm-schedule">
-    <video width="99%" autoplay loop muted markdown="1"
-	poster="/img/service-specific-ux-design/grm-schedule-modify-contact.gif">
-		<source src="/video/grm-schedule-modify-contact.webm" type="video/webm" markdown="1">  
-    	<source src="/video/grm-schedule-modify-contact.mp4" type="video/mp4" markdown="1">        
-              
-    </video>
+	<figure>
+		<a href="#video">
+			<img src="/img/service-specific-ux-design/grm-schedule-modify-contact-placeholder.gif" alt="Grm Schedule Modify Contact Demo" />
+		</a>
+	</figure>
+	<a href="#" class="lightbox" id="video" markdown="1">
+		<video width="99%" autoplay loop muted markdown="1" controls
+		poster="/img/service-specific-ux-design/grm-schedule-modify-contact.gif">
+			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/grm-schedule-modify-contact.mp4" type="video/mp4" markdown="1">        
+			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/grm-schedule-modify-contact.webm" type="video/webm" markdown="1">         
+		</video>
 	</a>
 </div>
 

@@ -78,11 +78,16 @@ The System Health panel allows operators to track the strength of the communicat
 Below is an animated walkthrough of a representative task flow using the TT&C Monitor app. In this flow, an operator runs through the steps in the pre-defined pass plan and adds a command at the end.
 
 <div markdown="1">
-	<a href="/img/service-specific-ux-design/ttc-command-execute-pass-plan.gif" data-lightbox="ttc-command">
+	<figure markdown="1" >
+		<a href="#video">
+			<img src="/img/service-specific-ux-design/ttc-command-execute-pass-plan-placeholder.gif">
+		</a>
+	</figure>
+	<a href="#" class="lightbox" id="video">
 		<video width="99%" autoplay loop muted markdown="1" controls
 		poster="/img/service-specific-ux-design/ttc-command-execute-pass-plan.gif">
-			<source src="/video/ttc-command-execute-pass-plan.webm" type="video/webm" markdown="1" >
-			<source src="/video/ttc-command-execute-pass-plan.mp4" type="video/mp4" markdown="1" >
+			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/ttc-command-execute-pass-plan.mp4" type="video/mp4" markdown="1" >
+			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/ttc-command-execute-pass-plan.webm" type="video/webm" markdown="1" >
 		</video>
 	</a>
 </div>

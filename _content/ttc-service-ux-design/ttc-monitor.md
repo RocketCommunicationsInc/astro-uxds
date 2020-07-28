@@ -96,8 +96,8 @@ Below is an animated walkthrough of a representative task flow using the TT&C Mo
 	<a href="/img/service-specific-ux-design/ttc-monitor-prep-for-pass.gif" data-lightbox="ttc-monitor">
     <video width="99%" autoplay loop muted markdown="1"
 	poster="/img/service-specific-ux-design/ttc-monitor-prep-for-pass.gif">
-        <source src="/video/ttc-monitor-prep-for-pass.webm" type="video/webm" markdown="1">        
-        <source src="/video/ttc-monitor-prep-for-pass.mp4" type="video/mp4" markdown="1">        
+        <source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/ttc-monitor-prep-for-pass.mp4" type="video/mp4" markdown="1">        
+        <source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/ttc-monitor-prep-for-pass.webm" type="video/webm" markdown="1">        
     </video>
 	</a>
 </div>

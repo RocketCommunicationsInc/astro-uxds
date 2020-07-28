@@ -84,12 +84,16 @@ If operators choose to drill into an alert via the Investigate button in the Ale
 Below is an animated walkthrough of a representative task flow using the GRM Dashboard app. In this flow, the operator notices a critical alert for an upcoming contact, investigates it via the Contact Alert Details page and then resolves the issue by selecting an alternative piece of equipment to use for the contact.
 
 <div markdown="1">
-    <a href="/img/service-specific-ux-design/grm-dashboard-modify-string.gif" data-lightbox="grm-dashboard">
-		<video width="99%" autoplay loop muted markdown="1"
-		poster="/img/service-specific-ux-design/grm-dashboard-modify-string.gif">
-			<source src="/video/grm-dashboard-modify-string.mp4" type="video/mp4" markdown="1">        
-			<source src="/video/grm-dashboard-modify-string.webm" type="video/webm" markdown="1">        
-		</video>
+<figure>
+    <a href="#video">
+		<img src="/img/service-specific-ux-design/grm-dashboard-modify-string-placeholder.gif" />
+	</a>
+</figure>
+	<a href="" class="lightbox" id="video" markdown="1">
+	<video autoplay loop muted markdown="1" controls>
+		<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/grm-dashboard-modify-string.mp4" type="video/mp4" markdown="1">        
+		<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/grm-dashboard-modify-string.webm" type="video/webm" markdown="1">        
+	</video>
 	</a>
 </div>
 

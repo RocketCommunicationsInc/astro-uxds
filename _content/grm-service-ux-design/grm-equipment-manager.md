@@ -90,12 +90,17 @@ Note that maintenance-related task flows are covered in much more detail in the 
 Below is an animated walkthrough of a representative task flow using the GRM Equipment Manager app. In this flow, an operator notices a piece of equipment in a critical state and uses the app to request maintenance for it.
 
 <div markdown="1">
-	<a href="/img/service-specific-ux-design/grm-equipment-manager-sched-job.gif" data-lightbox="grm-equipment">
-    <video width="99%" autoplay loop muted markdown="1"
-	poster="/img/service-specific-ux-design/grm-equipment-manager-sched-job.gif">
-        <source src="/video/grm-equipment-manager-sched-job.webm" type="video/webm" markdown="1">        
-        <source src="/video/grm-equipment-manager-sched-job.mp4" type="video/mp4" markdown="1">        
-    </video>
+	<figure>
+		<a href="#video">
+			<img src="/img/service-specific-ux-design/grm-equipment-manager-sched-job-placeholder.gif">
+		</a>
+	</figure>
+	<a href="#" class="lightbox" id="video">
+		<video width="99%" autoplay loop muted markdown="1" controls
+		poster="/img/service-specific-ux-design/grm-equipment-manager-sched-job.gif">
+			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/grm-equipment-manager-sched-job.webm" type="video/webm" markdown="1">        
+			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/grm-equipment-manager-sched-job.mp4" type="video/mp4" markdown="1">        
+		</video>
 	</a>
 </div>
 
