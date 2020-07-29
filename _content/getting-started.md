@@ -19,6 +19,8 @@ Astro is a living design system, created and stewarded by [Rocket Communications
 
 Before reading any further, we recommend you take a look at a live [Astro sample application](https://sample-app.astrouxds.com/).
 
+A quick change
+
 ## What's New
 
 ### Astro 4.5
