@@ -79,7 +79,7 @@ Content which has been removed from one page in favor of superseding content on 
 
 **Footnotes**
 
-1\. <a name="footnote-1"></a>**Semantic Versioning** --- often shortened to “SemVer”, is the industry-standard methodology for categorizing the severity of changes so that developers can predict the scope of revisions among their dependencies. See https://semver.org/#why-use-semantic-versioning for FAQs.
+1\. <a name="footnote-1"></a>**Semantic Versioning** --- often shortened to “SemVer”, is the industry-standard methodology for categorizing the severity of changes so that developers can predict the scope of revisions among their dependencies. See the [SemVer FAQs](https://semver.org/#why-use-semantic-versioning) for more detail.
 
 
 2\. <a name="footnote-2"></a>**YAML front matter** --- the [AstroUXDS.com](http://AstroUXDS.com) website content management framework is 11ty, which uses Markdown files to define pages. Markdown files have YAML front matter, which are metadata variables for the page which 11ty uses to apply the correct page templates and other attributes when building the site.
