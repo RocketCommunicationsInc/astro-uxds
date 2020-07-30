@@ -11,7 +11,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "run-p -l start:*",
 		"start:search": "node ./_includes/search_config/search-generator.js",
-		"start:scss": "node-sass -r scss -o css",
+		"start:scss": "node-sass -rw scss -o css",
 		"start:eleventy": "eleventy --serve",
 		"build": "run-s -l build:*",
 		"build:clean": "rimraf _site",
