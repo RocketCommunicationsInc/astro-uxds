@@ -9,11 +9,11 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "cross-env run-p -l start:*",
+		"start": "run-p -l start:*",
 		"start:search": "node ./_includes/search_config/search-generator.js",
-		"start:scss": "node-sass -rw scss -o css",
+		"start:scss": "node-sass -r scss -o css",
 		"start:eleventy": "eleventy --serve",
-		"build": "cross-env run-s -l build:*",
+		"build": "run-s -l build:*",
 		"build:clean": "rimraf _site",
 		"build:search": "node ./_includes/search_config/search-generator.js",
 		"build:scss": "node-sass -r scss -o css",
@@ -25,7 +25,6 @@
 	"devDependencies": {
 		"@11ty/eleventy": "^0.10.0",
 		"clean-css": "^4.2.1",
-		"cross-env": "^7.0.2",
 		"gulp": "^4.0.2",
 		"gulp-imagemin": "^6.2.0",
 		"gulp-rename": "^2.0.0",
