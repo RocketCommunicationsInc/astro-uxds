@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "contents": [
     {
       "name": "General",
@@ -172,7 +172,7 @@
             },
             {
               "numeral": 5,
-              "rule": "Checkbox labels shall use title case capitalization.",
+              "rule": "Checkbox labels shall use sentence case capitalization.",
               "status": "current"
             }
           ]
