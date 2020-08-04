@@ -79,7 +79,7 @@ If operators choose to drill into an alert via the Investigate button in the Ale
 
 ### UX Research Findings
 
-## Task Flow Example - Modify Equipment String {#close}
+## Task Flow Example - Modify Equipment String
 
 Below is an animated walkthrough of a representative task flow using the GRM Dashboard app. In this flow, the operator notices a critical alert for an upcoming contact, investigates it via the Contact Alert Details page and then resolves the issue by selecting an alternative piece of equipment to use for the contact.
 
