@@ -6,6 +6,7 @@ layout: components.template.njk
 title: Checkbox
 demo: https://rocketcom.bitbucket.io/html-demos/checkbox.html
 storybook: components-form-elements--checkboxes
+git:
 height: 150px
 theme: true
 ---
