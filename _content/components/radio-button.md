@@ -7,7 +7,7 @@ title: Radio Button
 demo:  https://astro-components.netlify.app/iframe.html?id=components-form-elements--radio-buttons
 storybook: components-form-elements--radio-buttons
 git: 
-height: 300px
+height: 250px
 theme: true
 ---
 

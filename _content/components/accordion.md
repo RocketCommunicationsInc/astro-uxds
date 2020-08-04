@@ -7,7 +7,7 @@ title: Accordion
 demo: https://astro-components.netlify.app/iframe.html?id=components-accordion--accordion
 storybook: components-accordion--accordion
 git: rux-accordion
-height: 280px
+height: 210px
 theme: false
 ---
 

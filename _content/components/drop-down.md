@@ -7,7 +7,7 @@ title: Drop Down
 demo: https://astro-components.netlify.app/iframe.html?id=components-form-elements--select-menu
 storybook: components-form-elements--select-menu
 git: 
-height: 130px
+height: 150px
 theme: true
 ---
 

@@ -7,7 +7,7 @@ title: Clock
 demo: https://astro-components.netlify.app/iframe.html?id=components-clock--clock-with-aos-los
 storybook: components-clock--clock
 git: rux-clock
-height: 190px
+height: 210px
 theme: true
 ---
 
