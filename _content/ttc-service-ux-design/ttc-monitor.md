@@ -94,16 +94,17 @@ Below is an animated walkthrough of a representative task flow using the TT&C Mo
 
 <div markdown="1">
 	<figure markdown="1">
-		<a href="#demo">
-			<img src="/img/service-specific-ux-design/ttc-monitor-prep-for-pass-placeholder.gif" 
+		<a href="#demo" class="demo">
+			<span class="icon-play"></span>
+			<img src="/img/service-specific-ux-design/ttc-monitor-prep-for-pass-placeholder.png" 
 			alt="TTC Monitor Prep for Pass demo" />
 		</a>
 	</figure>
 	<a href="#" class="lightbox" id="demo">
 		<video width="99%" autoplay loop muted markdown="1" controls
 		poster="/img/service-specific-ux-design/ttc-monitor-prep-for-pass.gif">
-			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/ttc-monitor-prep-for-pass.mp4" type="video/mp4" markdown="1">        
-			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/ttc-monitor-prep-for-pass.webm" type="video/webm" markdown="1">        
+			<source src="https://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/ttc-monitor-prep-for-pass.mp4" type="video/mp4" markdown="1">        
+			<source src="https://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/ttc-monitor-prep-for-pass.webm" type="video/webm" markdown="1">        
 		</video>
 	</a>
 </div>

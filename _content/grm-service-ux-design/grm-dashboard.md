@@ -85,16 +85,17 @@ Below is an animated walkthrough of a representative task flow using the GRM Das
 
 <div markdown="1">
 	<figure>
-		<a href="#demo">
-			<img src="/img/service-specific-ux-design/grm-dashboard-modify-string-placeholder.gif" 
+		<a href="#demo" class="demo">
+			<span class="icon-play"></span>
+			<img src="/img/service-specific-ux-design/grm-dashboard-modify-string-placeholder.png" 
 			alt="GRM Dashboard demo" />
 		</a>
 	</figure>
 	<a href="#" class="lightbox" id="demo" markdown="1">
 		<video width="99%" autoplay loop muted markdown="1" controls
 		poster="/img/service-specific-ux-design/grm-dashboard-modify-string.gif">
-			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/grm-dashboard-modify-string.mp4" type="video/mp4" markdown="1">        
-			<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/grm-dashboard-modify-string.webm" type="video/webm" markdown="1">        
+			<source src="https://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/grm-dashboard-modify-string.mp4" type="video/mp4" markdown="1">        
+			<source src="https://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/grm-dashboard-modify-string.webm" type="video/webm" markdown="1">        
 		</video>
 	</a>
 </div>

@@ -20,8 +20,9 @@ The animated graphic below depicts a much simplified version of a TT&C task flow
 
 <div markdown="1">
 	<figure markdown="1">
-		<a href="#demo">
-			<img src="/img/service-specific-ux-design/ttc-phases-placeholder.gif" markdown="1"
+		<a href="#demo" class="demo">
+			<span class="icon-play"></span>
+			<img src="/img/service-specific-ux-design/ttc-phases-placeholder.png" markdown="1"
 			alt="TTC Phases" />
 		</a>
 	</figure>
