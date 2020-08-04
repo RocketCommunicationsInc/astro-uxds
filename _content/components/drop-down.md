@@ -6,7 +6,7 @@ layout: components.template.njk
 title: Drop Down
 demo: https://astro-components.netlify.app/iframe.html?id=components-form-elements--select-menu
 storybook: components-form-elements--select-menu
-git: rux-modal
+git: 
 height: 130px
 theme: true
 ---
