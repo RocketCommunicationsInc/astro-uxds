@@ -7,7 +7,7 @@ title: Tree
 demo: https://rocketcom.bitbucket.io/packages/rux-tree/demo/rux-tree.html
 storybook: components-tree--tree
 git: rux-tree
-height: 280px
+height: 200px
 theme: true
 ---
 
