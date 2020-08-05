@@ -9,6 +9,8 @@ class: fds
 
 # Flight Dynamics Service (FDS)
 
+“While the Maneuvering and Reporting tools have not been researched, tested, and designed to the same depth as the Orbit Determination Tool, they have been considered throughout the research and design process from the broader perspective of the application.”
+
 The FDS system supports missions that require communication between satellites and ground systems in order to estimate the position of a satellite, as well as perform any maneuvers to keep the satellite in a nominal position. Some key features of FDS include Orbit Determinations (OD), generating products (Ephemerides, TLE’s, reports, etc.), and Maneuvering, such as station keeping, conjunction assessment, and COLA’s (burns).
  (pdf)
 
