@@ -76,10 +76,6 @@
 				"url": "/patterns/notifications"
 			},
 			{
-				"label": "Classification Markings",
-				"url": "/patterns/classification-markings"
-			},
-			{
 				"label": "Data Visualizations",
 				"url": "/patterns/data-visualization"
 			},
