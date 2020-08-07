@@ -8,6 +8,8 @@ title: Downloads
 
 # Downloads
 
+Testing a sketch:// link [Import Astro Library](sketch://add-library/share.goabstract.com/81018fbc-3764-49f3-b9a2-e8f41c7afd27?sha=c8251a408a80a28567918235c4b23d04d53e2b92)
+
 ## Astro Design System
 
 - Astro Component Source Code ([Git Repository](https://bitbucket.org/rocketcom/astro-components/src/master/))
