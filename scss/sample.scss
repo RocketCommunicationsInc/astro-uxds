@@ -9,12 +9,6 @@
 	  box-sizing: border-box;
 	  width: 100%;
 	  padding: 0rem;
-
-	  #root-inner {
-		  > div {
-			  padding: 0 !important;
-		  }
-	  }
 	}
   
 	a {
@@ -55,12 +49,6 @@
 	margin-right: 0.375rem;
 	background-image: url(/img/_site/storybook-logo.svg);
   }
-  
-  .sample-links__bitbucket::before {
-	margin-right: 0.5rem;
-	background-image: url(/img/_site/bitbucket-logo.svg);
-  }
-
   .sample-links__github::before {
 	margin-right: 0.5rem;
 	background-image: url(/img/_site/github-logo-white.svg);
