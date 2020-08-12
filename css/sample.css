@@ -8,6 +8,8 @@
     box-sizing: border-box;
     width: 100%;
     padding: 0rem; }
+    .demo-container iframe #root-inner > div {
+      padding: 0 !important; }
   .demo-container a {
     color: var(--demo-container-link-color, #fff); }
 
