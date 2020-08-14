@@ -9,8 +9,6 @@ eleventyExcludeFromCollections: true
 
 # AstroUXDS<nolink>.com Content Policy v0.2
 
-**DRAFT** | _Submitted for EGS review July 2020_
-
 ## Policy Principles:
 
 1.  Developers, designers, and others using the Astro User Experience Design System should be able to easily access and understand the information they need to design and develop space apps.
