@@ -20,8 +20,8 @@ The FDS system supports missions that require communication between satellites a
 - [FD Wireframes (pdf)](https://s3-us-west-2.amazonaws.com/com.rocketcom.astrouxds/downloads/fds-wireframes.pdf)
 
 <video controls width="100%">
-		<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/fds-video.mp4" type="video/mp4">
-		<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/fds-video.webm" type="video/webm">
+		<source src="https://s3-us-west-2.amazonaws.com/com.rocketcom.astrouxds/media/fds-video.mp4" type="video/mp4">
+		<source src="https://s3-us-west-2.amazonaws.com/com.rocketcom.astrouxds/media/fds-video.webm" type="video/webm">
 </video>
 
 **Orbit Determination**:
