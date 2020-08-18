@@ -16,8 +16,8 @@ While the Maneuvering and Reporting tools have not been researched, tested, and 
 The FDS system supports missions that require communication between satellites and ground systems in order to estimate the position of a satellite, as well as perform any maneuvers to keep the satellite in a nominal position. Some key features of FDS include Orbit Determinations (OD), generating products (Ephemerides, TLE’s, reports, etc.), and Maneuvering, such as station keeping, conjunction assessment, and COLA’s (burns).
  (pdf)
 
-- [FD Design Specifications (pdf)](https://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/downloads/fds-specifications.pdf)
-- [FD Wireframes (pdf)](https://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/downloads/fds-wireframes.pdf)
+- [FD Design Specifications (pdf)](https://s3-us-west-2.amazonaws.com/com.rocketcom.astrouxds/downloads/fds-specifications.pdf)
+- [FD Wireframes (pdf)](https://s3-us-west-2.amazonaws.com/com.rocketcom.astrouxds/downloads/fds-wireframes.pdf)
 
 <video controls width="100%">
 		<source src="http://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/media/fds-video.mp4" type="video/mp4">
@@ -104,7 +104,7 @@ For operators of the FDS application, flexibility and automating redundant tasks
 
 ### Global Status Bar
 
-The [Global Status Bar](../components/global-status-bar) of the FDS app contains a single login, high level navigation [tabs](../components/tabs) to switch between tools, a [clock](../components/tabs) and notification, chat and help icons. [Monitoring icons](../components/icons-and-symbols) may be included if the mission requires additional situational awareness.
+The [Global Status Bar](../../components/global-status-bar) of the FDS app contains a single login, high level navigation [tabs](../../components/tabs) to switch between tools, a [clock](../../components/tabs) and notification, chat and help icons. [Monitoring icons](../../components/icons-and-symbols) may be included if the mission requires additional situational awareness.
 
 ![Global Status Bar](/img/service-specific-ux-design/fds-global-status-bar.png)
 

@@ -43,5 +43,5 @@ title: Downloads
 
 ## FDS Service UX Design
 
-- [FD Design Specifications (pdf)](https://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/downloads/fds-specifications.pdf)
-- [FD Wireframes (pdf)](https://com.rocketcom.astrouxds.s3.us-west-2.amazonaws.com/downloads/fds-wireframes.pdf)
+- [FD Design Specifications (pdf)](https://s3-us-west-2.amazonaws.com/com.rocketcom.astrouxds/downloads/fds-specifications.pdf)
+- [FD Wireframes (pdf)](https://s3-us-west-2.amazonaws.com/com.rocketcom.astrouxds/downloads/fds-wireframes.pdf)
