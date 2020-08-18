@@ -22,7 +22,7 @@ title: Downloads
 - Astro Angular Boilerplate ([Git Repository](https://github.com/RocketCommunicationsInc/astro-boilerplate-angular))
 - Astro React Boilerplate ([Git Repository](https://github.com/RocketCommunicationsInc/astro-boilerplate-react))
 - Astro Vue Boilerplate ([Git Repository](https://github.com/RocketCommunicationsInc/astro-boilerplate-vue))
-- Static copy of this site for reference in offline working environments ([gzip archive]( https://s3-us-west-2.amazonaws.com/com.rocketcom.astrouxds/downloads/ads.tar.gz))
+- Static copy of this site for reference in offline working environments ([gzip archive]( https://github.com/RocketCommunicationsInc/astro-uxds/archive/draft.zip))
 - \[DEPRECATED\] Astro Styles Source Code (Now included in the Component Repository)
 
 ## GRM Service UX Design
