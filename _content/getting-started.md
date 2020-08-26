@@ -7,6 +7,8 @@ title: "Getting Started"
 
 # Getting Started
 
+## A Second Headline
+
 Astro is a design system that brings together UX guidelines, an [HTML/CSS](/components/readme) framework, and web components. Astro is for both designers and developers.
 
 Astro is provided by the United States Space Force and Missile System Center (SMC) and is currently sanctioned for designing Enterprise Ground Services (EGS) and SATOPS web apps.
