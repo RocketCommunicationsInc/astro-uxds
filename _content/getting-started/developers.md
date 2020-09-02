@@ -21,7 +21,7 @@ We recognize that not all space application development projects are tooled for 
 ### Astro Storybook & Sample Apps  
 You can review the latest versions of the web components at the [Astro Storybook](https://astro-components.netlify.app/?path=/story/astro-uxds-welcome--start-here). The Astro development team uses Storybook as an environment for building and demonstrating the capabilities of each component. If your team often works offline, you may want to [download and run the Storybook](https://github.com/RocketCommunicationsInc/astro-components/tree/feature/astro-tokens-static-assets#download-and-install-the-astro-web-component-storybook) on your local network to see how the examples work.  
   
-For online examples of full Astro app experiences, check out these EGS Service-Specific sample experiences*:  
+For online examples of full Astro app experiences, check out these EGS Service-Specific sample experiences:  
   
 | Ground Resources Management   | Telemetry, Tracking, and Control |
 | ----------------------------- | -------------------------------- |
