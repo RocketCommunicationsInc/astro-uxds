@@ -5,7 +5,7 @@ layout: interior.template.njk
 title: "Getting Started For Developers"
 ---
 
-# Getting Started for Developers
+# Getting Started For Developers
 
 The Astro UXDS Web Component and CSS libraries provide a starting point to build in-browser space app experiences and custom applications following today’s web development best practices. The Astro UXDS Web Components are designed to be as platform and implementation-agnostic as possible, easy to implement or extend in existing projects, and generic by default. Each component, as well as the overall CSS library, is individually published and updated according to the standard Semantic Versioning pattern.  
   
@@ -55,9 +55,7 @@ This website and its contents are provided as separate downloadable files for th
   
   
 ### Reporting Bugs  
-If you’ve found a possible bug in Astro components or CSS, open a support ticket to let us know.  
-  
-[Support Ticket](https://astro-components.netlify.app/?path=/story/astro-uxds-welcome--contributing)
+If you’ve found a possible bug in Astro components or CSS, open a [support ticket](https://rocketcom.atlassian.net/servicedesk/customer/portal/2) to let us know.
   
   
 ### Support  
