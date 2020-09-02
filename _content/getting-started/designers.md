@@ -11,7 +11,7 @@ Astro UX Design assets include files for creating Astro Application wireframes a
 
 Before reading any further, we recommend you take a look at a live [Astro sample application](https://sample-app.astrouxds.com/) and review available Astro components on the [Astro Storybook](https://astro-components.netlify.app/?path=/story/astro-uxds-welcome--start-here) site. Examples of Astro in-use can be seen within the Astro Service [Specific Design](/service-specific-ux-design/) pages.
 
-## Design Guidance
+### Design Guidance
 [Color](/design-guidelines/color/)
 [Typography](/design-guidelines/typography/)
 [Theme](/design-guidelines/theme/)
@@ -19,7 +19,7 @@ Before reading any further, we recommend you take a look at a live [Astro sample
 [Glossary](/design-guidelines/glossary/)
 [Compliance](/design-guidelines/compliance/)
 
-## Designer starter kit
+### Designer starter kit
 
 To download the Design starter kit, navigate to Astro Design Resources [Git Repository](https://github.com/RocketCommunicationsInc/astro-design-resources)
 
