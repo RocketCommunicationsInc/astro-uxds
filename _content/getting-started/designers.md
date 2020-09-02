@@ -117,7 +117,6 @@ The Astro team has worked with EGS to establish the EGS Design Compliance requir
 [Service Specific](/service-specific-ux-design/)
 
 **UX Design:**
-
 [GRM Service](/grm-service-ux-design/about-the-grm-designs/)
 [TT&C Service](/ttc-service-ux-design/about-the-ttc-designs/)
 [FD Service UX Design](/fd-service-ux-design/about-the-fd-designs/)
@@ -129,20 +128,33 @@ Each page on astrouxds.com has a support button at the bottom of the page for te
 
 
 ### Additional resources
+
 **Web design**
+[Stackoverflow](https://stackoverflow.com/) – Questions and problem solving
+[CodePen](https://codepen.io/) - Working examples of Web code and the ability to experiment “live”
+[SmashingMagazine](https://www.smashingmagazine.com/) - HTML, CSS, JS, UX/UI, typography and design
+[Alistapart](https://alistapart.com/) - Web design, development, standards, and best practices
+[Abookapart](https://abookapart.com/) - Books for web design, development, standards, and best practices
+[w3.org](https://www.w3.org/) - Authoritative source for HTML standards
+[Accessible Colors](https://accessible-colors.com/) - Evaluate color combinations using the WCAG 2.0 guidelines for contrast
+[Can I Use?](https://www.caniuse.com/) - Browser support tables
 
-[Stackoverflow.com](https://stackoverflow.com/) – Questions and problem solving
 
-[CodePen.io](https://codepen.io/) - Working examples of Web code and the ability to experiment “live”
+### Books on UX design
+- An Introduction to Human Factors Engineering, Second Edition, by Wickens, Lee, Liu, Becke
+- About Face: The Essentials of Interaction Design 4th Edition by Alan Cooper, Robert Reimann, David Cronin, Christopher Noessel
+- HTML5 For Web Designers by Jeremy Keith (Online, and for purchase)
+- Just Enough Research by Erika Hall
+- Microinteractions: Designing with Details 1st Edition by Dan Saffer
+- Process and Guidelines for Ensuring a Quality User Experience by Rex Hartson, Pardha S. Pylar
+- Sketching User Experiences by Bill Buxton
+- Writing for Interaction: Crafting the Information Experience for Web and Software Apps by Linda Newman Lior
 
-[SmashingMagazine.com] - HTML, CSS, JS, UX/UI, typography and design
-
-Alistapart.com - Web design, development, standards, and best practices
-
-Abookapart.com - Books for web design, development, standards, and best practices
-
-w3.org - Authoritative source for HTML standards
-
-Accessible Colors - Evaluate color combinations using the WCAG 2.0 guidelines for contrast
-
-Can I Use? - Browser support tables
+### Wireframing and prototyping tools
+- [Balsamiq](https://balsamiq.com/)
+- [Powerpoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint)
+- [Keynote](https://www.apple.com/keynote/)
+- [Axure](https://www.axure.com/)
+- [Invision](https://www.invisionapp.com/)
+- [Sketch](https://www.sketch.com/)
+- [Figma](https://www.figma.com/)

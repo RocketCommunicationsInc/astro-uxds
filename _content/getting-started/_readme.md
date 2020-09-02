@@ -32,3 +32,24 @@ Learn more about the software design process with Astro:
 
 **Design assets**
 
+Astro UX design assets include files for creating Astro application wireframes and high-fidelity mockups in Sketch and Adobe XD.
+
+Learn more about designing with Astro design assets with our guide to getting started [For Designers](/getting-started/designers).
+
+**Development assets**
+
+Astro includes standard HTML and CSS sample code as a starting point for development. Astro’s UI Components are provided as Web Components, a platform-neutral technology.
+
+Learn more about designing with Astro development assets, and why we chose to build web components with our guide to getting started For Developers(Coming soon).
+
+### Support
+
+Supported browser
+
+Astro is tested & supported in major ‘evergreen’ web browsers (the latest browser version from each vendor -1). Please submit an issue if you run into a problem with these browsers. Mobile browsers are not yet fully supported in Astro.
+
+|       | Chrome | Firefox | Edge | Safari | Chrome (Android) | Safari (iOS) |
+|:-------:|:--------:|:---------:|:------:|:--------:|:--------:|:--------:|
+| - | | | | |
+| Astro |    X    |    X     | X      |   X     | unsupported | unsupported
+

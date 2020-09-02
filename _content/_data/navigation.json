@@ -9,11 +9,15 @@
 		"items": [
 			{
 				"label" : "README",
-				"url" : "/getting-started/readme/"
+				"url" : "/getting-started/readme"
 			},
 			{
 				"label" : "Designers",
-				"url": "/getting-started/designers/"
+				"url": "/getting-started/designers"
+			},
+			{
+				"label" : "Developers",
+				"url": "/getting-started/developers"
 			}
 		]
 	},
