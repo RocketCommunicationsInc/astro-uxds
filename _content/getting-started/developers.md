@@ -61,4 +61,4 @@ If you’ve found a possible bug in Astro components or CSS, open a support tick
   
   
 ### Support  
-Each page on astrouxds.com has a support button at the bottom of the page for technical support, or click here: [contactsupport]  
+Each page on astrouxds.com has a support button at the bottom of the page for technical support.

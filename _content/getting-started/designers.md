@@ -24,13 +24,14 @@ Before reading any further, we recommend you take a look at a live [Astro sample
 To download the Design starter kit, navigate to Astro Design Resources [Git Repository](https://github.com/RocketCommunicationsInc/astro-design-resources)
 
 ### Sketch installation and use
-Download files from Astro Sketch Libraries (Git Repository), included: 
-Astro Dark Library [Git Repository]()
-Astro Dark Sticker Sheet [Git Repository]()
+Download files from Astro Sketch Libraries:
+
+[Astro Dark Library](https://github.com/RocketCommunicationsInc/astro-design-resources/raw/master/Sketch/Astro%20Dark%20Library.sketch)
+[Astro Dark Sticker Sheet](https://github.com/RocketCommunicationsInc/astro-design-resources/raw/master/Sketch/Astro%20Dark%20Stickersheet.sketch)
 Astro Light Library (Coming soon…)
 Astro Light Sticker Sheet (Coming soon…)
-Astro Wireframe Library (Git Repository)
-Astro Wireframe Sticker Sheet (Git Repository)
+[Astro Wireframe Library](https://github.com/RocketCommunicationsInc/astro-design-resources/raw/master/Sketch/Astro%20Wireframe%20Library.sketch)
+[Astro Wireframe Sticker Sheet](https://github.com/RocketCommunicationsInc/astro-design-resources/raw/master/Sketch/Astro%20Wireframe%20Stickersheet.sketch)
 
 
 
