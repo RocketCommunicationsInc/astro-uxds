@@ -43,8 +43,6 @@ If you’re considering a non-Web Component Astro implementation, directions for
 ### EGS Compliance  
 The Astro team has worked with EGS to establish the EGS Compliance requirements for developers targeting the EGS Platform. These requirements are specific to EGS development; these requirements are based off of common best practices and accessibility guidance and it is highly recommended for all users to incorporate them into their applications.  
   
-EGS Design Compliance  
-  
   
 ### Offline development resources  
   
