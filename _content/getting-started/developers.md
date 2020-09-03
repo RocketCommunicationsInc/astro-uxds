@@ -15,7 +15,7 @@ In an effort to provide as close to native a development experience as possible,
   
   
 ### Astro CSS, Icons, and Fonts  
-We recognize that not all space application development projects are tooled for utilizing Web Components, so we also provide a CSS-only library containing name-spaced classes in addition to the icons and font files which are typically included within the components. You can [download today’s version](https://github.com/RocketCommunicationsInc/astro-components/tree/feature/astro-tokens-static-assets/src/components/rux-assets) (update link when live) of these assets, or install the package from [npm](link someday).  
+We recognize that not all space application development projects are tooled for utilizing Web Components, so we also provide a CSS-only library containing name-spaced classes in addition to the icons and font files which are typically included within the components. You can [download today’s version](https://github.com/RocketCommunicationsInc/astro-components/tree/feature/astro-tokens-static-assets/src/components/rux-assets) of these assets.  
   
   
 ### Astro Storybook & Sample Apps  
