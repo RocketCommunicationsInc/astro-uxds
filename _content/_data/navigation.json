@@ -5,7 +5,21 @@
 	},
 	{
 		"label": "Getting Started",
-		"url": "/getting-started"
+		"url": "/getting-started",
+		"items": [
+			{
+				"label" : "README",
+				"url" : "/getting-started/readme"
+			},
+			{
+				"label" : "Designers",
+				"url": "/getting-started/designers"
+			},
+			{
+				"label" : "Developers",
+				"url": "/getting-started/developers"
+			}
+		]
 	},
 	{
 		"label": "Design Process",
