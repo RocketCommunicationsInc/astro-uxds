@@ -14,7 +14,7 @@ Astro is provided by the United States Space Force and Missile System Center (SM
 
 Astro’s designs stem from continuous exploration and research. This user-centered design approach includes interviews and design validation with many SMC and commercial space systems operators. By incorporating operators and subject matter experts in our research and gaining their feedback during the design process, Astro ensures future space apps meet the needs of their users. Refer to the information provided on the [Research](/design-process/research/) page for more information on incorporating a user-centered approach in your application designs.
 
-Astro is a living design system, created and stewarded by [Rocket Communications Inc.](https://rocketcom.com/) in San Francisco. For questions, contact Rocket at: UXsupport@rocketcom.com.
+Astro is a living design system, created and stewarded by [Rocket Communications Inc.](https://rocketcom.com/) in San Francisco. For questions, contact Rocket at: [UXsupport@rocketcom.com](mailto:UXsupport@rocketcom.com).
 
 
 ### The design process
