@@ -1,16 +1,30 @@
+@import './abstracts/__index';
+
 .demo{
+	display: block; 
 	position: relative;
+	height: 100%; 
+
 	.icon-play{
 		z-index: 10;
 		display:block;
 		position:absolute;
+		top: 50%;
 		left:50%;
-		margin-top:50%;
-		transform: translate(-50%, -150%);
-		width: 173px;
-		height: 173px;
-		background: url('../img/_site/icon-play.png') no-repeat;
+		transform: translate(-62px, -62px);
+		width: 125px;
+		height: 125px;
+		background-image: url('../img/_site/icon-play.png');
+		background-repeat: no-repeat;
+		background-size: 125px 125px;
 		transition: background .2s ease-in-out;
+
+		@media #{$tablet}{
+			width:100px;
+			height:100px;
+			background-size: 100px 100px;
+			transform: translate(-50px, -50px);
+		}
 	}
 	> img {
 		max-width:100%;
@@ -19,7 +33,7 @@
 	}
 	&:hover{
 		.icon-play{
-			background: url('../img/_site/icon-play-orange.png') no-repeat;
+			background-image: url('../img/_site/icon-play-orange.png');
 		}
 	}
 	
