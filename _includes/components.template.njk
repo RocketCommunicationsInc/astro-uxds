@@ -3,25 +3,13 @@
 {% block content %}
 
 	<link rel="stylesheet" href="/css/chapters.css">
-	<link rel="stylesheet" href="/css/components.css">
+	{# <link rel="stylesheet" href="/css/components.css"> #}
 	<link rel="stylesheet" href="/css/sample.css">
 
 	<h1>{{ title }}</h1>
 	{% if demo %}
 
 		<div class="demo-container">
-
-			<div class="demo-container__theme-toggle">
-				{% if theme %}
-					<div class="theme-toggle">
-						<input class="theme-toggle__input" id="theme-toggle" type="checkbox" checked>
-						<label class="theme-toggle__button" for="theme-toggle">
-							<span class="on">Dark UI</span>
-							<span class="off">Light UI</span>
-						</label>
-					</div>
-				{% endif %}
-			</div>
 
 			<iframe id="live-sample" class="live-sample" scrolling="no" src="{{ demo }}" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
 
@@ -32,7 +20,7 @@
 					</a>
 				{% endif %}
 				{% if git %}
-					<a class="sample-links__bitbucket" href="https://bitbucket.org/rocketcom/astro-components/src/master/src/components/{{git}}">Bitbucket</a>
+					<a class="sample-links__github" href="https://github.com/RocketCommunicationsInc/astro-components/tree/master/src/components/{{git}}">Github</a>
 				{% endif %}
 			</div>
 		</div>

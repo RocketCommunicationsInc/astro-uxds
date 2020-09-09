@@ -4,7 +4,7 @@ path: /components/segmented-button
 date: Last Modified
 layout: components.template.njk
 title: Segmented Button
-demo: https://rocketcom.bitbucket.io/html-demos/segmented-button.html
+demo: https://astro-components.netlify.app/iframe.html?id=components-segmented-button--segmented-button&viewMode=story
 storybook: components-segmented-button--segmented-button
 git: rux-segmented-button
 height: 50px
@@ -31,7 +31,7 @@ Segmented Buttons allow users to select one item at a time from two to four opti
 
 ![Do: Use Segmented Buttons to switch a view’s display mode.](/img/components/segmented-button-do-2.png "Do: Use Segmented Buttons to switch a view’s display mode.")
 
-![Don’t: Use Segmented Buttons for user input in a form, use Radio Buttons or Drop Downs instead.](/img/components/segmented-button-dont-2.png "Don’t: Use Segmented Buttons for user input in a form, use Radio Buttons or Drop Downs instead.")
+![Don’t: Use Segmented Buttons for user input in a form, use Radio Buttons or Select Menus instead.](/img/components/segmented-button-dont-2.png "Don’t: Use Segmented Buttons for user input in a form, use Radio Buttons or Select Menus instead.")
 
 :::
 
