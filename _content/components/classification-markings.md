@@ -11,7 +11,7 @@ height: 210px
 theme: false
 ---
 
-Classification and control markings are required for digital products created for government clients who interact with classified or controlled information. In your digital product, such as a desktop or web application, there should be an Overall Marking, Portion Markings if possible, and an Authority Block. Each of these features will be described in more detail below.
+Classification and control markings are required for digital products created for government clients who interact with classified or controlled information. In your digital product, such as a desktop or web application, there should be an [Overall Marking](#overall-marking), [Portion Markings](#portion-marking) if possible, and an [Authority Block](#authority-block). Each of these features will be described in more detail below.
 
 ::: note
 All classification and control markings on this page are for illustration purposes only.
@@ -22,8 +22,8 @@ This page lists general guidance and components for marking practices. For the m
 
 
 ## Classified National Security Information
-- ISOO Training Aids: Latest standards for CNSI from the ISOO (Information Security Oversight Office)
-- ISOO Blog: Latest updates for ISOO topics including CNSI and CUI
+- [ISOO Training Aids](https://www.archives.gov/isoo/training/training-aids): Latest standards for CNSI from the ISOO (Information Security Oversight Office)
+- [ISOO Blog](https://isoo-overview.blogs.archives.gov/): Latest updates for ISOO topics including CNSI and CUI
 
 
 ## Controlled Unclassified Information
@@ -35,14 +35,15 @@ The guidance on this page is focused on the use of, and rules for, classificatio
 ## Overall Marking
 
 ### Banner Examples
-| State      	| Hex Value  	|   RGB Value 	|   Custom Property Name	|   Font Color 	|
-|-------------	|------------	|-----------	| ------	|--------	|
-| Top Secret//SCI(Sensitive Compartmented Information) 	|   #FCE83A     	|    252, 232, 58     	|  --classificationTopSecretSCI    	|  --colorBlack      	|
-| Top Secret      	|    #FF8C00    	|   255, 140, 0      	|  --classificationTopSecret    	| --colorBlack       	|
-|       	|        	|         	|      	|        	|
-|       	|        	|         	|      	|        	|
-|       	|        	|         	|      	|        	|
 
+| **State**                                                    	| **Hex Value** 	| **RGB Value**   	| **Custom Property Name**         	| **Font Color**   	|
+|----------------------------------------------------------	|-----------	|--------------	|------------------------------	|--------------	|
+| Unclassified (UUI)                                       	| #007A33   	| 0, 122, 51   	| --classificationUnclassified 	| --colorWhite 	|
+| Top Secret//SCI<br>(Sensitive Compartmented Information) 	| #FCE83A   	| 252, 232, 58 	| --classificationTopSecretSCI 	| --colorBlack 	|
+| Top Secret                                               	| #FF8C00   	| 255, 140, 0  	| --classificationTopSecret    	| --colorBlack 	|
+| Secret                                                   	| #C8102E   	| 200, 16, 46  	| --classificationSecret       	| --colorWhite 	|
+| Controlled (CUI)                                         	| #502B85   	| 80, 43, 133  	| --classificationControlled   	| --colorWhite 	|
+| Confidential                                             	| #0033A0   	| 0, 51, 160   	| --classificationConfidential 	| --colorWhite 	|
 
 ## Overall Marking Background Information
 
