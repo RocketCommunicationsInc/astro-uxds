@@ -76,10 +76,6 @@
 				"url": "/patterns/notifications"
 			},
 			{
-				"label": "Classification Markings",
-				"url": "/patterns/classification-markings"
-			},
-			{
 				"label": "Data Visualizations",
 				"url": "/patterns/data-visualization"
 			},
@@ -124,6 +120,10 @@
 			{
 				"label": "Checkbox",
 				"url": "/components/checkbox"
+			},
+			{
+				"label": "Classification Markings",
+				"url": "/components/classification-markings"
 			},
 			{
 				"label": "Clock",

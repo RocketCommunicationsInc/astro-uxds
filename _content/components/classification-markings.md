@@ -1,6 +1,6 @@
 ---
 tags: resources
-path: /patterns/classification-markings
+path: /components/classification-markings
 date: Last Modified
 layout: components.template.njk
 title: Classification & Control Markings
