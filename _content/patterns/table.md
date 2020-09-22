@@ -39,3 +39,16 @@ Tables use a familiar Selection/Action model. Selection is accomplished by click
 
 ![Table with multiple selection and actions in footer.](/img/components/table-action-footer-cms.png "Table with multiple selection and actions in footer.")
 
+## Complex Tables
+
+For more complex tables, we recommend using either the community or enterprise tier of [ag-grid](https://www.ag-grid.com/). While we cannot provide support for ag-grid or its many features, we do provide light and dark variants of Astro in a theme file consumable by ag-grid.
+
+We maintain a [separate repo for the AG-grid Astro theme](https://github.com/RocketCommunicationsInc/astro-ag-Grid). Please visit the following links to get started:
+
+* Documentation: https://github.com/RocketCommunicationsInc/astro-ag-Grid/#astro-ag-grid-theme
+* SASS Theme files: https://github.com/RocketCommunicationsInc/astro-ag-Grid/tree/master/src/css
+* Working example of a complex table using the Astro theme: https://astro-ag-grid-example.netlify.app/
+
+
+
+
