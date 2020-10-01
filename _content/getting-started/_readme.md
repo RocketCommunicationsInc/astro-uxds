@@ -12,7 +12,7 @@ The Astro design system brings together UX guidelines, [HTML/CSS](/components/re
 
 Astro’s designs are based on user-centered research into the functions and capabilities required for applications used in space operations. This approach involves SMC and commercial space systems operators in all phases of research and design validation. Their direct participation ensures that applications developed with these guidelines will meet user needs. To learn about incorporating a user-centered approach in your application designs, leverage guidance provided in Astro’s [Research](/design-process/research/) section. Astro is a living design system for government and commercial space-based applications, created and stewarded by [Rocket Communications Inc.](https://rocketcom.com/), for the United States Space Force and Missile System Center (SMC). For questions, contact Rocket at: [UXsupport@rocketcom.com](mailto:UXsupport@rocketcom.com).
 
-### The design process
+### The Design Process
 
 A foundation of user-centered design and industry best practices provide designers and developers with tools and knowledge to build applications that create meaningful connections with end-users.
 
@@ -22,13 +22,13 @@ Learn more about the software design process with Astro:
 -   Create applications with a mature, established [Visual Design](/design-process/visual-design)
 -   Follow established [EGS Compliance Guidance](/design-guidelines/compliance/) required for EGS applications
 
-**Design assets**
+**Design Assets**
 Astro UX design assets include files for creating Astro application wireframes and high-fidelity mockups in Sketch and Adobe XD.
 
 Learn more about designing with Astro design assets with Astro's guide to getting started [For Designers](/getting-started/designers).
 
 
-**Development assets**
+**Development Assets**
 Astro includes standard HTML and CSS sample code as a starting point for development. Astro's UI Components are provided as Web Components, a platform-neutral technology.
 
 Learn more about designing with Astro development assets, and why the Astro team chose to build web components with our guide to getting started [For Developers](/getting-started/developers).
@@ -49,7 +49,7 @@ Current version: Astro 4.5
 
 Last updated: Wed Jul 08 2020
 
-### Astro licensing
+### Astro Licensing
 
 Astro is provided as an open-source tool under the **Astro Space UX Design System Interim License Agreement**:
 
