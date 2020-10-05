@@ -35,9 +35,9 @@ These examples use a previous release of Astro, and are not intended as boilerpl
   
   
 ### Getting Started  
-You can import Astro UXDS Web Components to an existing application using npm and litElement. Detailed instructions for using Astro components are available in the project’s README.  
+You can import Astro UXDS Web Components to an existing application using npm and litElement. Detailed instructions for using Astro components are available in the project’s [README](https://github.com/RocketCommunicationsInc/astro-components/blob/master/README.md).  
   
-If you’re considering a non-Web Component Astro implementation, directions for including Astro CSS and other static assets are available here. For those developing offline applications, be sure to review the special considerations for offline Astro assets.  
+If you’re considering a non-Web Component Astro implementation, directions for this process will be available soon. 
   
   
 ### EGS Compliance  
