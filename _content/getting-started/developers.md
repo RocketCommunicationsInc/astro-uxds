@@ -7,11 +7,11 @@ title: "Getting Started For Developers"
 
 # Getting Started For Developers
 
-The Astro UXDS Web Component and CSS libraries provide a starting point to build in-browser space app experiences and custom applications following today’s web development best practices. The Astro UXDS Web Components are designed to be as platform and implementation-agnostic as possible, easy to implement or extend in existing projects, and generic by default. Each component, as well as the overall CSS library, is individually published and updated according to the standard Semantic Versioning pattern.  
+The Astro UXDS Web Component and CSS libraries provide a starting point to build in-browser space app experiences and custom applications following today’s web development best practices. The Astro UXDS Web Components are designed to be as platform and implementation-agnostic as possible, easy to implement or extend in existing projects, and generic by default. Each component, as well as the overall CSS library, is individually published and updated according to the standard [Semantic Versioning](https://semver.org/) pattern.  
   
   
 ### Astro Components  
-In an effort to provide as close to native a development experience as possible, we’ve provided a set of [litElement-powered](https://lit-element.polymer-project.org/guide) [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) distributed in individual packages on [npm.org](https://www.npmjs.com/org/astrouxds). You can also see the full source code here and instructions for importing the components in a typical NodeJS project [here](https://github.com/RocketCommunicationsInc/astro-components/tree/feature/astro-tokens-static-assets#use-the-astro-web-components-in-a-nodejs-project).  
+In an effort to provide as close to native a development experience as possible, we’ve provided a set of [litElement-powered](https://lit-element.polymer-project.org/guide) [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) distributed in individual packages on [npm.org](https://www.npmjs.com/org/astrouxds). You can also see the full source code [here](https://github.com/RocketCommunicationsInc/astro-components/tree/master/src/components) and instructions for importing the components in a typical NodeJS project [here](https://github.com/RocketCommunicationsInc/astro-components/tree/feature/astro-tokens-static-assets#use-the-astro-web-components-in-a-nodejs-project).  
   
   
 ### Astro CSS, Icons, and Fonts  
@@ -23,7 +23,7 @@ You can review the latest versions of the web components at the [Astro Storybook
   
 For online examples of full Astro app experiences, check out these EGS Service-Specific sample experiences:  
   
-| Ground Resources Management   | Telemetry, Tracking, and Control |
+| **Ground Resources Management**   | **Telemetry, Tracking, and Control** |
 | ----------------------------- | -------------------------------- |
 | [Dashboard](/grm-service-ux-design/grm-dashboard/) - [Source code](https://bitbucket.org/rocketcom/grm-sample-apps-dashboard/src/master/)   |  [Monitor](/ttc-service-ux-design/ttc-monitor/) - [Source code](https://bitbucket.org/rocketcom/tt-c-monitor/src/master/)  |
 | [Equipment Manager](/grm-service-ux-design/grm-equipment-manager/) - [Source code](https://bitbucket.org/rocketcom/grm-sample-apps-equipment/src/master/)  | [Command](/ttc-service-ux-design/ttc-command/) - [Source code](https://bitbucket.org/rocketcom/tt-c-command/src/master/)  |
