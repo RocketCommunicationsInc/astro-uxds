@@ -2,7 +2,7 @@
 date: Last Modified
 path: /getting-started/designers
 layout: interior.template.njk
-title: "Getting Started For Designers"
+title: "Getting Started for Designers"
 ---
 
 # Getting Started For Designers
@@ -19,11 +19,11 @@ Before reading any further, we recommend you take a look at a live [Astro sample
 [Glossary](/design-guidelines/glossary/)
 [Compliance](/design-guidelines/compliance/)
 
-### Designer starter kit
+### Designer Starter Kit
 
 To download the Design starter kit, navigate to Astro Design Resources [Git Repository](https://github.com/RocketCommunicationsInc/astro-design-resources)
 
-### Sketch installation and use
+### Sketch Installation and Use
 Download files from Astro Sketch Libraries:
 
 [Astro Dark Library](https://github.com/RocketCommunicationsInc/astro-design-resources/raw/master/Sketch/Astro%20Dark%20Library.sketch)
@@ -43,7 +43,7 @@ After downloading, you can quickly get up and running with Sketch libraries:
 [View Tutorials for adding and loading libraries ](https://www.sketch.com/docs/libraries/)
 
 
-### How to use Astro icon library
+### How to Use Astro Icon Library
 
 Working with library symbols is as easy as working with symbols created in-document:
 
@@ -57,17 +57,17 @@ Astro color swatches are built into the Astro libraries and can be used once loa
 [View Tutorials for working with styling presets](https://www.sketch.com/docs/styling/#presets)
 [View Tutorials for working with library styles](https://www.sketch.com/docs/libraries/#library-styles)
 
-### Updating/syncing
+### Updating/Syncing
 When an update is available, the new file can be loaded into Sketch by replacing the saved Sketch library file in your file directory and then updating it within Sketch.
 
 [View Tutorials for updating library components](https://www.sketch.com/docs/libraries/#updating-library-components)
 
-### Adobe XD installation and use
+### Adobe XD Installation and Use
 ::: note
-Adobe XD libraries are provided for convenience but are not fully supported for creating comps and wireframes and may cause difficulties for users who are required to work offline
+Adobe XD libraries are provided for convenience but are not fully supported for creating comps and wireframes, and may cause difficulties for users who are required to work offline.
 :::
 
-**Download files from Astro XD Libraries:**
+**Download Files for Astro XD Libraries:**
 
 [Astro 5 Wireframe Library](https://github.com/RocketCommunicationsInc/astro-design-resources/raw/master/Adobe%20XD/Astro%205%20Wireframe%20Library.xd)
 [Astro 5 Dark Library](https://github.com/RocketCommunicationsInc/astro-design-resources/raw/master/Adobe%20XD/Astro%205%20Dark%20Library.xd)
@@ -76,27 +76,27 @@ Astro Light Library (Coming soon…)
 [Learn more about using Adobe XD ](https://helpx.adobe.com/xd/tutorials.html)
 [View video tutorials to get started with Adobe XD](https://www.youtube.com/playlist?list=PLHjwuoik-ep1zZ_xheCvRL8KluMJMjYsV)
 
-### How to use the Astro XD library files
+### How to Use the Astro XD Library Files
 
 Adobe XD files make use of an asset library to create shareable symbols that you can use to create and build wireframes and high fidelity comps.
 
 [View tutorial for managing assets and components](https://helpx.adobe.com/xd/help/work-with-assets-and-libraries-xd.html)
 [View video tutorial for managing assets in Adobe XD](https://www.youtube.com/watch?v=wzEL4mhXiJM&feature=youtu.be)
 
-### Updating/syncing libraries 
+### Updating/Syncing Libraries 
 
-At this time Adobe XD does not allow linking, or re-linking, to local linked assets (except for when converting a Sketch library to Adobe XD). Users have 2 options: import/relink assets from the cloud or that are shared with you (through Adobe CC), or convert Sketch libraries. For those who need to work with their files offline, this may require some prohibitive workaround, or require the user to work directly with the XD library file downloaded from Astro with periodic, manual updates. To assist in getting this functionality, consider voting on the Adobe XD feature request to [Link assets from local documents](https://adobexd.uservoice.com/forums/353007-adobe-xd-feature-requests/suggestions/37698904-link-assets-from-local-documents) and [Relinking assets functionality](https://adobexd.uservoice.com/forums/353007-adobe-xd-feature-requests/suggestions/37718911-relinking-assets-functionality).
+At this time, Adobe XD does not allow linking, or re-linking, to local linked assets (except for when converting a Sketch library to Adobe XD). Users have 2 options: import/relink assets from the cloud or that are shared with you (through Adobe CC), or convert Sketch libraries. For those who need to work with their files offline, this may require some prohibitive workaround, or require the user to work directly with the XD library file downloaded from Astro with periodic, manual updates. To assist in getting this functionality, consider voting on the Adobe XD feature request to [Link assets from local documents](https://adobexd.uservoice.com/forums/353007-adobe-xd-feature-requests/suggestions/37698904-link-assets-from-local-documents) and [Relinking assets functionality](https://adobexd.uservoice.com/forums/353007-adobe-xd-feature-requests/suggestions/37718911-relinking-assets-functionality).
 
 [View video tutorial for working with linked assets](https://www.youtube.com/watch?v=0y27B0ZChhY&feature=youtu.be)
 [View tutorial for working with shared assets](https://helpx.adobe.com/xd/help/work-with-assets-and-libraries-xd.html#share-assets)
 
-### Importing Sketch files into Adobe XD 
+### Importing Sketch Files into Adobe XD 
 
 Sketch files can be imported into Adobe XD. Symbols created in a Sketch file will be imported into the assets library.
 
 [View tutorial for importing Sketch files to Adobe XD](https://www.youtube.com/watch?v=T7BdBmqVUuM&feature=youtu.be)
 
-### Using Sketch files in Figma
+### Using Sketch Files in Figma
 ::: note
 Figma is not currently supported, but Figma does provide some workarounds for users who wish to import Sketch files.
 :::
@@ -130,7 +130,7 @@ Each page on astrouxds.com has a support button at the bottom of the page for te
 
 ### Additional resources
 
-**Web design**
+**Web Design**
 [Stackoverflow](https://stackoverflow.com/) – Questions and problem solving
 [CodePen](https://codepen.io/) - Working examples of Web code and the ability to experiment “live”
 [SmashingMagazine](https://www.smashingmagazine.com/) - HTML, CSS, JS, UX/UI, typography and design
@@ -141,7 +141,7 @@ Each page on astrouxds.com has a support button at the bottom of the page for te
 [Can I Use?](https://www.caniuse.com/) - Browser support tables
 
 
-### Books on UX design
+### Books on UX Design
 - An Introduction to Human Factors Engineering, Second Edition, by Wickens, Lee, Liu, Becke
 - About Face: The Essentials of Interaction Design 4th Edition by Alan Cooper, Robert Reimann, David Cronin, Christopher Noessel
 - HTML5 For Web Designers by Jeremy Keith (Online, and for purchase)
@@ -151,7 +151,7 @@ Each page on astrouxds.com has a support button at the bottom of the page for te
 - Sketching User Experiences by Bill Buxton
 - Writing for Interaction: Crafting the Information Experience for Web and Software Apps by Linda Newman Lior
 
-### Wireframing and prototyping tools
+### Wireframing and Prototyping Tools
 - [Balsamiq](https://balsamiq.com/)
 - [Powerpoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint)
 - [Keynote](https://www.apple.com/keynote/)

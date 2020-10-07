@@ -2,10 +2,10 @@
 path: /getting-started/developers
 date: Last Modified
 layout: interior.template.njk
-title: "Getting Started For Developers"
+title: "Getting Started for Developers"
 ---
 
-# Getting Started For Developers
+# Getting Started for Developers
 
 The Astro UXDS Web Component and CSS libraries provide a starting point to build in-browser space app experiences and custom applications following today’s web development best practices. The Astro UXDS Web Components are designed to be as platform and implementation-agnostic as possible, easy to implement or extend in existing projects, and generic by default. Each component, as well as the overall CSS library, is individually published and updated according to the standard Semantic Versioning pattern.  
   
@@ -14,11 +14,11 @@ The Astro UXDS Web Component and CSS libraries provide a starting point to build
 In an effort to provide as close to native a development experience as possible, we’ve provided a set of [litElement-powered](https://lit-element.polymer-project.org/guide) [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) distributed in individual packages on [npm.org](https://www.npmjs.com/org/astrouxds). You can also see the full source code here and instructions for importing the components in a typical NodeJS project [here](https://github.com/RocketCommunicationsInc/astro-components/tree/feature/astro-tokens-static-assets#use-the-astro-web-components-in-a-nodejs-project).  
   
   
-### Astro CSS, Icons, and Fonts  
+### Astro CSS, Icons and Fonts  
 We recognize that not all space application development projects are tooled for utilizing Web Components, so we also provide a CSS-only library containing name-spaced classes in addition to the icons and font files which are typically included within the components. You can [download today’s version](https://github.com/RocketCommunicationsInc/astro-components/tree/feature/astro-tokens-static-assets/src/components/rux-assets) of these assets.  
   
   
-### Astro Storybook & Sample Apps  
+### Astro Storybook and Sample Apps  
 You can review the latest versions of the web components at the [Astro Storybook](https://astro-components.netlify.app/?path=/story/astro-uxds-welcome--start-here). The Astro development team uses Storybook as an environment for building and demonstrating the capabilities of each component. If your team often works offline, you may want to [download and run the Storybook](https://github.com/RocketCommunicationsInc/astro-components/tree/feature/astro-tokens-static-assets#download-and-install-the-astro-web-component-storybook) on your local network to see how the examples work.  
   
 For online examples of full Astro app experiences, check out these EGS Service-Specific sample experiences:  
@@ -35,16 +35,16 @@ These examples use a previous release of Astro, and are not intended as boilerpl
   
   
 ### Getting Started  
-You can import Astro UXDS Web Components to an existing application using npm and litElement. Detailed instructions for using Astro components are available in the project’s README.  
+You can import Astro UXDS Web Components to an existing application using npm and litElement. Detailed instructions for using Astro components are available in the project’s [README](https://github.com/RocketCommunicationsInc/astro-components/blob/master/README.md).  
   
-If you’re considering a non-Web Component Astro implementation, directions for including Astro CSS and other static assets are available here. For those developing offline applications, be sure to review the special considerations for offline Astro assets.  
+If you’re considering a non-Web Component Astro implementation, directions for this process will be available soon. 
   
   
 ### EGS Compliance  
 The Astro team has worked with EGS to establish the EGS Compliance requirements for developers targeting the EGS Platform. These requirements are specific to EGS development; these requirements are based off of common best practices and accessibility guidance and it is highly recommended for all users to incorporate them into their applications.  
   
   
-### Offline development resources  
+### Offline Development Resources  
   
 This website and its contents are provided as separate downloadable files for the convenience of developers and designers working in closed environments. Designer and Developer assets are provided as downloads on their respective ‘Getting Started’ sections:  
   
