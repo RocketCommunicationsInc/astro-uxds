@@ -4,7 +4,7 @@
 		"url": "/"
 	},
 	{
-		"label": "Getting Started",
+		"label": "Getting Started with Astro",
 		"url": "/getting-started",
 		"items": [
 			{

@@ -6,7 +6,7 @@ layout: interior.template.njk
 title: "Getting Started"
 ---
 
-# Getting Started
+# Getting Started with Astro
 
 The Astro design system brings together UX guidelines, [HTML/CSS](/components/readme/) framework, and web components to design and develop a modern, consistent user experience. Astro was commissioned by the United States Space Force and Missile System Center (SMC) for designing Enterprise Ground Services (EGS) and Satellite Operations (SATOPS) web applications.
 
