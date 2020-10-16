@@ -74,16 +74,16 @@ figcaption {
   line-height: 1.3; }
 
 /* Special for color section */
-.color tr:not(:last-of-type) {
+.color tr:not(:last-of-type), .marking tr:not(:last-of-type) {
   border-bottom: 1px solid #ccc; }
 
-.color td {
+.color td, .marking td {
   vertical-align: middle; }
 
-.color table code {
+.color table code, .marking table code {
   font-size: 1.2rem; }
 
-.color td img {
+.color td img, .marking td img {
   height: 2rem;
   width: 2rem;
   margin: 0;

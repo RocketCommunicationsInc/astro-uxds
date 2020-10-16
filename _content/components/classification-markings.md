@@ -3,6 +3,7 @@ tags: resources
 path: /components/classification-markings
 date: Last Modified
 layout: components.template.njk
+class: marking
 title: Classification & Control Markings
 demo: 
 storybook: 
@@ -36,14 +37,14 @@ The guidance on this page is focused on the use of, and rules for, classificatio
 
 ### Banner Examples
 
-| **State**                                                    	| **Hex Value** 	| **RGB Value**   	| **Custom Property Name**         	| **Font Color**   	|
-|----------------------------------------------------------	|-----------	|--------------	|------------------------------	|--------------	|
-| Unclassified (UUI)                                       	| #007A33   	| 0, 122, 51   	| --classificationUnclassified 	| --colorWhite 	|
-| Top Secret//SCI<br>(Sensitive Compartmented Information) 	| #FCE83A   	| 252, 232, 58 	| --classificationTopSecretSCI 	| --colorBlack 	|
-| Top Secret                                               	| #FF8C00   	| 255, 140, 0  	| --classificationTopSecret    	| --colorBlack 	|
-| Secret                                                   	| #C8102E   	| 200, 16, 46  	| --classificationSecret       	| --colorWhite 	|
-| Controlled (CUI)                                         	| #502B85   	| 80, 43, 133  	| --classificationControlled   	| --colorWhite 	|
-| Confidential                                             	| #0033A0   	| 0, 51, 160   	| --classificationConfidential 	| --colorWhite 	|
+| |State                                                    | Hex Value   | RGB Value | Custom Property Name | Font Color  |
+| ---| -------------------------------------------------------- | ----------- | -------------- | ------------------------------ | -------------- |
+| ![Marking Unclassified Swatch](/img/swatches/marking__unclassified.svg)| Unclassified                                       | `#007a33`   | `0, 122, 51`   | `--classificationUnclassified` | `white` |
+| ![Marking Top Secret//SCI Swatch](/img/swatches/marking__top-secret-sci.svg)| Top Secret//SCI                                          | `#fce83a`   | `252, 232, 58` | `--classificationTopSecretSCI` | `black` |
+|![Marking Top Secret Swatch](/img/swatches/marking__top-secret.svg) | Top Secret                                               | `#ff8c00`   | `255, 140, 0`  | `--classificationTopSecret`    | `black` |
+|![Marking Secret Swatch](/img/swatches/marking__secret.svg) | Secret                                                   | `#c8102e`   | `200, 16, 46`  | `--classificationSecret`       | `white` |
+| ![Marking Controlled Swatch](/img/swatches/marking__controlled.svg)| Controlled (CUI)                                         | `#502b85`   | `80, 43, 133`  | `--classificationControlled`   | `white` |
+|![Marking Confidential Swatch](/img/swatches/marking__confidential.svg) | Confidential                                             | `#0033a0`   | `0, 51, 160`   | `--classificationConfidential` | `white` |
 
 ### Overall Marking Background Information
 
@@ -61,16 +62,30 @@ Always place the overall marking banner at the top of the application in a fixed
 
 Astro banner component colors match what government users are familiar with in physical labels, their workstations, and other applications. Adding a colored background is not officially required by the government, but is culturally expected and does help with recognizing classification levels at a quick glance. The background colors for the banner components are based on the traditional Pantone colors used in the relevant Standard Form labels for SF 706 through SF 712 with the new addition of the purple CUI color from SF-902. The text colors for the banners are either white or black (the two text colors used on the physical labels) depending on which best contrasts with the background color. There is, however, a risk that the classification colors could create confusion when compared with similar colors used for status purposes, so the visual footprint of the banner has been reduced in Astro to the smallest recommended height.
 
-| **Do**                     | **Don't**                         |
-|------------------------|--------------------------------------------------------------------------|
-| Use all-caps for marking text | Add any other text or elements to the banner.|
-| Show the banner at the top of every page | Allow the banner to scroll out of view or be obscured by other elements. |
-| Use Astro’s defined color sets for contrast compliance. | Deviate from the defined background colors.|
+## Examples
 
+:::two-col
+
+![Do: Use all-caps for marking text](/img/components/marking-do-1.png "Do: Use all-caps for marking text")
+
+![Don't: Add any other text or elements to the banner](/img/components/marking-dont-1.png "Add any other text or elements to the banner")
+
+![Do: Show the banner at the top of every page ](/img/components/marking-do-1.png "Do: Show the banner at the top of every page ")
+
+![Don't: Allow the banner to scroll out of view or be obscured by other elements](/img/components/marking-dont-2.png "Allow the banner to scroll out of view or be obscured by other elements")
+
+![Do: Use Astro’s defined color sets for contrast compliance ](/img/components/marking-do-3.png "Do: Use Astro’s defined color sets for contrast compliance")
+
+![Don't: Deviate from the defined background colors](/img/components/marking-dont-3.png "Deviate from the defined background colors")
+
+
+:::
 
 ## Portion Marking
 
 ### Tag Examples
+
+![](/img/components/marking-tag-example.png)
 
 ### Portion Marking Background Information
 
@@ -92,11 +107,24 @@ Portion markings should be placed at the top or top-left of the classified or co
 ### Portion Marking Colors
 The colors used in the tag components are the same as those in the overall banner markings for easy recognition.
 
-| **Do**                                                                                                                	| **Don't**                                                                                                                     	|
-|-------------------------------------------------------------------------------------------------------------------	|---------------------------------------------------------------------------------------------------------------------------	|
-| Abbreviate text in portion markings.                                                                              	| Have portion markings with higher classifications than the overall marking.                                               	|
-| Place portion markings at the top-left of classified or controlled information.                                   	| Neglect to mark media such as images and diagrams if they have a different classification from the portion they exist in. 	|
-| Use colored tags for general section markings and text portion marking in portions lower in the visual hierarchy. 	| Clutter the interface with colored tags on every line.                                                                    	|
+## Examples
+
+:::two-col
+
+![Do: Abbreviate text in portion markings](/img/components/marking-tag-do-1.png "Do: Abbreviate text in portion markings")
+
+![Don't: Have portion markings with higher classifications than the overall marking](/img/components/marking-tag-dont-1.png "Have portion markings with higher classifications than the overall marking")
+
+![Do: Place portion markings at the top-left of classified or controlled information ](/img/components/marking-do-1.png "Do: Place portion markings at the top-left of classified or controlled information ")
+
+![Don't: Neglect to mark media such as images and diagrams if they have a different classification from the portion they exist in](/img/components/marking-dont-2.png "Neglect to mark media such as images and diagrams if they have a different classification from the portion they exist in")
+
+![Do: Use colored tags for general section markings and text portion marking in portions lower in the visual hierarchy  ](/img/components/marking-do-3.png "Do: Use colored tags for general section markings and text portion marking in portions lower in the visual hierarchy")
+
+![Don't: Clutter the interface with colored tags on every line](/img/components/marking-dont-3.png "Clutter the interface with colored tags on every line")
+
+
+:::
 
 ## Authority Block
 
