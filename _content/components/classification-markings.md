@@ -5,10 +5,10 @@ date: Last Modified
 layout: components.template.njk
 class: marking
 title: Classification & Control Markings
-demo: 
-storybook: 
+demo: https://next--astro-components.netlify.app/iframe.html?id=components-classification-markings--classification-marking-banners&viewMode=story
+storybook: components-classification-markings--classification-marking-banners
 git: rux-classification-markings
-height: 210px
+height: 360px
 theme: false
 ---
 
