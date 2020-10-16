@@ -40,16 +40,11 @@
           "rules": [
             {
               "numeral": 1,
-              "rule": "The Open Sans font shall be used for content and components.",
-              "status": "new"
-            },
-            {
-              "numeral": 2,
               "rule": "The Roboto Mono font shall be used when monospace digits are required.",
               "status": "new"
             },
             {
-              "numeral": 3,
+              "numeral": 2,
               "rule": "Text shall conform to the specified typography for [Heading](/design-guidelines/typography/#headings), [Body](/design-guidelines/typography/#body-text), and [Inline Text](/design-guidelines/typography/#inline-text-styles).",
               "status": "new"
             }
