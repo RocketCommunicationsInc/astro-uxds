@@ -117,7 +117,7 @@ The colors used in the tag components are the same as those in the overall banne
 
 ![Do: Place portion markings at the top-left of classified or controlled information ](/img/components/portion-marking-do-2.png "Do: Place portion markings at the top-left of classified or controlled information ")
 
-![Don't: Neglect to mark media such as images and diagrams if they have a different classification from the portion they exist in](/img/components/portion-marking-dont-2.png "Neglect to mark media such as images and diagrams if they have a different classification from the portion they exist in")
+
 
 ![Do: Use colored tags for general section markings and text portion marking in portions lower in the visual hierarchy  ](/img/components/portion-marking-do-3.png "Do: Use colored tags for general section markings and text portion marking in portions lower in the visual hierarchy")
 
