@@ -19,7 +19,7 @@ All classification and control markings on this page are for illustration purpos
 :::
 
 ### Official Requirements
-This page lists general guidance and components for marking practices. For the most up-to-date policies, use the following resource links which should be considered the prime authorities for CNSI (Classified National Security Information) and CUI (Controlled Unclassified Information). In addition to these requirements, each government agency may have their own rules to use with those listed below.
+This page lists general guidance and components for marking practices. For the most up-to-date policies, use the following resource links which should bxe considered the prime authorities for CNSI (Classified National Security Information) and CUI (Controlled Unclassified Information). In addition to these requirements, each government agency may have their own rules to use with those listed below.
 
 
 ### Classified National Security Information
@@ -66,17 +66,17 @@ Astro banner component colors match what government users are familiar with in p
 
 :::two-col
 
-![Do: Use all-caps for marking text](/img/components/marking-do-1.png "Do: Use all-caps for marking text")
+![Do: Use all-caps for marking text](/img/components/overall-marking-do-1.png "Do: Use all-caps for marking text")
 
-![Don't: Add any other text or elements to the banner](/img/components/marking-dont-1.png "Add any other text or elements to the banner")
+![Don't: Add any other text or elements to the banner](/img/components/overall-marking-dont-1.png "Add any other text or elements to the banner")
 
-![Do: Show the banner at the top of every page ](/img/components/marking-do-1.png "Do: Show the banner at the top of every page ")
+![Do: Show the banner at the top of every page ](/img/components/overall-marking-do-2.png "Do: Show the banner at the top of every page ")
 
-![Don't: Allow the banner to scroll out of view or be obscured by other elements](/img/components/marking-dont-2.png "Allow the banner to scroll out of view or be obscured by other elements")
+![Don't: Allow the banner to scroll out of view or be obscured by other elements](/img/components/overall-marking-dont-2.png "Allow the banner to scroll out of view or be obscured by other elements")
 
-![Do: Use Astro’s defined color sets for contrast compliance ](/img/components/marking-do-3.png "Do: Use Astro’s defined color sets for contrast compliance")
+![Do: Use Astro’s defined color sets for contrast compliance ](/img/components/overall-marking-do-3.png "Do: Use Astro’s defined color sets for contrast compliance")
 
-![Don't: Deviate from the defined background colors](/img/components/marking-dont-3.png "Deviate from the defined background colors")
+![Don't: Deviate from the defined background colors](/img/components/overall-marking-dont-3.png "Deviate from the defined background colors")
 
 
 :::
@@ -111,17 +111,17 @@ The colors used in the tag components are the same as those in the overall banne
 
 :::two-col
 
-![Do: Abbreviate text in portion markings](/img/components/marking-tag-do-1.png "Do: Abbreviate text in portion markings")
+![Do: Abbreviate text in portion markings](/img/components/portion-marking-do-1.png "Do: Abbreviate text in portion markings")
 
-![Don't: Have portion markings with higher classifications than the overall marking](/img/components/marking-tag-dont-1.png "Have portion markings with higher classifications than the overall marking")
+![Don't: Have portion markings with higher classifications than the overall marking](/img/components/portion-marking-dont-1.png "Have portion markings with higher classifications than the overall marking")
 
-![Do: Place portion markings at the top-left of classified or controlled information ](/img/components/marking-do-1.png "Do: Place portion markings at the top-left of classified or controlled information ")
+![Do: Place portion markings at the top-left of classified or controlled information ](/img/components/portion-marking-do-2.png "Do: Place portion markings at the top-left of classified or controlled information ")
 
-![Don't: Neglect to mark media such as images and diagrams if they have a different classification from the portion they exist in](/img/components/marking-dont-2.png "Neglect to mark media such as images and diagrams if they have a different classification from the portion they exist in")
+![Don't: Neglect to mark media such as images and diagrams if they have a different classification from the portion they exist in](/img/components/portion-marking-dont-2.png "Neglect to mark media such as images and diagrams if they have a different classification from the portion they exist in")
 
-![Do: Use colored tags for general section markings and text portion marking in portions lower in the visual hierarchy  ](/img/components/marking-do-3.png "Do: Use colored tags for general section markings and text portion marking in portions lower in the visual hierarchy")
+![Do: Use colored tags for general section markings and text portion marking in portions lower in the visual hierarchy  ](/img/components/portion-marking-do-3.png "Do: Use colored tags for general section markings and text portion marking in portions lower in the visual hierarchy")
 
-![Don't: Clutter the interface with colored tags on every line](/img/components/marking-dont-3.png "Clutter the interface with colored tags on every line")
+![Don't: Clutter the interface with colored tags on every line](/img/components/portion-marking-dont-3.png "Clutter the interface with colored tags on every line")
 
 
 :::
