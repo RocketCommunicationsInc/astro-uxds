@@ -74,16 +74,16 @@ figcaption {
   line-height: 1.3; }
 
 /* Special for color section */
-.color tr:not(:last-of-type), .marking tr:not(:last-of-type) {
+.color tr:not(:last-of-type) {
   border-bottom: 1px solid #ccc; }
 
-.color td, .marking td {
+.color td {
   vertical-align: middle; }
 
-.color table code, .marking table code {
+.color table code {
   font-size: 1.2rem; }
 
-.color td img, .marking td img {
+.color td img {
   height: 2rem;
   width: 2rem;
   margin: 0;
@@ -115,12 +115,8 @@ figcaption {
 #contribution-footer {
   border-top: 1px solid #ddd;
   margin-top: 2.75rem; }
-  #contribution-footer h1 {
-    font-size: 1.75rem;
-    margin-bottom: 0;
-    border: none; }
 
-.fds .two-col {
-  grid-template-columns: 33% 66%; }
-  .fds .two-col figure img {
-    max-width: 100%; }
+#contribution-footer h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0;
+  border: none; }
