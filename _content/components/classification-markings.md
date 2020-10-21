@@ -68,15 +68,15 @@ Astro banner component colors match what government users are familiar with in p
 
 ![Do: Use all-caps for marking text](/img/components/overall-marking-do-1.png "Do: Use all-caps for marking text")
 
-![Don't: Add any other text or elements to the banner](/img/components/overall-marking-dont-1.png "Don't Add any other text or elements to the banner")
+![Don't: Add any other text or elements to the banner](/img/components/overall-marking-dont-1.png "Don't: Add any other text or elements to the banner")
 
 ![Do: Show the banner at the top of every page ](/img/components/overall-marking-do-2.png "Do: Show the banner at the top of every page ")
 
-![Don't: Allow the banner to scroll out of view or be obscured by other elements](/img/components/overall-marking-dont-2.png "Don't Allow the banner to scroll out of view or be obscured by other elements")
+![Don't: Allow the banner to scroll out of view or be obscured by other elements](/img/components/overall-marking-dont-2.png "Don't: Allow the banner to scroll out of view or be obscured by other elements")
 
 ![Do: Use Astro’s defined color sets for contrast compliance ](/img/components/overall-marking-do-3.png "Do: Use Astro’s defined color sets for contrast compliance")
 
-![Don't: Deviate from the defined background colors](/img/components/overall-marking-dont-3.png "Don't Deviate from the defined background colors")
+![Don't: Deviate from the defined background colors](/img/components/overall-marking-dont-3.png "Don't: Deviate from the defined background colors")
 
 
 :::
@@ -113,7 +113,7 @@ The colors used in the tag components are the same as those in the overall banne
 
 ![Do: Abbreviate text in portion markings](/img/components/portion-marking-do-1.png "Do: Abbreviate text in portion markings")
 
-![Don't: Have portion markings with higher classifications than the overall marking](/img/components/portion-marking-dont-1.png "Don't Have portion markings with higher classifications than the overall marking")
+![Don't: Have portion markings with higher classifications than the overall marking](/img/components/portion-marking-dont-1.png "Don't: Have portion markings with higher classifications than the overall marking")
 
 ![Do: Place portion markings at the top-left of classified or controlled information ](/img/components/portion-marking-do-2.png "Do: Place portion markings at the top-left of classified or controlled information ")
 
@@ -121,7 +121,7 @@ The colors used in the tag components are the same as those in the overall banne
 
 ![Do: Use colored tags for general section markings and text portion marking in portions lower in the visual hierarchy  ](/img/components/portion-marking-do-3.png "Do: Use colored tags for general section markings and text portion marking in portions lower in the visual hierarchy")
 
-![Don't: Clutter the interface with colored tags on every line](/img/components/portion-marking-dont-3.png "Don't Clutter the interface with colored tags on every line")
+![Don't: Clutter the interface with colored tags on every line](/img/components/portion-marking-dont-3.png "Don't: Clutter the interface with colored tags on every line")
 
 
 :::
