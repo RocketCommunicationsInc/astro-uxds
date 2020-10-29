@@ -40,6 +40,7 @@
 	},
 	"dependencies": {
 		"fuse.js": "^3.4.6",
+		"netlify-cms-app": "^2.13.1",
 		"nodemon": "^2.0.2"
 	}
 }

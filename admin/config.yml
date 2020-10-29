@@ -1,0 +1,30 @@
+backend:
+    name: github
+    branch: master
+publish_mode: editorial_workflow
+media_folder: "img/uploads"
+collections:
+  - name: "design-guidelines"
+    label: "design-guidelines"
+    folder: "_content/design-guidelines"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Date", name: "date", widget: "string", default: "Last Modified"}
+      - {label: "Layout", name: "Layout", widget: "hidden", default: "interior.template.njk"}
+      - {label: "Class", name: "class", widget: "string", default: "color"}
+      - {label: "Title", name: "title", widget: "string", default: "Color"}
+  - name: "patterns"
+    label: "patterns"
+    folder: "_content/patterns"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Date", name: "date", widget: "string", default: "Last Modified"}
+      - {label: "Layout", name: "Layout", widget: "hidden", default: "interior.template.njk"}
+      - {label: "Class", name: "class", widget: "string", default: "color"}
+      - {label: "Title", name: "title", widget: "string", default: "Color"}
