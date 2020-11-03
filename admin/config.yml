@@ -3,12 +3,14 @@ backend:
     branch: master
 publish_mode: editorial_workflow
 media_folder: "img/uploads"
+public_folder: "img/public"
 collections:
   - name: "design-guidelines"
     label: "design-guidelines"
     folder: "_content/design-guidelines"
     create: true
     slug: "{{slug}}"
+    preview_path: design-guidelines/{{slug}}
     fields:
       - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
       - {label: "Path", name: "path", widget: "string"}
