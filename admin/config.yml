@@ -14,16 +14,16 @@ collections:
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Color"}
       - {label: "Page Class", name: "class", widget: "string", default: "color"}
-      - {label: 'Page content', name: 'body', widget: 'markdown' }
       - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "components"}
       - {label: "Path", name: "path", widget: "hidden", default: "_content/components/{{slug}}"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "components.template.njk"}
-      - {label: "Demo Link", name: 'demo', widget: "",}  
-      - {label: "Storybook Component", name: 'storybook', widget: "string", default: "https://astro-components.netlify.app/iframe.html?id="}  
-      - {label: "Git Link", name: 'git', widget: "string", default: "rux-component"}
-      - {label: "Demo Height", name: 'height', widget: "string", default: '200'}
       - {label: "Theme", name: 'theme', widget: "hidden", default: 'true'}
+      - {label: "Demo Link", name: 'demo', widget: "",}  
+      - {label: "Demo Height", name: 'height', widget: "string", default: '200'}
+      - {label: "Storybook Component", name: 'storybook', widget: "string", default: "https://astro-components.netlify.app/iframe.html?id="}  
+      - {label: "Git Link Name", name: 'git', widget: "string", default: "rux-component"}
+      - {label: 'Page content', name: 'body', widget: 'markdown' }
   - label: "Design Guidelines"
     name: "design-guidelines"
     folder: "/_content/design-guidelines"
