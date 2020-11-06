@@ -3,7 +3,7 @@ backend:
     branch: draft
 publish_mode: editorial_workflow
 media_folder: "/_content/img/uploads"
-public_folder: "/_content/img/public-imgs"
+public_folder: "/img/public-imgs"
 collections:
   - label: "Components"
     name: "components"
@@ -12,16 +12,16 @@ collections:
     slug: "{{slug}}"
     preview_path: components/{{slug}}
     fields:
-      - {label: "Page Title", name: "title", widget: "string", default: "Color"}
-      - {label: "Page Class", name: "class", widget: "string", default: "color"}
+      - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
+      - {label: "Page Class", name: "class", widget: "string", default: ""}
       - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "components"}
       - {label: "Path", name: "path", widget: "hidden", default: "_content/components/{{slug}}"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "components.template.njk"}
       - {label: "Theme", name: 'theme', widget: "hidden", default: 'true'}
-      - {label: "Demo Link", name: 'demo', widget: "",}  
+      - {label: "Demo Link", name: 'demo', widget: "string", default: "https://astro-components.netlify.app/iframe.html?id=components-slider--slider"}  
       - {label: "Demo Height", name: 'height', widget: "string", default: '200'}
-      - {label: "Storybook Component", name: 'storybook', widget: "string", default: "https://astro-components.netlify.app/iframe.html?id="}  
+      - {label: "Storybook Component Name", name: 'storybook', widget: "string", default: "components-slider--slider"}  
       - {label: "Git Link Name", name: 'git', widget: "string", default: "rux-component"}
       - {label: 'Page content', name: 'body', widget: 'markdown' }
   - label: "Design Guidelines"
@@ -31,8 +31,8 @@ collections:
     slug: "{{slug}}"
     preview_path: design-guidelines/{{slug}}
     fields:
-      - {label: "Page Title", name: "title", widget: "string", default: "Color"}
-      - {label: "Page Class", name: "class", widget: "string", default: "color"}
+      - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
+      - {label: "Page Class", name: "class", widget: "string", default: ""}
       - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
       - {label: "Path", name: "path", widget: "hidden", default: "_content/design-guidelines/{{slug}}"}
@@ -40,7 +40,28 @@ collections:
       - label: "File Upload"
         name: "images"
         widget: "file"
-        default: "/_content/img/components"
+        default: "/_content/img/design-guidelines"
+        media_library:
+          config:
+            multiple: true
+      - {label: 'Page content', name: 'body', widget: 'markdown' }
+  - label: "Design Process"
+    name: "design-process"
+    folder: "/_content/design-process"
+    create: true
+    slug: "{{slug}}"
+    preview_path: design-process/{{slug}}
+    fields:
+      - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
+      - {label: "Page Class", name: "class", widget: "string", default: ""}
+      - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
+      - {label: "Path", name: "path", widget: "hidden", default: "_content/design-process/{{slug}}"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "interior.template.njk"}
+      - label: "File Upload"
+        name: "images"
+        widget: "file"
+        default: "/_content/img/design-guidelines"
         media_library:
           config:
             multiple: true
@@ -51,8 +72,8 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Page Title", name: "title", widget: "string", default: "page title"}
-      - {label: "Page Class", name: "class", widget: "string", default: "page class"}
+      - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
+      - {label: "Page Class", name: "class", widget: "string", default: ""}
       - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
       - {label: "Path", name: "path", widget: "hidden",default: "_content/patterns/{{slug}}"}
@@ -67,8 +88,8 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Page Title", name: "title", widget: "string", default: "page title"}
-      - {label: "Page Class", name: "class", widget: "string", default: "page class"}
+      - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
+      - {label: "Page Class", name: "class", widget: "string", default: ""}
       - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
       - {label: "Path", name: "path", widget: "hidden",default: "_content/grm-service-ux-design/{{slug}}"}
