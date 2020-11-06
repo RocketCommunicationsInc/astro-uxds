@@ -4,7 +4,7 @@
 		"url": "/"
 	},
 	{
-		"label": "Getting Started",
+		"label": "Getting Started with Astro",
 		"url": "/getting-started",
 		"items": [
 			{
@@ -134,6 +134,10 @@
 			{
 				"label": "Checkbox",
 				"url": "/components/checkbox"
+			},
+			{
+				"label": "Classification Markings",
+				"url": "/components/classification-markings"
 			},
 			{
 				"label": "Clock",
