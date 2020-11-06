@@ -1,9 +1,9 @@
 backend:
     name: git-gateway
-    branch: master
+    branch: draft
 publish_mode: editorial_workflow
-media_folder: "img/uploads"
-public_folder: "img/public"
+media_folder: "/_content/img/uploads"
+public_folder: "/_content/img/public-imgs"
 collections:
   - label: "Components"
     name: "components"
@@ -33,12 +33,12 @@ collections:
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Color"}
       - {label: "Page Class", name: "class", widget: "string", default: "color"}
-      - {label: 'Page content', name: 'body', widget: 'markdown' }
       - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
       - {label: "Path", name: "path", widget: "hidden", default: "_content/design-guidelines/{{slug}}"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "interior.template.njk"}
       - {label: "File Upload", name: "images", widget: "file", default: "/_content/img/components", media_library:config:multiple: true}
+      - {label: 'Page content', name: 'body', widget: 'markdown' }
   - label: "Patterns"
     name: "patterns"
     folder: "/_content/patterns"
@@ -47,9 +47,25 @@ collections:
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "page title"}
       - {label: "Page Class", name: "class", widget: "string", default: "page class"}
-      - {label: 'Page content', name: 'body', widget: 'markdown' }
       - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
       - {label: "Path", name: "path", widget: "hidden",default: "_content/patterns/{{slug}}"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "components.template.njk"}
+      - {label: 'Page content', name: 'body', widget: 'markdown' }
+      - label: "Layout"
+        name: "layout"
+        widget: "select"
+        options: ["interior.template.njk", "components.template.njk"]
+  - label: "GRM Service UX Design"
+    name: "grm-service-ux-design"
+    folder: "/_content/grm-service-ux-design"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Page Title", name: "title", widget: "string", default: "page title"}
+      - {label: "Page Class", name: "class", widget: "string", default: "page class"}
+      - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
+      - {label: "Path", name: "path", widget: "hidden",default: "_content/grm-service-ux-design/{{slug}}"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "interior.template.njk"}
+      - {label: 'Page content', name: 'body', widget: 'markdown' }
       
