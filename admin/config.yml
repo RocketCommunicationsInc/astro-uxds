@@ -37,7 +37,13 @@ collections:
       - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
       - {label: "Path", name: "path", widget: "hidden", default: "_content/design-guidelines/{{slug}}"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "interior.template.njk"}
-      - {label: "File Upload", name: "images", widget: "file", default: "/_content/img/components", media_library:config:multiple: true}
+      - label: "File Upload"
+        name: "images"
+        widget: "file"
+        default: "/_content/img/components"
+        media_library:
+          config:
+            multiple: true
       - {label: 'Page content', name: 'body', widget: 'markdown' }
   - label: "Patterns"
     name: "patterns"
@@ -50,11 +56,11 @@ collections:
       - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
       - {label: "Path", name: "path", widget: "hidden",default: "_content/patterns/{{slug}}"}
-      - {label: 'Page content', name: 'body', widget: 'markdown' }
       - label: "Layout"
         name: "layout"
         widget: "select"
         options: ["interior.template.njk", "components.template.njk"]
+      - {label: 'Page content', name: 'body', widget: 'markdown' }
   - label: "GRM Service UX Design"
     name: "grm-service-ux-design"
     folder: "/_content/grm-service-ux-design"
