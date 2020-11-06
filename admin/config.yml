@@ -5,27 +5,51 @@ publish_mode: editorial_workflow
 media_folder: "img/uploads"
 public_folder: "img/public"
 collections:
-  - name: "design-guidelines"
-    label: "design-guidelines"
-    folder: "_content/design-guidelines"
+  - label: "Components"
+    name: "components"
+    folder: "/components"
+    create: true
+    slug: "{{slug}}"
+    preview_path: components/{{slug}}
+    fields:
+      - {label: "Page Title", name: "title", widget: "string", default: "Color"}
+      - {label: "Page Class", name: "class", widget: "string", default: "color"}
+      - {label: 'Page content', name: 'body', widget: 'markdown' }
+      - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: "components"}
+      - {label: "Path", name: "path", widget: "hidden", default: "_content/components/{{slug}}"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "components.template.njk"}
+      - {label: "Demo Link", name: 'demo', widget: "",}  
+      - {label: "Storybook Component", name: 'storybook', widget: "string", default: "https://astro-components.netlify.app/iframe.html?id="}  
+      - {label: "Git Link", name: 'git', widget: "string", default: "rux-component"}
+      - {label: "Demo Height", name: 'height', widget: "string", default: '200'}
+      - {label: "Theme", name: 'theme', widget: "hidden", default: 'true'}
+  - label: "Design Guidelines"
+    name: "design-guidelines"
+    folder: "/design-guidelines"
     create: true
     slug: "{{slug}}"
     preview_path: design-guidelines/{{slug}}
     fields:
+      - {label: "Page Title", name: "title", widget: "string", default: "Color"}
+      - {label: "Page Class", name: "class", widget: "string", default: "color"}
+      - {label: 'Page content', name: 'body', widget: 'markdown' }
+      - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
-      - {label: "Path", name: "path", widget: "string"}
-      - {label: "Date", name: "date", widget: "string", default: "Last Modified"}
+      - {label: "Path", name: "path", widget: "hidden", default: "_content/design-guidelines/{{slug}}"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "interior.template.njk"}
-      - {label: "Class", name: "class", widget: "string", default: "color"}
-      - {label: "Title", name: "title", widget: "string", default: "Color"}
-  - name: "patterns"
-    label: "patterns"
-    folder: "_content/patterns"
+      - {label: "File Upload", name: "images", widget: "file", default: "/_content/img/components", media_library:config:multiple: true}
+  - label: "Patterns"
+    name: "patterns"
+    folder: "/patterns"
     create: true
     slug: "{{slug}}"
     fields:
+      - {label: "Page Title", name: "title", widget: "string", default: "page title"}
+      - {label: "Page Class", name: "class", widget: "string", default: "page class"}
+      - {label: 'Page content', name: 'body', widget: 'markdown' }
+      - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "resources"}
-      - {label: "Path", name: "path", widget: "string"}
-      - {label: "Date", name: "date", widget: "string", default: "Last Modified"}
+      - {label: "Path", name: "path", widget: "hidden",default: "_content/patterns/{{slug}}"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "components.template.njk"}
-      - {label: "Title", name: "title", widget: "string", default: "Color"}
+      
