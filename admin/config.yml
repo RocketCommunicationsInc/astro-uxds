@@ -7,7 +7,7 @@ public_folder: "img/public"
 collections:
   - label: "Components"
     name: "components"
-    folder: "/components"
+    folder: "/_content/components"
     create: true
     slug: "{{slug}}"
     preview_path: components/{{slug}}
@@ -26,7 +26,7 @@ collections:
       - {label: "Theme", name: 'theme', widget: "hidden", default: 'true'}
   - label: "Design Guidelines"
     name: "design-guidelines"
-    folder: "/design-guidelines"
+    folder: "/_content/design-guidelines"
     create: true
     slug: "{{slug}}"
     preview_path: design-guidelines/{{slug}}
@@ -41,7 +41,7 @@ collections:
       - {label: "File Upload", name: "images", widget: "file", default: "/_content/img/components", media_library:config:multiple: true}
   - label: "Patterns"
     name: "patterns"
-    folder: "/patterns"
+    folder: "/_content/patterns"
     create: true
     slug: "{{slug}}"
     fields:
