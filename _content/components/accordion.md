@@ -1,5 +1,5 @@
 ---
-title: Accordion
+title: Accordion Tester
 date: Last Modified
 tags: components
 path: /components/accordion
