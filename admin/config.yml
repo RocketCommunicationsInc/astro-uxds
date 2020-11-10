@@ -14,7 +14,7 @@ collections:
     preview_path: components/{{slug}}
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
-      - {label: "Page Class", name: "class", widget: "string", default: ""}
+      - {label: "Page Class", name: "class", widget: "string", default: "",required: false}
       - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "components"}
       - {label: "Path", name: "path", widget: "hidden", default: "_content/components/{{slug}}"}
