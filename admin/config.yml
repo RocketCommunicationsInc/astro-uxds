@@ -1,6 +1,6 @@
 backend:
     name: git-gateway
-    branch: draft
+    branch: astro-846
 publish_mode: editorial_workflow
 media_folder: "/_content/img/uploads"
 public_folder: "/img/public-imgs"
