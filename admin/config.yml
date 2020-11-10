@@ -16,8 +16,8 @@ collections:
     name: "components"
     folder: "/_content/components"
     create: true
-    preview_path: "components/{{slug}}"
     slug: "{{slug}}"
+    preview_path: "components/{{slug}}"
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
       - {label: "Page Class", name: "class", widget: "string", default: "",required: false}
@@ -35,8 +35,8 @@ collections:
     name: "design-guidelines"
     folder: "/_content/design-guidelines"
     create: true
-    slug: "{{title}}"
-    preview_path: "design-guidelines/{{title}}"
+    slug: "{{slug}}"
+    preview_path: "design-guidelines/{{slug}}"
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
       - {label: "Page Class", name: "class", widget: "string", default: "",required: false}
@@ -57,8 +57,8 @@ collections:
     name: "design-process"
     folder: "/_content/design-process"
     create: true
-    slug: "{{title}}"
-    preview_path: "design-process/{{title}}"
+    slug: "{{slug}}"
+    preview_path: "design-process/{{slug}}"
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
       - {label: "Page Class", name: "class", widget: "string", default: "",required: false}
@@ -79,8 +79,8 @@ collections:
     name: "patterns"
     folder: "/_content/patterns"
     create: true
-    slug: "{{title}}"
-    preview_path: "patterns/{{title}}"
+    slug: "{{slug}}"
+    preview_path: "patterns/{{slug}}"
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
       - {label: "Page Class", name: "class", widget: "string", default: "",required: false}
@@ -96,8 +96,8 @@ collections:
     name: "grm-service-ux-design"
     folder: "/_content/grm-service-ux-design"
     create: true
-    slug: "{{title}}"
-    preview_path: "grm-service-ux-design/{{title}}"
+    slug: "{{slug}}"
+    preview_path: "grm-service-ux-design/{{slug}}"
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
       - {label: "Page Class", name: "class", widget: "string", default: "",required: false}
