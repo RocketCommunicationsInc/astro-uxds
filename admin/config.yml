@@ -10,14 +10,14 @@ logo_url: "/img/_site/astro-logo.svg"
 slug:
   encoding: "ascii"
   clean_accents: true
-  sanitize_replacement: "_"
+  sanitize_replacement: "-"
 collections:
   - label: "Components"
     name: "components"
     folder: "/_content/components"
     create: true
-    preview_path: "components/{{title}}"
-    slug: "{{title}}"
+    preview_path: "components/{{slug}}"
+    slug: "{{slug}}"
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
       - {label: "Page Class", name: "class", widget: "string", default: "",required: false}
