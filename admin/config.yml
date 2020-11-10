@@ -3,6 +3,10 @@ backend:
     branch: draft
 media_folder: "/_content/img/uploads"
 public_folder: "/img/public-imgs"
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
 collections:
   - label: "Components"
     name: "components"
