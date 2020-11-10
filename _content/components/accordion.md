@@ -1,14 +1,14 @@
 ---
+title: Accordion-test
+date: Last Modified
 tags: components
 path: /components/accordion
-date: Last Modified
 layout: components.template.njk
-title: Accordion
+theme: false
 demo: https://astro-components.netlify.app/iframe.html?id=components-accordion--accordion
+height: 210px
 storybook: components-accordion--accordion
 git: rux-accordion
-height: 210px
-theme: false
 ---
 
 # Accordion
