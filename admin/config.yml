@@ -42,6 +42,7 @@ collections:
         name: "images"
         widget: "file"
         default: "/_content/img/design-guidelines"
+        required: false
         media_library:
           config:
             multiple: true
