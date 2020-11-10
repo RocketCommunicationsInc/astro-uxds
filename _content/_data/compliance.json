@@ -248,7 +248,7 @@
             },
             {
               "numeral": 3,
-              "rule": "Optional Global Status Bar elements shall be arranged left to right in this order: navigation [Tabs](/components/tabs), [Clock](/components/clock), [Monitoring Icons](/components/icons-and-symbols/#monitoring-icons), [Action Icons](/components/icons-and-symbols/#action-icons), off Button.",
+              "rule": "Optional Global Status Bar elements shall be arranged left to right in this order: navigation [Tabs](/components/tabs), [Clock](/components/clock), [Monitoring Icons](/components/icons-and-symbols/#monitoring-icons), [Action Icons](/components/icons-and-symbols/#action-icons), Emergency Shut Off Button.",
               "figure": "/img/components/global-status-complex.png",
               "status": "current"
             },
