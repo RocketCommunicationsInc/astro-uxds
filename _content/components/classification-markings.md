@@ -7,7 +7,7 @@ class: marking
 title: Classification & Control Markings
 demo: https://next--astro-components.netlify.app/iframe.html?id=components-classification-markings--classification-marking-banners&viewMode=story
 storybook: components-classification-markings--classification-marking-banners
-git: rux-classification-markings
+git: rux-classification-marking
 height: 360px
 theme: false
 ---
