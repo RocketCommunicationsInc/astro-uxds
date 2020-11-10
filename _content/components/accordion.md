@@ -1,27 +1,26 @@
 ---
+title: Accordion
+date: Last Modified
 tags: components
 path: /components/accordion
-date: Last Modified
 layout: components.template.njk
-title: Accordion
+theme: false
 demo: https://astro-components.netlify.app/iframe.html?id=components-accordion--accordion
+height: 210px
 storybook: components-accordion--accordion
 git: rux-accordion
-height: 210px
-theme: false
 ---
-
 # Accordion
 
 ::: caution
 Accordions are currently being revamped for a future release. The following legacy page is provided for reference.
 :::
 
-An Accordion is a device which presents a hierarchical set of items in which only a single branch of that hierarchy may be exposed at one time.
+Cortney An Accordion is a device which presents a hierarchical set of items in which only a single branch of that hierarchy may be exposed at one time.
 
 ## Rules of Thumb
 
-- Give titles to Accordions if content is not obvious to users.
+* Give titles to Accordions if content is not obvious to users.
   ::: note
   Accordions are not commonly used for direct action or data manipulation. Use Accordions for navigation within a master-detail navigational pattern.
   :::
@@ -43,4 +42,3 @@ If a different branch is selected, for example, by clicking on a different top l
 
 ![If a child item of the current selection is selected, that entire branch remains displayed.](/img/components/accordion-5.png "If a child item of the current selection is selected, that entire branch remains displayed.")
 If a child item of the current selection is selected, that entire branch remains displayed.
-
