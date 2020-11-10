@@ -1,5 +1,5 @@
 ---
-title: Accordion-test
+title: Accordion--cortney
 date: Last Modified
 tags: components
 path: /components/accordion
