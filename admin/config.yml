@@ -1,8 +1,12 @@
 backend:
     name: git-gateway
     branch: draft
+publish_mode: editorial_workflow
 media_folder: "/_content/img/uploads"
 public_folder: "/img/public-imgs"
+display_url: https://astrouxds.com
+site_url: https://deploy-preview-98--astrouxds.netlify.app/
+logo_url: "/img/_site/astro-logo.svg"
 slug:
   encoding: "ascii"
   clean_accents: true
@@ -12,7 +16,8 @@ collections:
     name: "components"
     folder: "/_content/components"
     create: true
-    preview_path: components/{{slug}}
+    preview_path: "components/{{title}}"
+    slug: "{{title}}"
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
       - {label: "Page Class", name: "class", widget: "string", default: "",required: false}
@@ -30,8 +35,8 @@ collections:
     name: "design-guidelines"
     folder: "/_content/design-guidelines"
     create: true
-    slug: "{{slug}}"
-    preview_path: design-guidelines/{{slug}}
+    slug: "{{title}}"
+    preview_path: "design-guidelines/{{title}}"
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
       - {label: "Page Class", name: "class", widget: "string", default: "",required: false}
@@ -52,8 +57,8 @@ collections:
     name: "design-process"
     folder: "/_content/design-process"
     create: true
-    slug: "{{slug}}"
-    preview_path: design-process/{{slug}}
+    slug: "{{title}}"
+    preview_path: "design-process/{{title}}"
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
       - {label: "Page Class", name: "class", widget: "string", default: "",required: false}
@@ -74,7 +79,8 @@ collections:
     name: "patterns"
     folder: "/_content/patterns"
     create: true
-    slug: "{{slug}}"
+    slug: "{{title}}"
+    preview_path: "patterns/{{title}}"
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
       - {label: "Page Class", name: "class", widget: "string", default: "",required: false}
@@ -90,7 +96,8 @@ collections:
     name: "grm-service-ux-design"
     folder: "/_content/grm-service-ux-design"
     create: true
-    slug: "{{slug}}"
+    slug: "{{title}}"
+    preview_path: "grm-service-ux-design/{{title}}"
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
       - {label: "Page Class", name: "class", widget: "string", default: "",required: false}
