@@ -13,7 +13,7 @@ git: rux-accordion
 # Accordion
 
 ::: caution
-Cortney Accordions are currently being revamped for a future release. The following legacy page is provided for reference.
+Cortney Robinson Accordions are currently being revamped for a future release. The following legacy page is provided for reference.
 :::
 
 An Accordion is a device which presents a hierarchical set of items in which only a single branch of that hierarchy may be exposed at one time.
