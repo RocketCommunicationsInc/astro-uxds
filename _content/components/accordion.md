@@ -1,5 +1,5 @@
 ---
-title: Accordion Tester
+title: Accordion
 date: Last Modified
 tags: components
 path: /components/accordion
@@ -16,7 +16,7 @@ git: rux-accordion
 Accordions are currently being revamped for a future release. The following legacy page is provided for reference.
 :::
 
-Cortney Robinson An Accordion is a device which presents a hierarchical set of items in which only a single branch of that hierarchy may be exposed at one time.
+An Accordion is a device which presents a hierarchical set of items in which only a single branch of that hierarchy may be exposed at one time.
 
 ## Rules of Thumb
 
