@@ -4,7 +4,7 @@
 		"url": "/"
 	},
 	{
-		"label": "Getting Started with Astro",
+		"label": "Getting Started",
 		"url": "/getting-started",
 		"items": [
 			{
@@ -136,10 +136,6 @@
 				"url": "/components/checkbox"
 			},
 			{
-				"label": "Classification Markings",
-				"url": "/components/classification-markings"
-			},
-			{
 				"label": "Clock",
 				"url": "/components/clock"
 			},
@@ -228,81 +224,5 @@
 				"url": "/components/tree"
 			}
 		]
-	},
-	{
-		"label": "Service Specific UX Design",
-		"url": "/service-specific-ux-design",
-		"class": "section-start"
-	},
-	{
-		"label": "GRM Service UX Design",
-		"url": "/grm-service-ux-design",
-		"items": [
-			{
-				"label": "About the GRM Designs",
-				"url": "/grm-service-ux-design/about-the-grm-designs"
-			},
-			{
-				"label": "GRM Dashboard",
-				"url": "/grm-service-ux-design/grm-dashboard"
-			},
-			{
-				"label": "GRM Equipment Manager",
-				"url": "/grm-service-ux-design/grm-equipment-manager"
-			},
-			{
-				"label": "GRM Schedule",
-				"url": "/grm-service-ux-design/grm-schedule"
-			}
-		]
-	},
-	{
-		"label": "TT&C Service UX Design",
-		"url": "/ttc-service-ux-design",
-		"items": [
-			{
-				"label": "About the TT&C Designs",
-				"url": "/ttc-service-ux-design/about-the-ttc-designs"
-			},
-			{
-				"label": "TT&C Monitor",
-				"url": "/ttc-service-ux-design/ttc-monitor"
-			},
-			{
-				"label": "TT&C Command",
-				"url": "/ttc-service-ux-design/ttc-command"
-			},
-			{
-				"label": "TT&C Investigate",
-				"url": "/ttc-service-ux-design/ttc-investigate"
-			}
-		]
-	},
-	{
-		"label": "FD Service UX Design",
-		"url": "/fd-service-ux-design/about-the-fd-designs",
-		"class": "section-end"
-	},
-	{
-		"label": "Community",
-		"url": "/community",
-		"items": [
-			{
-				"label": "Propose a Change",
-				"url": "/community/propose-a-change"
-			},
-			{
-				"label": "Content Policy",
-				"url": "/community/content-policy"
-			}
-		]
-	},
-	{
-		"label": "Downloads",
-		"url": "/downloads"
-	},
-	{
-		"label": "Support",
-		"url": "/support"
 	}
 ]
