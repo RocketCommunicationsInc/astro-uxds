@@ -12,7 +12,7 @@ git: rux-button
 ---
 # Button
 
-Action Buttons allow users to trigger actions by clicking, tapping, or pressing a corresponding key on a keyboard, such as the “Enter” key. cortney
+Action Buttons allow users to trigger actions by clicking, tapping, or pressing a corresponding key on a keyboard, such as the “Enter” key.
 
 ## Rules of Thumb
 
