@@ -1,7 +1,7 @@
 ---
 date: Last Modified
-path: /getting-started/readme
-permalink: /getting-started/readme/index.html
+path: /readme
+permalink: /readme/index.html
 layout: interior.template.njk
 title: "Getting Started"
 ---
