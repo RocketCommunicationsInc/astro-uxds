@@ -5,7 +5,7 @@ publish_mode: editorial_workflow
 media_folder: "/_content/img/uploads"
 public_folder: "/img/public-imgs"
 display_url: https://astrouxds.com
-site_url: https://deploy-preview-98--astrouxds.netlify.app/
+site_url: https://deploy-preview-111--astrouxds.netlify.app/
 logo_url: "/img/_site/astro-logo.svg"
 slug:
   encoding: "ascii"
