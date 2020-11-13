@@ -1,6 +1,6 @@
 backend:
     name: git-gateway
-    branch: astro-846
+    branch: netlify-test
 publish_mode: editorial_workflow
 media_folder: "/_content/img/uploads"
 public_folder: "/img/public-imgs"
@@ -21,16 +21,16 @@ collections:
     fields:
       - {label: "Page Title", name: "title", widget: "string", default: "Page Title"}
       - {label: "Page Class", name: "class", widget: "string", default: "",required: false}
-      - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
-      - {label: "Tags", name: "tags", widget: "hidden", default: "components"}
       - {label: "Path", name: "path", widget: "hidden", default: "_content/components/{{slug}}"}
+      - {label: "Date", name: "date", widget: "hidden", default: "Last Modified"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "components.template.njk"}
-      - {label: "Theme", name: 'theme', widget: "hidden", default: 'true'}
+      - {label: "Tags", name: "tags", widget: "hidden", default: "components"}
+      - {label: "Theme", name: "theme", widget: "hidden", default: "true"}
       - {label: "Demo Link", name: 'demo', widget: "string", default: "https://astro-components.netlify.app/iframe.html?id=components-slider--slider",required: false}  
       - {label: "Demo Height", name: 'height', widget: "string", default: '200',required: false}
       - {label: "Storybook Component Name", name: 'storybook', widget: "string", default: "components-slider--slider",required: false}  
       - {label: "Git Link Name", name: 'git', widget: "string", default: "rux-component",required: false}
-      - {label: 'Page content', name: 'body', widget: 'markdown' }
+      - {label: "Page content", name: "body", widget: "markdown"}
   - label: "Design Guidelines"
     name: "design-guidelines"
     folder: "/_content/design-guidelines"
