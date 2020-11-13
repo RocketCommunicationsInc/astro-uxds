@@ -1,5 +1,5 @@
 ---
-title: Button Test
+title: Buttons
 date: Last Modified
 tags: components
 path: /components/button
