@@ -1,32 +1,31 @@
 ---
+title: Button
+date: Last Modified
 tags: components
 path: /components/button
-date: Last Modified
 layout: components.template.njk
-title: Button
+theme: true
 demo: https://astro-components.netlify.app/iframe.html?id=components-buttons--all-button-variants&viewMode=story
+height: 260px
 storybook: components-buttons--standard-button
 git: rux-button
-height: 260px
-theme: true
 ---
-
 # Button
 
 Action Buttons allow users to trigger actions by clicking, tapping, or pressing a corresponding key on a keyboard, such as the “Enter” key.
 
 ## Rules of Thumb
 
-- Use only predefined button colors, sizes and fonts — don’t customize or alter them.
-- Don’t design elements which look similar to buttons but act differently. Buttons are actionable elements.
-- Don’t activate Pop Up Menus from buttons.
-- Buttons within the same group should be the same size. Use the width of the widest button.
-- Space buttons evenly.
-- Clearly title buttons by choosing a verb that describes the action the user performs at precisely the moment the button is clicked: “Save, Close, Print, \* Delete, Change Password,” etc.
-- Resize button width to accommodate the title; do not abbreviate or truncate button titles.
-- Don’t use an outside label to introduce a button. Instead, clearly title the button.
-- Add an ellipsis (…) to the button title if it opens another window, Dialog Box or app.
-- Within Dialog Boxes, right-justify buttons.
+* Use only predefined button colors, sizes and fonts — don’t customize or alter them.
+* Don’t design elements which look similar to buttons but act differently. Buttons are actionable elements.
+* Don’t activate Pop Up Menus from buttons.
+* Buttons within the same group should be the same size. Use the width of the widest button.
+* Space buttons evenly.
+* Clearly title buttons by choosing a verb that describes the action the user performs at precisely the moment the button is clicked: “Save, Close, Print, * Delete, Change Password,” etc.
+* Resize button width to accommodate the title; do not abbreviate or truncate button titles.
+* Don’t use an outside label to introduce a button. Instead, clearly title the button.
+* Add an ellipsis (…) to the button title if it opens another window, Dialog Box or app.
+* Within Dialog Boxes, right-justify buttons.
 
 ## Outline Button
 
