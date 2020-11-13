@@ -35,26 +35,11 @@
 
 	<link rel="stylesheet" href="/css/home.css">
 	<body class="home">
-
+	{% include "_nav.njk" %}
 		<div class="home__container">
 			<div class="home__head-material">
 
-				<nav class="home__nav">
-					<ul>
-						<li>
-							<a href="/components/readme">UI Components</a>
-						</li>
-						<li>
-							<a href="/grm-service-ux-design/about-the-grm-designs">GRM UX Design</a>
-						</li>
-						<li>
-							<a href="/ttc-service-ux-design/about-the-ttc-designs/">TT&amp;C UX Design</a>
-						</li>
-						<li>
-							<a href="/fd-service-ux-design/about-the-fd-designs/">FD UX Design</a>
-						</li>
-					</ul>
-				</nav>
+			
 
 				<header class="home__masthead">
 					<img src="/img/_site/astro-logo.svg" class="home__logo">
@@ -67,92 +52,8 @@
 			</div>
 			<div class="home__body-material">
 
-				<section class="home__video video-wrapper">
-					<iframe id="video" width="100%" height="472" style="margin-bottom: -5px;" src="//www.youtube.com/embed/rknKGTDGtfI?controls=0&amp;rel=0" frameborder="0" allowfullscreen=""></iframe>
-					<div class="video-overlay" id="play-video" onclick="playVideo()">
-						<img class="play-button" src="/img/_site/play.svg" width="70px">
-					</div>
-				</section>
+			
 
-				<section class="home__benefits">
-					<div class="row">
-						<div class="row-element row-element__left">
-							<h2>Living</h2>
-							<p>The Astro UX team actively designs, develops, tests, and maintains the design system.&nbsp;<strong>Sign up</strong>&nbsp;for notification of updates</p>
-						</div>
-
-						<div class="row-element row-element__center">
-							<h2>Community</h2>
-							<p>Astro belongs to the Space App Community, so please provide feedback and let us know when you need&nbsp;<a href="/support">help</a>.</p>
-						</div>
-
-						<div class="row-element row-element__right">
-							<h2>Platform-Agnostic</h2>
-							<p>Use Astro’s web components to quickly get your team started developing your mission unique space app.</p>
-						</div>
-					</div>
-				</section>
-
-				<section id="email-signup" class="home__email-signup">
-					<!-- Begin Mailchimp Signup Form -->
-					<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-
-					<div id="mc_embed_signup">
-						<form action="https://rocketcom.us12.list-manage.com/subscribe/post?u=f067e558ee805172850a87843&amp;id=c1af406c10" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
-							<div id="mc_embed_signup_scroll">
-								<h2>
-									<strong>Sign up</strong> to get notified when Astro is updated</h2>
-								<!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
-								<div class="mc-field-layout">
-									<div class="mc-field-group">
-										<label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
-										</label>
-										<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" aria-required="true">
-									</div>
-									<div class="mc-field-group">
-										<label for="mce-COMPANY">Company </label>
-										<input type="text" value="" name="COMPANY" class="" id="mce-COMPANY">
-									</div>
-								</div>
-								<div class="mc-field-layout">
-									<div class="mc-field-group">
-										<label for="mce-FNAME">First Name </label>
-										<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-									</div>
-									<div class="mc-field-group">
-										<label for="mce-LNAME">Last Name </label>
-										<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-									</div>
-								</div>
-								<div id="mce-responses" class="clear">
-									<div class="response" id="mce-error-response" style="display:none"></div>
-									<div class="response" id="mce-success-response" style="display:none"></div>
-								</div>
-								<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-								<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f067e558ee805172850a87843_c1af406c10" tabindex="-1" value=""></div>
-								<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="primary"></div>
-							</div>
-						</form>
-					</div>
-
-					<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
-					<script type="text/javascript">
-						(function ($) {
-							window.fnames = new Array();
-							window.ftypes = new Array();
-							fnames[0] = 'EMAIL';
-							ftypes[0] = 'email';
-							fnames[1] = 'FNAME';
-							ftypes[1] = 'text';
-							fnames[2] = 'LNAME';
-							ftypes[2] = 'text';
-							fnames[3] = 'COMPANY';
-							ftypes[3] = 'text';
-						}(jQuery));
-						var $mcj = jQuery.noConflict(true);
-					</script>
-					<!--End mc_embed_signup-->
-				</section>
 			</div>
 
 			{% include "_footer.njk" %}

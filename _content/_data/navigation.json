@@ -3,23 +3,10 @@
 		"label": "Home",
 		"url": "/"
 	},
+	
 	{
 		"label": "Getting Started",
-		"url": "/getting-started",
-		"items": [
-			{
-				"label" : "README",
-				"url" : "/getting-started/readme"
-			},
-			{
-				"label" : "Designers",
-				"url": "/getting-started/designers"
-			},
-			{
-				"label" : "Developers",
-				"url": "/getting-started/developers"
-			}
-		]
+		"url": "/getting-started/readme"
 	},
 	{
 		"label": "Design Process",
