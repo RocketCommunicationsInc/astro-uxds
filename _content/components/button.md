@@ -1,5 +1,5 @@
 ---
-title: Button New Button
+title: Button
 path: /components/button
 date: Last Modified
 layout: components.template.njk
