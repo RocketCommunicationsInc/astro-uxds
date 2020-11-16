@@ -1,5 +1,5 @@
 ---
-title: Button Cortney
+title: Button New Button
 path: /components/button
 date: Last Modified
 layout: components.template.njk
