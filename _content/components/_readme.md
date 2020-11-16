@@ -28,7 +28,7 @@ Example:
 CAUTION!: astro.css is a simple CSS stylesheet, it can easily be broken or distorted if it is loaded out of order or if a reset stylesheet is used.
 :::
 
-### Why Web Components
+### Why Web Components?
 
 When the Astro predecessor SATCOM components were initially created, they were specific to the SATCOM domain. The scope of use has since expanded to include other domains in space, allowing us to create a more agnostic set of components for use across a wider spectrum of space systems.
 
