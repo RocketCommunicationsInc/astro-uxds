@@ -1,14 +1,14 @@
 ---
-tags: components
+title: Button New Button
 path: /components/button
 date: Last Modified
 layout: components.template.njk
-title: Button
+tags: components
+theme: true
 demo: https://astro-components.netlify.app/iframe.html?id=components-buttons--all-button-variants&viewMode=story
+height: 260px
 storybook: components-buttons--standard-button
 git: rux-button
-height: 260px
-theme: true
 ---
 
 # Button
