@@ -1,5 +1,5 @@
 ---
-title: Accordion cortney
+title: Accordion
 path: /components/accordion
 date: Last Modified
 layout: components.template.njk
@@ -10,7 +10,7 @@ height: 210px
 storybook: components-accordion--accordion
 git: rux-accordion
 ---
-# Accordion new title
+# Accordion
 
 ::: caution
 Accordions are currently being revamped for a future release. The following legacy page is provided for reference.
