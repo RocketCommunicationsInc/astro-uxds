@@ -1,5 +1,5 @@
 ---
-title: Accordion
+title: Accordion cortney
 path: /components/accordion
 date: Last Modified
 layout: components.template.njk
