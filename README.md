@@ -1,12 +1,10 @@
 # Astro User Experience Design System Website (AstroUXDS.com)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/18f5e422-96af-4a6d-ace6-b37f61f89166/deploy-status)](https://app.netlify.com/sites/uxds/deploys)
-
-[Astro](https://www.astrouxds.com) is a collection of guidelines, patterns and components for designing space-based user interface applications.
+[Astro](/) is a collection of guidelines, patterns and components for designing space-based user interface applications.
 
 ## Local Use
 
-AstroUXDS.com can be run locally for use in secure locations or for development purposes. You will need [NodeJS](https://nodejs.org/en/) to run AstroUXDS.com locally and [Git](https://help.github.com/articles/set-up-git/) if you plan on contributing to AstroUXDS.com.
+AstroUXDS.com can be run locally for use in secure locations or for development purposes. You will need NodeJS to run AstroUXDS.com locally and Git if you plan on contributing to AstroUXDS.com.
 
 The live Astro site is available at https://www.astrouxds.com
 

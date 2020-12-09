@@ -19,7 +19,7 @@ Clock shows the current date and time, and optional AOS and LOS timers. It will 
 
 The clock is not an interactive component. Date and Time are always present. AOS, and LOS are optional. The time is UTC by default, but can be configured for any time zone.
 
-All digits should be displayed in the Roboto Mono font. This font's monospace number characters ensure that the display will not jitter as it changes. The font is already built into the Clock web component, but may be [downloaded](https://fonts.google.com/specimen/Roboto+Mono) for design use.
+All digits should be displayed in the Roboto Mono font. This font's monospace number characters ensure that the display will not jitter as it changes. The font is already built into the Clock web component.
 
 ## Examples
 

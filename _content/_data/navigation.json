@@ -23,10 +23,6 @@
 			{
 				"label": "Visual Design",
 				"url": "/design-process/visual-design"
-			},
-			{
-				"label": "Resources",
-				"url": "/design-process/resources"
 			}
 		]
 	},
@@ -83,10 +79,6 @@
 			{
 				"label": "Modeless Panes",
 				"url": "/patterns/modeless-panes"
-			},
-			{
-				"label": "Sample App",
-				"url": "/patterns/sample-app"
 			},
 			{
 				"label": "Table",

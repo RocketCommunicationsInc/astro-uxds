@@ -22,14 +22,8 @@ All classification and control markings on this page are for illustration purpos
 This page lists general guidance and components for marking practices. For the most up-to-date policies, use the following resource links which should bxe considered the prime authorities for CNSI (Classified National Security Information) and CUI (Controlled Unclassified Information). In addition to these requirements, each government agency may have their own rules to use with those listed below.
 
 
-### Classified National Security Information
-- [ISOO Training Aids](https://www.archives.gov/isoo/training/training-aids): Latest standards for CNSI from the ISOO (Information Security Oversight Office)
-- [ISOO Blog](https://isoo-overview.blogs.archives.gov/): Latest updates for ISOO topics including CNSI and CUI
 
 
-### Controlled Unclassified Information
-- [CUI Registry](https://www.archives.gov/cui): Latest standards for CUI from the NARA
-- [CUI Blog](https://isoo.blogs.archives.gov/): Latest updates for CUI including previews of upcoming policy changes
 
 The guidance on this page is focused on the use of, and rules for, classification and control markings in electronic application designs for government clients. Information about markings for emails, presentations, or other media (e.g. printed documents) can be found in the [Additional Resources](#additional-resources) linked at the end of the page.
 
@@ -136,21 +130,3 @@ Whenever classified or controlled information is present, use an Authority Block
 |------------------------ |
 | Show the source of classified or controlled information on a page with relevant contact information.|
 | Clarify if the classified information is originally classified or derivatively classified from another document. |
-
-## Additional Resources
-
-### Classified National Security Information
-- [ISOO Training Aids](https://www.archives.gov/isoo/training/training-aids): Latest standards for CNSI from the ISOO
-	- [32 CFR Parts 2001 and 2003 - Classified National Security Information; Final Rule (28 June 2010)](https://www.archives.gov/files/isoo/policy-documents/isoo-implementing-directive.pdf)
-	- [Marking Classified National Security Information, Rev. 4 (January 2018)](https://www.archives.gov/files/isoo/notices/marking-booklet-revision.pdf)
-- [ISOO Marking FAQs](https://www.archives.gov/isoo/faqs#50x-and-75x-requirements)
-- [ISOO Blog: Latest updates for ISOO topics including CNSI and CUI](https://isoo-overview.blogs.archives.gov/)
-- [CDSE: Information Security](https://www.cdse.edu/catalog/information-security.html)
-- [At Ease Computing, Inc. Online Store - U.S. Government Security Labels (SF)](http://www.at-ease-inc.com/sflabel.php)
-
-### Controlled Unclassified Information
-- [CUI Registry](https://www.archives.gov/cui): Latest standards for CUI from the NARA
-	- [32 CFR Part 2002 - Controlled Unclassified Information (CUI) (7-1-2018)](https://www.govinfo.gov/content/pkg/CFR-2018-title32-vol6/pdf/CFR-2018-title32-vol6-part2002.pdf)
-	- [CUI Marking Handbook V1.1 (6 December 2016)](https://www.archives.gov/files/cui/documents/20161206-cui-marking-handbook-v1-1-20190524.pdf)
-	- [CUI Coversheet and Labels: SF 901, 902, 903](https://isoo.blogs.archives.gov/2019/02/12/coversheets/)
-- [CUI Blog](https://isoo.blogs.archives.gov/): Latest updates for CUI including previews of upcoming policy changes

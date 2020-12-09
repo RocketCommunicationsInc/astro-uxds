@@ -45,7 +45,7 @@ Conveys part-to-whole data. Pie charts are very common, but research has shown t
 #### Donut Chart
 
 ![Donut Chart](/img/design-guidelines/data-viz-donut.png)
-Similar to a pie chart – but the center can be useful for additional information about the data (e.g. total). Example: [GRM Sample app](https://grm-dashboard.astrouxds.com/) - equipment tab
+Similar to a pie chart – but the center can be useful for additional information about the data (e.g. total).
 
 :::
 
@@ -117,7 +117,7 @@ Conveys an accurate representation of the distribution of numerical data. It is 
 #### Gantt Chart
 
 ![Gantt Chart](/img/design-guidelines/data-viz-gantt.png)
-A chart that depicts how a set of resources are used over time. Gantt charts illustrate the start, end, and duration of tasks (e.g. timeline or schedule). Example: [TT&C Sample app](https://ttc-monitor.astrouxds.com/) - timeline view
+A chart that depicts how a set of resources are used over time. Gantt charts illustrate the start, end, and duration of tasks (e.g. timeline or schedule).
 
 :::
 
@@ -220,4 +220,4 @@ A data visualization is useless if not designed to communicate clearly with the 
 
 :::
 
-There are many dedicated visualization tools such as [Tableau](https://www.tableau.com/), [QlikView](https://www.qlik.com/us), [HighCharts](https://www.highcharts.com/) and [d3.js](https://d3js.org/). Nothing can replace a modeling and statistic tool with good visualization capability. It helps tremendously in doing any exploratory data analysis as well as feature engineering. Always review the product licensing options before use.
+There are many dedicated visualization tools such as Tableau, QlikView, HighCharts and d3.js. Nothing can replace a modeling and statistic tool with good visualization capability. It helps tremendously in doing any exploratory data analysis as well as feature engineering. Always review the product licensing options before use.

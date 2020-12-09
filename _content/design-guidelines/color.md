@@ -11,7 +11,7 @@ title: Color
 
 Maintaining color consistency across applications is an essential part of what makes an application an Astro Application. In Astro four key colors (primary, secondary, tertiary and quaternary) along with their respective light and dark variants provide a formalized approach to color. Additional color palettes with light and dark variants are provided for status colors and non-status colors.
 
-Color palettes are provided here with their respective RGB and CSS values as well as their [CSS Custom Property](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables) names, which can be used in conjunction with the Astro CSS library. Example text overlays use the optimal colors for [WCAG contrast compliance](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html).
+Color palettes are provided here with their respective RGB and CSS values as well as their CSS Custom Property names, which can be used in conjunction with the Astro CSS library. Example text overlays use the optimal colors for WCAG contrast compliance.
 
 ::: note
 The Astro library makes use of CSS Custom Properties by offering semantic color assignment and support for live theme switching. Using the CSS Custom Properties instead of the RGB or Hex values will future-proof your application.
@@ -83,7 +83,7 @@ The quaternary color palette is typically used in light-themed Astro application
 
 ## Status Colors
 
-Status colors have been selected to adhere to[ MIL Standard 2525D](https://www.jcs.mil/Portals/36/Documents/Doctrine/Other_Pubs/ms_2525d.pdf), [MIL Standard 1472G](http://everyspec.com/MIL-STD/MIL-STD-1400-1499/MIL-STD-1472G_39997/) and WCAG 2.0. Deviation from the primary color for each status is non-compliant. See the [status page](/patterns/status-system) for additional information about status color usage.
+Status colors have been selected to adhere to MIL Standard 2525D, MIL Standard 1472G and WCAG 2.0. Deviation from the primary color for each status is non-compliant. See the [status page](/patterns/status-system) for additional information about status color usage.
 
 ## Non-Status Colors
 
