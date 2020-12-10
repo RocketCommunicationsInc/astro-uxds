@@ -4,7 +4,7 @@ path: /components/input-field
 date: Last Modified
 layout: components.template.njk
 title: Input Field
-demo: https://astro-components.netlify.app/iframe.html?id=components-form-elements--input-fields&viewMode=story
+demo: input-field
 storybook: components-form-elements--input-fields
 git:
 height: 310px

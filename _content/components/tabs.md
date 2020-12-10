@@ -4,7 +4,7 @@ path: /components/tabs
 date: Last Modified
 layout: components.template.njk
 title: Tabs
-demo: https://astro-components.netlify.com/iframe.html?id=components-tabs--tabs
+demo: tabs
 storybook: components-tabs--tabs
 git: rux-tabs
 height: 210px

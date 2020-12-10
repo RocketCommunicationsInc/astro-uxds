@@ -4,7 +4,7 @@ path: /components/accordion
 date: Last Modified
 layout: components.template.njk
 title: Accordion
-demo: https://astro-components.netlify.app/iframe.html?id=components-accordion--accordion
+demo: accordion
 storybook: components-accordion--accordion
 git: rux-accordion
 height: 210px

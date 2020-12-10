@@ -4,7 +4,7 @@ path: /components/pagination
 date: Last Modified
 layout: components.template.njk
 title: Pagination
-demo: https://rocketcom.bitbucket.io/_html-samples/samples/pagination.html
+demo: pagination
 git: 
 height: 300px
 ---

@@ -115,6 +115,10 @@
 				"url": "/components/checkbox"
 			},
 			{
+				"label": "Classification Markings",
+				"url": "/components/classification-markings"
+			},
+			{
 				"label": "Clock",
 				"url": "/components/clock"
 			},

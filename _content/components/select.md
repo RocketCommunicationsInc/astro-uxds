@@ -4,7 +4,7 @@ path: /components/select
 date: Last Modified
 layout: components.template.njk
 title: Select Menu
-demo: https://astro-components.netlify.com/iframe.html?id=components-form-elements--select-menu
+demo: select
 storybook: components-form-elements--select-menu
 height: 130px
 theme: true

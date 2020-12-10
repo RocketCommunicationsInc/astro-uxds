@@ -13,11 +13,15 @@
 
 .demo-container__sample-links {
   display: flex;
-  font-size: 0.9rem;
-  justify-content: flex-end;
+  font-size: 0.75rem;
+  justify-content: flex-start;
   margin-top: 1rem;
   border-top: 1px solid var(--demo-container-border-color, rgba(255, 255, 255, 0.25));
-  padding: 1rem 1rem 0; }
+  padding:0; }
+  p {
+    margin: .25rem 0 0 0;
+    opacity: 0.8;
+  }
   .demo-container__sample-links a {
     display: flex; }
     .demo-container__sample-links a::before {
