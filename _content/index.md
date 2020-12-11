@@ -15,7 +15,7 @@ title: 'Astro: Space UX Design System'
 	}
 </style>
 
-<img src="/img/_site/forge-logo.png">
+
 
 <section class="copyright">
 
