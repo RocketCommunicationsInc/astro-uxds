@@ -443,13 +443,13 @@
             {
               "numeral": 1,
               "rule": "A determinate Progress indicator shall indicate an operation that has a well-defined duration.",
-              "figure": "/img/components/determinate-progress-do.png",
+              "figure": "/img/components/determinate-progress-do-1.png",
               "status": "current"
             },
             {
               "numeral": 2,
               "rule": "An indeterminate Progress indicator shall indicate an operation that has unknown duration.",
-              "figure": "/img/components/indeterminate-progress-do.png",
+              "figure": "/img/components/indeterminate-progress-do-1.png",
               "status": "current"
             },
             {
