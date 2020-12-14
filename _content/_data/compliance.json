@@ -277,7 +277,7 @@
             {
               "numeral": 3,
               "rule": "Percentage Monitoring Icons shall depict a value between 0 and 100 as both an arc and numeric display.",
-              "figure": "/img/components/percentage-monitoring-graphic-cms.png",
+              "figure": "/img/components/percentage-monitoring-graphic.png",
               "status": "current"
             },
             {

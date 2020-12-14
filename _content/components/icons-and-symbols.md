@@ -37,7 +37,7 @@ These icons represent objects, equipment, and concepts that are being administer
 
 Percentage Monitoring Icons depict a value between 0 and 100 as an arc and a numeric display. Ranges within the arc may be mapped to the standard [Astro Status Colors](/patterns/status-system). In this example the range containing 80% is mapped to Serious.
 
-![Anatomy of the monitoring progress icon](/img/components/percentage-monitoring-graphic-cms.png "Anatomy of the monitoring progress icon")
+![Anatomy of the monitoring progress icon](/img/components/percentage-monitoring-graphic.png "Anatomy of the monitoring progress icon")
 
 ### Action Icons
 
