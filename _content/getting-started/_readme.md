@@ -45,9 +45,9 @@ Astro is tested & supported in major 'evergreen' web browsers (the latest browse
 
 ### Versioning
 
-Current version: Astro 4.5
+Current version: {{ meta.version }}
 
-Last updated: Wed Jul 08 2020
+Last updated: {{ page.date }}
 
 ### Astro Licensing
 
