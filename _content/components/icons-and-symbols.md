@@ -37,7 +37,7 @@ These icons represent objects, equipment, and concepts that are being administer
 
 Percentage Monitoring Icons depict a value between 0 and 100 as an arc and a numeric display. Ranges within the arc may be mapped to the standard [Astro Status Colors](/patterns/status-system). In this example the range containing 80% is mapped to Serious.
 
-![Anatomy of the monitoring progress icon](/img/components/percentage-monitoring-graphic-cms.png "Anatomy of the monitoring progress icon")
+![Anatomy of the monitoring progress icon](/img/components/percentage-monitoring-graphic.png "Anatomy of the monitoring progress icon")
 
 ### Action Icons
 
@@ -89,7 +89,7 @@ Events that require some user attention, but no immediate response, may be indic
 
 This Notification Symbol shows that five events related to a Satellite have occurred. You may hyperlink indicators to reveal a deeper view of relevant [Notification](/patterns/notifications) information. You may also link to the general Log.
 
-![Anatomy of the notification count symbol.](/img/components/notifications-symbol.png "Anatomy of the notification count symbol.")
+![Anatomy of the notification count symbol.](/img/components/notification-symbols.png "Anatomy of the notification count symbol.")
 
 ### Labeling
 
