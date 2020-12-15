@@ -316,7 +316,7 @@
             {
               "numeral": 3,
               "rule": "Input Field labels shall be aligned to the top left of the field.",
-              "figure": "https://compliance--astrouxds.netlify.app/img/components/input-fields-do.png",
+              "figure": "/img/components/input-fields-do-1.png",
               "status": "current"
             },
             {
