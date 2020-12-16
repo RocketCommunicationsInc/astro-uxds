@@ -53,7 +53,7 @@ Last updated: {{ page.date }}
 
 Astro is provided as an open-source tool under the **Astro Space UX Design System Interim License Agreement**:
 
-> Copyright © 2020 Rocket Communications, Inc.
+> Copyright © {{ meta.copyright }} Rocket Communications, Inc.
 > 
 > The Astro Space UX Design System, which includes user workflows, interfaces, visual components, system functionality, sample code, style guides, best practices guidelines, sample applications, and related sample software, all of which is publicly available at www.astroUXDS.com (collectively referred to herein as the “Software”), is developed and maintained by Rocket Communications, Inc. (“Rocket”) through a contract with the United States government.
 > 
