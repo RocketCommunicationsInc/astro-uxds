@@ -16,7 +16,7 @@ When activated, Select Menus allow users to select a value from a list of values
 
 ## Rules of Thumb
 
-* Selects should display a list of multiple values..
+* Selects should display a list of multiple values.
 * Selects may default to a state that instructs users what to do. For example: “Select Modem” or a default choice like “Modem X.”
 * When the user knows what they’re looking for in advance, consider using a text field with client-side auto-complete functionality instead.
 
