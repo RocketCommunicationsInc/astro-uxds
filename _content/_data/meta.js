@@ -1,4 +1,4 @@
 module.exports = {
-  version: "4.8",
+  version: "5.0",
   copyright: new Date().getFullYear()
 };
