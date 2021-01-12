@@ -1,5 +1,6 @@
 {% extends "base.template.njk" %}
-{% include "./macros/macros.njk" %}
+{# {% from "macros/macros.njk from demoLink" %} #}
+
 
 {% block content %}
 
@@ -14,9 +15,11 @@
 
 			<iframe id="live-sample" class="live-sample" scrolling="no" src="{{ demo }}" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
 
+			{# {{ demoLink({{ demo }}) }} #}
+
 			<div class="demo-container__sample-links">
 				{% if storybook %}
-					<a class="sample-links__storybook" href="https://astro-components.netlify.com/?path=/story/{{storybook}}">
+					<a class="sample-links__storybook" href="https://next--astro-components.netlify.com/?path=/story/{{storybook}}">
 						Storybook
 					</a>
 				{% endif %}

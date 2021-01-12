@@ -5,9 +5,7 @@ tags: components
 path: /components/accordion
 layout: components.template.njk
 theme: false
-demo: true
-prod-dem: https://astro-components.netlify.app/iframe.html?id=components-accordion--accordion
-draft-demo: https://www.facebook.com
+demo: https://next--astro-components.netlify.app/iframe.html?id=components-accordion--accordion
 height: 210px
 storybook: components-accordion--accordion
 git: rux-accordion
