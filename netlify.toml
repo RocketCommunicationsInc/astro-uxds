@@ -87,12 +87,10 @@ package = "netlify-plugin-checklinks"
 	[plugins.inputs]
   entryPoints = [
     "*.html",
-  ]
-
-	
-  recursive = true
+  ]	
+  recursive = false
   pretty = true
   #skipPatterns = []
   #todoPatterns = []
-  checkExternal = true
+  checkExternal = false
   followSourceMaps = false
