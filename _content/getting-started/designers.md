@@ -101,7 +101,7 @@ Sketch files can be imported into Adobe XD. Symbols created in a Sketch file wil
 Figma is not currently supported, but Figma does provide some workarounds for users who wish to import Sketch files.
 :::
 
-[Import files from Sketch](https://help.figma.com/hc/en-us/articles/360040514273-Import-files-from-Sketch)
+[Import files from Sketch](https://help.figma.com/hc/en-us/articles/360040514273-Import-files-from-Sketch/)
 [What to expect when moving from Sketch to Figma](https://www.figma.com/best-practices/what-to-expect-when-moving-from-sketch-to-figma/)
 
 
