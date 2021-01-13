@@ -70,7 +70,7 @@
             {
               "numeral": 1,
               "rule": "Elements indicating state or status shall use only the specified [Status Symbols](/patterns/status-system/).",
-              "figure": "/img/design-guidelines/status-system-fundamentals.png",
+              "figure": "/img/patterns/status-system-fundamentals.png",
               "status": "new"
             },
             {
