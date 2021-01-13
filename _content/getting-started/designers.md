@@ -132,7 +132,6 @@ Each page on astrouxds.com has a support button at the bottom of the page for te
 
 **Web Design**
 [Stackoverflow](https://stackoverflow.com/) – Questions and problem solving
-[CodePen](https://codepen.io/) - Working examples of Web code and the ability to experiment “live”
 [SmashingMagazine](https://www.smashingmagazine.com/) - HTML, CSS, JS, UX/UI, typography and design
 [Alistapart](https://alistapart.com/) - Web design, development, standards, and best practices
 [Abookapart](https://abookapart.com/) - Books for web design, development, standards, and best practices
