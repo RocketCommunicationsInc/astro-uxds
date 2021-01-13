@@ -46,7 +46,6 @@ module.exports = function(eleventyConfig) {
   });
 
 
-
   /* Adds an do/dont styling to all do/dont images */
   eleventyConfig.addNunjucksFilter("doDont", function(value) {
     const regex = /<figcaption>(Don['|’]t): /;
