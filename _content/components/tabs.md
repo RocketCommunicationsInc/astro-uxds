@@ -35,10 +35,6 @@ Tabs in Astro Applications are used to divide major areas of content and to indi
 
 For use outside of main navigation, a more compact tab component can be used.
 
-:::caution
-Caution Do Missing sample of interior tabs. New format only supports a single demo as of now
-:::
-
 ## Rules of Thumb
 
 - Use only one row of Tabs.
