@@ -4,7 +4,7 @@ path: /components/select
 date: Last Modified
 layout: components.template.njk
 title: Select Menu
-demo: https://astro-components.netlify.com/iframe.html?id=components-form-elements--select-menu
+demo: https://next--astro-components.netlify.com/iframe.html?id=components-form-elements--select-menu
 storybook: components-form-elements--select-menu
 git:
 css: select-menu-README.md
