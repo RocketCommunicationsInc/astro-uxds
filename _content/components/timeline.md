@@ -4,7 +4,7 @@ path: /components/timeline
 date: Last Modified
 layout: components.template.njk
 title: Timeline
-demo: https://astro-components.netlify.app/iframe.html?id=components-timeline--timeline&viewMode=story
+demo: https://next--astro-components.netlify.app/iframe.html?id=components-timeline--timeline&viewMode=story
 storybook: components-timeline--timeline
 git: rux-timeline
 height: 160px

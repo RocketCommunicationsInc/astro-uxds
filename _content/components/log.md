@@ -4,7 +4,7 @@ path: /components/log
 date: Last Modified
 layout: components.template.njk
 title: Log
-demo: https://astro-components.netlify.com/iframe.html?id=components-log--log
+demo: https://next--astro-components.netlify.com/iframe.html?id=components-log--log
 storybook: components-log--log
 git: rux-log
 height: 420px
