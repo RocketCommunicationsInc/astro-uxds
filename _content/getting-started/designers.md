@@ -101,7 +101,7 @@ Sketch files can be imported into Adobe XD. Symbols created in a Sketch file wil
 Figma is not currently supported, but Figma does provide some workarounds for users who wish to import Sketch files.
 :::
 
-[Import files from Sketch](https://help.figma.com/hc/en-us/articles/360040514273-Import-files-from-Sketch)
+[Import files from Sketch](https://help.figma.com/hc/en-us/articles/360040514273-Import-files-from-Sketch/)
 [What to expect when moving from Sketch to Figma](https://www.figma.com/best-practices/what-to-expect-when-moving-from-sketch-to-figma/)
 
 
@@ -132,7 +132,6 @@ Each page on astrouxds.com has a support button at the bottom of the page for te
 
 **Web Design**
 [Stackoverflow](https://stackoverflow.com/) – Questions and problem solving
-[CodePen](https://codepen.io/) - Working examples of Web code and the ability to experiment “live”
 [SmashingMagazine](https://www.smashingmagazine.com/) - HTML, CSS, JS, UX/UI, typography and design
 [Alistapart](https://alistapart.com/) - Web design, development, standards, and best practices
 [Abookapart](https://abookapart.com/) - Books for web design, development, standards, and best practices
