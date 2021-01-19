@@ -4,7 +4,7 @@ path: /components/icons-and-symbols
 date: Last Modified
 layout: components.template.njk
 title: Icons and Symbols
-demo: https://astro-components.netlify.com/iframe.html?id=components-icons-symbols--monitoring-icon-set
+demo: components-icons-symbols--monitoring-icon-set
 storybook: components-icons-symbols--monitoring-icon-set
 git: rux-icon
 height: 130

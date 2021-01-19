@@ -4,7 +4,7 @@ path: /components/notification-banner
 date: Last Modified
 layout: components.template.njk
 title: Notification Banner
-demo: id=components-notification--all-notification-banners&viewMode=story
+demo: components-notification--all-notification-banners
 storybook: components-notification--all-notification-banners
 git: rux-notification
 height: 440px

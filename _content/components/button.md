@@ -4,7 +4,7 @@ path: /components/button
 date: Last Modified
 layout: components.template.njk
 title: Button
-demo: id=components-buttons--all-button-variants&viewMode=story
+demo: components-buttons--all-button-variants
 storybook: components-buttons--standard-button
 git: rux-button
 height: 260px
@@ -12,11 +12,6 @@ theme: true
 ---
 
 # Button
-
-{{ meta.version }}
-{{ meta.demoURL }}
-{{ meta.branch }}
-{{ meta.environment }}
 
 Action Buttons allow users to trigger actions by clicking, tapping, or pressing a corresponding key on a keyboard, such as the “Enter” key.
 
