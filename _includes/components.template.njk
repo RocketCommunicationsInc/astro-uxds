@@ -1,23 +1,24 @@
 {% extends "base.template.njk" %}
-{# {% from "macros/macros.njk from demoLink" %} #}
 
 
 {% block content %}
 
 	<link rel="stylesheet" href="/css/chapters.css">
 	{# <link rel="stylesheet" href="/css/components.css"> #}
-	<link rel="stylesheet" href="/css/sample.css">
+	<link rel="stylesheet" href="/css/sample. ">
 
 	<h1>{{ title }}</h1>
 	{% if demo %}
+		
+		<h1>{{ hi}}</h1>
 
 		<div class="demo-container">
-
-			<iframe id="live-sample" class="live-sample" scrolling="no" src="{{ demo }}" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
+		
+			<iframe src="{{ demo }}" id="live-sample" class="live-sample" scrolling="no" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
 
 			<div class="demo-container__sample-links">
 				{% if storybook %}
-					<a class="sample-links__storybook" href="https://next--astro-components.netlify.com/?path=/story/{{storybook}}">
+					<a class="sample-links__storybook" href="{{ demo | checkUrl }}">
 						Storybook
 					</a>
 				{% endif %}
@@ -30,6 +31,7 @@
 					<a class="sample-links__github" href="https://github.com/RocketCommunicationsInc/astro-components/blob/master/src/css/documentation//{{css}}">Github</a>
 				{% endif %}
 			</div>
+			
 		</div>
 	{% endif %}
 

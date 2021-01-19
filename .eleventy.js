@@ -36,6 +36,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownLib);
 
   eleventyConfig.addNunjucksFilter("markdownify", markdownString => markdownLib.renderInline(markdownString));
+  
+  
 
 
   /* Removes the h1 element from components to enabled inserting live sample */
@@ -64,11 +66,25 @@ module.exports = function(eleventyConfig) {
     return value;
   });
 
+  eleventyConfig.addFilter("checkUrl", function(value){
+	let envUrl;
+	let envContext = value;
+	
+	if( envContext == "https://next--astro-components.netlify.app/iframe.html?id=components-accordion--accordion"){
+		envUrl = 'https://twitter.com';
+	}
+	
+
+	console.log(process.env.REPOSITORY_URL);
+	return envUrl;
+  });
+
   // Manually move static content
   eleventyConfig.addPassthroughCopy({ img: "img/_site" });
   eleventyConfig.addPassthroughCopy({ "_content/img": "img" });
   eleventyConfig.addPassthroughCopy({ "_content/img": "img" });
   eleventyConfig.addPassthroughCopy({ "_content/**/*/img/*": "components/img" });
+  eleventyConfig.addPassthroughCopy({ "_content/*.txt": "" });
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("fonts");
@@ -114,4 +130,6 @@ module.exports = function(eleventyConfig) {
       includes: "../_includes"
     }
   };
+
+  
 };

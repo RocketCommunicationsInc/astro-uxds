@@ -1,0 +1,2 @@
+# Redirects from what the browser requests to what we serve
+https://next--astro-components.netlify.app/iframe.html?id=components-accordion--accordion    /www.facebook.com
