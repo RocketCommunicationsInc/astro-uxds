@@ -1,3 +1,6 @@
+[context.branch-deploy.environment]
+DEMO_URL = "https://rocketcom.com"
+
 [[redirects]]
 	from = "/ui-components/*"
 	to = "/components/:splat"
