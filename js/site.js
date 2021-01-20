@@ -61,6 +61,48 @@
       }
     }
   }
+
+  /*
+   **
+   ** Domain checker for storybook component previews
+   **
+   */
+
+  function envChecker(){
+	const domLocate = window.location.hostname;
+	const demoCont = document.querySelector('.demo-container');
+	const demoPane = document.querySelector('.live-sample');
+	const demoLink = document.querySelector('.sample-links__storybook');
+	const demoType = demoPane.getAttribute('name');
+	const demo = demoPane.getAttribute('src');
+	let demoUrl = `https://next--astro-components.netlify.app/iframe.html?id=${demoType}&viewMode=story`;
+	let envLink;
+
+	// alert(demo);
+	//demo container exists
+	if(demoCont){
+		
+		if(demo.includes('bitbucket')){
+			// use bitbucket demo link if present
+			envLink = demo;
+		} else {
+			//check domain location & replace url prefix		
+			if(domLocate == 'astrouxds.com' || domLocate== 'astrouxds.netlify.app'){
+				envLink = demoUrl.replace('next--','');
+			} else {
+				envLink = demoUrl;
+				demoCont.classList.add('next-demo');
+			}
+
+		}
+		
+	}
+
+	//set demo preview and storybook links
+	demoPane.setAttribute('src', envLink);
+	demoLink.setAttribute('href', envLink);
+	
+  };
   /*
    **
    **
@@ -132,6 +174,9 @@
         });
       }
 	}
+
+	// envChecker function
+	envChecker();
 	
 	
   }

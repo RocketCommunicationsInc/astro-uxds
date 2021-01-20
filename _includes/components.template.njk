@@ -7,18 +7,16 @@
 	{# <link rel="stylesheet" href="/css/components.css"> #}
 	<link rel="stylesheet" href="/css/sample. ">
 
-	<h1>{{ DEMO_URL }}</h1>
+	<h1>{{ title}}</h1>
 	{% if demo %}
 		
-		<h1>{{ hi}}</h1>
-
 		<div class="demo-container">
 		
-			<iframe src="{{ demo }}" id="live-sample" class="live-sample" scrolling="no" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
+			<iframe src="{{ demo }}" name="{{ storybook }}" id="live-sample" class="live-sample" scrolling="no" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
 
 			<div class="demo-container__sample-links">
 				{% if storybook %}
-					<a class="sample-links__storybook" href="{{ demo | checkUrl }}">
+					<a class="sample-links__storybook" href="{{ demo }}">
 						Storybook
 					</a>
 				{% endif %}
