@@ -78,7 +78,6 @@
 	let demoUrl = `https://next--astro-components.netlify.app/iframe.html?id=${demoType}&viewMode=story`;
 	let envLink;
 
-	// alert(demo);
 	//demo container exists
 	if(demoCont){
 		
@@ -87,7 +86,7 @@
 			envLink = demo;
 		} else {
 			//check domain location & replace url prefix		
-			if(domLocate == 'astrouxds.com' || domLocate== 'astrouxds.netlify.app'){
+			if(domLocate == 'astrouxds.com' || domLocate == 'astrouxds.netlify.app'){
 				envLink = demoUrl.replace('next--','');
 			} else {
 				envLink = demoUrl;
