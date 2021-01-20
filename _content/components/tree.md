@@ -4,7 +4,7 @@ path: /components/tree
 date: Last Modified
 layout: components.template.njk
 title: Tree
-demo: https://astro-components.netlify.app/iframe.html?id=components-tree--tree&viewMode=story
+demo: components-tree--tree
 storybook: components-tree--tree
 git: rux-tree
 height: 480px

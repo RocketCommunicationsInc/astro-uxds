@@ -4,7 +4,7 @@ path: /components/checkbox
 date: Last Modified
 layout: components.template.njk
 title: Checkbox
-demo: https://next--astro-components.netlify.app/iframe.html?id=components-form-elements--checkboxes
+demo: components-form-elements--checkboxes
 storybook: components-form-elements--checkboxes
 git:
 height: 250px

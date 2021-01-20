@@ -4,7 +4,7 @@ path: /components/tabs
 date: Last Modified
 layout: components.template.njk
 title: Tabs
-demo: https://next--astro-components.netlify.com/iframe.html?id=components-tabs--tabs
+demo: components-tabs--tabs
 storybook: components-tabs--tabs
 git: rux-tabs
 height: 210px
@@ -34,10 +34,6 @@ Tabs in Astro Applications are used to divide major areas of content and to indi
 ## Interior/Compact Tabs
 
 For use outside of main navigation, a more compact tab component can be used.
-
-:::caution
-Caution Do Missing sample of interior tabs. New format only supports a single demo as of now
-:::
 
 ## Rules of Thumb
 

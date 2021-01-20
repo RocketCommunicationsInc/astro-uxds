@@ -5,7 +5,7 @@ tags: components
 path: /components/accordion
 layout: components.template.njk
 theme: false
-demo: https://next--astro-components.netlify.app/iframe.html?id=components-accordion--accordion
+demo: components-accordion--accordion
 height: 210px
 storybook: components-accordion--accordion
 git: rux-accordion
@@ -31,14 +31,17 @@ An Accordion is a device which presents a hierarchical set of items in which onl
 
 Clicking on an item in an Accordion selects and expands that item. If there are any child items in the hierarchy below, those items are automatically displayed. Items are indented according to their depth.
 
+:::two-col
+
 ![Chapter 1 is selected, and its children are displayed.](/img/components/accordion-2.png "Do: Item 1 is selected, and its children are displayed.")
-Chapter 1 is selected, and its children are displayed.
+
+
 
 ![If a child item of the current selection is selected, that entire branch remains displayed.](/img/components/accordion-3.png "If a child item of the current selection is selected, that entire branch remains displayed.")
-If a child item of the current selection is selected, that entire branch remains displayed.
+
+
 
 ![If a different branch is selected, for example, by clicking on a different top level item, the current branch automatically closes and the new branch opens.](/img/components/accordion-4.png "If a different branch is selected, for example, by clicking on a different top level item, the current branch automatically closes and the new branch opens.")
-If a different branch is selected, for example, by clicking on a different top level item, the current branch automatically closes and the new branch opens.
 
-![If a child item of the current selection is selected, that entire branch remains displayed.](/img/components/accordion-5.png "If a child item of the current selection is selected, that entire branch remains displayed.")
-If a child item of the current selection is selected, that entire branch remains displayed.
+
+:::

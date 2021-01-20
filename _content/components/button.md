@@ -4,8 +4,8 @@ path: /components/button
 date: Last Modified
 layout: components.template.njk
 title: Button
-demo: https://next--astro-components.netlify.app/iframe.html?id=components-buttons--all-button-variants
-storybook: components-buttons--all-button-variants
+demo: components-buttons--all-button-variants
+storybook: components-buttons--standard-button
 git: rux-button
 height: 260px
 theme: true

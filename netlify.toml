@@ -84,3 +84,4 @@ DEMO_URL = "https://rocketcom.com"
 	to = "/getting-started/readme"
 	status = 301
 	force = true
+
