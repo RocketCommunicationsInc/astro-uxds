@@ -46,7 +46,6 @@ module.exports = function(eleventyConfig) {
   });
 
 
-
   /* Adds an do/dont styling to all do/dont images */
   eleventyConfig.addNunjucksFilter("doDont", function(value) {
     const regex = /<figcaption>(Don['|’]t): /;
@@ -67,7 +66,6 @@ module.exports = function(eleventyConfig) {
 
   // Manually move static content
   eleventyConfig.addPassthroughCopy({ img: "img/_site" });
-  eleventyConfig.addPassthroughCopy({ "_content/img": "img" });
   eleventyConfig.addPassthroughCopy({ "_content/img": "img" });
   eleventyConfig.addPassthroughCopy({ "_content/**/*/img/*": "components/img" });
   eleventyConfig.addPassthroughCopy("js");
@@ -106,6 +104,12 @@ module.exports = function(eleventyConfig) {
     savePasswordHeaders();
   }
   console.log(process.env.NETLIFY, process.env.BRANCH, process.env.CONTEXT);
+
+  
+  let demoURL = "https://astro-components.netlify.app/iframe.html?"
+  if (process.env.NETLIFY && process.env.BRANCH === "draft") {
+    demoURL = "http://next--astro-components.netlify.app?"
+  }
 
   // You can return your Config object (optional).
   return {
