@@ -103,13 +103,8 @@ module.exports = function(eleventyConfig) {
   if (process.env.NETLIFY && process.env.BRANCH === "compliance-dev") {
     savePasswordHeaders();
   }
-  console.log(process.env.NETLIFY, process.env.BRANCH, process.env.CONTEXT);
+  //console.log(process.env.NETLIFY, process.env.BRANCH, process.env.CONTEXT);
 
-  
-  let demoURL = "https://astro-components.netlify.app/iframe.html?"
-  if (process.env.NETLIFY && process.env.BRANCH === "draft") {
-    demoURL = "http://next--astro-components.netlify.app?"
-  }
 
   // You can return your Config object (optional).
   return {
