@@ -1,9 +1,9 @@
 ---
 tags: components
-path: /components/template
+path: /components/sign-in
 date: Last Modified
 layout: components.template.njk
-title: Template
+title: Sign In
 demo: components-buttons--all-button-variants
 storybook: components-buttons--standard-button
 git: rux-button
@@ -11,7 +11,7 @@ height: 260px
 theme: true
 ---
 
-# Component Template
+# Sign In
 
 Content
 
@@ -20,6 +20,8 @@ Content
 - Rule of Thumb
 
 ## Appearance and Behavior
+
+Some stuff about appearance and behavior
 
 ## Examples
 
