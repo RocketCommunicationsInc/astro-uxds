@@ -41,7 +41,7 @@
 			{
 			  "numeral": 1,
               "rule": "The Roboto font shall be used for content and components.",
-              "status": "new"	
+              "status": "new"
 			},
             {
               "numeral": 2,
@@ -141,6 +141,11 @@
             {
               "numeral": 8,
               "rule": "Outline Button style shall indicate the less preferred option in grouped Buttons.",
+              "status": "current"
+            },
+            {
+              "numeral": 9,
+              "rule": "Primary buttons indicating preferred user actions shall be placed to the right of buttons used for secondary user actions when in Button groups.",
               "status": "current"
             }
           ]
