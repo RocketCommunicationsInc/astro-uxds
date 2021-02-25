@@ -91,7 +91,7 @@
     	"*.html",
   	]
 
-  	recursive = true
+  	recursive = false
   	pretty = true
   	skipPatterns = ["#"]
   	todoPatterns = ["#"]
