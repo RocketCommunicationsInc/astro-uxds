@@ -145,7 +145,7 @@
             },
             {
               "numeral": 9,
-              "rule": "Primary buttons indicating preferred user actions shall be placed to the right of buttons used for secondary user actions when in Button groups.",
+              "rule": "Primary Buttons indicating preferred user actions shall be placed to the right of buttons used for secondary user actions when in Button groups.",
               "status": "current"
             }
           ]
