@@ -16,7 +16,9 @@ theme: true
 The Sign in page is often the first interaction a user has with your product. This entry point experience is an important moment in establishing your product’s brand and experience and sets the tone for their overall experience with the product.
 “Signing in” provides an authentication method to validate a user’s unique identification and allow them access to protected areas of an application. A user provides their required identification and, if correct, they are provided access to the product.
 
- ::: caution When implementing validation and security measures Astro users should consult with their organization's IT/Security departments and adapt these patterns to suit the requirements of their organization’s best practices and security needs. :::
+::: caution 
+When implementing validation and security measures Astro users should consult with their organization's IT/Security departments and adapt these patterns to suit the requirements of their organization’s best practices and security needs. 
+:::
 
 The login page is presented to users in the following scenarios:
 When a user wants to gain access to an application.
@@ -92,35 +94,25 @@ Ensure that users can tab through the login form and navigate the page using onl
 
 ## Examples
 
-:::dos-donts
+::: two-col
 ![Do: Mask sensitive data](/img/components/blank.png "Do: Something")
-Do: Mask sensitive data
 
-![Don't: Display sensitive data unmasked by default](/img/components/component-template-dont-1.png "Don't: Something")
-Don't: Display sensitive data unmasked by default
-:::
+![Don't: Display sensitive data unmasked by default](/img/components/blank.png "Don't: Something")
 
 ![Do: Use clear button labels that describe specific tasks like "Sign in" or "Update Password"](/img/components/blank.png "Do: Something")
-Do: Use clear button labels that describe specific tasks like "Sign in" or "Update Password"
 
-![Don't: Use vague button labels like "Submit" to guide users through authentication flows](/img/components/component-template-dont-1.png "Don't: Something")
-Don't: Use vague button labels like "Submit" to guide users through authentication flows
-:::
+![Don't: Use vague button labels like "Submit" to guide users through authentication flows](/img/components/blank.png "Don't: Something")
+
 ![Do: Use clear and concise messaging to help users understand what went wrong and give users steps to resolve the error.   e.g. let users  know when the caps lock is on.](/img/components/blank.png "Do: Something")
-Do: Use clear and concise messaging to help users understand what went wrong and give users steps to resolve the error.   e.g. let users  know when the caps lock is on.
 
-![Don't: Provide field-specific information that may violate your IT/Security standards](/img/components/component-template-dont-1.png "Don't: Something")
-Don't: Provide field-specific information that may violate your IT/Security standards
-:::
+![Don't: Provide field-specific information that may violate your IT/Security standards](/img/components/blank.png "Don't: Something")
+
 ![Do: Guide users through authentication flows with a primary, highly visible button on each screen](/img/components/blank.png "Do: Something")
-Do: Guide users through authentication flows with a primary, highly visible button on each screen
 
-![Don't: Draw attention to secondary and tertiary tasks with competing buttons and calls to action](/img/components/component-template-dont-1.png "Don't: Something")
-Don't: Draw attention to secondary and tertiary tasks with competing buttons and calls to action
+![Don't: Draw attention to secondary and tertiary tasks with competing buttons and calls to action](/img/components/blank.png "Don't: Something")
 
 ![Do: Find small efficiencies in the flow like auto-focusing on input boxes](/img/components/blank.png "Do: Something")
-Do: Find small efficiencies in the flow like auto-focusing on input boxes
 
-![Don't: Add unnecessary steps to the interaction like requiring users to click into form fields](/img/components/component-template-dont-1.png "Don't: Something")
-Don't: Add unnecessary steps to the interaction like requiring users to click into form fields
+![Don't: Add unnecessary steps to the interaction like requiring users to click into form fields](/img/components/blank.png "Don't: Something")
+
 :::
