@@ -93,32 +93,32 @@ Ensure that users can tab through the login form and navigate the page using onl
 ## Examples
 
 :::dos-donts
-![Do: Mask sensitive data](/img/components/component-template-do-1.png "Do: Something")
+![Do: Mask sensitive data](/img/components/blank.png "Do: Something")
 Do: Mask sensitive data
 
 ![Don't: Display sensitive data unmasked by default](/img/components/component-template-dont-1.png "Don't: Something")
 Don't: Display sensitive data unmasked by default
 :::
 
-![Do: Use clear button labels that describe specific tasks like "Sign in" or "Update Password"](/img/components/component-template-do-1.png "Do: Something")
+![Do: Use clear button labels that describe specific tasks like "Sign in" or "Update Password"](/img/components/blank.png "Do: Something")
 Do: Use clear button labels that describe specific tasks like "Sign in" or "Update Password"
 
 ![Don't: Use vague button labels like "Submit" to guide users through authentication flows](/img/components/component-template-dont-1.png "Don't: Something")
 Don't: Use vague button labels like "Submit" to guide users through authentication flows
 :::
-![Do: Use clear and concise messaging to help users understand what went wrong and give users steps to resolve the error.   e.g. let users  know when the caps lock is on.](/img/components/component-template-do-1.png "Do: Something")
+![Do: Use clear and concise messaging to help users understand what went wrong and give users steps to resolve the error.   e.g. let users  know when the caps lock is on.](/img/components/blank.png "Do: Something")
 Do: Use clear and concise messaging to help users understand what went wrong and give users steps to resolve the error.   e.g. let users  know when the caps lock is on.
 
 ![Don't: Provide field-specific information that may violate your IT/Security standards](/img/components/component-template-dont-1.png "Don't: Something")
 Don't: Provide field-specific information that may violate your IT/Security standards
 :::
-![Do: Guide users through authentication flows with a primary, highly visible button on each screen](/img/components/component-template-do-1.png "Do: Something")
+![Do: Guide users through authentication flows with a primary, highly visible button on each screen](/img/components/blank.png "Do: Something")
 Do: Guide users through authentication flows with a primary, highly visible button on each screen
 
 ![Don't: Draw attention to secondary and tertiary tasks with competing buttons and calls to action](/img/components/component-template-dont-1.png "Don't: Something")
 Don't: Draw attention to secondary and tertiary tasks with competing buttons and calls to action
 
-![Do: Find small efficiencies in the flow like auto-focusing on input boxes](/img/components/component-template-do-1.png "Do: Something")
+![Do: Find small efficiencies in the flow like auto-focusing on input boxes](/img/components/blank.png "Do: Something")
 Do: Find small efficiencies in the flow like auto-focusing on input boxes
 
 ![Don't: Add unnecessary steps to the interaction like requiring users to click into form fields](/img/components/component-template-dont-1.png "Don't: Something")
