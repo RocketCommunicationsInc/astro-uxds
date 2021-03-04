@@ -14,13 +14,22 @@ theme: true
 
 # Select Menu
 
-When activated, Select Menus allow users to select a value from a list of values. Once a value is selected, the Select Menu displays the selected value.
+When activated, Select Menus allow users to select a value from a list. Once a value is selected, the Select Menu displays the selected value.
 
 ## Rules of Thumb
 
 - Select Menus should display a list of multiple values.
+- When it will not affect usability and is appropriate to the user's cognitive flow: default a selected value.
 - Select Menus may default to a state that instructs users what to do. For example: “Select Modem” or a default choice like “Modem X.”
 - When the user knows what they’re looking for in advance, consider using a text field with client-side auto-complete functionality instead.
+- Consider including advanced functionality enhancing behavior, such as auto-complete and intelligent filters.
+- Items in a list should be ordered in a meaningful way, such as by value, alphabetical or recently selected.
+- List values should be a reasonable number, and avoid endless scrolling. Alternative components, such as Input Fields and Search (with autocomplete and appropriate validation) or [Table](/patterns/table) pattern instead, could be used rather than making users scroll through large quantities of data.
+- Do not remove disabled items from the selection list, they should give a visual indicator of their disabled state, without hover.
+- Use appropriate field labels, placeholder text, and helper text when possible to assist the user in selecting an appropriate value.
+
+## Appearance and Behavior
+The Select component consists of an input field containing a downward facing caret icon. Clicking on the caret expands a list of items (below, or above if there is no room below due to the position of the page on screen) relative to the input field. Once an item in the list is selected, the selection is populated in the input field.
 
 ## Examples
 
