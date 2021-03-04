@@ -41,7 +41,7 @@
 			{
 			  "numeral": 1,
               "rule": "The Roboto font shall be used for content and components.",
-              "status": "new"	
+              "status": "new"
 			},
             {
               "numeral": 2,
@@ -588,17 +588,17 @@
           "rules": [
             {
               "numeral": 1,
-              "rule": "Toggle shall be used when the action takes immediate effect, without further user confirmation.",
+              "rule": "Switch shall be used when the action takes immediate effect, without further user confirmation.",
               "status": "current"
             },
             {
               "numeral": 2,
-              "rule": "Toggles shall have a corresponding label.",
+              "rule": "Switches shall have a corresponding label.",
               "status": "current"
             },
             {
               "numeral": 3,
-              "rule": "Toggles labels shall use title case capitalization.",
+              "rule": "Switch labels shall use sentence case capitalization.",
               "status": "current"
             }
           ]
