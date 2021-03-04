@@ -22,3 +22,7 @@ A Switch toggles between two mutually exclusive states such as "On" or "Off." Un
 - For immediate actions instead of state changes, use an [action button](/components/button).
 - On a page, each switch is independent of all other switches.
 - An intelligent default should be set for the initial state of a switch.
+
+## Appearance and Behavior
+
+A switch consists of a circular button that slides across a track to display the "Off" (left) or "On" (right) state. Clicking anywhere on the switch component will cause the switch to change states immediately.
