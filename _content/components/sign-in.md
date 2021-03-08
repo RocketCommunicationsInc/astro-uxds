@@ -18,17 +18,17 @@ The Sign in page is often the first interaction a user has with your product. Th
 
  ::: caution When implementing validation and security measures Astro users should consult with their organization's IT/Security departments and adapt these patterns to suit the requirements of their organization’s best practices and security needs. :::
 
-The login page is presented to users in the following scenarios:
+The sign in page is presented to users in the following scenarios:
 When a user wants to gain access to an application.
-When a user has logged out voluntarily. They will see a confirmation message after which they will be automatically redirected back to the login page.
-When a user has been logged out due to inactivity. In this scenario, when the user logs back in they should be redirected to the last page they were on, before being logged out.
+When a user has signed out voluntarily. They will see a confirmation message after which they will be automatically redirected back to the sign in page.
+When a user has been signed out due to inactivity. In this scenario, when the user signs back in they should be redirected to the last page they were on, before being signed out.
 
 ## Rules of Thumb
 
--  Use “Sign in”, not Login, Log in or Log-in. (Note: When leaving an application, use “Sign off”, not Log off)
+-  Use “Sign in”, not Login, Log in or Log-in. (Note: When leaving an application, use “Sign out”, not Sign off)
 -  Use a direct, actionable button name, such as Sign In, rather than a more generic “Submit” to post the form.
 -  Consult with your IT/Security team to ensure you are meeting your specific authentication best practices and security needs.
--  Provide a way for users to sign-out and re-authenticate.
+-  Provide a way for users to sign out and re-authenticate.
 
 ## Appearance and Behavior
 
@@ -37,7 +37,7 @@ Sign in with Username or Email Plus Password
 This is the most basic sign in workflow, wherein the user identifies and authenticates from the same screen using an ID and passcode.
 1. Sign in with Common Access Card (CAC)
 This sign in requires additional authentication via a CAC reader and PIN.
-2. Sign in with Single Sign-On (SSO)
+2. Sign in with Single Sign-on (SSO)
 SSO allows the user to authenticate to multiple systems using one identification and passcode method.
 3. Login with Multi-Factor Authentication (MFA)
 MFA requires the user to set up additional methods of identification, such as a PIN, or
@@ -56,12 +56,12 @@ The login UI elements can be added in 3 possible placement areas.
 * Can allow application to be running in the background when signed out
 * Ideal for switching applications
 
-2.  Sidebar
+2. Sidebar
 * Generally placed on left side of page
 * Allows imagery/branding on opposite side of page to differentiate application
 * Often used alongside SSO
 
-3.  Full page
+3. Full page
 * Draws user attention to login process, without the need for a modal dialog to be placed over an essentially blank page
 * Ideal for initial entry points and when the user does not have access until after authentication
 
@@ -93,21 +93,21 @@ Ensure that users can tab through the login form and navigate the page using onl
 ## Examples
 
 :::dos-donts
-![Do: Mask sensitive data](/img/components/component-template-do-1.png "Do: Something")
-Do: Mask sensitive data
+![Do: Mask sensitive data, such as passwords](/img/components/component-template-do-1.png "Do: Something")
+Do: Mask sensitive data, such as passwords
 
-![Don't: Display sensitive data unmasked by default](/img/components/component-template-dont-1.png "Don't: Something")
-Don't: Display sensitive data unmasked by default
+![Don't: Display sensitive data, such as passwords, unmasked by default](/img/components/component-template-dont-1.png "Don't: Something")
+Don't: Display sensitive data, such as passwords, unmasked by default
 :::
 
-![Do: Use clear button labels that describe specific tasks like "Sign in" or "Update Password"](/img/components/component-template-do-1.png "Do: Something")
-Do: Use clear button labels that describe specific tasks like "Sign in" or "Update Password"
+![Do: Use clear button labels that describe specific tasks like "Sign in" or "Update password"](/img/components/component-template-do-1.png "Do: Something")
+Do: Use clear button labels that describe specific tasks like "Sign in" or "Update password"
 
 ![Don't: Use vague button labels like "Submit" to guide users through authentication flows](/img/components/component-template-dont-1.png "Don't: Something")
 Don't: Use vague button labels like "Submit" to guide users through authentication flows
 :::
-![Do: Use clear and concise messaging to help users understand what went wrong and give users steps to resolve the error.   e.g. let users  know when the caps lock is on.](/img/components/component-template-do-1.png "Do: Something")
-Do: Use clear and concise messaging to help users understand what went wrong and give users steps to resolve the error.   e.g. let users  know when the caps lock is on.
+![Do: Use clear and concise messaging to help users understand what went wrong and give users steps to resolve the error, e.g. let users know when the caps lock is on.](/img/components/component-template-do-1.png "Do: Something")
+Do: Use clear and concise messaging to help users understand what went wrong and give users steps to resolve the error, e.g. let users know when the caps lock is on.
 
 ![Don't: Provide field-specific information that may violate your IT/Security standards](/img/components/component-template-dont-1.png "Don't: Something")
 Don't: Provide field-specific information that may violate your IT/Security standards
