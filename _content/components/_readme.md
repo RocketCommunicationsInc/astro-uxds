@@ -6,7 +6,7 @@ layout: interior.template.njk
 tags: resources
 permalink: /components/readme/index.html
 ---
-# README
+# README - Test EDIT
 
 ASTRO UX Guidelines include a CSS library of standard HTML elements for building Astro Applications. No specific JavaScript library is recommended for adding functionality to these components.
 
