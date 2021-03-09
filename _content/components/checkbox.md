@@ -39,11 +39,13 @@ Don’t use a Checkbox to initiate an action. Instead, use an [Action Button](/c
 ![Do: Neatly arrange and group multiple Checkboxes whenever possible.](/img/components/checkbox-do-1.png "Do: Neatly arrange and group multiple Checkboxes whenever possible.")
 
 ![Don’t: Poorly placed and misaligned Checkboxes make it difficult for users to differentiate one state from another.](/img/components/checkbox-dont-1.png "Don’t: Poorly placed and misaligned Checkboxes make it difficult for users to differentiate one state from another.")
+:::
 
 ::: two-col
 ![Do: Use parent checkboxes, when grouped, to select all or select none.](/img/components/image.png "Do: Use parent checkboxes, when grouped, to select all or select none.")
 
 ![Don’t: Group a single checkbox under a parent checkbox unless you have a good reason to do so.](/img/components/image.png "Group a single checkbox under a parent checkbox unless you have a good reason to do so.")
+:::
 
 ::: two-col
 ![Do: Reflect an indeterminate state when a mix of child values are applied.](/img/components/image.png "Do: Reflect an indeterminate state when a mix of child values are applied.")
