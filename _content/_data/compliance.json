@@ -476,7 +476,7 @@
             },
             {
               "numeral": 3,
-              "rule": "A Radio Button group shall not exceed 6 items. For longer lists, use a Drop Down Menu.",
+              "rule": "A Radio Button group shall not exceed 6 items. For longer lists, use a Select Menu.",
               "status": "current"
             },
             {
@@ -486,7 +486,7 @@
             },
             {
               "numeral": 5,
-              "rule": "Radio Button labels shall use title case capitalization.",
+              "rule": "Radio Button labels shall use sentence case capitalization.",
               "status": "current"
             },
             {
@@ -494,7 +494,12 @@
               "rule": "Radio Buttons shall have a corresponding label.",
               "figure": "/img/components/radio-buttons-do-1.png",
               "status": "current"
-            }
+            },
+	    {
+	      "numeral": 7,
+	      "rule": "A Radio Buttton shall not initiate an immediate state change.",
+	      "status": "current"
+	    }
           ]
         },
         {
