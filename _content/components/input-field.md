@@ -13,15 +13,24 @@ theme: true
 
 # Input Field
 
-Input Fields allow users to enter text or numeric data.
+Input Fields allow users to enter freeform text.
 
 ## Rules of Thumb
 
 - Stacked Input Fields are left justified to one another.
 - Use consistent spacing between stacked fields.
 - Don't use text smaller than what is defined in the CSS. Text size within fields is critical to usability.
+- Generally, the size of the text input should match the length of the expected input content.
+- Use help text to provide validation support, rather than placeholder text.
+- Do not use placeholder text for information that is vital to the user's understanding of the text input. A placeholder will disappear once the input has focus and it should only be used for short, clear and generic instructions, such as using "Search..." in a search field.
+- Use required and optional indicators depending on their frequency. e.g. If more fields are optional, only mark required fields.
+- When indicating required fields, an asterisk should be placed to the right of the label.
+- When indicating optional fields, add the word _optional_ in parenthesis to the right of the label.
 
 ## Appearance and Behavior
+Text inputs consist of a descriptive, concise label paired with an entry field. Optionally, inputs may include help text, left aligned beneath the input, to assist the user in understanding what kind of content is accepted by the input. Inputs displayed in a form may also be paired with a visual indicator of it's required, or optional state. Disabled inputs are displayed with a different opacity and cannot be interacted with by the user.
+
+Standard states for text inputs include Active (the default, interactive state for a text input), Hover (the user has paused over an active or focussed input), Focus (the field is selected and ready for data entry), Disabled (the field is not interactive, and it's content is not sent when the form is submitted), and Read-only.
 
 An Input field is enabled if it is eligible for interaction, and focused if it is the current target for keystrokes.
 
