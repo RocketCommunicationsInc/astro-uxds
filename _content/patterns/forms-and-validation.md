@@ -8,12 +8,12 @@ title: Forms and Validation
 
 ## Forms
 
-Forms are used to collect, validate, and submit user input. They usually contains form elements including [Checkbox](/components/checkbox), [Dialog Box](/components/dialog-box), [Select Menu](/components/select), [Input Field](/components/input-field), [Radio Button](/components/radio-button) and [Toggle](/components/toggle).
+Forms are used to collect, validate, and submit user input. They usually contains form elements including [Checkbox](/components/checkbox), [Dialog Box](/components/dialog-box), [Select Menu](/components/select), [Input Field](/components/input-field), [Radio Button](/components/radio-button) and [Switch](/components/switch).
 
 ## Form Layout
-Forms should be designed in columns as this improves scanability. When possible, a form should be one column. Information can be presented in multiple columns if they are grouped together.
+Forms should be designed in columns as this improves scanability. When there are not a lot of fields, a form should be one column. Information can be presented in multiple columns if they are grouped together.
 
-One-column layout is preferred, but use two-column layouts when:
+One-column layout is preferred, but use two to four column layouts when:
 - There are too many components to fit in an area of the page
 - Specific fields have strong associations. 
 
@@ -25,9 +25,9 @@ One-column layout is preferred, but use two-column layouts when:
 
 ## Labels
 
-Labels should use clear but concise language, and provide enough information for the user to accurately complete the required information.
+Labels should use clear but concise language and provide enough information for the user to accurately complete the required information.
 
-Labels should follow the vertical format of the form. Place labels above their respective fields, and align with [Input Field](/components/input-field) text. Group a label with its field so that there is a clear distinction between fields.
+Labels should follow the vertical format of the form. Place labels above their respective fields and align with the beginning of the [Input Field](/components/input-field). Group a label with its field so that there is a clear distinction between fields.
 
 
 ## Rules of Thumb
@@ -38,7 +38,7 @@ Labels should follow the vertical format of the form. Place labels above their r
 
 ## Validation
 
-Validation ensures that data is properly entered into an Input Field or Form. It alerts users to data errors, required input and prompts them to make corrections.
+Validation ensures that data is properly entered into an Input Field or Form. It alerts users to data errors, required input, and prompts them to make corrections.
 
 Input Fields, Checkboxes and Select Menus can be configured to require user input and to enforce specific data formats. Once configured, these elements can provide validation as users move through a group of controls, such as a form, within a Dialog Box or Pane. Validation is then employed a second time when “Apply” or “OK” is selected.
 
@@ -48,10 +48,10 @@ Individual elements outside of a Dialog Box or Pane can also be configured for v
 
 - Validate user input immediately after the element loses focus. Don’t wait to validate elements upon “Apply.”
 - Don’t reset the form. Requiring users to re-input valid data is poor user experience.
-- In the same voice, write short, simple and precise error messages that assist users in easily correcting input errors.
+- In the same voice, write short, simple, and precise error messages that assist users in easily correcting input errors.
 - Clearly mark required fields with an asterisk.
 - Display examples of correctly formatted data.
-- Use appropriate input type on form fields for the expected data input (e.g., `<input type="number">` when entering numeric data)
+- Use appropriate input type on form fields for the expected data input (e.g., `<input type="number">` when entering numeric data).
 
 ::: note Poorly written error messages confuse and frustrate the user and force them to fix the input problem through trial and error.
 
@@ -64,14 +64,14 @@ A well written validation error message greatly reduces the user’s error recov
 
 ## Writing in the Astro Voice
 
-The voice of Astro applications is direct, confident and reflects the critical nature of Astro events and processes. It’s never chatty or informal nor does it personify technology.
+The voice of Astro applications is direct, confident, and reflects the critical nature of Astro events and processes. It’s never chatty or informal nor does it personify technology.
 
 Tips for writing validation error messages in the voice of Astro:
 
-- Choose language that’s simple, brief and commanding. Astro users are often in high-pressure, time-sensitive situations with only seconds to correctly respond. Therefore, only include information absolutely necessary to swiftly resolve the error.
+- Choose language that’s simple, brief, and commanding. Astro users are often in high-pressure, time-sensitive situations with only seconds to correctly respond. Therefore, only include information absolutely necessary to swiftly resolve the error.
 - Omit pronouns. In error messages pronouns add no value and take up already limited space. Pronouns also assume an intimacy with the user making the message seem less formal and less important.
 - Never personify the application. Assigning human qualities to a virtual environment is the parlance of Science Fiction. It’s inappropriate for the vital nature of Astro applications.
-- Don’t use salutations. Leave out: “hello, goodbye, welcome,” etc.
+- Don’t use salutations. Leave out: “hello", "goodbye", "welcome”, etc.
 
 ## Appearance and Behavior
 
