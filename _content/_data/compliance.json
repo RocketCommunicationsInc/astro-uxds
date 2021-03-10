@@ -142,6 +142,11 @@
               "numeral": 8,
               "rule": "Outline Button style shall indicate the less preferred option in grouped Buttons.",
               "status": "current"
+            },
+            {
+              "numeral": 9,
+              "rule": "Button text shall use sentence case capitalization.",
+              "status": "new"
             }
           ]
         },
@@ -173,7 +178,7 @@
             {
               "numeral": 5,
               "rule": "Checkbox labels shall use sentence case capitalization.",
-              "status": "current"
+              "status": "new"
             }
           ]
         },
@@ -206,6 +211,11 @@
               "numeral": 5,
               "rule": "Dialog Box text shall be clear, brief, and actionable.",
               "status": "new"
+            },
+            {
+              "numeral": 6,
+              "rule": "Dialog title and button labels shall use sentence case capitalization.",
+              "status": "new"
             }
           ]
         },
@@ -216,8 +226,8 @@
           "rules": [
             {
               "numeral": 1,
-              "rule": "Menu items shall use title case capitalization.",
-              "status": "current"
+              "rule": "Menu items shall use sentence case capitalization.",
+              "status": "new"
             },
             {
               "numeral": 2,
@@ -295,6 +305,11 @@
               "rule": "Grouped icons shall be equally sized.",
               "figure": "/img/components/icons-do-1.png",
               "status": "current"
+            },
+            {
+              "numeral": 7,
+              "rule": "Icon labels shall use sentence case capitalization.",
+              "status": "new"
             }
           ]
         },
@@ -326,8 +341,8 @@
             },
             {
               "numeral": 5,
-              "rule": "Input Field labels shall use title case capitalization.",
-              "status": "current"
+              "rule": "Input Field labels shall use sentence case capitalization.",
+              "status": "new"
             },
             {
               "numeral": 6,
@@ -377,6 +392,11 @@
               "numeral": 3,
               "rule": "When Log is scrolled to view older events, incoming events shall not change the scrolling position.",
               "status": "current"
+            },
+            {
+              "numeral": 4,
+              "rule": "Log component text shall use sentence case capitalization.",
+              "status": "new"
             }
           ]
         },
@@ -415,8 +435,8 @@
           "rules": [
             {
               "numeral": 1,
-              "rule": "Menu items shall use title case capitalization.",
-              "status": "current"
+              "rule": "Menu items shall use sentence case capitalization.",
+              "status": "new"
             },
             {
               "numeral": 2,
@@ -486,8 +506,8 @@
             },
             {
               "numeral": 5,
-              "rule": "Radio Button labels shall use sentence case capitalization.",
-              "status": "current"
+              "rule": "Radio Button labels shall use sentence case capitalization."
+              "status": "new"
             },
             {
               "numeral": 6,
@@ -517,6 +537,11 @@
               "rule": "When a Search Field has keyboard focus, the clear button shall be enabled.",
               "figure": "/img/components/search-focus.png",
               "status": "current"
+            },
+            {
+              "numeral": 3,
+              "rule": "Search text shall use sentence case capitalization.",
+              "status": "new"
             }
           ]
         },
@@ -539,6 +564,11 @@
               "numeral": 3,
               "rule": "Segmented Buttons shall be limited to two to four choices.",
               "status": "current"
+            },
+            {
+              "numeral": 4,
+              "rule": "Segmented Buttons shall use sentence case capitalization.",
+              "status": "new"
             }
           ]
         },
@@ -556,6 +586,11 @@
               "numeral": 2,
               "rule": "Status Symbols shall be displayed with the [specified colors](/components/status-symbol/#status-colors).",
               "status": "current"
+            },
+            {
+              "numeral": 3,
+              "rule": "Switch labels shall use sentence case capitalization.",
+              "status": "new"
             }
           ]
         },
@@ -571,8 +606,8 @@
             },
             {
               "numeral": 2,
-              "rule": "Tabs shall use title case capitalization.",
-              "status": "current"
+              "rule": "Tabs shall use sentence case capitalization.",
+              "status": "new"
             },
             {
               "numeral": 3,
@@ -587,24 +622,24 @@
           ]
         },
         {
-          "name": "Toggle",
+          "name": "Switch",
           "numeral": 18,
-          "link": "/components/toggle/",
+          "link": "/components/switch/",
           "rules": [
             {
               "numeral": 1,
-              "rule": "Toggle shall be used when the action takes immediate effect, without further user confirmation.",
+              "rule": "Switch shall be used when the action takes immediate effect, without further user confirmation.",
               "status": "current"
             },
             {
               "numeral": 2,
-              "rule": "Toggles shall have a corresponding label.",
+              "rule": "Switches shall have a corresponding label.",
               "status": "current"
             },
             {
               "numeral": 3,
-              "rule": "Toggles labels shall use title case capitalization.",
-              "status": "current"
+              "rule": "Switch labels shall use sentence case capitalization.",
+              "status": "new"
             }
           ]
         }
