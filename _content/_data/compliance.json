@@ -52,6 +52,11 @@
               "numeral": 3,
               "rule": "Text shall conform to the specified typography for [Heading](/design-guidelines/typography/#headings), [Body](/design-guidelines/typography/#body-text), and [Inline Text](/design-guidelines/typography/#inline-text-styles).",
               "status": "new"
+            },
+            {
+              "numeral": 4,
+              "rule": "Text within Astro components will use sentence case capitalization unless otherwise stated.",
+              "status": "new"
             }
           ]
         }
@@ -88,6 +93,21 @@
             {
               "numeral": 1,
               "rule": "Data visualizations shall have no more than 8 colors per data set.",
+              "status": "new"
+            },
+            {
+              "numeral": 2,
+              "rule": "Data visualizations shall use sentence case capitalization for titles, labels, and legends.",
+              "status": "new"
+            }
+        {
+          "name": "Tables",
+          "numeral": 3,
+          "link": "/patterns/table/",
+          "rules": [
+            {
+              "numeral": 1,
+              "rule": "Table titles, legends, and column labels shall use sentence case capitalization.",
               "status": "new"
             }
           ]
@@ -639,6 +659,130 @@
             {
               "numeral": 3,
               "rule": "Switch labels shall use sentence case capitalization.",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "name": "Accordion",
+          "numeral": 19,
+          "link": "/components/accordion/",
+          "rules": [
+            {
+              "numeral": 1,
+              "rule": "Accordion titles shall use sentence case capitalization.",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "name": "Classification & Control Markings",
+          "numeral": 20,
+          "link": "/components/classification-markings/",
+          "rules": [
+            {
+              "numeral": 1,
+              "rule": "Classification and control markings shall follow all applicable laws and government standards.",
+              "status": "new"
+            },
+            {
+              "numeral": 2,
+              "rule": "If classified or controlled information is present on a screen, the screen shall include a fixed Overall Marking banner at the top.",
+              "status": "new"
+            },
+            {
+              "numeral": 3,
+              "rule": "Only government-approved control or classification text shall be included in Overall Marking banners and Portion Markings.",
+              "status": "new"
+            },
+            {
+              "numeral": 4,
+              "rule": "Only Astro's defined background and text colors shall be used for classification and control markings.",
+              "status": "new"
+            },
+            {
+              "numeral": 5,
+              "rule": "No other UI elements shall occlude the Overall Marking banner.",
+              "status": "new"
+            },
+            {
+              "numeral": 6,
+              "rule": "Marking text shall follow the standard marking structure with bold, centered text in all capital letters.",
+              "status": "new"
+            },
+            {
+              "numeral": 7,
+              "rule": "Portion markings shall be placed at the top or top-left of the classified or controlled portion.",
+              "status": "new"
+            },
+            {
+              "numeral": 8,
+              "rule": "Text in the overall marking banner shall be as specific as possible to the highest level of classified information contained in that system or view.",
+              "status": "new"
+            },
+            {
+              "numeral": 9,
+              "rule": "The classification level itself (excepting CUI) in Overall Marking banners must be spelled out completely.",
+              "status": "new"
+            }  
+          ]
+        },
+        {
+          "name": "Slider",
+          "numeral": 21,
+          "link": "/components/slider/",
+          "rules": [
+            {
+              "numeral": 1,
+              "rule": "Slider labels shall use sentence case capitalization.",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "name": "Clock",
+          "numeral": 22,
+          "link": "/components/clock/",
+          "rules": [
+            {
+              "numeral": 1,
+              "rule": "Clock labels shall use sentence case capitalization.",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "name": "Notification Bannerr",
+          "numeral": 23,
+          "link": "/components/notification-banner/",
+          "rules": [
+            {
+              "numeral": 1,
+              "rule": "Notification Banner titles shall use sentence case capitalization.",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "name": "Timeline",
+          "numeral": 24,
+          "link": "/components/timeline/",
+          "rules": [
+            {
+              "numeral": 1,
+              "rule": "Timeline header and track titles shall use sentence case capitalization.",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "name": "Tree",
+          "numeral": 25,
+          "link": "/components/tree/",
+          "rules": [
+            {
+              "numeral": 1,
+              "rule": "Tree labels shall use sentence case capitalization.",
               "status": "new"
             }
           ]
