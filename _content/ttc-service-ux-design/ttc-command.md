@@ -58,7 +58,7 @@ The Pass Plan panel is where operators will track or initiate execution of the c
 2. **Pass Indicator** - allows operators to determine if they are in pre-pass, pass or post-pass in relation to the AOS/LOS for the contact.
 3. **Pass Plan** - an interactive checklist of instructions an operator is expected to complete during a pass. This includes, but is not limited to: Checkboxes, Select menus and play and pause controls.
 4. **Mnemonic Snapshot** - allows operators to inspect a mnemonic called out for verification in the pass plan.
-5. **Command Line** - allows operators to enter commands needed to maintain the overall health of the pass, for anomaly resolution and/or other operational needs.
+5. **Command Line** - allows operators to enter commands needed to maintain the overall health of the pass, for anomaly resolution, and/or other operational needs.
    :::
 
 ## System Health
