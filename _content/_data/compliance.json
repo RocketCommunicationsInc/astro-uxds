@@ -38,11 +38,11 @@
           "numeral": 2,
           "link": "/design-guidelines/typography/",
           "rules": [
-			{
-			  "numeral": 1,
+            {
+              "numeral": 1,
               "rule": "The Roboto font shall be used for content and components.",
-              "status": "new"	
-			},
+              "status": "new"
+            },
             {
               "numeral": 2,
               "rule": "The Roboto Mono font shall be used when monospace digits are required.",
@@ -495,11 +495,11 @@
               "figure": "/img/components/radio-buttons-do-1.png",
               "status": "current"
             },
-	    {
-	      "numeral": 7,
-	      "rule": "A Radio Buttton shall no initiate an immediate state change.",
-	      "status": "current"
-	    }
+            {
+              "numeral": 7,
+              "rule": "A Radio Button shall not initiate an immediate state change.",
+              "status": "current"
+            }
           ]
         },
         {
