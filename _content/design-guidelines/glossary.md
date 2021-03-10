@@ -21,7 +21,7 @@ title: Glossary
 ### C
 
 - [Checkbox](/components/checkbox) - A Checkbox allows a user to select a value from a small set of options.
-- [Classification Markings](components/classification-markings) - Markings required to be present on software that includes controlled or classified information.
+- [Classification & Control Markings](/components/classification-markings) - Markings required to be present on software that includes controlled or classified information.
 - [Clock](components/clock) - Clock shows the current date and time, and optional AOS and LOS timers.
 - Close Button - A UI component that, when activated, dismisses a [Dialog Box](/components/dialog-box).
 - [Color Palettes](/design-guidelines/color) - The list of color values used in and approved by the Astro design system.
@@ -44,8 +44,8 @@ title: Glossary
 
 ### I
 
-- [Icons](components/icons-and-symbols) - A graphic representation to convey meaning in a concise, visual manner.
-- [Input Field](components/input-field) - A type of field that allows users to enter text or numeric data.
+- [Icons](/components/icons-and-symbols) - A graphic representation to convey meaning in a concise, visual manner.
+- [Input Field](/components/input-field) - A type of field that allows users to enter text or numeric data.
 
 ### L
 
