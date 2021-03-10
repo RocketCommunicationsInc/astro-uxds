@@ -24,12 +24,12 @@ To achieve the split color element in the slider, a small amount of JavaScript i
 **Use a slider:**
 
 - When users need to set defined, contiguous values (like volume or brightness), or a range of discrete values (like screen resolution).
-- To display abstracted values like “Low, Medium,” or “High.”
+- To display abstracted values like “Low," Medium,” or “High.”
 - To reflect discrete numeric values by adding labels.
 - To give users immediate feedback on selection such as screen contrast.
 
 ::: note
-Sliders may be used in conjunction with an input field allowing the user to set a slider value via keyboard entry.
+Sliders may be used in conjunction with an input field or select menu allowing the user to set a slider value via keyboard entry.
 :::
 
 ## Examples
