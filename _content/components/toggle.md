@@ -1,16 +1,16 @@
 ---
 tags: components
-path: /components/toggle
+path: /components/switch
 date: Last Modified
 layout: components.template.njk
-title: Toggle
-demo: components-toggle--toggle
-storybook: components-toggle--toggle
-git: rux-toggle
+title: Switch
+demo: components-switch--switch
+storybook: components-switch--swittch
+git: rux-switch
 height: 150px
 theme: true
 ---
 
-# Toggle
+# Switch
 
-A Toggle describes a state or value. Similar to a checkbox, toggles allow users to change a setting between two states such as “On" or "Off.” Unlike a checkbox, a toggle button initiates an action with immediate effect.
+A Switch describes a state or value. Similar to a checkbox, switches allow users to change a setting between two states such as “On" or "Off.” Unlike a checkbox, a switch initiates an action with immediate effect.
