@@ -26,7 +26,8 @@ Action Buttons allow users to trigger actions by clicking, tapping, or pressing 
 - Resize button width to accommodate the title; do not abbreviate or truncate button titles.
 - Don’t use an outside label to introduce a button. Instead, clearly title the button.
 - Add an ellipsis (…) to the button title if it opens another window, Dialog Box or app.
-- Within Dialog Boxes, right-align buttons.
+- In button groups, the primary button with the preferred user action shall be placed on the right and all buttons with secondary actions to the left of the preferred action button.
+- Position buttons consistently across the application. Unless there is a good reason not to, right-align buttons in Astro applications.
 
 ## Outline Button
 

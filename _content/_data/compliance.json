@@ -41,7 +41,7 @@
 			{
 			  "numeral": 1,
               "rule": "The Roboto font shall be used for content and components.",
-              "status": "new"	
+              "status": "new"
 			},
             {
               "numeral": 2,
@@ -165,6 +165,11 @@
             },
             {
               "numeral": 9,
+              "rule": "Primary Buttons indicating preferred user actions shall be placed to the right of buttons used for secondary user actions when in Button groups.",
+              "status": "current"
+            },
+            {
+              "numeral": 10,
               "rule": "Button text shall use sentence case capitalization.",
               "status": "new"
             }
@@ -526,8 +531,8 @@
             },
             {
               "numeral": 5,
-              "rule": "Radio Button labels shall use sentence case capitalization."
-              "status": "new"
+              "rule": "Radio Button labels shall use sentence case capitalization.",
+              "status": "current"
             },
             {
               "numeral": 6,
@@ -535,11 +540,11 @@
               "figure": "/img/components/radio-buttons-do-1.png",
               "status": "current"
             },
-	    {
-	      "numeral": 7,
-	      "rule": "A Radio Buttton shall not initiate an immediate state change.",
-	      "status": "current"
-	    }
+            {
+              "numeral": 7,
+              "rule": "A Radio Button shall not initiate an immediate state change.",
+              "status": "current"
+            }
           ]
         },
         {
