@@ -49,10 +49,10 @@ The sign in component consists of a field to identify the user, typically a user
 
 ### Placement
 
-The login UI elements can be added in 3 possible placement areas.
+The sign in UI elements can be added in 3 possible placement areas.
 
 1. Modal dialog
-* Draws user attention to login process
+* Draws user attention to sign in process
 * Can allow application to be running in the background when signed out
 * Ideal for switching applications
 
@@ -62,7 +62,7 @@ The login UI elements can be added in 3 possible placement areas.
 * Often used alongside SSO
 
 3. Full page
-* Draws user attention to login process, without the need for a modal dialog to be placed over an essentially blank page
+* Draws user attention to the sign in process, without the need for a modal dialog to be placed over an essentially blank page
 * Ideal for initial entry points and when the user does not have access until after authentication
 
 
@@ -100,9 +100,9 @@ Ensure that users can tab through the sign in form and navigate the page using o
 
 :::
 
-![Do: Use clear button labels that describe specific tasks like "Sign in" or "Update password"](/img/components/replaceimage.png "Do: Do: Use clear button labels that describe specific tasks like "Sign in" or "Update password")
+![Do: Use clear button labels that describe specific tasks like "Sign in" or "Update password"](/img/components/replaceimage.png "Do: Use clear button labels that describe specific tasks like 'Sign in' or 'Update password'")
 
-![Don't: Use vague button labels like "Submit" to guide users through authentication flows](/img/components/replaceimage.png "Don't: Use vague button labels like "Submit" to guide users through authentication flows")
+![Don't: Use vague button labels like "Submit" to guide users through authentication flows](/img/components/replaceimage.png "Don't: Use vague button labels like 'Submit' to guide users through authentication flows")
 
 :::
 
