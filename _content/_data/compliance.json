@@ -91,6 +91,44 @@
               "status": "new"
             }
           ]
+        },
+        {
+          "name": "Forms and Validation",
+          "numeral": 3,
+          "link": "/patterns/forms-and-validation/",
+          "rules":[
+              {
+                "numeral": 1,
+                "rule": "Form controls shall not use placeholder text in place of labels.",
+                "status": "new"
+              },
+              {
+                "numeral": 2,
+                "rule": "Form controls shall not use placeholder text in place of help text.",
+                "status": "new"
+              },
+              {
+                "numeral": 3,
+                "rule": "Form control help text shall be aligned to the bottom left of the control.",
+                "status": "new"
+              },
+              {
+                "numeral": 4,
+                "rule": "Form control marked as required shall contain an asterisk to the right of the label.",
+                "status": "new"
+              },
+              {
+                "numeral": 5,
+                "rule": "Form controls marked as optional shall contain the word 'optional' in parenthesis after the label.",
+                "status": "new"
+              },
+              {
+                "numeral": 6,
+                "rule": "Forms shall use sentence case capitalization.",
+                "status": "new"
+              }
+            }
+          ]
         }
       ]
     },
@@ -321,39 +359,14 @@
             },
             {
               "numeral": 4,
-              "rule": "Input Field shall have a corresponding label.",
+              "rule": "Input Fields shall have a corresponding label.",
               "status": "current"
             },
             {
               "numeral": 5,
-              "rule": "Input Field labels shall use sentence case capitalization.",
+              "rule": "Input Fields shall use sentence case capitalization.",
               "status": "current"
             },
-            {
-              "numeral": 6,
-              "rule": "Input Field labels shall not use placeholder text in place of labels.",
-              "status": "current"
-            },
-            {
-              "numeral": 7,
-              "rule": "Input Field labels shall not use placeholder text in place of validation help text.",
-              "status": "current"
-            },
-            {
-              "numeral": 8,
-              "rule": "Input Field help text shall be aligned to the bottom left of the field.",
-              "status": "current"
-            },
-            {
-              "numeral": 9,
-              "rule": "Input Fields marked as required shall contain an asterisk to the right of the label.",
-              "status": "current"
-            },
-            {
-              "numeral": 10,
-              "rule": "Input Fields marked as optional shall contain the word 'optional' in parenthesis after the label.",
-              "status": "current"
-            }
           ]
         },
         {
