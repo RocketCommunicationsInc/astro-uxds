@@ -17,7 +17,7 @@ Radio Buttons allow users to select a mutually exclusive option from a predefine
 
 ## Rules of Thumb
 
-- Use Radio Buttons for mutually exclusive choices. If user can make more than one choice, use Checkboxes.
+- Use Radio Buttons for mutually exclusive choices. If users can make more than one choice, use Checkboxes.
 - Radio Buttons appear in groups of two or more.
 - One option should always be selected. If a user is required to make a choice between items without a default, consider a Select Menu.
 - Use Radio Buttons when two to six choices are available. If displaying more than six items, use a Select Menu.
