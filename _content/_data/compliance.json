@@ -99,31 +99,26 @@
           "rules":[
               {
                 "numeral": 1,
-                "rule": "Form controls shall not use placeholder text in place of labels.",
-                "status": "new"
-              },
-              {
-                "numeral": 2,
                 "rule": "Form controls shall not use placeholder text in place of help text.",
                 "status": "new"
               },
               {
-                "numeral": 3,
+                "numeral": 2,
                 "rule": "Form control help text shall be aligned to the bottom left of the control.",
                 "status": "new"
               },
               {
-                "numeral": 4,
+                "numeral": 3,
                 "rule": "Form control marked as required shall contain an asterisk to the right of the label.",
                 "status": "new"
               },
               {
-                "numeral": 5,
-                "rule": "Form controls marked as optional shall contain the word 'optional' in parenthesis after the label.",
+                "numeral": 4,
+                "rule": "Form controls marked as optional shall contain the word 'optional' in parentheses after the label.",
                 "status": "new"
               },
               {
-                "numeral": 6,
+                "numeral": 5,
                 "rule": "Forms shall use sentence case capitalization.",
                 "status": "new"
               }
@@ -365,6 +360,11 @@
             {
               "numeral": 5,
               "rule": "Input Fields shall use sentence case capitalization.",
+              "status": "current"
+            },
+            {
+              "numeral": 6,
+              "rule": "Input Field labels shall not use placeholder text in place of labels.",
               "status": "current"
             },
           ]
