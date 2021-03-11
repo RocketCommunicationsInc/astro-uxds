@@ -13,7 +13,7 @@ theme: true
 
 # Input Field
 
-Input Fields allow users to enter freeform text.
+Input Fields allow users to enter freeform text. Variations on this field often provide specific data entry formats such as masked data (e.g. passwords or phone numbers), date and time, and numeric data entry.
 
 ## Rules of Thumb
 
@@ -26,6 +26,8 @@ Input Fields allow users to enter freeform text.
 - Use required and optional indicators depending on their frequency. e.g. If more fields are optional, only mark required fields.
 - When indicating required fields, an asterisk should be placed to the right of the label.
 - When indicating optional fields, add the word _optional_ in parenthesis to the right of the label.
+- When implementing Numeric inputs, utilize browser defaults whenever possible. Define the range and step size within the HTML element when appropriate. Include the range and step size values in the help text.
+- When appropriate, use input masking to automatically format a user's entry e.g. When entering a phone number, apply a consistent, recognizable format like (XXX) XXX-XXXX or another similar format.
 
 ## Appearance and Behavior
 Text inputs consist of a descriptive, concise label paired with an entry field. Optionally, inputs may include help text, left aligned beneath the input, to assist the user in understanding what kind of content is accepted by the input. Inputs displayed in a form may also be paired with a visual indicator of it's required, or optional state. Disabled inputs are displayed with a different opacity and cannot be interacted with by the user.
@@ -34,7 +36,7 @@ Standard states for text inputs include Active (the default, interactive state f
 
 An Input field is enabled if it is eligible for interaction, and focused if it is the current target for keystrokes.
 
-An input field can be configured for required input, limited data ranges or specific data formats. See [Form and Input Validation](/patterns/forms-and-validation).
+An input field can be configured for required input, limited data ranges or specific data formats. See [Form and Input Validation](/patterns/forms-and-validation). Some variants may allow the user to increment or decrement the value in the control, or to jump to a specific value.
 
 Input Fields have a smaller variant which may be beneficial in layouts where space is at a premium
 
