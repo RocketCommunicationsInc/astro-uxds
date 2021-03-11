@@ -210,7 +210,7 @@ The Log Utility shows a log of application and system messages. Usage and functi
 
 1. **Tabs** - Allows for more than view or category of log messages.
 2. **Control Buttons** - Triggers a slide in pane that allows the operator control over the event log display.
-3. **Action Menu** - Rhe action menu is reserved for non-primary actions an operator would execute such as export, print, save, etc&hellip;
+3. **Action Menu** - The action menu is reserved for non-primary actions an operator would execute such as export, print, save, etc&hellip;
 4. **Search Bar** - Allows an operator to query log messages based on type string match.
 
 ### Track Data Utility
