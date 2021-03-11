@@ -4,9 +4,9 @@ path: /components/sign-in
 date: Last Modified
 layout: components.template.njk
 title: Sign In
-[//]: #  demo: components-signin--all-signin-variants
-[//]: #  storybook: components-signin--standard-signin
-[//]: # git: rux-signin
+# demo: components-signin--all-signin-variants
+# storybook: components-signin--standard-signin
+# git: rux-signin
 height: 260px
 theme: true
 ---
