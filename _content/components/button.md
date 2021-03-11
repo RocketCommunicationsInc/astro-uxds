@@ -39,7 +39,7 @@ Outline Buttons are an alternative button style to be used in situations where a
 
 ![Do: Use buttons for actionable controls only](/img/components/button-do-1.png "Do: Use buttons for actionable controls only")
 
-![Don't: Use buttons for actionable controls only](/img/components/button-dont-1.png "Don't: Use buttons for actionable controls only")
+![Don't: Use elements that look like buttons but are not](/img/components/button-dont-1.png "Don't: Use elements that look like buttons but are not")
 
 ![Do: Right-align buttons and give them adequate spacing from fields.](/img/components/button-do-2.png "Do: Right-align buttons and give them adequate spacing from fields.")
 
