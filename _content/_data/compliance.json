@@ -41,7 +41,7 @@
 			{
 			  "numeral": 1,
               "rule": "The Roboto font shall be used for content and components.",
-              "status": "new"	
+              "status": "new"
 			},
             {
               "numeral": 2,
@@ -315,7 +315,7 @@
             },
             {
               "numeral": 3,
-              "rule": "Input Field labels shall be aligned to the top left of the field.",
+              "rule": "Input Field labels shall be aligned to the top left, or to the left, of the field.",
               "figure": "/img/components/input-fields-do-1.png",
               "status": "current"
             },
@@ -326,12 +326,32 @@
             },
             {
               "numeral": 5,
-              "rule": "Input Field labels shall use title case capitalization.",
+              "rule": "Input Field labels shall use sentence case capitalization.",
               "status": "current"
             },
             {
               "numeral": 6,
               "rule": "Input Field labels shall not use placeholder text in place of labels.",
+              "status": "current"
+            },
+            {
+              "numeral": 7,
+              "rule": "Input Field labels shall not use placeholder text in place of validation help text.",
+              "status": "current"
+            },
+            {
+              "numeral": 8,
+              "rule": "Input Field help text shall be aligned to the bottom left of the field.",
+              "status": "current"
+            },
+            {
+              "numeral": 9,
+              "rule": "Input Fields marked as required shall contain an asterisk to the right of the label.",
+              "status": "current"
+            },
+            {
+              "numeral": 10,
+              "rule": "Input Fields marked as optional shall contain the word 'optional' in parenthesis after the label.",
               "status": "current"
             }
           ]

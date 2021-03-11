@@ -15,19 +15,19 @@ Forms should be designed in columns as this improves scanability. When possible,
 
 One-column layout is preferred, but use two-column layouts when:
 - There are too many components to fit in an area of the page
-- Specific fields have strong associations. 
+- Specific fields have strong associations.
 
 ![Two Column Layout. The Observations From field is associated with the Observations Start Time field](/img/patterns/forms-layout.png)
 
 ## Form Spacing
 
-![Values for horizonal and vertical spacing.](/img/patterns/forms-spacing.png)
+![Values for horizontal and vertical spacing.](/img/patterns/forms-spacing.png)
 
 ## Labels
 
 Labels should use clear but concise language, and provide enough information for the user to accurately complete the required information.
 
-Labels should follow the vertical format of the form. Place labels above their respective fields, and align with [Input Field](/components/input-field) text. Group a label with its field so that there is a clear distinction between fields.
+Labels should follow the vertical format of the form. Generally, place labels above their respective fields, and align with [Input Field](/components/input-field) text. Group a label with its field so that there is a clear distinction between fields.
 
 
 ## Rules of Thumb

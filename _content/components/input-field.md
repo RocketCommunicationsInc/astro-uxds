@@ -13,7 +13,7 @@ theme: true
 
 # Input Field
 
-Input Fields allow users to enter freeform text.
+Input Fields allow users to enter freeform text and are often used in forms for data entry.
 
 ## Rules of Thumb
 
@@ -25,7 +25,7 @@ Input Fields allow users to enter freeform text.
 - Do not use placeholder text for information that is vital to the user's understanding of the text input. A placeholder will disappear once the input has focus and it should only be used for short, clear and generic instructions, such as using "Search..." in a search field.
 - Use required and optional indicators depending on their frequency. e.g. If more fields are optional, only mark required fields.
 - When indicating required fields, an asterisk should be placed to the right of the label.
-- When indicating optional fields, add the word _optional_ in parenthesis to the right of the label.
+- When indicating optional fields, add the word _optional_ in parenthesis after the label.
 
 ## Appearance and Behavior
 Text inputs consist of a descriptive, concise label paired with an entry field. Optionally, inputs may include help text, left aligned beneath the input, to assist the user in understanding what kind of content is accepted by the input. Inputs displayed in a form may also be paired with a visual indicator of it's required, or optional state. Disabled inputs are displayed with a different opacity and cannot be interacted with by the user.
@@ -36,7 +36,7 @@ An Input field is enabled if it is eligible for interaction, and focused if it i
 
 An input field can be configured for required input, limited data ranges or specific data formats. See [Form and Input Validation](/patterns/forms-and-validation).
 
-Input Fields have a smaller variant which may be beneficial in layouts where space is at a premium
+Input Fields have a smaller variant which may be beneficial in layouts where space is at a premium.
 
 ## Examples
 
