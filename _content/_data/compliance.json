@@ -717,12 +717,12 @@
             },
             {
               "numeral": 7,
-              "rule": "Portion markings shall be placed at the top or top-left of the classified or controlled portion.",
+              "rule": "Portion Markings shall be placed at the top or top-left of the classified or controlled portion.",
               "status": "new"
             },
             {
               "numeral": 8,
-              "rule": "Text in the overall marking banner shall be as specific as possible to the highest level of classified information contained in that system or view.",
+              "rule": "Text in the Overall Marking banner shall be as specific as possible to the highest level of classified information contained in that system or view.",
               "status": "new"
             },
             {
@@ -757,7 +757,7 @@
           ]
         },
         {
-          "name": "Notification Bannerr",
+          "name": "Notification Banner",
           "numeral": 23,
           "link": "/components/notification-banner/",
           "rules": [
