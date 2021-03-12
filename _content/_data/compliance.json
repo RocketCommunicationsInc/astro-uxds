@@ -499,7 +499,7 @@
             },
             {
               "numeral": 3,
-              "rule": "A Progress indicator shall be displayed when a operation takes longer than five seconds to complete.",
+              "rule": "A Progress indicator shall be displayed when a operation takes longer than one second to complete.",
               "status": "current"
             }
           ]
