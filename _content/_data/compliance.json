@@ -175,6 +175,11 @@
               "numeral": 8,
               "rule": "Outline Button style shall indicate the less preferred option in grouped Buttons.",
               "status": "current"
+            },
+            {
+              "numeral": 9,
+              "rule": "Primary Buttons indicating preferred user actions shall be placed to the right of buttons used for secondary user actions when in Button groups.",
+              "status": "current"
             }
           ]
         },
@@ -509,7 +514,7 @@
             },
             {
               "numeral": 3,
-              "rule": "A Radio Button group shall not exceed 6 items. For longer lists, use a Drop Down Menu.",
+              "rule": "A Radio Button group shall not exceed 6 items. For longer lists, use a Select Menu.",
               "status": "current"
             },
             {
@@ -519,13 +524,18 @@
             },
             {
               "numeral": 5,
-              "rule": "Radio Button labels shall use title case capitalization.",
+              "rule": "Radio Button labels shall use sentence case capitalization.",
               "status": "current"
             },
             {
               "numeral": 6,
               "rule": "Radio Buttons shall have a corresponding label.",
               "figure": "/img/components/radio-buttons-do-1.png",
+              "status": "current"
+            },
+            {
+              "numeral": 7,
+              "rule": "A Radio Button shall not initiate an immediate state change.",
               "status": "current"
             }
           ]
@@ -621,17 +631,17 @@
           "rules": [
             {
               "numeral": 1,
-              "rule": "Toggle shall be used when the action takes immediate effect, without further user confirmation.",
+              "rule": "Switch shall be used when the action takes immediate effect, without further user confirmation.",
               "status": "current"
             },
             {
               "numeral": 2,
-              "rule": "Toggles shall have a corresponding label.",
+              "rule": "Switches shall have a corresponding label.",
               "status": "current"
             },
             {
               "numeral": 3,
-              "rule": "Toggles labels shall use title case capitalization.",
+              "rule": "Switch labels shall use sentence case capitalization.",
               "status": "current"
             }
           ]
