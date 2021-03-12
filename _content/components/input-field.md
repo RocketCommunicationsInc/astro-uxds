@@ -20,7 +20,7 @@ Input Fields allow users to enter freeform text and are often used in forms for 
 - Stacked Input Fields are left justified to one another.
 - Use consistent spacing between stacked fields.
 - Don't use text smaller than what is defined in the CSS. Text size within fields is critical to usability.
-- Generally, the size of the text input should match the length of the expected input content.
+- Generally, the size of the input field should match the length of the expected input content.
 - Use help text to provide validation support, rather than placeholder text.
 - Do not use placeholder text for information that is vital to the user's understanding of the text input. A placeholder will disappear once the input has focus, and it should only be used for short, clear, and generic instructions, such as using "Search..." in a search field.
 - Use required and optional indicators depending on their frequency. e.g. If more fields are optional, only mark required fields.

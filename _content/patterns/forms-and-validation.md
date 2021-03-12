@@ -34,7 +34,12 @@ Labels should follow the vertical format of the form. Generally, place labels ab
 
 - Disabled elements don't get focus via click, tap, or keyboard, aren’t accessible when tabbing, and are not submitted with form data.
 - Read-only elements (e.g., `<input type=“text” readonly />`) should allow focus via click, tap, or keyboard, are accessible when tabbing, and are submitted with form data.
-- The length of the input field should reflect the intended length of content.
+- Generally, the size of the control should match the length of the expected content.
+- Use help text to provide validation support, rather than placeholder text.
+- Do not use placeholder text for information that is vital to the user's understanding of the control. A placeholder will disappear once the control has focus, and it should only be used for short, clear, and generic instructions, such as using "Search..." in a search field.
+- Use required and optional indicators depending on their frequency. e.g. If more fields are optional, only mark required fields.
+- When indicating required fields, an asterisk should be placed to the right of the label.
+- When indicating optional fields, add the word _"Optional"_ in parentheses after the label.
 
 ## Validation
 
