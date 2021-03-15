@@ -373,6 +373,11 @@
               "numeral": 6,
               "rule": "Input Field labels shall not use placeholder text in place of labels.",
               "status": "current"
+            },
+            {
+              "numeral": 7,
+              "rule": "Automatically formatted Input Fields shall use consistent, recognizable formatting.",
+              "status": "new"
             }
           ]
         },
