@@ -1,12 +1,12 @@
 ---
 tags: components
-path: /components/toggle
+path: /components/switch
 date: Last Modified
 layout: components.template.njk
-title: Toggle
-demo: components-toggle--toggle
-storybook: components-toggle--toggle
-git: rux-toggle
+title: Switch
+demo: components-switch--switch
+storybook: components-switch--switch
+git: rux-switch
 height: 150px
 theme: true
 ---
