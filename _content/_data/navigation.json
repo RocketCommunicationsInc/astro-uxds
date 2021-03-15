@@ -196,6 +196,10 @@
 				"url": "/components/segmented-button"
 			},
 			{
+				"label": "Sign In",
+				"url": "/components/sign-in"
+			},
+			{
 				"label": "Select Menu",
 				"url": "/components/select"
 			},
