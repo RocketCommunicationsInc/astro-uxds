@@ -42,7 +42,7 @@
               "numeral": 1,
               "rule": "The Roboto font shall be used for content and components.",
               "status": "new"
-            },
+      			},
             {
               "numeral": 2,
               "rule": "The Roboto Mono font shall be used when monospace digits are required.",
@@ -141,6 +141,11 @@
             {
               "numeral": 8,
               "rule": "Outline Button style shall indicate the less preferred option in grouped Buttons.",
+              "status": "current"
+            },
+            {
+              "numeral": 9,
+              "rule": "Primary Buttons indicating preferred user actions shall be placed to the right of buttons used for secondary user actions when in Button groups.",
               "status": "current"
             }
           ]
@@ -333,6 +338,11 @@
               "numeral": 6,
               "rule": "Input Field labels shall not use placeholder text in place of labels.",
               "status": "current"
+            },
+            {
+              "numeral": 7,
+              "rule": "Automatically formatted Input Fields shall use consistent, recognizable formatting.",
+              "status": "new"
             }
           ]
         },
@@ -593,17 +603,17 @@
           "rules": [
             {
               "numeral": 1,
-              "rule": "Toggle shall be used when the action takes immediate effect, without further user confirmation.",
+              "rule": "Switch shall be used when the action takes immediate effect, without further user confirmation.",
               "status": "current"
             },
             {
               "numeral": 2,
-              "rule": "Toggles shall have a corresponding label.",
+              "rule": "Switches shall have a corresponding label.",
               "status": "current"
             },
             {
               "numeral": 3,
-              "rule": "Toggles labels shall use title case capitalization.",
+              "rule": "Switch labels shall use sentence case capitalization.",
               "status": "current"
             }
           ]

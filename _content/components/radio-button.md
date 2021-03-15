@@ -6,7 +6,7 @@ layout: components.template.njk
 title: Radio Button
 demo:  components-form-elements--radio-buttons
 storybook: components-form-elements--radio-buttons
-git: 
+git:
 height: 250px
 theme: true
 ---
@@ -16,7 +16,6 @@ theme: true
 Radio Buttons allow users to select a mutually exclusive option from a predefined set of options. When one selection is made, the previous selection becomes deselected. One option should always be selected.
 
 ## Rules of Thumb
-
 - Use Radio Buttons for mutually exclusive choices. If the user can make more than one choice, use [Checkboxes](components/checkbox) instead.
 - Radio Buttons appear in groups of two or more.
 - One option should always be selected. If a user is required to make a choice between items without a default, consider a [Select Menu](components/select).
