@@ -5,7 +5,7 @@ date: Last Modified
 layout: components.template.njk
 title: Switch
 demo: components-switch--switch
-storybook: components-switch--swittch
+storybook: components-switch--switch
 git: rux-switch
 height: 150px
 theme: true
