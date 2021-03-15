@@ -38,11 +38,11 @@
           "numeral": 2,
           "link": "/design-guidelines/typography/",
           "rules": [
-			{
-			  "numeral": 1,
+            {
+              "numeral": 1,
               "rule": "The Roboto font shall be used for content and components.",
               "status": "new"
-			},
+      			},
             {
               "numeral": 2,
               "rule": "The Roboto Mono font shall be used when monospace digits are required.",
