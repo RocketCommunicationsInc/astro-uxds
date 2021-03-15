@@ -55,7 +55,7 @@ Individual elements outside of a Dialog Box or Pane can also be configured for v
 - Don’t reset the form. Requiring users to re-input valid data is poor user experience.
 - In the same voice, write short, simple and precise error messages that assist users in easily correcting input errors.
 - Clearly mark required fields with an asterisk.
-- Display examples of correctly formatted data.
+- Display examples of correctly formatted data. When validating data format, use placeholders and help text to clearly convey to the user the expected data formats. Automatically format data when possible and appropriate to avoid user errors.
 - Use appropriate input type on form fields for the expected data input (e.g., `<input type="number">` when entering numeric data)
 
 ::: note Poorly written error messages confuse and frustrate the user and force them to fix the input problem through trial and error.
