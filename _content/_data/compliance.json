@@ -100,6 +100,8 @@
               "rule": "Data visualizations shall use sentence case capitalization for titles, labels, and legends.",
               "status": "new"
             }
+          ]
+        },
         {
           "name": "Tables",
           "numeral": 3,
