@@ -30,6 +30,8 @@ Radio Buttons allow users to select a mutually exclusive option from a predefine
 ## Appearance and Behavior
 A radio button consists of a small circle that is filled in upon selection. Text describing the represented choice for that line goes to the right of the selection icon. If the radio button choice is disabled, the selection state is still indicated by the fill of the selection icon, but the choice is not interactive and cannot be selected. The disabled state is shown with lowered opacity compared to the enabled state.
 
+To learn more about adding Help Text to Radio Buttons or Radio Buttton groups, see the [Forms and Validation](/patterns/forms-and-validation) guidance. 
+
 :::two-col
 ![Do: Use Radio Buttons when asking users to select a mutually exclusive option from a predefined set of options. When one selection is made, a previous selection becomes deselected.](/img/components/radio-buttons-do-1.png "Do: Use Radio Buttons when asking users to select a mutually exclusive option from a predefined set of options. When one selection is made, a previous selection becomes deselected.")
 
