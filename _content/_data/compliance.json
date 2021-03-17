@@ -83,6 +83,7 @@
               "numeral": 2,
               "rule": "Elements indicating state or status shall use only the specified [Status Colors](/patterns/status-system/#status-colors).",
               "status": "new"
+              
             }
           ]
         },
