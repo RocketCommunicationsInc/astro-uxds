@@ -32,6 +32,10 @@ To achieve the split color element in the slider, a small amount of JavaScript i
 Sliders may be used in conjunction with an input field or select menu allowing the user to set a slider value via keyboard entry.
 :::
 
+## Appearance and Behavior
+
+To learn more about adding Help Text to Sliders, see the [Forms and Validation](/patterns/forms-and-validation) guidance. 
+
 ## Examples
 
 :::two-col
