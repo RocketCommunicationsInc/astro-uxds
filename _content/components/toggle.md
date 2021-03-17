@@ -26,3 +26,5 @@ A Switch toggles between two mutually exclusive states such as "On" or "Off." Un
 ## Appearance and Behavior
 
 A switch consists of a circular button that slides across a track to display the "Off" (left) or "On" (right) state. Clicking anywhere on the switch component will cause the switch to change states immediately.
+
+To learn more about adding Help Text to Switches, see the [Forms and Validation](/patterns/forms-and-validation) guidance.
