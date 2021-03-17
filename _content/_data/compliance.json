@@ -42,7 +42,7 @@
               "numeral": 1,
               "rule": "The Roboto font shall be used for content and components.",
               "status": "new"
-      			},
+            },
             {
               "numeral": 2,
               "rule": "The Roboto Mono font shall be used when monospace digits are required.",
@@ -77,13 +77,11 @@
               "rule": "Elements indicating state or status shall use only the specified [Status Symbols](/patterns/status-system/).",
               "figure": "/img/patterns/status-system-fundamentals.png",
               "status": "new"
-              
             },
             {
               "numeral": 2,
               "rule": "Elements indicating state or status shall use only the specified [Status Colors](/patterns/status-system/#status-colors).",
               "status": "new"
-              
             }
           ]
         },
@@ -120,32 +118,31 @@
           "name": "Forms and Validation",
           "numeral": 3,
           "link": "/patterns/forms-and-validation/",
-          "rules":[
-              {
-                "numeral": 1,
-                "rule": "Form controls shall not use placeholder text in place of help text.",
-                "status": "new"
-              },
-              {
-                "numeral": 2,
-                "rule": "Form control help text shall be aligned to the bottom left of the control.",
-                "status": "new"
-              },
-              {
-                "numeral": 3,
-                "rule": "Form control marked as required shall contain an asterisk to the right of the label.",
-                "status": "new"
-              },
-              {
-                "numeral": 4,
-                "rule": "Form controls marked as optional shall contain the word 'optional' in parentheses after the label.",
-                "status": "new"
-              },
-              {
-                "numeral": 5,
-                "rule": "Forms shall use sentence case capitalization.",
-                "status": "new"
-              }
+          "rules": [
+            {
+              "numeral": 1,
+              "rule": "Form controls shall not use placeholder text in place of help text.",
+              "status": "new"
+            },
+            {
+              "numeral": 2,
+              "rule": "Form control help text shall be aligned to the bottom left of the control.",
+              "status": "new"
+            },
+            {
+              "numeral": 3,
+              "rule": "Form control marked as required shall contain an asterisk to the right of the label.",
+              "status": "new"
+            },
+            {
+              "numeral": 4,
+              "rule": "Form controls marked as optional shall contain the word 'optional' in parentheses after the label.",
+              "status": "new"
+            },
+            {
+              "numeral": 5,
+              "rule": "Forms shall use sentence case capitalization.",
+              "status": "new"
             }
           ]
         }
@@ -771,7 +768,7 @@
               "numeral": 9,
               "rule": "The classification level itself (excepting CUI) in Overall Marking banners must be spelled out completely.",
               "status": "new"
-            }  
+            }
           ]
         },
         {
