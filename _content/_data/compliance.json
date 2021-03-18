@@ -722,7 +722,7 @@
             },
             {
               "numeral": 4,
-              "rule": "Help Text shall be left-aligned under the relevant Swittch, regardless of location of the label.",
+              "rule": "Help Text shall be left-aligned under the relevant Switch, regardless of location of the label.",
               "status": "new"
             }            
           ]
