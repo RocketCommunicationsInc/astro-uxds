@@ -780,6 +780,22 @@
               "numeral": 1,
               "rule": "Slider labels shall use sentence case capitalization.",
               "status": "new"
+            },
+            {
+              "numeral": 2,
+              "rule": "Sliders shall have a visual indicator of the currently selected value.",
+              "status": "new"
+            },
+            {
+              "numeral": 3,
+              "rule": "Sliders shall have a corresponding label.",
+              "status": "new"
+            },
+            {
+              "numeral": 4,
+              "rule": "Slider labels shall be aligned to the top left of the Slider's track, or vertically centered with the track to the left of the Slider.",
+              "figure": "/img/components/input-fields-do-1.png",
+              "status": "new"
             }
           ]
         },
