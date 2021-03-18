@@ -13,7 +13,7 @@ theme: true
 
 # Slider
 
-A Slider allows users to choose from a range of continuous and discrete values. The Slider displays the range of possible values and the Slider’s indicator displays the current value.
+A Slider allows users to choose from a range of continuous and discrete values arranged from small to large. The Slider track displays the range of possible values and the Slider’s indicator displays the current value.
 
 ::: note
 To achieve the split color element in the slider, a small amount of JavaScript is needed. Refer to slider documentation in the Git repository for more information.
