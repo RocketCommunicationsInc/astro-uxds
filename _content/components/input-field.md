@@ -13,7 +13,9 @@ theme: true
 
 # Input Field
 
+
 Input Fields allow users to enter freeform text. Variations on this field often provide specific data entry formats such as masked data (e.g. passwords or phone numbers), date and time, and numeric data entry.
+
 
 ## Rules of Thumb
 
@@ -34,9 +36,9 @@ An Input Field consists of a descriptive, concise label paired with an entry fie
 
 Standard states for Input Fields include Active (the default, interactive state for a text input), Hover (the user has paused over an active or focussed input), Focus (the field is selected and ready for data entry), Disabled (the field is not interactive, and its content is not sent when the form is submitted), and Read-only.
 
-An Input field is enabled if it is eligible for interaction and focused if it is the current target for keystrokes.
+An Input Field is enabled if it is eligible for interaction and focused if it is the current target for keystrokes.
 
-An input field can be configured for required input, limited data ranges, or specific data formats. See [Form and Input Validation](/patterns/forms-and-validation). To learn more about adding Help Text to Input Fields, see the [Forms and Validation](/patterns/forms-and-validation) guidance. 
+An Input Field can be configured for required input, limited data ranges, or specific data formats. See [Form and Input Validation](/patterns/forms-and-validation). To learn more about adding Help Text to Input Fields, see the [Forms and Validation](/patterns/forms-and-validation) guidance. 
 
 Input Fields have a smaller variant which may be beneficial in layouts where space is at a premium.
 

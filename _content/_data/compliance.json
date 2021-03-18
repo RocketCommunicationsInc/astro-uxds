@@ -42,7 +42,7 @@
               "numeral": 1,
               "rule": "The Roboto font shall be used for content and components.",
               "status": "new"
-      			},
+            },
             {
               "numeral": 2,
               "rule": "The Roboto Mono font shall be used when monospace digits are required.",
@@ -121,14 +121,29 @@
           "rules": [
             {
               "numeral": 1,
-              "rule": "Help Text shall use sentence case capitalization.",
+              "rule": "Form controls shall not use placeholder text in place of help text.",
               "status": "new"
             },
             {
               "numeral": 2,
               "rule": "Help Text shall be left-aligned under the relevant form element, regardless of location of the form element’s label. The only exception is for Radio Button and Checkbox list item Help Text which shall be left-aligned to the item’s text and not its icon.",
               "status": "new"
-            }
+            },
+            {
+              "numeral": 3,
+              "rule": "Form controls marked as required shall contain an asterisk to the right of the label.",
+              "status": "new"
+            },
+            {
+              "numeral": 4,
+              "rule": "Form controls marked as optional shall contain the word 'optional' in parentheses after the label.",
+              "status": "new"
+            },
+            {
+              "numeral": 5,
+              "rule": "Help Text shall use sentence case capitalization.",
+              "status": "new"
+            }            
           ]
         }
       ]
@@ -384,19 +399,19 @@
             },
             {
               "numeral": 3,
-              "rule": "Input Field labels shall be aligned to the top left of the field.",
+              "rule": "Input Field labels shall be aligned to the top left, or to the left, of the field.",
               "figure": "/img/components/input-fields-do-1.png",
               "status": "current"
             },
             {
               "numeral": 4,
-              "rule": "Input Field shall have a corresponding label.",
+              "rule": "Input Fields shall have a corresponding label.",
               "status": "current"
             },
             {
               "numeral": 5,
-              "rule": "Input Field labels shall use sentence case capitalization.",
-              "status": "new"
+              "rule": "Input Fields shall use sentence case capitalization.",
+              "status": "current"
             },
             {
               "numeral": 6,
@@ -788,7 +803,7 @@
               "numeral": 9,
               "rule": "The classification level itself (excepting CUI) in Overall Marking banners must be spelled out completely.",
               "status": "new"
-            }  
+            }
           ]
         },
         {
