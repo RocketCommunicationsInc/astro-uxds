@@ -63,7 +63,7 @@ Like labels, in general, Help Text should only have one line of text below a fie
 :::
 
 ::: two-col
-![Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon..](/img/components/help-text-do-2.png "Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon..")
+![Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.](/img/components/help-text-do-2.png "Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.")
 
 ![Don’t: Go over one line of Help Text. Use a Pop Over instead for text that is too long.](/img/components/help-text-dont-2.png "Go over one line of Help Text. Use a Pop Over instead for text that is too long.")
 :::
