@@ -23,7 +23,7 @@ When activated, Select Menus allow users to select a value from a list of values
 
 ## Appearance and Behavior
 
-To learn more about adding Help Text to Select Menus, see the [Forms and Validation](/patterns/forms-and-validation) guidance. 
+To learn more about adding Help Text or Validation to Select Menus, see the [Forms and Validation](/patterns/forms-and-validation) guidance. 
 
 ## Examples
 
