@@ -131,19 +131,34 @@
             },
             {
               "numeral": 3,
-              "rule": "Form controls marked as required shall contain an asterisk to the right of the label.",
+              "rule": "Required fields shall be marked with an asterisk to the right of the label when the majority of a form is optional.",
               "status": "new"
             },
             {
               "numeral": 4,
-              "rule": "Form controls marked as optional shall contain the word 'optional' in parentheses after the label.",
+              "rule": "Optional fields shall be marked with an asterisk to the right of the label when the majority of a form is required.",
               "status": "new"
             },
             {
               "numeral": 5,
               "rule": "Help Text shall use sentence case capitalization.",
               "status": "new"
-            }            
+            },
+            {
+              "numeral": 6,
+              "rule": "Validation Text shall use sentence case capitalization.",
+              "status": "new"
+            },
+            {
+              "numeral": 7,
+              "rule": "Inline Validation Text shall be left-aligned under the relevant form element or group, regardless of location of the form element’s label.",
+              "status": "new"
+            },
+            {
+              "numeral": 8,
+              "rule": "Inline Validation Text shall replace Help Text when Help Text is present under a form element and an error state is triggered.",
+              "status": "new"
+            }
           ]
         }
       ]
@@ -243,7 +258,12 @@
               "numeral": 6,
               "rule": "Checkbox list item Help Text shall be left-aligned to the item’s text and not its icon.",
               "status": "new"
-            }            
+            },
+            {
+              "numeral": 7,
+              "rule": "Inline Validation Text shall be left-aligned under the relevant checkbox list, regardless of location of the label.",
+              "status": "new"
+            }
           ]
         },
         {
@@ -306,6 +326,11 @@
             {
               "numeral": 4,
               "rule": "Help Text shall be left-aligned under the relevant Select Menu, regardless of location of the label.",
+              "status": "new"
+            },
+            {
+              "numeral": 5,
+              "rule": "Inline Validation Text shall be left-aligned under the relevant Select Menu, regardless of location of the label.",
               "status": "new"
             }
           ]
@@ -631,7 +656,12 @@
               "numeral": 4,
               "rule": "Help Text shall be left-aligned under the relevant Search field, regardless of location of the label.",
               "status": "new"
-            }            
+            },
+            {
+              "numeral": 5,
+              "rule": "Inline Validation Text shall be left-aligned under the relevant Search field, regardless of location of the label.",
+              "status": "new"
+            }    
           ]
         },
         {
