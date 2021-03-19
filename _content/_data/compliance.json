@@ -793,7 +793,7 @@
             },
             {
               "numeral": 4,
-              "rule": "Slider labels shall be aligned to the top left of the Slider's track, or vertically centered with the track to the left of the Slider.",
+              "rule": "Slider labels shall be aligned to the top left of the Slider's track or vertically centered with the track to the left of the Slider.",
               "status": "new"
             }
           ]
