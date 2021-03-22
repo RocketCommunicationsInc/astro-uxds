@@ -116,7 +116,7 @@
         },
         {
           "name": "Forms and Validation",
-          "numeral": 3,
+          "numeral": 4,
           "link": "/patterns/forms-and-validation/",
           "rules": [
             {
@@ -126,12 +126,12 @@
             },
             {
               "numeral": 2,
-              "rule": "Form control help text shall be aligned to the bottom left of the control.",
+              "rule": "Help Text shall be left-aligned under the relevant form element, regardless of location of the form element’s label. The only exception is for Radio Button and Checkbox list item Help Text which shall be left-aligned to the item’s text and not its icon.",
               "status": "new"
             },
             {
               "numeral": 3,
-              "rule": "Form control marked as required shall contain an asterisk to the right of the label.",
+              "rule": "Form controls marked as required shall contain an asterisk to the right of the label.",
               "status": "new"
             },
             {
@@ -141,9 +141,9 @@
             },
             {
               "numeral": 5,
-              "rule": "Forms shall use sentence case capitalization.",
+              "rule": "Help Text shall use sentence case capitalization.",
               "status": "new"
-            }
+            }            
           ]
         }
       ]
@@ -238,7 +238,12 @@
               "numeral": 5,
               "rule": "Checkbox labels shall use sentence case capitalization.",
               "status": "new"
-            }
+            },
+            {
+              "numeral": 6,
+              "rule": "Checkbox list item Help Text shall be left-aligned to the item’s text and not its icon.",
+              "status": "new"
+            }            
           ]
         },
         {
@@ -297,6 +302,11 @@
               "numeral": 3,
               "rule": "Select menus shall not exceed 25 menu items. For longer lists, use a [Table](/patterns/table) instead.",
               "status": "current"
+            },
+            {
+              "numeral": 4,
+              "rule": "Help Text shall be left-aligned under the relevant Select Menu, regardless of location of the label.",
+              "status": "new"
             }
           ]
         },
@@ -411,6 +421,11 @@
             {
               "numeral": 7,
               "rule": "Automatically formatted Input Fields shall use consistent, recognizable formatting.",
+              "status": "new"
+            },
+            {
+              "numeral": 4,
+              "rule": "Help Text shall be left-aligned under the relevant Input Field, regardless of location of the label.",
               "status": "new"
             }
           ]
@@ -583,7 +598,12 @@
               "numeral": 7,
               "rule": "A Radio Button shall not initiate an immediate state change.",
               "status": "current"
-            }
+            },
+            {
+              "numeral": 8,
+              "rule": "Radio Button list item Help Text shall be left-aligned to the item’s text and not its icon.",
+              "status": "new"
+            }             
           ]
         },
         {
@@ -606,7 +626,12 @@
               "numeral": 3,
               "rule": "Search text shall use sentence case capitalization.",
               "status": "new"
-            }
+            },
+            {
+              "numeral": 4,
+              "rule": "Help Text shall be left-aligned under the relevant Search field, regardless of location of the label.",
+              "status": "new"
+            }            
           ]
         },
         {
@@ -633,7 +658,12 @@
               "numeral": 4,
               "rule": "Segmented Buttons shall use sentence case capitalization.",
               "status": "new"
-            }
+            },
+            {
+              "numeral": 5,
+              "rule": "Help Text shall be left-aligned under the relevant Segmented Button, regardless of location of the label.",
+              "status": "new"
+            }            
           ]
         },
         {
@@ -704,7 +734,12 @@
               "numeral": 3,
               "rule": "Switch labels shall use sentence case capitalization.",
               "status": "new"
-            }
+            },
+            {
+              "numeral": 4,
+              "rule": "Help Text shall be left-aligned under the relevant Switch, regardless of location of the label.",
+              "status": "new"
+            }            
           ]
         },
         {
@@ -780,7 +815,12 @@
               "numeral": 1,
               "rule": "Slider labels shall use sentence case capitalization.",
               "status": "new"
-            }
+            },
+            {
+              "numeral": 2,
+              "rule": "Help Text shall be left-aligned under the relevant Slider, regardless of location of the label.",
+              "status": "new"
+            }            
           ]
         },
         {

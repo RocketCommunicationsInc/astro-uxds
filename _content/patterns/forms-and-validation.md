@@ -10,7 +10,7 @@ title: Forms and Validation
 
 Forms are used to collect, validate, and submit user input. They usually contains form elements including [Checkbox](/components/checkbox), [Dialog Box](/components/dialog-box), [Select Menu](/components/select), [Input Field](/components/input-field), [Radio Button](/components/radio-button) and [Switch](/components/switch).
 
-## Form Layout
+### Form Layout
 Forms should be designed in columns as this improves scanability. When there are not a lot of fields, a form should be one column. Information can be presented in multiple columns if they are grouped together.
 
 One-column layout is preferred, but use two to four column layouts when:
@@ -19,17 +19,17 @@ One-column layout is preferred, but use two to four column layouts when:
 
 ![Two Column Layout. The Observations From field is associated with the Observations Start Time field](/img/patterns/forms-layout.png)
 
-## Form Spacing
+### Form Spacing
 
 ![Values for horizontal and vertical spacing.](/img/patterns/forms-spacing.png)
 
-## Labels
+### Labels
 
 Labels should use clear but concise language and provide enough information for the user to accurately complete the required information.
 
-Labels should follow the vertical format of the form. Generally, place labels above their respective fields and align with [Input Field](/components/input-field) text. Group a label with its field so that there is a clear distinction between fields.
+Labels should follow the vertical format of the form. Place labels above their respective fields and align with the beginning of the [Input Field](/components/input-field). Group a label with its field so that there is a clear distinction between fields.
 
-## Rules of Thumb
+### Rules of Thumb
 
 - Disabled elements don't get focus via click, tap, or keyboard, aren’t accessible when tabbing, and are not submitted with form data.
 - Read-only elements (e.g., `<input type=“text” readonly />`) should allow focus via click, tap, or keyboard, are accessible when tabbing, and are submitted with form data.
@@ -40,6 +40,39 @@ Labels should follow the vertical format of the form. Generally, place labels ab
 - When indicating required fields, an asterisk should be placed to the right of the label.
 - When indicating optional fields, add the word _"Optional"_ in parentheses after the label.
 
+### Help Text
+
+Help Text is an optional component addition used to provide contextual or instructional information for a form element. Help Text content should be as concise as possible while still providing valuable information to the user.
+
+Use Help Text instead of placeholder text when the user needs to refer to the instructional text after the field is filled in. Placeholder text should be used sparingly because the text disappears once the field is in focus, but can be used for generic information that is not required to complete the task. For example, including “Search…” in a [Search](/components/search) field is acceptable since there are other cues about the functionality of the field outside of the placeholder text.
+
+#### Rules of Thumb
+
+- Be as concise as possible in Help Text content.
+- Help Text goes below form elements.
+- Use Help Text instead of placeholder text for important information.
+- Use Pop Over instead of Help Text if the content overflows one line's width for that form element.
+
+#### Appearance and Behavior
+
+Help Text uses a smaller font size with the secondary text color so that it doesn’t take away too much focus from the main form element that the user should focus on. As usual, sentence case capitalization is used for Help Text for readability. Help Text is placed 10 px below the form element and is left-aligned with the beginning of that form element to make sure that it is clear which element the help content is related to. For forms using labels above fields, this means that the Help Text would align with the start of the field’s label as well. For forms with labels to the left of the field, the Help Text would only start with the form element, not the label, to make it easier to scan down the list of element labels without distraction. Two exceptions to this rule are [Radio Button](/components/radio-button) and [Checkbox](/components/checkbox) list items. In these cases, Help Text for a particular item in the list will be left-aligned to the start of the item text and not the Radio Button or Checkbox icon. This improves readability of the list.  If the Help Text is relevant to a group of controls, like a group of Checkboxes that requires one selection, then the Help Text can go below the full grouping, left-aligned with the element’s label.
+
+Like labels, in general, Help Text should only have one line of text below a field. If the text would need to wrap to a second line, use an icon that triggers a Pop Over on-click that contains the help content instead. This reduces scrolling and user distraction from the main content, the form elements themselves.
+
+#### Examples
+
+::: two-col
+![Do: Use Help Text for important, concise instructions.](/img/components/help-text-do-1.png "Do: Use Help Text for important, concise instructions.")
+
+![Don’t: Use placeholder text for information that should be visible when the form element is in focus.](/img/components/help-text-dont-1.png "Don’t: Use placeholder text for information that should be visible when the form element is in focus.")
+:::
+
+::: two-col
+![Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.](/img/components/help-text-do-2.png "Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.")
+
+![Don’t: Go over one line of Help Text. Use a Pop Over instead for text that is too long.](/img/components/help-text-dont-2.png "Go over one line of Help Text. Use a Pop Over instead for text that is too long.")
+:::
+
 ## Validation
 
 Validation ensures that data is properly entered into an Input Field or Form. It alerts users to data errors, required input, and prompts them to make corrections.
@@ -48,7 +81,7 @@ Input Fields, Checkboxes and Select Menus can be configured to require user inpu
 
 Individual elements outside of a Dialog Box or Pane can also be configured for validation.
 
-## Rules of Thumb
+### Rules of Thumb
 
 - Validate user input immediately after the element loses focus. Don’t wait to validate elements upon “Apply.”
 - Don’t reset the form. Requiring users to re-input valid data is poor user experience.
@@ -66,7 +99,7 @@ A well written validation error message greatly reduces the user’s error recov
 - How to fix the input error.
   :::
 
-## Writing in the Astro Voice
+### Writing in the Astro Voice
 
 The voice of Astro applications is direct, confident, and reflects the critical nature of Astro events and processes. It’s never chatty or informal nor does it personify technology.
 
@@ -77,7 +110,7 @@ Tips for writing validation error messages in the voice of Astro:
 - Never personify the application. Assigning human qualities to a virtual environment is the parlance of Science Fiction. It’s inappropriate for the vital nature of Astro applications.
 - Don’t use salutations. Leave out: “hello", "goodbye", "welcome”, etc.
 
-## Appearance and Behavior
+### Appearance and Behavior
 
 Configuration options for validation of Input Fields:
 :::two-col
