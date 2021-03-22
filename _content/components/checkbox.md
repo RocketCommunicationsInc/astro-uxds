@@ -27,7 +27,7 @@ A Checkbox describes a state or value that can be either “On" or "Off.” Chec
 
 A basic Checkbox consists of a visual indicator of its selected state followed by a label. Individual Checkboxes can appear selected (checked), Unselected (no check), and Disabled (no action can be taken by the user). An Indeterminate state (a dash symbol rather than checked) may display when a checkbox is used as a parent of a group of checkboxes where at least one child is selected and at least one is not.
 
-A checkbox can be configured for required input. [See Form and Input Validation](/patterns/forms-and-validation).
+A checkbox can be configured for required input. [See Form and Input Validation](/patterns/forms-and-validation). Help Text for individual Checkbox list items left-aligns with the item’s text and not its icon for easier text scanning. To learn more about adding Help Text to Checkboxes or Checkbox groups, see the [Forms and Validation](/patterns/forms-and-validation) guidance. 
 
 ::: note
 Don’t use a Checkbox to initiate an action. Instead, use an [Action Button](/components/button) or a [Toggle Button](/components/toggle)

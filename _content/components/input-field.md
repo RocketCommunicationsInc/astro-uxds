@@ -38,7 +38,7 @@ Standard states for Input Fields include Active (the default, interactive state 
 
 An Input Field is enabled if it is eligible for interaction and focused if it is the current target for keystrokes.
 
-An Input Field can be configured for required input, limited data ranges, or specific data formats. See [Form and Input Validation](/patterns/forms-and-validation).
+An Input Field can be configured for required input, limited data ranges, or specific data formats. See [Form and Input Validation](/patterns/forms-and-validation). To learn more about adding Help Text to Input Fields, see the [Forms and Validation](/patterns/forms-and-validation) guidance. 
 
 Input Fields have a smaller variant which may be beneficial in layouts where space is at a premium.
 
