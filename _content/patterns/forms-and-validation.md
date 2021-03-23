@@ -126,7 +126,7 @@ Examples of configuration options for validation of Input Fields:
 
 ![Required Input - User must enter some text. If no text is entered, a warning icon and instructional text is shown.](/img/patterns/val-required-input.png 'Required Input - User must enter some text. If no text is entered, a warning icon and instructional text is shown.')
 
-![Range - Input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and instructional text.](/img/patterns/val-numeric-range.png 'Numeric Range - Input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and instructional text.')
+![Range - Input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and instructional text.](/img/patterns/val-numeric-range.png 'Range - Input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and instructional text.')
 
 ![Time - Input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and instructional text.](/img/patterns/val-time.png 'Time - Input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and instructional text.')
 
