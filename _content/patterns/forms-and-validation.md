@@ -75,20 +75,21 @@ Like labels, in general, Help Text should only have one line of text below a fie
 
 ## Validation
 
-Validation ensures that data is properly entered into an Input Field or Form. It alerts users to data errors, required input, and prompts them to make corrections.
+Validation ensures that data is properly entered into a form or form element. This includes both validation of input within required form elements and invalid data such as going over a character limit. Form validation should provide information about what and where the error is as well as how to make the necessary corrections, if possible. Validation can take place inline after a specific form element loses focus or after submission of a full form. Both can take place in the same form.
 
-Input Fields, Checkboxes and Select Menus can be configured to require user input and to enforce specific data formats. Once configured, these elements can provide validation as users move through a group of controls, such as a form, within a Dialog Box or Pane. Validation is then employed a second time when “Apply” or “OK” is selected.
+[Input Fields](/components/input-field), [Checkboxes](/components/checkbox), and [Select Menus](/components/select) can be configured to require user input and to enforce specific data formats. Once configured, these elements can provide validation as users move through a group of controls, such as a form, within a [Dialog Box](/components/dialog-box) or [Pane](/patterns/modeless-panes). Validation is then employed a second time when a form submission [Button](/components/button) is pressed.
 
 Individual elements outside of a Dialog Box or Pane can also be configured for validation.
 
 ### Rules of Thumb
 
-- Validate user input immediately after the element loses focus. Don’t wait to validate elements upon “Apply.”
+- Validate user input immediately after the element loses focus when possible. Don’t wait to validate elements upon “Submit.”
 - Don’t reset the form. Requiring users to re-input valid data is poor user experience.
 - In the same voice, write short, simple, and precise error messages that assist users in easily correcting input errors.
-- Clearly mark required fields with an asterisk.
+- Clearly mark required fields with an asterisk to the right of the label when the majority of a form is optional.
+- Clearly mark optional fields with (optional) to the right of the label when the majority of a form is required.
 - Display examples of correctly formatted data. When validating data format, use placeholders and help text to clearly convey to the user the expected data formats. Automatically format data when possible and appropriate to avoid user errors.
-- Use appropriate input type on form fields for the expected data input (e.g., `<input type="number">` when entering numeric data)
+- Use appropriate input type on form fields for the expected data input (e.g., `<input type="number">` when entering numeric data).
 
 ::: note Poorly written error messages confuse and frustrate the user and force them to fix the input problem through trial and error.
 
@@ -112,14 +113,22 @@ Tips for writing validation error messages in the voice of Astro:
 
 ### Appearance and Behavior
 
-Configuration options for validation of Input Fields:
+For inline validation on specific form elements, Validation Text follows the same guidelines as Help Text in terms of general appearance and location. The font is the same medium font size, 10 px below the form element or group, uses sentence case capitalization, and lines up under the left-edge of the form element or form element group in the case of checkboxes or radio buttons. If Help Text is present at the same time as an error state, the Validation Text replaces the existing Help Text under that form element.
+
+The validation-specific appearance elements are a red border around the relevant element or grouping, use of red, bold text instead of secondary text color, and starting the text with a red warning icon. This provides the user with multiple cues about the error state to aid in accessibility. The bold text enables accessible color contrast levels between the text and background colors.
+
+For post-submission errors, a [Notification Banner](/components/notification-banner) or in-page message can be used to show more general information such as an error count or a general error message for the form or page.
+
+### Examples
+
+Examples of configuration options for validation of Input Fields:
 :::two-col
 
-![Required Input - user must enter some text. If no text is entered, a warning icon and optional instructional text is shown.](/img/patterns/val-required-input.png 'Required Input - user must enter some text. If no text is entered, a warning icon and optional instructional text is shown.')
+![Required Input - User must enter some text. If no text is entered, a warning icon and instructional text is shown.](/img/patterns/val-required-input.png 'Required Input - User must enter some text. If no text is entered, a warning icon and instructional text is shown.')
 
-![Numeric Range - input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and optional instructional text.](/img/patterns/val-numeric-range.png 'Numeric Range - input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and optional instructional text.')
+![Range - Input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and instructional text.](/img/patterns/val-numeric-range.png 'Range - Input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and instructional text.')
 
-![Time - input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and optional instructional text.](/img/patterns/val-time.png 'Time - input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and optional instructional text.')
+![Time - Input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and instructional text.](/img/patterns/val-time.png 'Time - Input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and instructional text.')
 
 ![Checkboxes can be configured to require input, where at least one item in a group must be selected.](/img/patterns/val-group-checkbox.png 'Checkboxes can be configured to require input, where at least one item in a group must be selected.')
 
