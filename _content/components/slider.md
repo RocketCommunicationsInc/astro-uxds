@@ -45,6 +45,7 @@ A Continuous slider is used to select any value along a range, such as 0 to 10. 
 
 Variations on the slider may include vertical implementations, using tick marks to indicate specific values, visual indicators of scale, and alternative ways to display the selected value in addition to position of the slider's "thumb" indicator (such as a numeric [Input Field](/components/input-field) or tooltip).
 
+
 ## Examples
 
 :::two-col
