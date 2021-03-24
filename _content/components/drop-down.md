@@ -21,6 +21,10 @@ When activated, Select Menus allow users to select a value from a list of values
 - Selects may default to a state that instructs users what to do. For example: “Select Modem” or a default choice like “Modem X.”
 - When the user knows what they’re looking for in advance, consider using a text field with client-side auto-complete functionality instead.
 
+## Appearance and Behavior
+
+To learn more about adding Help Text or Validation to Select Menus, see the [Forms and Validation](/patterns/forms-and-validation) guidance. 
+
 ## Examples
 
 :::two-col
