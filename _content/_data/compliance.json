@@ -849,9 +849,19 @@
             },
             {
               "numeral": 2,
-              "rule": "Help Text shall be left-aligned under the relevant Slider, regardless of location of the label.",
+              "rule": "Slider labels shall be aligned to the top left of the Slider's track or vertically centered with the track to the left of the Slider.",
+              "status": "updated"
+            },
+            {
+              "numeral": 3,
+              "rule": "Sliders shall have a visual indicator of the currently selected value.",
               "status": "new"
-            }            
+            },
+            {
+              "numeral": 4,
+              "rule": "Sliders shall have a corresponding label.",
+              "status": "new"
+            }
           ]
         },
         {
