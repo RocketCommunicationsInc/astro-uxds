@@ -20,6 +20,8 @@ The Sign in page is often the first interaction a user has with your product. Th
  When implementing validation and security measures Astro users should consult with their organization's IT/Security departments and adapt these patterns to suit the requirements of their organization’s best practices and security needs.
  :::
 
+[Example of a full-page, simple sign in screen](/img/components/signin-simple-full.png "Example of a full-page, simple sign in screen")
+
 The sign in page is presented to users in the following scenarios:
 When a user wants to gain access to an application.
 When a user has signed out voluntarily. They will see a confirmation message after which they will be automatically redirected back to the sign in page.
@@ -35,34 +37,46 @@ When a user has been signed out due to inactivity. In this scenario, when the us
 ## Appearance and Behavior
 
 There are four established types of sign in workflows.
-Sign in with Username or Email Plus Password
+1. Sign in with Username or Email Plus Password
 This is the most basic sign in workflow, wherein the user identifies and authenticates from the same screen using an ID and passcode.
-1. Sign in with Common Access Card (CAC)
+2. Sign in with Common Access Card (CAC)
 This sign in requires additional authentication via a CAC reader and PIN.
-2. Sign in with Single Sign-on (SSO)
+3. Sign in with Single Sign-on (SSO)
 SSO allows the user to authenticate to multiple systems using one identification and passcode method.
-3. Sign in with Multi-Factor Authentication (MFA)
-MFA requires the user to set up additional methods of identification, such as a PIN, or
-4. The Sign in can currently be configured to display Sign in with username or Email plus password, and validation.
+4. Sign in with Multi-Factor Authentication (MFA)
+MFA requires the user to set up additional methods of identification, such as a PIN, or through a verification code sent to a user's mobile device.
+
+The Sign in can currently be configured to display _Sign in with Username or Email Plus Password_, _Sign in with SSO_ and validation.
 
 ### Sign in with Username or Email Plus Password
 
+[Example of a sign in screen hosted within a modal dialog](/img/components/signin-dialog-simple.png "Example of a sign in screen hosted within a modal dialog")
+
 The sign in component consists of a field to identify the user, typically a username or email, and a masked field for a unique passcode, as well as a button that submits the content.  
+
+### Sign in with Single Sign-on (SSO)
+
+[Example of Single Sign-on hosted within a modal dialog](/img/components/signin-dialog-sso.png "Example of Single Sign-on hosted within a modal dialog")
+
+The sign in component consists of a field to identify the user, typically a username or email, and a button that submits the content for SSO verification.  
 
 ### Placement
 
 The sign in UI elements can be added in 3 possible placement areas.
 
+[Example of a sign in screen hosted within a modal dialog](/img/components/signin-dialog-simple.png "Example of a sign in screen hosted within a modal dialog")
 1. Modal dialog
 * Draws user attention to sign in process
 * Can allow application to be running in the background when signed out
 * Ideal for switching applications
 
+[Example of a sign in screen located within a sidebar](/img/components/signin-sidebar-simple-full.png "Example of a sign in screen located within a sidebar")
 2. Sidebar
 * Generally placed on left side of page
 * Allows imagery/branding on opposite side of page to differentiate application
 * Often used alongside SSO
 
+[Example of a full-page sign in screen](/img/components/signin-simple-full.png "Example of a full-page sign in screen")
 3. Full page
 * Draws user attention to the sign in process, without the need for a modal dialog to be placed over an essentially blank page
 * Ideal for initial entry points and when the user does not have access until after authentication
@@ -87,6 +101,8 @@ Common server-side errors:
 * Max # of sign in attempts reached
 * Account lock out
 * Database or system error
+
+[Example of a full-page account lock out (access denied) screen](/img/components/signin-accessdenied-full.png "Example of a full-page account lock out (access denied) screen")
 
 ## Accessibility
 
