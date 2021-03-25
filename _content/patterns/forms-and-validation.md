@@ -62,15 +62,15 @@ Like labels, in general, Help Text should only have one line of text below a fie
 #### Examples
 
 ::: two-col
-![Do: Use Help Text for important, concise instructions.](/img/components/help-text-do-1.png "Do: Use Help Text for important, concise instructions.")
+![Do: Use Help Text for important, concise instructions.](/img/components/val-help-text-do-1.png "Do: Use Help Text for important, concise instructions.")
 
-![Don’t: Use placeholder text for information that should be visible when the form element is in focus.](/img/components/help-text-dont-1.png "Don’t: Use placeholder text for information that should be visible when the form element is in focus.")
+![Don’t: Use placeholder text for information that should be visible when the form element is in focus.](/img/components/val-help-text-dont-1.png "Don’t: Use placeholder text for information that should be visible when the form element is in focus.")
 :::
 
 ::: two-col
-![Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.](/img/components/help-text-do-2.png "Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.")
+![Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.](/img/components/val-help-text-do-2.png "Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.")
 
-![Don’t: Go over one line of Help Text. Use a Pop Over instead for text that is too long.](/img/components/help-text-dont-2.png "Go over one line of Help Text. Use a Pop Over instead for text that is too long.")
+![Don’t: Go over one line of Help Text. Use a Pop Over instead for text that is too long.](/img/components/val-help-text-dont-2.png "Go over one line of Help Text. Use a Pop Over instead for text that is too long.")
 :::
 
 ## Validation
