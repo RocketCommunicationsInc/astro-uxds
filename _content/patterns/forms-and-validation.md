@@ -62,15 +62,15 @@ Like labels, in general, Help Text should only have one line of text below a fie
 #### Examples
 
 ::: two-col
-![Do: Use Help Text for important, concise instructions.](/img/components/val-help-text-do-1.png "Do: Use Help Text for important, concise instructions.")
+![Do: Use Help Text for important, concise instructions.](/img/patterns/val-help-text-do-1.png "Do: Use Help Text for important, concise instructions.")
 
-![Don’t: Use placeholder text for information that should be visible when the form element is in focus.](/img/components/val-help-text-dont-1.png "Don’t: Use placeholder text for information that should be visible when the form element is in focus.")
+![Don’t: Use placeholder text for information that should be visible when the form element is in focus.](/img/patterns/val-help-text-dont-1.png "Don’t: Use placeholder text for information that should be visible when the form element is in focus.")
 :::
 
 ::: two-col
-![Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.](/img/components/val-help-text-do-2.png "Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.")
+![Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.](/img/patterns/val-help-text-do-2.png "Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.")
 
-![Don’t: Go over one line of Help Text. Use a Pop Over instead for text that is too long.](/img/components/val-help-text-dont-2.png "Go over one line of Help Text. Use a Pop Over instead for text that is too long.")
+![Don’t: Go over one line of Help Text. Use a Pop Over instead for text that is too long.](/img/patterns/val-help-text-dont-2.png "Go over one line of Help Text. Use a Pop Over instead for text that is too long.")
 :::
 
 ## Validation
@@ -129,6 +129,8 @@ Examples of configuration options for validation of Input Fields:
 ![Range - Input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and instructional text.](/img/patterns/val-numeric-range.png 'Range - Input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and instructional text.')
 
 ![Time - Input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and instructional text.](/img/patterns/val-time.png 'Time - Input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and instructional text.')
+
+![Numeric Input - Input should be pre-formatted when possible. Text that cannot be pre-formatted or recognized as a valid format is indicated with a warning icon and instructional text.](/img/patterns/val-numeric-entry.png 'Numeric Input - Input should be pre-formatted when possible. Text that cannot be pre-formatted or recognized as a valid format is indicated with a warning icon and instructional text.')
 
 ![Checkboxes can be configured to require input, where at least one item in a group must be selected.](/img/patterns/val-group-checkbox.png 'Checkboxes can be configured to require input, where at least one item in a group must be selected.')
 
