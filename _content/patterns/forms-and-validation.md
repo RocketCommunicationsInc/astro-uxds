@@ -29,7 +29,7 @@ One-column layout is preferred, but use two to four column layouts when:
 
 Labels should use clear but concise language and provide enough information for the user to accurately complete the required information.
 
-Labels should follow the vertical format of the form. Place labels above their respective fields, and align with the left edge of the [Input Field](/components/input-field). Group a label with its field so that there is a clear distinction between fields.
+In general, labels should follow the vertical format of the form. Place labels above their respective fields and align with the left edge of the form element. If the form has a limited amount of height available to it, labels can also be placed to the left of the field as long as the placement of labels is consistent within the form. Either way, group a label with its field so that there is a clear distinction between fields.
 
 ### Rules of Thumb
 
