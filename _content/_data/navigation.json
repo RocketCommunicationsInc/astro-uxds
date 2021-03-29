@@ -216,16 +216,16 @@
 				"url": "/components/status-symbol"
 			},
 			{
+				"label": "Switch",
+				"url": "/components/switch"
+			},
+			{
 				"label": "Tabs",
 				"url": "/components/tabs"
 			},
 			{
 				"label": "Timeline",
 				"url": "/components/timeline"
-			},
-			{
-				"label": "Toggle",
-				"url": "/components/toggle"
 			},
 			{
 				"label": "Tree",

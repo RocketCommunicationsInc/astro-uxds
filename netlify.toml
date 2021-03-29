@@ -39,6 +39,12 @@
 	to = "/patterns/forms-and-validation"
 	status = 301
 	force = true
+	
+[[redirects]]
+	from = "/components/toggle"
+	from = "/components/switch"
+	status = 301
+	force = true
 
 [[redirects]]
 	from = "/components/validation"
