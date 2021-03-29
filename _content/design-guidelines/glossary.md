@@ -22,7 +22,7 @@ title: Glossary
 
 - [Checkbox](/components/checkbox) - A Checkbox allows a user to select a value from a small set of options.
 - [Classification & Control Markings](/components/classification-markings) - Markings required to be present on software that includes controlled or classified information.
-- [Clock](components/clock) - Clock shows the current date and time, and optional AOS and LOS timers.
+- [Clock](/components/clock) - Clock shows the current date and time, and optional AOS and LOS timers.
 - Close Button - A UI component that, when activated, dismisses a [Dialog Box](/components/dialog-box).
 - [Color Palettes](/design-guidelines/color) - The list of color values used in and approved by the Astro design system.
 - [Compliance](/design-guidelines/compliance) - A list of rules used to determine if products align with Astro design and usage patterns.
@@ -56,7 +56,7 @@ title: Glossary
 ### M
 
 - Menu - A list of options from which users choose. The options can execute commands, display a window (to request more information from users) or submenu, and specify settings.
-- [Modeless Pane](/patterns/moddeless-panes) - A visual pattern used to present temporary interactions inline and does not require user action before moving to another area of the page.
+- [Modeless Pane](/patterns/modeless-panes) - A visual pattern used to present temporary interactions inline and does not require user action before moving to another area of the page.
 
 ### N
 
