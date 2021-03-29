@@ -53,7 +53,8 @@ Last updated: {{ page.date }}
 
 Astro is provided as an open-source tool under the **Astro Space UX Design System Interim License Agreement**:
 
-::: caution When implementing Astro Space UX Design System users should consult with their organization's IT/Security departments and adapt these patterns to suit the needs of their organization’s best practices and security requirements.:::
+::: caution When implementing Astro Space UX Design System users should consult with their organization's IT/Security departments and adapt these patterns to suit the needs of their organization’s best practices and security requirements.
+:::
 
 > Copyright © {{ meta.copyright }} Rocket Communications, Inc.
 >

@@ -26,7 +26,7 @@ Avoid using "Click Here," or "Link."
 :::two-col
 ![Do: Use Astro defined color for links ](/img/components/links-do-1.png 'Do: Use Astro defined color for links ')
 
-![Don’t: use underlines on links](/img/components/links-dont-1.png 'Don’t: Use underlines on links')
+![Don’t: use underlines on links](/img/components/links-dont-1.png 'Don’t: use underlines on links')
 
 :::
 
