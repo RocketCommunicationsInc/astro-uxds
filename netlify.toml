@@ -42,7 +42,7 @@
 	
 [[redirects]]
 	from = "/components/toggle"
-	from = "/components/switch"
+	to = "/components/switch"
 	status = 301
 	force = true
 
