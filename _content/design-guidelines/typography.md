@@ -16,9 +16,9 @@ Astro supports three levels of headline text (h1, h2, h3). CSS properties are au
 
 | Heading | Weight | Markup | REM   | PX  | Class |
 | ------ | ------ | ------ | ----- | --- | ----- |
-| Heading Level 1     | Light  | `<h1>` | 2.375 | 38  | `.h1` |
-| Heading Level 2     | Light  | `<h2>` | 1.75  | 28  | `.h2` |
-| Heading Level 3     | Light  | `<h3>` | 1.375 | 22  | `.h3` |
+| Heading Level 1     | Normal  | `<h1>` | 2.125 | 34  | `.h1` |
+| Heading Level 2     | Normal  | `<h2>` | 1.5  | 24  | `.h2` |
+| Heading Level 3     | Medium  | `<h3>` | 1.25 | 20  | `.h3` |
 
 ::: note
 In addition to semantic headings, Astro supports overriding a header element's presentation via .h1, .h2 .h3 CSS classes which will apply the visual appearance of the corresponding header element.
