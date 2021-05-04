@@ -34,7 +34,7 @@ The default font size in Astro is 1rem/16px. Astro supports four additional font
 | Normal/large | Normal (400) | 1     | 16  | --    |
 | Medium | Normal (400) | 0.875 | 14  | `.md` |
 | Small | Normal (400) | 0.75  | 12  | `.sm` |
-| Extra small (400) | Normal | 0.65  | 10  | `.xs` |
+| Extra small | Normal (400) | 0.65  | 10  | `.xs` |
 
 ## Inline Text Styles
 
