@@ -16,9 +16,9 @@ Astro supports three levels of headline text (h1, h2, h3). CSS properties are au
 
 | Heading | Weight | Markup | REM   | PX  | Class |
 | ------ | ------ | ------ | ----- | --- | ----- |
-| Heading Level 1     | Normal  | `<h1>` | 2.125 | 34  | `.h1` |
-| Heading Level 2     | Normal  | `<h2>` | 1.5  | 24  | `.h2` |
-| Heading Level 3     | Medium  | `<h3>` | 1.25 | 20  | `.h3` |
+| Heading Level 1     | Normal (400) | `<h1>` | 2.125 | 34  | `.h1` |
+| Heading Level 2     | Normal (400) | `<h2>` | 1.5  | 24  | `.h2` |
+| Heading Level 3     | Medium (500) | `<h3>` | 1.25 | 20  | `.h3` |
 
 ::: note
 In addition to semantic headings, Astro supports overriding a header element's presentation via .h1, .h2 .h3 CSS classes which will apply the visual appearance of the corresponding header element.
@@ -30,11 +30,11 @@ The default font size in Astro is 1rem/16px. Astro supports four additional font
 
 | Size        | Weight | REM   | PX  | Class |
 | ------------- | ------ | ----- | --- | ----- |
-| Extra large | Normal | 1.125 | 18  | `.xl` |
-| Normal/large | Normal | 1     | 16  | --    |
-| Medium | Normal | 0.875 | 14  | `.md` |
-| Small | Normal | 0.75  | 12  | `.sm` |
-| Extra small | Normal | 0.65  | 10  | `.xs` |
+| Extra large | Normal (400) | 1.125 | 18  | `.xl` |
+| Normal/large | Normal (400) | 1     | 16  | --    |
+| Medium | Normal (400) | 0.875 | 14  | `.md` |
+| Small | Normal (400) | 0.75  | 12  | `.sm` |
+| Extra small (400) | Normal | 0.65  | 10  | `.xs` |
 
 ## Inline Text Styles
 
