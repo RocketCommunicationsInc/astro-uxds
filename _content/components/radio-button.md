@@ -21,7 +21,7 @@ Radio Buttons allow users to select a mutually exclusive option from a predefine
 - One option should always be selected. If a user is required to make a choice between items without a default, consider a [Select Menu](components/select).
 - Use Radio Buttons when two to six choices are available. If displaying more than six items, use a [Select Menu](/components/select).
 - Don’t use a Radio Button to initiate an action. Actions can be initiated with [Buttons](/components/button).
-- Don't use a Radio Button to initiate an immediate state change. Use a [Switch](/components/toggle) instead.
+- Don't use a Radio Button to initiate an immediate state change. Use a [Switch](/components/switch) instead.
 - Lay out lists of Radio Buttons vertically with one choice per line.
 - Accurately label a group of Radio Buttons to describe the choices.
 - Give each Radio Button a text label that describes the choice it represents.
