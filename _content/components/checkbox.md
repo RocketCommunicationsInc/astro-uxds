@@ -30,7 +30,7 @@ A basic Checkbox consists of a visual indicator of its selected state followed b
 A checkbox can be configured for required input. Help Text for individual Checkbox list items left-aligns with the item’s text and not its icon for easier text scanning. To learn more about adding Help Text or Validation to Checkboxes or Checkbox groups, see the [Forms and Validation](/patterns/forms-and-validation) guidance.
 
 ::: note
-Don’t use a Checkbox to initiate an action. Instead, use an [Action Button](/components/button) or a [Toggle Button](/components/toggle)
+Don’t use a Checkbox to initiate an action. Instead, use an [Action Button](/components/button) or a [Switch Button](/components/switch)
 :::
 
 ## Examples
