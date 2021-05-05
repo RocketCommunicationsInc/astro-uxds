@@ -23,9 +23,10 @@ The Sign in page is often the first interaction a user has with your product. Th
 ![Example of a full-page, simple sign in screen](/img/components/signin-simple-full.png "Example of a full-page, simple sign in screen")
 
 The sign in page is presented to users in the following scenarios:
-When a user wants to gain access to an application.
-When a user has signed out voluntarily. They will see a confirmation message after which they will be automatically redirected back to the sign in page.
-When a user has been signed out due to inactivity. In this scenario, when the user signs back in they should be redirected to the last page they were on, before being signed out.
+
+* When a user wants to gain access to an application.
+* When a user has signed out voluntarily. They will see a confirmation message after which they will be automatically redirected back to the sign in page.
+* When a user has been signed out due to inactivity. In this scenario, when the user signs back in they should be redirected to the last page they were on, before being signed out.
 
 ## Rules of Thumb
 
