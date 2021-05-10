@@ -44,10 +44,8 @@ We also have Material Design themes using Astro styling. These files include eve
 
 There are two ways to add Astro for Material Design CSS to your project:
 - Via CDN - Simply add the one line of code to your HTML and get the newest version of Astro for Material Design
-    - Dark Theme (Default) - 
-        <link rel="stylesheet" href="https://gitcdn.link/repo/RocketCommunicationsInc/astro-material-themes/main/dark/dist/darkTheme.css" />
-    - Light Theme - 
-        <link rel="stylesheet" href="https://min.gitcdn.link/repo/RocketCommunicationsInc/astro-material-themes/main/light/dist/lightTheme.css" />
+    - Dark Theme (Default) - ```<link rel="stylesheet" href="https://gitcdn.link/repo/RocketCommunicationsInc/astro-material-themes/main/dark/dist/darkTheme.css" />```
+    - Light Theme - ```<link rel="stylesheet" href="https://min.gitcdn.link/repo/RocketCommunicationsInc/astro-material-themes/main/light/dist/lightTheme.css" />```
 - Download CSS Files Directly - Each can be found in our [downloads section](/downloads)
 
   
