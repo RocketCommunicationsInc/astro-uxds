@@ -11,9 +11,11 @@ title: Forms and Validation
 Forms are used to collect, validate, and submit user input. They usually contains form elements including [Checkbox](/components/checkbox), [Dialog Box](/components/dialog-box), [Select Menu](/components/select), [Input Field](/components/input-field), [Radio Button](/components/radio-button) and [Switch](/components/switch).
 
 ### Form Layout
+
 Forms should be designed in columns as this improves scanability. When there are not a lot of fields, a form should be one column. Information can be presented in multiple columns if they are grouped together.
 
 One-column layout is preferred, but use two to four column layouts when:
+
 - There are too many components to fit in an area of the page
 - Specific fields have strong associations.
 
@@ -27,7 +29,7 @@ One-column layout is preferred, but use two to four column layouts when:
 
 Labels should use clear but concise language and provide enough information for the user to accurately complete the required information.
 
-Labels should follow the vertical format of the form. Place labels above their respective fields and align with the beginning of the [Input Field](/components/input-field). Group a label with its field so that there is a clear distinction between fields.
+In general, labels should follow the vertical format of the form. Place labels above their respective fields and align with the left edge of the form element. If the form has a limited amount of height available to it, labels can also be placed to the left of the field as long as the placement of labels is consistent within the form. Either way, group a label with its field so that there is a clear distinction between fields.
 
 ### Rules of Thumb
 
@@ -55,22 +57,22 @@ Use Help Text instead of placeholder text when the user needs to refer to the in
 
 #### Appearance and Behavior
 
-Help Text uses a smaller font size with the secondary text color so that it doesn’t take away too much focus from the main form element that the user should focus on. As usual, sentence case capitalization is used for Help Text for readability. Help Text is placed 10 px below the form element and is left-aligned with the beginning of that form element to make sure that it is clear which element the help content is related to. For forms using labels above fields, this means that the Help Text would align with the start of the field’s label as well. For forms with labels to the left of the field, the Help Text would only start with the form element, not the label, to make it easier to scan down the list of element labels without distraction. Two exceptions to this rule are [Radio Button](/components/radio-button) and [Checkbox](/components/checkbox) list items. In these cases, Help Text for a particular item in the list will be left-aligned to the start of the item text and not the Radio Button or Checkbox icon. This improves readability of the list.  If the Help Text is relevant to a group of controls, like a group of Checkboxes that requires one selection, then the Help Text can go below the full grouping, left-aligned with the element’s label.
+Help Text uses a smaller font size with the secondary text color so that it doesn’t take away too much focus from the main form element that the user should focus on. As usual, sentence case capitalization is used for Help Text for readability. Help Text is placed 10 px below the form element and is left-aligned with the beginning of that form element to make sure that it is clear which element the help content is related to. For forms using labels above fields, this means that the Help Text would align with the start of the field’s label as well. For forms with labels to the left of the field, the Help Text would only start with the form element, not the label, to make it easier to scan down the list of element labels without distraction. Two exceptions to this rule are [Radio Button](/components/radio-button) and [Checkbox](/components/checkbox) list items. In these cases, Help Text for a particular item in the list will be left-aligned to the start of the item text and not the Radio Button or Checkbox icon. This improves readability of the list. If the Help Text is relevant to a group of controls, like a group of Checkboxes that requires one selection, then the Help Text can go below the full grouping, left-aligned with the element’s label.
 
 Like labels, in general, Help Text should only have one line of text below a field. If the text would need to wrap to a second line, use an icon that triggers a Pop Over on-click that contains the help content instead. This reduces scrolling and user distraction from the main content, the form elements themselves.
 
 #### Examples
 
 ::: two-col
-![Do: Use Help Text for important, concise instructions.](/img/components/help-text-do-1.png "Do: Use Help Text for important, concise instructions.")
+![Do: Use Help Text for important, concise instructions.](/img/patterns/val-help-text-do-1.png "Do: Use Help Text for important, concise instructions.")
 
-![Don’t: Use placeholder text for information that should be visible when the form element is in focus.](/img/components/help-text-dont-1.png "Don’t: Use placeholder text for information that should be visible when the form element is in focus.")
+![Don’t: Use placeholder text for information that should be visible when the form element is in focus.](/img/patterns/val-help-text-dont-1.png "Don’t: Use placeholder text for information that should be visible when the form element is in focus.")
 :::
 
 ::: two-col
-![Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.](/img/components/help-text-do-2.png "Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.")
+![Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.](/img/patterns/val-help-text-do-2.png "Do: Indent Help Text under a Radio Button or Checkbox to align with the list item’s text instead of its icon.")
 
-![Don’t: Go over one line of Help Text. Use a Pop Over instead for text that is too long.](/img/components/help-text-dont-2.png "Go over one line of Help Text. Use a Pop Over instead for text that is too long.")
+![Don’t: Go over one line of Help Text. Use a Pop Over instead for text that is too long.](/img/patterns/val-help-text-dont-2.png "Go over one line of Help Text. Use a Pop Over instead for text that is too long.")
 :::
 
 ## Validation
@@ -124,14 +126,14 @@ For post-submission errors, a [Notification Banner](/components/notification-ban
 Examples of configuration options for validation of Input Fields:
 :::two-col
 
-![Required Input - User must enter some text. If no text is entered, a warning icon and instructional text is shown.](/img/patterns/val-required-input.png 'Required Input - User must enter some text. If no text is entered, a warning icon and instructional text is shown.')
+![Required Input - User must enter some text. If no text is entered, a warning icon and instructional text is shown.](/img/patterns/val-required-input.png "Required Input - User must enter some text. If no text is entered, a warning icon and instructional text is shown.")
 
-![Range - Input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and instructional text.](/img/patterns/val-numeric-range.png 'Range - Input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and instructional text.')
+![Range - Input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and instructional text.](/img/patterns/val-numeric-range.png "Range - Input must be a number within a specific range. Non-numeric characters and out-of-range values are indicated with a warning icon and instructional text.")
 
-![Time - Input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and instructional text.](/img/patterns/val-time.png 'Time - Input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and instructional text.')
+![Time - Input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and instructional text.](/img/patterns/val-time.png "Time - Input must be a valid time. Text that cannot be recognized as a valid time is indicated with a warning icon and instructional text.")
 
 ![Checkboxes can be configured to require input, where at least one item in a group must be selected.](/img/patterns/val-group-checkbox.png 'Checkboxes can be configured to require input, where at least one item in a group must be selected.')
 
-![Select Menus can be configured to require input, where at least one item in the menu must be selected.](/img/patterns/val-select-menu-input.png 'Select Menus can be configured to require input, where at least one item in the menu must be selected.')
+![Select Menus can be configured to require input, where at least one item in the menu must be selected.](/img/patterns/val-select-menu-input.png "Select Menus can be configured to require input, where at least one item in the menu must be selected.")
 
 :::

@@ -27,10 +27,10 @@ A Checkbox describes a state or value that can be either “On" or "Off.” Chec
 
 A basic Checkbox consists of a visual indicator of its selected state followed by a label. Individual Checkboxes can appear selected (checked), Unselected (no check), and Disabled (no action can be taken by the user). An Indeterminate state (a dash symbol rather than checked) may display when a checkbox is used as a parent of a group of checkboxes where at least one child is selected and at least one is not.
 
-A checkbox can be configured for required input. Help Text for individual Checkbox list items left-aligns with the item’s text and not its icon for easier text scanning. To learn more about adding Help Text or Validation to Checkboxes or Checkbox groups, see the [Forms and Validation](/patterns/forms-and-validation) guidance. 
+A checkbox can be configured for required input. Help Text for individual Checkbox list items left-aligns with the item’s text and not its icon for easier text scanning. To learn more about adding Help Text or Validation to Checkboxes or Checkbox groups, see the [Forms and Validation](/patterns/forms-and-validation) guidance.
 
 ::: note
-Don’t use a Checkbox to initiate an action. Instead, use an [Action Button](/components/button) or a [Toggle Button](/components/toggle)
+Don’t use a Checkbox to initiate an action. Instead, use an [Action Button](/components/button) or a [Switch Button](/components/switch)
 :::
 
 ## Examples
@@ -42,13 +42,13 @@ Don’t use a Checkbox to initiate an action. Instead, use an [Action Button](/c
 :::
 
 ::: two-col
-![Do: Use parent checkboxes, when grouped, to select all or select none.](/img/components/image.png "Do: Use parent checkboxes, when grouped, to select all or select none.")
+![Do: Use parent checkboxes, when grouped, to select all or select none.](/img/components/checkbox-do-2.png "Do: Use parent checkboxes, when grouped, to select all or select none.")
 
-![Don’t: Group a single checkbox under a parent checkbox unless you have a good reason to do so.](/img/components/image.png "Group a single checkbox under a parent checkbox unless you have a good reason to do so.")
+![Don’t: Group a single checkbox under a parent checkbox unless you have a good reason to do so.](/img/components/checkbox-dont-2.png "Group a single checkbox under a parent checkbox unless you have a good reason to do so.")
 :::
 
 ::: two-col
-![Do: Reflect an indeterminate state when a mix of child values are applied.](/img/components/image.png "Do: Reflect an indeterminate state when a mix of child values are applied.")
+![Do: Reflect an indeterminate state when a mix of child values are applied.](/img/components/checkbox-do-3.png "Do: Reflect an indeterminate state when a mix of child values are applied.")
 
-![Don’t: Group checkboxes without a parent label.](/img/components/image.png "Don’t: Group checkboxes without a parent label.")
+![Don’t: Group checkboxes without a parent label.](/img/components/checkbox-dont-3.png "Don’t: Group checkboxes without a parent label.")
 :::

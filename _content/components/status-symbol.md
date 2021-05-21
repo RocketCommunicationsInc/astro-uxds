@@ -34,8 +34,8 @@ Place your cursor over any status symbol above to see an example.
 
 ## Related Pages
 
-- For a detailed description of how Status Symbols are used within Monitoring Icons, see [Icons and Symbols](components/icons-and-symbols).
-- To learn more about the usage of status colors, see [Status System](patterns/status-system).
+- For a detailed description of how Status Symbols are used within Monitoring Icons, see [Icons and Symbols](/components/icons-and-symbols).
+- To learn more about the usage of status colors, see [Status System](/patterns/status-system).
 
 ## Status Colors
 
