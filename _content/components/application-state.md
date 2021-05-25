@@ -34,7 +34,7 @@ The Application State component indicates the state the entire application is in
 
 - The background rectangle does not change height, but will change width with longer text content.
 
-- The default color for the background rectangle uses the ```--colorTertiaryDarken4``` variable, but can be changed to any of the Tag-approved colors in the Astro palette when more user attention to the component is required.
+- The default color for the background rectangle uses the --colorTertiaryDarken4 variable, but can be changed to any of the Tag-approved colors in the Astro palette when more user attention to the component is required.
 
 ::: caution 
 Only use Tag colors when necessary as overuse of colors may reduce efficacy of monitoring icon, classification marking, and notification banner component colors.
