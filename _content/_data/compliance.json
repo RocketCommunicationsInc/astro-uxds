@@ -38,11 +38,11 @@
           "numeral": 2,
           "link": "/design-guidelines/typography/",
           "rules": [
-			{
-			  "numeral": 1,
+            {
+              "numeral": 1,
               "rule": "The Roboto font shall be used for content and components.",
-              "status": "new"	
-			},
+              "status": "new"
+            },
             {
               "numeral": 2,
               "rule": "The Roboto Mono font shall be used when monospace digits are required.",
@@ -62,7 +62,6 @@
         }
       ]
     },
-
     {
       "name": "Patterns",
       "numeral": 3,
@@ -131,7 +130,6 @@
             },
             {
               "numeral": 3,
-
               "rule": "Required fields shall be marked with an asterisk to the right of the label when the majority of a form is optional.",
               "status": "new"
             },
@@ -159,7 +157,7 @@
               "numeral": 8,
               "rule": "Inline Validation Text shall replace Help Text when Help Text is present under a form element and an error state is triggered.",
               "status": "new"
-            }            
+            }
           ]
         }
       ]
@@ -629,7 +627,7 @@
               "numeral": 8,
               "rule": "Radio Button list item Help Text shall be left-aligned to the item’s text and not its icon.",
               "status": "new"
-            }             
+            }
           ]
         },
         {
@@ -662,7 +660,7 @@
               "numeral": 5,
               "rule": "Inline Validation Text shall be left-aligned under the relevant Search field, regardless of location of the label.",
               "status": "new"
-            }    
+            }
           ]
         },
         {
@@ -694,7 +692,7 @@
               "numeral": 5,
               "rule": "Help Text shall be left-aligned under the relevant Segmented Button, regardless of location of the label.",
               "status": "new"
-            }            
+            }
           ]
         },
         {
@@ -770,7 +768,7 @@
               "numeral": 4,
               "rule": "Help Text shall be left-aligned under the relevant Switch, regardless of location of the label.",
               "status": "new"
-            }            
+            }
           ]
         },
         {
@@ -908,6 +906,38 @@
             {
               "numeral": 1,
               "rule": "Tree labels shall use sentence case capitalization.",
+              "status": "new"
+            }
+          ]
+        },
+        {
+          "name": "Application State",
+          "numeral": 26,
+          "link": "/components/application-state/",
+          "rules": [
+            {
+              "numeral": 1,
+              "rule": "Application State shall be visible at all times when present except for instances where the application menu temporarily covers the component.",
+              "status": "new"
+            },
+            {
+              "numeral": 2,
+              "rule": "Application State shall only used the default background color or a color from the Astro Tag palettes.",
+              "status": "new"
+            },
+            {
+              "numeral": 3,
+              "rule": "Application State text shall meet WCAG AA color compliance for contrast against the component’s background color.",
+              "status": "new"
+            },
+            {
+              "numeral": 4,
+              "rule": "Application State text shall use sentence casing.",
+              "status": "new"
+            },
+            {
+              "numeral": 5,
+              "rule": "Application State text shall not wrap within the component.",
               "status": "new"
             }
           ]
