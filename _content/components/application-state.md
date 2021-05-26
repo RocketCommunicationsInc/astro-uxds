@@ -34,7 +34,7 @@ The Application State component indicates the state the entire application is in
 
 - The background rectangle does not change height, but will change width with longer text content.
 
-- The default color for the background rectangle uses the **--colorTertiaryDarken4** variable, but can be changed to any of the Tag-approved colors in the Astro palette when more user attention to the component is required.
+- The default color for the background rectangle uses the ```--colorTertiaryDarken4``` variable, but can be changed to any of the Tag-approved colors in the Astro palette when more user attention to the component is required.
 
 ::: caution 
 Only use Tag colors when necessary as overuse of colors may reduce efficacy of monitoring icon, classification marking, and notification banner component colors.
@@ -45,7 +45,7 @@ Only use Tag colors when necessary as overuse of colors may reduce efficacy of m
 
 - The default font color is the Dark Theme’s default body text color (#FFFFFF) for use with the default, dark background color.
 
-- When a lighter Tag background color is used, the font color changes to **--colorTertiaryDarken4** for better color contrast and legibility.
+- When a lighter Tag background color is used, the font color changes to ```--colorTertiaryDarken4``` for better color contrast and legibility.
 
 - Text does not wrap within the component in order to keep the height of the Global Status Bar consistent across application states which improves muscle memory and faster recognition time.
 
@@ -79,7 +79,7 @@ Only use Tag colors when necessary as overuse of colors may reduce efficacy of m
 
 ![Don’t: Implement state switching in the UI without confirming that this functionality is approved by your client or security expert.](/img/components/app-state-dont-4.png "Don’t: Implement state switching in the UI without confirming that this functionality is approved by your client or security expert.")
 
-![Do: Change text color **--colorTertiaryDarken4** if the background color makes the original text color hard to read.](/img/components/app-state-do-5.png "Do: Change text color --colorTertiaryDarken4 if the background color makes the original text color hard to read.")
+![Do: Change text color ```--colorTertiaryDarken4``` if the background color makes the original text color hard to read.](/img/components/app-state-do-5.png "Do: Change text color --colorTertiaryDarken4 if the background color makes the original text color hard to read.")
 
 ![Don’t: Use non-default or non-tag colors for background colors.](/img/components/app-state-dont-5.png "Don’t: Use non-default or non-tag colors for background colors.")
 :::
