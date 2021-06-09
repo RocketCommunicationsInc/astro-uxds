@@ -56,7 +56,7 @@ Text in the overall marking banner should be as specific as possible to the high
 
 ### Overall Marking Placement
 
-Place an overall marking banner at the top and bottom of the application in a fixed position so that they cannot scroll out of view. Since the banner message can be quite long, we recommend that the banner span the full width of the application. This mimics physical classification markings, which span the full width of the document page. Note that a top banner is mandatory, but it is best practice to include an identical overall marking banner at the bottom of the page.
+Place an overall marking banner at the top and bottom of the application in a fixed position so that they cannot scroll out of view. Since the banner message can be quite long, we recommend that the banner span the full width of the application. This mimics physical classification markings, which span the full width of the document page. Note that a top banner is mandatory, but it is best practice to include an identical overall marking banner at the bottom of the viewport as well.
 
 ### Overall Marking Colors
 
