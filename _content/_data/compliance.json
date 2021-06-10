@@ -922,7 +922,7 @@
             },
             {
               "numeral": 2,
-              "rule": "Application State shall only used the default background color or a color from the [Astro Tag palettes.](https://astrouxds.com/design-guidelines/color/)",
+              "rule": "Application State shall only use the default background color or a color from the [Astro Tag palettes.](https://astrouxds.com/design-guidelines/color/)",
               "status": "new"
             },
             {
