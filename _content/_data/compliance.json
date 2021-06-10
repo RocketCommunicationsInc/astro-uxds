@@ -830,7 +830,7 @@
             },
             {
               "numeral": 9,
-              "rule": "The classification level itself (excepting CUI) in Overall Marking banners must be spelled out completely.",
+              "rule": "The classification level itself (excepting CUI) in Overall Marking banners must be spelled out completely. CUI level banners shall use CUI or the word CONTROLLED.",
               "status": "new"
             }
           ]
