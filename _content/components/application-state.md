@@ -17,7 +17,7 @@ The Application State component indicates the state the entire application is in
 
 ## Rules of Thumb
 
-- Application State (when present) should be visible at all times except for instances where the application menu temporarily covers the component.
+- Application State (when present) should be visible at all times. Developers should configure menu placements to ensure the app state is not occluded.
 
 - Use short names for application states when possible to reduce crowding in the Global Status Bar.
 
@@ -69,7 +69,7 @@ Only use Tag colors when necessary as overuse of colors may reduce efficacy of m
 
 ![Do: Show all relevant state names if more than one application state is ongoing at the time.](/img/components/app-state-do-2.png "Do: Show all relevant state names if more than one application state is ongoing at the time.")
 
-![Don't: Allow other elements of the user interface besides the application menu to obscure the application state.](/img/components/app-state-dont-2.png "Don't: Allow other elements of the user interface besides the application menu to obscure the application state.")
+![Don't: Allow other elements of the user interface to obscure the application state.](/img/components/app-state-dont-2.png "Don't: Allow other elements of the user interface to obscure the application state.")
 
 ![Do: Use short names to avoid overcrowding of the Global Status Bar.](/img/components/app-state-do-3.png "Do: Use short names to avoid overcrowding of the Global Status Bar.")
 
