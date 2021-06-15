@@ -910,6 +910,38 @@
               "status": "new"
             }
           ]
+        },
+        {
+          "name": "Application State",
+          "numeral": 26,
+          "link": "/components/application-state/",
+          "rules": [
+            {
+              "numeral": 1,
+              "rule": "Application State shall be visible at all times when present.",
+              "status": "new"
+            },
+            {
+              "numeral": 2,
+              "rule": "Application State shall only use the default background color or a color from the [Astro Tag palettes.](https://astrouxds.com/design-guidelines/color/)",
+              "status": "new"
+            },
+            {
+              "numeral": 3,
+              "rule": "Application State text shall meet WCAG AA color compliance for contrast against the component’s background color.",
+              "status": "new"
+            },
+            {
+              "numeral": 4,
+              "rule": "Application State text shall use sentence casing.",
+              "status": "new"
+            },
+            {
+              "numeral": 5,
+              "rule": "Application State text shall not wrap within the component.",
+              "status": "new"
+            }
+          ]
         }
       ]
     }
