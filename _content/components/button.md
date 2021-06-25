@@ -29,9 +29,9 @@ Action Buttons allow users to trigger actions by clicking, tapping, or pressing 
 - In button groups, the primary button with the preferred user action shall be placed on the right and all buttons with secondary actions to the left of the preferred action button.
 - Position buttons consistently across the application. Unless there is a good reason not to, right-align buttons in Astro applications.
 
-## Outline Button
+## Secondary Button
 
-Outline Buttons are an alternative button style to be used in situations where a de-emphasized button is beneficial in guiding the user to a preferred option. For example, use an outline button for the less preferred option in Ok/Cancel button pairings.
+Secondary Buttons are an alternative button style to be used in situations where a de-emphasized button is beneficial in guiding the user to a preferred option. For example, use an secondary button for the less preferred option in Ok/Cancel button pairings.
 
 ## Examples
 
