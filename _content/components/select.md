@@ -34,6 +34,7 @@ The Select component consists of an input field containing a downward facing car
 
 To learn more about adding Help Text or Validation to Select Menus, see the [Forms and Validation](/patterns/forms-and-validation) guidance.
 
+
 ## Examples
 
 :::two-col
