@@ -61,7 +61,7 @@ The tertiary color palette is typically used in dark-themed Astro applications f
 | ![Tertiary Lighten Step 1](/img/swatches/tertiary__tint-20.svg) | +1   | `#52667a` | `82, 102, 122`  | `--colorTertiaryLighten1` |
 | ![Tertiary Base Color](/img/swatches/tertiary.svg)              | Base | `#274059` | `39, 64, 89`    | `--colorTertiary`         |
 | ![Tertiary Darken Step 1](/img/swatches/tertiary__shade-20.svg) | -1   | `#1f3347` | `31, 51, 71`    | `--colorTertiaryDarken1`  |
-| ![Tertiary Darken Step 2](/img/swatches/tertiary__shade-40.svg) | -2   | `#172635` | `36, 38, 53`    | `--colorTertiaryDarken2`  |
+| ![Tertiary Darken Step 2](/img/swatches/tertiary__shade-40.svg) | -2   | `#172635` | `23, 38, 53`    | `--colorTertiaryDarken2`  |
 | ![Tertiary Darken Step 3](/img/swatches/tertiary__shade-60.svg) | -3   | `#101923` | `16, 25, 35`    | `--colorTertiaryDarken3`  |
 | ![Tertiary Darken Step 4](/img/swatches/tertiary__shade-80.svg) | -4   | `#080c11` | `8, 12, 17`     | `--colorTertiaryDarken4`  |
 
