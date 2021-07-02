@@ -3,7 +3,7 @@ date: Last Modified
 path: /getting-started/readme
 permalink: /getting-started/readme/index.html
 layout: interior.template.njk
-title: "Getting Started"
+title: 'Getting Started'
 ---
 
 # Getting Started with Astro
@@ -17,6 +17,7 @@ Astro’s designs are based on user-centered research into the functions and cap
 A foundation of user-centered design and industry best practices provide designers and developers with tools and knowledge to build applications that create meaningful connections with end-users.
 
 Learn more about the software design process with Astro:
+
 -   Base application design on a solid foundation of [Research](/design-process/research)
 -   Learn to provide a successful, effective user experience through [UI Design](/design-process/ui-design)
 -   Create applications with a mature, established [Visual Design](/design-process/visual-design)
@@ -26,7 +27,6 @@ Learn more about the software design process with Astro:
 Astro UX design assets include files for creating Astro application wireframes and high-fidelity mockups in Sketch and Adobe XD.
 
 Learn more about designing with Astro design assets with Astro's guide to getting started [For Designers](/getting-started/designers).
-
 
 **Development Assets**
 Astro includes standard HTML and CSS sample code as a starting point for development. Astro's UI Components are provided as Web Components, a platform-neutral technology.
@@ -39,9 +39,9 @@ Learn more about designing with Astro development assets, and why the Astro team
 
 Astro is tested & supported in major 'evergreen' web browsers (the latest browser version from each vendor -1). Please submit an issue for problems with the browsers listed below. Mobile browsers are not yet fully supported in Astro.
 
-|       | Chrome | Firefox | Edge | Safari | Chrome (Android) | Safari (iOS) |
-|:-------|:--------:|:---------:|:------:|:--------:|:--------:|:--------:|
-| Astro |    &#x2715;    |    &#x2715;     | &#x2715;      |   &#x2715;     | unsupported | unsupported
+|       |  Chrome  | Firefox  |   Edge   |  Safari  | Chrome (Android) | Safari (iOS) |
+| :---- | :------: | :------: | :------: | :------: | :--------------: | :----------: |
+| Astro | &#x2715; | &#x2715; | &#x2715; | &#x2715; |   unsupported    | unsupported  |
 
 ### Versioning
 
@@ -53,7 +53,7 @@ Last updated: {{ page.date }}
 
 Astro is provided as an open-source tool under the **Astro Space UX Design System Interim License Agreement**:
 
-::: caution 
+::: caution
 
 When implementing Astro Space UX Design System users should consult with their organization's IT/Security departments and adapt these patterns to suit the needs of their organization’s best practices and security requirements.
 
@@ -71,11 +71,10 @@ When implementing Astro Space UX Design System users should consult with their o
 >
 > RECIPIENT AGREES TO WAIVE ANY AND ALL CLAIMS AGAINST THE UNITED STATES GOVERNMENT, ITS CONTRACTORS AND SUBCONTRACTORS, AS WELL AS ANY PRIOR RECIPIENT. IF RECIPIENT'S USE OF THE SOFTWARE RESULTS IN ANY LIABILITIES, DEMANDS, DAMAGES, EXPENSES OR LOSSES ARISING FROM SUCH USE, INCLUDING ANY DAMAGES FROM PRODUCTS BASED ON, OR RESULTING FROM, RECIPIENT'S USE OF THE SOFTWARE, RECIPIENT SHALL INDEMNIFY AND HOLD HARMLESS THE UNITED STATES GOVERNMENT, ITS CONTRACTORS AND SUBCONTRACTORS, AS WELL AS ANY PRIOR RECIPIENT, TO THE EXTENT PERMITTED BY LAW. RECIPIENT'S SOLE REMEDY FOR ANY SUCH MATTER SHALL BE THE IMMEDIATE, UNILATERAL TERMINATION OF THIS AGREEMENT.
 
-
 ### Offline access
 
 This website and its contents are provided as separate downloadable files for the convenience of developers and designers working in closed environments. Designer and Developer assets are provided as downloads on their respective ‘Getting Started’ sections:
 
-[Gzip Archive of astrouxds.com](https://github.com/RocketCommunicationsInc/astro-uxds/archive/draft.zip) | [Github](https://github.com/RocketCommunicationsInc/astro-uxds)
+[Gzip Archive of astrouxds.com](https://github.com/RocketCommunicationsInc/astro-uxds/archive/master.zip) | [Github](https://github.com/RocketCommunicationsInc/astro-uxds)
 
 [Gzip Archive of the Astro Storybook site](https://github.com/RocketCommunicationsInc/astro-components/archive/master.zip) | [Github](https://github.com/RocketCommunicationsInc/astro-components)
