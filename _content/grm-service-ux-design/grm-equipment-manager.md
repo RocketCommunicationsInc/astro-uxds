@@ -7,10 +7,11 @@ title: GRM Equipment Manager
 ---
 
 # GRM Equipment Manager
+
 :::note
-The images depicted on this page use the color palette and fonts from Astro 4. All new projects should use Astro 5 colors and fonts to be considered an Astro application. Refer to this section for general user experience guidance only, *not* visual design guidance.
+The images depicted on this page use the color palette and fonts from Astro 4. All new projects should use Astro 5 colors and fonts to be considered an Astro application. Refer to this section for general user experience guidance only, _not_ visual design guidance.
 :::
-[Launch GRM Equipment Manager Sample App](https://grm-equipment.astrouxds.com/) | [Design Materials and Source Code](#contentBottom)
+[Launch GRM Equipment Manager Sample App](https://grm-equipment.astrouxds.com/) | [Design Materials and Source Code](#design-materials-and-source-code)
 
 A core requirement of GRM is to ensure that the equipment on the ground responsible for communicating with satellites is operational and available. This equipment includes hardware such as antennas, processors and software systems that all must interact with one another during a satellite contact. These resources are often shared amongst multiple operations, so if a piece of equipment is not available, it can affect multiple missions. As such, it is critical for operators to quickly identify equipment in need of attention and schedule maintenance to get it back up and running as quickly as possible.
 
@@ -77,7 +78,7 @@ There are two panels on the Equipment Details page, one on top designed to provi
 
 A key capability of the Maintenance panel is that it allows operators to schedule a new job. When Schedule Job is clicked, Maintenance Details appear and operators can enter all required information. Once a time frame for the job has been entered, clicking the Calculate Conflicts button will display any schedule conflicts that will arise when this equipment is unavailable during the maintenance window. Seeing this information allows operators to either schedule the maintenance to minimize impact or to see the contacts that will have to be modified to use a different piece of equipment during that period.
 
-Note that maintenance-related task flows are covered in much more detail in the [GRM Design Specification and Wireframes](/grm-service-ux-design/grm-equipment-manager#contentBottom) documents, so be sure to consult those for more information.
+Note that maintenance-related task flows are covered in much more detail in the [GRM Design Specification and Wireframes](#design-materials-and-source-code) documents, so be sure to consult those for more information.
 
 ![GRM Equipment Manager Schedule Jobs Details](/img/service-specific-ux-design/grm-equipment-manager-sched-maint-details.png)
 
@@ -103,7 +104,6 @@ Below is an animated walkthrough of a representative task flow using the GRM Equ
 		<img src="/img/service-specific-ux-design/grm-equipment-manager-sched-job.gif" alt="GRM equipment manager" />
 	</a>
 </div>
-
 
 ## Design Materials and Source Code
 
