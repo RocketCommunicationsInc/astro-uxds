@@ -7,10 +7,11 @@ title: GRM Dashboard
 ---
 
 # GRM Dashboard
+
 :::note
-The images depicted on this page use the color palette and fonts from Astro 4. All new projects should use Astro 5 colors and fonts to be considered an Astro application. Refer to this section for general user experience guidance only, *not* visual design guidance.
+The images depicted on this page use the color palette and fonts from Astro 4. All new projects should use Astro 5 colors and fonts to be considered an Astro application. Refer to this section for general user experience guidance only, _not_ visual design guidance.
 :::
-[Launch GRM Dashboard Sample App](https://grm-dashboard.astrouxds.com/) | [Design Materials and Source Code](/grm-service-ux-design/grm-dashboard#contentBottom)
+[Launch GRM Dashboard Sample App](https://grm-dashboard.astrouxds.com/) | [Design Materials and Source Code](#design-materials-and-source-code)
 
 Given the large number of satellite contacts and equipment assets that operators are responsible for, maintaining situational awareness poses a significant challenge. Operators must be able to quickly identify equipment issues and resolve them so that there are no missed opportunities to communicate with satellites. The GRM Dashboard app was designed with this goal in mind. As the operators’ primary GRM app, it would constantly occupy one of their large displays.
 
@@ -67,7 +68,7 @@ The Equipment tab provides operators with a usage summary of the major equipment
 
 ## Alert Details
 
-If operators choose to drill into an alert via the Investigate button in the Alerts panel, an Alert Details page is displayed in the main content area. The content of the page changes somewhat depending on whether the alert pertains to a contact or a piece of equipment, but each variant allows operators to view additional detail on the alert, dismiss, acknowledge it, or take some action to remedy it. The image below shows an example of the Alert Details page for a contact-related alert; you can find information on the equipment variant along with relevant task flows in the [GRM Design Specifications](/grm-service-ux-design/grm-dashboard#contentBottom) and Wireframes documents.
+If operators choose to drill into an alert via the Investigate button in the Alerts panel, an Alert Details page is displayed in the main content area. The content of the page changes somewhat depending on whether the alert pertains to a contact or a piece of equipment, but each variant allows operators to view additional detail on the alert, dismiss, acknowledge it, or take some action to remedy it. The image below shows an example of the Alert Details page for a contact-related alert; you can find information on the equipment variant along with relevant task flows in the [GRM Design Specifications](#design-materials-and-source-code) and Wireframes documents.
 
 ![GRM Dashboard Alert Details](/img/service-specific-ux-design/grm-dashboard-contact-alert-details.png)
 
