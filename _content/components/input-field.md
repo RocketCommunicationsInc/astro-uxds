@@ -7,7 +7,8 @@ title: Input Field
 demo: components-form-elements--input-fields
 storybook: components-form-elements--input-fields
 git:
-height: 1150px
+height: 400px
+overflow: scroll
 theme: true
 ---
 
