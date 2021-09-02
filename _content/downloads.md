@@ -10,6 +10,10 @@ title: Downloads
 
 ## Astro Design System
 
+:::note
+All Sketch files are being deprecated in favor of Figma.
+:::
+
 - Astro Component Source Code ([Git Repository](https://github.com/RocketCommunicationsInc/astro-components))
 - Astro Sketch Dark Library ([Git Repository](https://github.com/RocketCommunicationsInc/astro-design-resources/tree/master/Sketch))
 - Astro Sketch Wireframe Library ([Git Repository](https://github.com/RocketCommunicationsInc/astro-design-resources/tree/master/Sketch))
