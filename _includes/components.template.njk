@@ -14,13 +14,14 @@
 
 
 			{% if legacyDemo %}
-				<iframe id="live-sample" class="live-sample" scrolling="yes" src="{{ demo }}" style="width: 100%; height: {{height}}; overflow: {{overflow}};"></iframe>
+				<iframe id="live-sample" class="live-sample" scrolling="auto" src="{{ demo }}" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
 			{% else %}
-
-				{% if meta.branch and meta.branch === 'draft' %}
-					<iframe id="live-sample" class="live-sample" scrolling="yes" src="https://next--astro-components.netlify.app/iframe.html?id={{ demo }}&viewMode=story" style="width: 100%; height: {{height}}; overflow: {{overflow}};"></iframe>
+				{% if title === 'Button' or title === 'Input Field' %}
+					<iframe id="live-sample" class="live-sample" scrolling="yes" src="https://astro-components.netlify.app/iframe.html?id={{ demo }}&viewMode=story" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
+				{% elif meta.branch and meta.branch === 'draft' %}
+					<iframe id="live-sample" class="live-sample" scrolling="no" src="https://next--astro-components.netlify.app/iframe.html?id={{ demo }}&viewMode=story" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
 				{% else %}
-					<iframe id="live-sample" class="live-sample" scrolling="yes" src="https://astro-components.netlify.app/iframe.html?id={{ demo }}&viewMode=story" style="width: 100%; height: {{height}}; overflow: {{overflow}};"></iframe>
+					<iframe id="live-sample" class="live-sample" scrolling="no" src="https://astro-components.netlify.app/iframe.html?id={{ demo }}&viewMode=story" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
 				{% endif %}
 			{% endif %}
 
