@@ -14,9 +14,9 @@
 
 
 			{% if legacyDemo %}
-				<iframe id="live-sample" class="live-sample" scrolling="auto" src="{{ demo }}" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
+				<iframe id="live-sample" class="live-sample" scrolling="no" src="{{ demo }}" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
 			{% else %}
-				{% if title === 'Button' or title === 'Input Field' %}
+				{% if scrolling %}
 					<iframe id="live-sample" class="live-sample" scrolling="yes" src="https://astro-components.netlify.app/iframe.html?id={{ demo }}&viewMode=story" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
 				{% elif meta.branch and meta.branch === 'draft' %}
 					<iframe id="live-sample" class="live-sample" scrolling="no" src="https://next--astro-components.netlify.app/iframe.html?id={{ demo }}&viewMode=story" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>

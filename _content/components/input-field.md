@@ -8,6 +8,7 @@ demo: components-form-elements--input-fields
 storybook: components-form-elements--input-fields
 git:
 height: 400px
+scrolling: true
 theme: true
 ---
 
