@@ -48,27 +48,27 @@ After downloading, you can quickly get up and running with Sketch libraries:
 
 [View Tutorials for adding and loading libraries ](https://www.sketch.com/docs/libraries/)
 
-## How to Use Astro Icon Library
+### How to Use Astro Icon Library
 
 Working with library symbols is as easy as working with symbols created in-document:
 
 [View Tutorials for working with symbols](https://www.sketch.com/docs/symbols/)
 [View Tutorials for working with library symbols](https://www.sketch.com/docs/libraries/#library-symbols)
 
-## How to use Astro color swatches
+### How to use Astro color swatches
 
 Astro color swatches are built into the Astro libraries and can be used once loaded. Using library color swatches helps keep your application consistent through reusable, documented fills, and styles:
 
 [View Tutorials for working with styling presets](https://www.sketch.com/docs/styling/#presets)
 [View Tutorials for working with library styles](https://www.sketch.com/docs/libraries/#library-styles)
 
-## Updating/Syncing
+### Updating/Syncing
 
 When an update is available, the new file can be loaded into Sketch by replacing the saved Sketch library file in your file directory and then updating it within Sketch.
 
 [View Tutorials for updating library components](https://www.sketch.com/docs/libraries/#updating-library-components)
 
-## Importing Sketch Files into Adobe XD
+### Importing Sketch Files into Adobe XD
 
 Sketch files can be imported into Adobe XD. Symbols created in a Sketch file will be imported into the assets library.
 
