@@ -9,6 +9,7 @@ storybook: components-form-elements--select-menu
 git:
 css: select-menu-README.md
 height: 130px
+scrolling: yes
 theme: true
 ---
 
