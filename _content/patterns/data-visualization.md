@@ -87,9 +87,9 @@ This chart type excels at showing changes to total, but seeing change in compone
 
 :::col
 
-#### Fill Guage
+#### Fill Gauge
 
-![Fill Guage](/img/patterns/data-viz-fill-gauge.png)
+![Fill Gauge](/img/patterns/data-viz-fill-gauge.png)
 A circular shape that represents a percentage value of a whole. May also be depicted as a dial.
 
 :::
