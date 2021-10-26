@@ -1,6 +1,6 @@
-# Astro User Experience Design System Website (AstroUXDS.com)
+# AstoUXDS.com development has moved to https://github.com/RocketCommunicationsInc/astro/tree/main/packages/astro-uxds
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/18f5e422-96af-4a6d-ace6-b37f61f89166/deploy-status)](https://app.netlify.com/sites/uxds/deploys)
+# Astro User Experience Design System Website (AstroUXDS.com)
 
 [Astro](https://www.astrouxds.com) is a collection of guidelines, patterns and components for designing space-based user interface applications.
 
