@@ -1,4 +1,8 @@
-# AstoUXDS.com development has moved to https://github.com/RocketCommunicationsInc/astro/tree/main/packages/astro-uxds
+# AstoUXDS.com development has moved
+Please visit the new monorepo here https://github.com/RocketCommunicationsInc/astro/tree/main/packages/astro-uxds
+
+This repos is now in readonly mode
+
 
 # Astro User Experience Design System Website (AstroUXDS.com)
 
