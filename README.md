@@ -1,7 +1,7 @@
 # AstoUXDS.com development has moved
 Please visit the new monorepo here https://github.com/RocketCommunicationsInc/astro/tree/main/packages/astro-uxds
 
-This repos is now in readonly mode and provided for historical and archival purposes
+This repo is now in readonly mode and provided for historical and archival purposes
 
 ***
 
